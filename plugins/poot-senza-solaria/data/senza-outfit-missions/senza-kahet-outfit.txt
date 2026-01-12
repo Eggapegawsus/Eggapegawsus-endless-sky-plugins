@@ -1,0 +1,372 @@
+
+event "Senza Solaria Stocks Ka'het Support Cooling"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Support Cooling"
+mission "Senza Solaria Supply Ka'het Support Cooling"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Support Cooling"
+	on offer
+		conversation
+			scene "outfit/ka'het support cooling"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Support Cooling to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Support Cooling" -1
+		event "Senza Solaria Stocks Ka'het Support Cooling"
+
+
+event "Senza Solaria Stocks Ka'het Primary Cooling"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Primary Cooling"
+mission "Senza Solaria Supply Ka'het Primary Cooling"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Primary Cooling"
+	on offer
+		conversation
+			scene "outfit/ka'het primary cooling"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Primary Cooling to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Primary Cooling" -1
+		event "Senza Solaria Stocks Ka'het Primary Cooling"
+
+
+event "Senza Solaria Stocks Ka'het Shield Restorer"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Shield Restorer"
+mission "Senza Solaria Supply Ka'het Shield Restorer"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Shield Restorer"
+	on offer
+		conversation
+			scene "outfit/ka'het shield restorer"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Shield Restorer to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Shield Restorer" -1
+		event "Senza Solaria Stocks Ka'het Shield Restorer"
+
+
+event "Senza Solaria Stocks Ka'het Grand Restorer"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Grand Restorer"
+mission "Senza Solaria Supply Ka'het Grand Restorer"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Grand Restorer"
+	on offer
+		conversation
+			scene "outfit/ka'het grand restorer"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Grand Restorer to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Grand Restorer" -1
+		event "Senza Solaria Stocks Ka'het Grand Restorer"
+
+
+event "Senza Solaria Stocks Ka'het MHD Generator"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het MHD Generator"
+mission "Senza Solaria Supply Ka'het MHD Generator"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het MHD Generator"
+	on offer
+		conversation
+			scene "outfit/ka'het mhd generator"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het MHD Generator to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het MHD Generator" -1
+		event "Senza Solaria Stocks Ka'het MHD Generator"
+
+
+event "Senza Solaria Stocks Ka'het Reserve Accumulator"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Reserve Accumulator"
+mission "Senza Solaria Supply Ka'het Reserve Accumulator"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Reserve Accumulator"
+	on offer
+		conversation
+			scene "outfit/ka'het reserve accumulator"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Reserve Accumulator to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Reserve Accumulator" -1
+		event "Senza Solaria Stocks Ka'het Reserve Accumulator"
+
+
+event "Senza Solaria Stocks Maeri Engine Nacelles"
+	outfitter "Senza Solaria Outfits"
+		"Maeri Engine Nacelles"
+mission "Senza Solaria Supply Maeri Engine Nacelles"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Maeri Engine Nacelles"
+	on offer
+		conversation
+			scene "outfit/ka'het maeri engine"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Maeri Engine Nacelles to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Maeri Engine Nacelles" -1
+		event "Senza Solaria Stocks Maeri Engine Nacelles"
+
+
+event "Senza Solaria Stocks Ka'het Sustainer Nacelles"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Sustainer Nacelles"
+mission "Senza Solaria Supply Ka'het Sustainer Nacelles"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Sustainer Nacelles"
+	on offer
+		conversation
+			scene "outfit/ka'het sustainer engine"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Sustainer Nacelles to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Sustainer Nacelles" -1
+		event "Senza Solaria Stocks Ka'het Sustainer Nacelles"
+
+
+event "Senza Solaria Stocks Telis Engine Nacelles"
+	outfitter "Senza Solaria Outfits"
+		"Telis Engine Nacelles"
+mission "Senza Solaria Supply Telis Engine Nacelles"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Telis Engine Nacelles"
+	on offer
+		conversation
+			scene "outfit/ka'het telis engine"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Telis Engine Nacelles to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Telis Engine Nacelles" -1
+		event "Senza Solaria Stocks Telis Engine Nacelles"
+
+
+event "Senza Solaria Stocks Vareti Engine Block"
+	outfitter "Senza Solaria Outfits"
+		"Vareti Engine Block"
+mission "Senza Solaria Supply Vareti Engine Block"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Vareti Engine Block"
+	on offer
+		conversation
+			scene "outfit/ka'het vareti engine"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Vareti Engine Block to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Vareti Engine Block" -1
+		event "Senza Solaria Stocks Vareti Engine Block"
+
+
+event "Senza Solaria Stocks Ka'het Compact Engine"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Compact Engine"
+mission "Senza Solaria Supply Ka'het Compact Engine"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Compact Engine"
+	on offer
+		conversation
+			scene "outfit/ka'het compact engine"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Compact Engine to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Compact Engine" -1
+		event "Senza Solaria Stocks Ka'het Compact Engine"
+
+
+event "Senza Solaria Stocks Ka'het Electric Stunner"
+	outfitter "Senza Solaria Outfits"
+		"Ka'het Electric Stunner"
+mission "Senza Solaria Supply Ka'het Electric Stunner"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ka'het Electric Stunner"
+	on offer
+		conversation
+			scene "outfit/ka'het taser"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ka'het Electric Stunner to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ka'het Electric Stunner" -1
+		event "Senza Solaria Stocks Ka'het Electric Stunner"
+

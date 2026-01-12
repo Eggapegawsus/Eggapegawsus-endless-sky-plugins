@@ -1,0 +1,175 @@
+
+shipyard "Senza Solaria All Ships"
+	"Star Barge"
+
+outfitter "Senza Solaria All Outfits"
+	"Local Map"
+
+shipyard "Senza Solaria Ships"
+	"Star Barge"
+outfitter "Senza Solaria Outfits"
+	"Local Map"
+
+
+planet "Senza Solaria"
+	attributes "factory" "station" "mining" "research"
+	landscape land/senza-solaria
+	description ` A colossal space station filled to the brim with various intricate and complex assembly structures and research facilities, the Senza Solaris is truly a monument to behold. Despite being covered in a multitide of different facilities, this station has incredibly few people present for a station of its size. There are impressive amounts of androids, machinery, and assembly lines constructing various outfits, weaponry, and space ready vessels.`
+	spaceport ` When you arrive at the spaceport, you are almost mesmorized by the sheer scale of the landing pads and rows among rows of factories. the spaceport and factories are incredibly well kept and open, with enough landing pads that even the largest of Navy fleets could land without hassle.  Despite the station being almost completely devoid of life, there are a surprising amount of people walking around the spaceport, mostly observing different machines and freshly made outfits and ships, talking to each other and jotting down notes.`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+		
+planet "Daemonium Solaria Station"
+	attributes "factory" "station" "mining" "research" "deep"
+	landscape land/epsilon-solaris
+	description ` A massive worldforge of a space station. Factories, androids, and massive assembly machines dominate the overwhelming majority of the station, with what little remains being dedicated to verious outfitters, shipyards, landing pads, and just enough housing and utility buildings to provide for the few residents of the station.`
+	spaceport ` At every turn you take, you feel like you are in the way of someone doing something urgent. Walking through the spaceport gives you the perpetual feeling of almost being trampled by a roaming android, tripped by a speedwalking worker, or flattened by heavy machinery. You feel you should probably head somewhere else and get out of their way, for their well being, and your own.`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+		
+planet "Ursa Polaris Station II"
+	attributes "factory" "station" "mining" "research"
+	landscape land/ursapolaris-ii
+	description ` An assembalage of asteroids converted into a massive automated outfit and ship distribution center. Despite claims of being a newly constructed station for Solaria, there are marks along the inner walls of the station, leading one to believe that this station was used previously for something else...`
+	spaceport ` The spaceport is unlike any you've seen before. Exposed landing pads facing out into exposed space are placed at various heights extending out of the side of the rocky terrain of the station, with tunnels leading from the landing pads into the interior of the station. There also must be some sort of gravity and atmosphere altering technology aboard the station, seeing how you can breath and walk around a spaceport directly exposed to open space...`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+
+planet "Ragnarok Solaris Station"
+	attributes "factory" "station" "mining"
+	landscape land/ragnarok-solaria
+	description ` A desolate, but well stocked Solaria Station nonetheless. It's structure is not to dissimilar to the Senza solaria station, apart from the missing donation and research stations being replaced by freighter docking ports. There are also a notable amount of armed turrets and security cameras located throughout the station.`
+	spaceport ` The spaceport shares a similar ring of landing pads to Senza Solaria, with equally similar pathways leading to the trade center. Walking through the spaceport, you see various dissapointed and angry travellers, grumbling about returning from their failed attempts to sell off outfits from the nearby outfitters at hiked prices.`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	government "Syndicate"
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+planet "Valkirus Solaris Station"
+	attributes "factory" "station" "frontier" "military" "north" "research"
+	landscape land/ragnarok-solaria
+	description ` A solitary but large Solaria station. It's structure is notably denser looking and more fortified than some of the other Solaria stations. Being placed so far out from the rest of the galaxy, you can't help but wonder what would make Solaria build a station all the way out here.`
+	spaceport ` The spaceport is surprisingly unremarkable for a station of this size, but features many dozens of rows of landing pads nonetheless. Looking up from the spaceport, you can see a number of republic ships passing by overhead, with your ship picking up occaisional radio signals blipping in and out.`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	security 0.4
+	government Republic
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+planet "Delva Solaris Station"
+	attributes "factory" "station" "mining" "research"
+	landscape land/ragnarok-solaria
+	description ` This station has multiple different sectors of trade centers. In atmosphere, it is very easy to become the target of one of those sectors if you attempt to land there while flying the wrong colors. Otherwise, it is fairly similar to Senza Solaria in its layout and structure.`
+	spaceport ` The spaceport is fairly sturdy near the trade center, however the outer rim is in pieces, if not missing completely in some areas from the frequent combat near the station.`
+	spaceport ` While stepping off of your ship, you notice something scurry past you. You turn around and look behind you and see a small ferret-like robot making its way towards the outer rim, melting bits of chipped-off metal and patching different sections of the damaged landing pads. Occaisionally, you can see one of them grab a small peice of an asteroid and bring it back into the station.`
+	shipyard "Senza Solaria Ships"
+	outfitter "Senza Solaria Outfits"
+	bribe 0.1
+	security 0.4
+	government Uninhabited
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+
+system Rutilicus
+	add object "Senza Solaria"
+		sprite planet/pootstation4
+		distance 2050.41
+		period 500.111
+
+
+system "Epsilon Leonis"
+	add object "Daemonium Solaria Station"
+		sprite planet/pootstation2
+		distance 2050.41
+		period 500.111
+
+system Host
+	add object "Ursa Polaris Station II"
+		sprite planet/ursa-polarus-ii
+		distance 2050.41
+		period 500.111
+
+system Gienah
+	add object "Ragnarok Solaris Station"
+		sprite planet/ragnaroksolaria
+		distance 2050.41
+		period 500.111
+
+system Alnitak
+	add object "Valkirus Solaris Station"
+		sprite planet/valkiriussolaria
+		distance 2050.41
+		period 500.111
+
+system "Beta Lupi"
+	add object "Delva Solaris Station"
+		sprite planet/delvasolaria
+		distance 2050.41
+		period 500.111

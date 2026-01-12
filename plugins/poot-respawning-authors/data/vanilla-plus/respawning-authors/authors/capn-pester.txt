@@ -1,0 +1,132 @@
+
+shipyard "Poot Author"
+	"Wardragon (P Author)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-capn-pester" 5000
+
+government "Author (Pester)"
+	"display name" "Parrot"
+	swizzle 2
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "friendly author"
+	"hostile hail" "friendly author"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+phrase "Author (Pester)"
+	word
+		"This game"
+		"Endless Sky"
+	word
+		" is open source. You can "
+	word
+		"help out"
+		"improve the game"
+		"get involved"
+		"help make it a better game"
+		"assist us"
+		"make your mark on the universe"
+		"give back to the community"
+	word
+		" by "
+	word
+		"contributing detailed bug reports."
+		"contributing typo fixes."
+		"contributing constructive feedback."
+		"contributing ideas for improvements."
+		"contributing landscape photos."
+		"contributing artwork."
+		"contributing new ships of your own design."
+		"contributing plugins."
+		"contributing new special missions."
+		"contributing new weapons or other outfits."
+		"contributing improved planet descriptions."
+		"contributing more varied hail messages."
+		"joining conversations that create new content."
+		"joining the Endless Sky Community Discord."
+		"getting involved with the community."
+		"submitting new pull requests with improvements and ideas."
+
+phrase "Name (Pester)"
+	word
+		"Cap'n Pester"
+
+fleet "authors-respawn-capn-pester"
+	government "Author (Pester)"
+	"names" "Name (Pester)"
+	cargo 3
+	personality
+		confusion 40
+		plunders staying heroic
+	variant 20
+		"Wardragon (P Author)"
+	variant 4
+		"Wardragon (P Author)" 2
+	variant 2
+		"Wardragon (P Author)" 3
+
+
+ship "Wardragon (P Author)"
+	"display name" "Wardragon (P)"
+	sprite "ship/wardragon"
+	thumbnail "thumbnail/wardragon"
+	attributes
+		category "Heavy Warship"
+		"cost" 5900000
+		"shields" 160000
+		"hull" 50000
+		"required crew" 160
+		"bunks" 185
+		"mass" 840
+		"drag" 14
+		"heat dissipation" .34
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 610
+		"weapon capacity" 200
+		"engine capacity" 120
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skylance" 2
+		"Quarg Anti-Missile" 2
+		
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		"Intrusion Countermeasures" 160
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Wanderer Ramscoop"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Scram Drive"
+		
+	engine -14 47
+	engine 14 47
+	gun 13.5 -32.5
+	gun -13.5 -30.5
+	turret -9 -14 "Quarg Anti-Missile"
+	turret 9 -14 "Quarg Anti-Missile"
+	turret -28 7 "Quarg Skylance"
+	turret 28 7 "Quarg Skylance"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The origin of this Wardragon is shrouded in mystery. It was said that the Quarg once used this ship as a powerful light warship. Other sources suggest that it was used as a front-line heavy warship. One thing is for certain though, and that's its design is far different than any Quarg ship that exists today, and one can only question where it came from."

@@ -1,0 +1,178 @@
+
+shipyard "Poot Author"
+	"Marauder Fury (P Author)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-marauder-max" 5000
+
+government "Author (MM)"
+	"display name" "Author"
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (MM)"
+	"hostile hail" "Author (MM)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+fleet "authors-respawn-marauder-max"
+	government "Author (MM)"
+	"names" "Name (MM)"
+	cargo 3
+	personality
+		confusion 40
+		unconstrained harvests staying heroic
+	variant 40
+		"Mad Quest (P Author)"
+	variant 2
+		"Mad Quest (P Author)" 4
+
+phrase "Author (MM)"
+	word
+		"Do you think you "
+		"Ever wondered if you "
+		"Think you'll also need some luck if you "
+	phrase
+		"MMK subphrase 1" 5
+		"MMK subphrase 2"
+	word
+		"all 28 Marauder models?"
+phrase "Author (MM)"
+	word
+		"Have you "
+	word
+		"seen "
+		"fought "
+		"run away from "
+	word
+		"one of those "
+		"any of those "
+		"some of those "
+	word
+		"modified "
+		"Marauder "
+	word
+		"ships "
+		"Leviathans "
+		"Falcons "
+		"Ravens "
+		"Quicksilvers "
+		"Splinters "
+		"Mantas "
+		"Arrows "
+		"Bounders "
+		"Firebirds "
+	word
+		"lately?"
+		"recently?"
+		"in the past couple of days?"
+# Not sure about implying there is a shop that people can have this done to their ships, but it's fun banter that encourages the player to explore...(there is no shop).
+phrase "Author (MM)"
+	word
+		"If you can find my crew, we'll help you turn that "
+	word
+		"trash heap "
+		"rust bucket "
+		"jalopy "
+		"bucket of bolts "
+		"flying toaster "
+		"garbage scow "
+	word
+		"of yours "
+		"you're flying "
+		"you're piloting "
+		"that you call a ship "
+	word
+		"into a REAL marauding warship!"
+
+phrase "MMK subphrase 1"
+	word
+		"got what it takes to "
+		"got the gumption to "
+		"could "
+		"have the guramba to "
+		"are good enough to "
+	word
+		"capture "
+		"collect "
+		"gather "
+
+phrase "MMK subphrase 2"
+	word
+		"are capable of "
+	word
+		"capturing "
+		"collecting "
+		"gathering "
+
+phrase "Name (MM)"
+	word
+		"Marauder Max"
+
+
+ship "Marauder Fury (P Author)" "Mad Quest (P Author)"
+	"display name" "Mad Quest (P)"
+
+ship "Marauder Fury (P Author)"
+	"display name" "Marauder Fury (P)"
+	plural "Marauder Furies"
+	sprite "ship/mfury"
+	thumbnail "thumbnail/mfury"
+	attributes
+		category "Interceptor"
+		"cost" 750000
+		"shields" 3000
+		"hull" 600
+		"required crew" 1
+		"bunks" 3
+		"mass" 278
+		"drag" 2.85
+		"heat dissipation" .57
+		"fuel capacity" 500
+		"cargo space" 15
+		"outfit space" 256
+		"weapon capacity" 96
+		"engine capacity" 100
+		"ramscoop" 2
+		weapon
+			"blast radius" 36
+			"shield damage" 360
+			"hull damage" 180
+			"hit force" 520
+	outfits
+		"Hai Tracker Pod" 2
+		"Meteor Missile Launcher" 4
+		"Hai Tracker" 112
+		"Meteor Missile" 140
+
+		"Systems Core (Small)"
+		"Red Sun Reactor"
+		"Intrusion Countermeasures" 3
+		"Nerve Gas"
+
+		`"Biroo" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		"Hyperdrive"
+		
+	engine -23 44.5 0.6
+	engine 23 44.5 0.6
+	engine -17 43 0.45
+	engine 17 43 0.45
+	engine -12.5 41 0.35
+	engine 12.5 41 0.35
+	engine 0 46
+	gun -13.5 -36 "Meteor Missile Launcher"
+	gun 13.5 -36 "Meteor Missile Launcher"
+	gun -20 -25 "Meteor Missile Launcher"
+	gun 20 -25 "Meteor Missile Launcher"
+	gun -6 -41.5
+	gun 6 -41.5
+	gun -43.5 2 "Hai Tracker Pod"
+	gun 43.5 2 "Hai Tracker Pod"
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	"final explode" "final explosion small"
+	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."

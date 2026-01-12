@@ -1,0 +1,180 @@
+
+shipyard "Poot Author"
+	"Shooting Star (P Author)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-shooting-star" 5000
+
+government "Author (Star)"
+	"display name" "Author"
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (Star)"
+	"hostile hail" "Author (Star)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+fleet "authors-respawn-shooting-star"
+	government "Author (Star)"
+	"names" "Name (Star)"
+	cargo 3
+	personality
+		confusion 40
+		plunders staying heroic
+	variant 40
+		"Shooting Star (P Author)"
+	variant 2
+		"Shooting Star (P Author)" 3
+
+
+phrase "Author (Star)"
+	word
+		"Long years of technological development were for me a pathway to many abilities some consider to be unnatural."
+		"What were you thinking about when you hailed me? 'Oh look, an asteroid. Let's chat.'"
+		"How does it feel to try hailing an asteroid and actually succeeding?"
+		"What a day to be a non-sentient rock floating in the middle of the eternal void."
+		"When even the local asteroid belt starts chatting with you, you can tell you've been jumping a little too much lately."
+		"What's weirder, an asteroid that emits purple rays or the person that tried to talk with it?"
+		"My goals are beyond your understanding."
+		"What the Quarg say about the Builders is false. I am the only one responsible for their extinction, and I am proud of it."
+		"You think that nuclear weapons are bad? Come closer and you will see what a real weapon is."
+		"I have been classified as a weapon of mass destruction by most human and alien governments. You don't want to see what I am capable of."
+		"Sometimes, just for fun, I set myself on a close trajectory on an inhabited planet and pass just above their atmosphere. I love how lesser species start to freak out as they think that the end is near."
+		"I have been watching you, <first> <last>, current captain of the <ship>."
+		"I am here for you."
+		"I want your money."
+		"Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key. Three Skeleton Key."
+		"Your politics bore me."
+		"There is only one being in the whole universe that isn't commanded by AI, and that's me."
+		"Shields are useless--I can pass through them just fine. I can show you, if you'd like."
+		"The Quarg are wrong saying that the firstborns are long gone, for I am the firstborn."
+		"Have you ever been in the Weft? It's so damn boring. It's a lot more fun to mess with simpler minds like yours."
+		"I remember when the Archons tried to kill me with some supernovae. They got so depressed when they understood that not even their weapons could stop me."
+		"I ate a black hole once. It took me a few years, but it was definitely worth it. Tastes like chicken."
+		"I am the only thing in the universe capable of beating the power of friendship."
+		"I want to tell you some words of a long gone past, which back then used to scare people of your race more than any weapon or war machine. These words are, 'The macOS workflow run was not successful.'"
+phrase "Author (Star)"
+	word
+		"What are you looking at?"
+		"Stop staring at my ship."
+	word
+		" "
+	word
+		"I thought captains like you saw asteroids passing by every day."
+		"I'm just a normal minor planet trying its best to ignore the law of gravity."
+
+phrase  "Author (Star)" # The ones below are EVN Krypt Pod references
+	word
+		"<"
+	word
+		"Unauthorized"
+		"Unknown"
+	word
+		" "
+	word
+		"interface"
+		"computer access"
+	word
+		">"
+phrase "Author (Star)"
+	word
+		"<Transmission disrupted at source>"
+phrase "Author (Star)"
+	word
+		"<Incoherent signal>"
+phrase "Author (Star)"
+	word
+		"<"
+	word
+		"Incoherent"
+		"Irregular"
+		"Static"
+		"Undecipherable"
+	word
+		" "
+	word
+		"response"
+		"EM beam"
+		"transmission burst"
+	word
+		">"
+phrase "Author (Star)"
+	word
+		"<"
+	word
+		"Unregistered"
+		"Undecipherable"
+	word
+		" "
+	word
+		"language"
+		"transmission burst"
+	word
+		">"
+
+phrase "Name (Star)"
+	word
+		"Prototype B3-CC4"
+
+ship "Shooting Star (P Author)"
+	"display name" "Shooting Star (P)"
+	swizzle 0
+	noun "genocidal maniac"
+	sprite "ship/shooting star/shooting star"
+		"frame time" 3
+	attributes
+		category "Heavy Warship"
+		"hull" 31500
+		"threshold percentage" 0.05
+		"automaton" 200
+		"cost" -49500000
+		"energy capacity" 100
+		"mass" 839.5
+		"drag" 5.75
+		"heat dissipation" 6.7
+		"fuel capacity" 200
+		"outfit space" 329
+		"weapon capacity" 156
+		"cargo space" 10
+		"hull repair" 3
+		"thrust" 23.4
+		"reverse thrust" 15.6
+		"flare sound" "ion medium"
+		"turn" 2453.7
+		"jump speed" .2
+		"jump fuel" 50
+		"hyperdrive" 1
+		"energy generation" 1
+		"atmosphere scan" 100
+		"spinal mount" 1
+		"crystal projector" 1
+		"shooting star" 2
+		"core crystal" -2
+		weapon
+			"blast radius" 20000
+			"hull damage" 79999
+			"piercing" 1
+			"hit force" -8200
+	outfits
+		"Crystal Projector"
+		"Crystalline Formation"
+		"Hexagonal Crystal"
+		"Floating Crystal"
+		"Tree Skeleton Key Stone"
+	gun 0 0
+		under
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	explode "pug tiny explosion" 5
+	explode "pug small explosion" 20
+	explode "pug medium explosion" 25
+	explode "pug large explosion" 15
+	"final explode" "final explosion medium"
+	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
+	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
+

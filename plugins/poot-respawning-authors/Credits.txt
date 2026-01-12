@@ -1,0 +1,12 @@
+Created by Eggapegawsus
+
+Adds versions of all vanilla person ships that respawn.
+They also spawn more frequently, and all can spawn in any system.
+
+NOTE: All the ships that spawn from this plugin are NOT the original ships, to make the original ships obtainable, you can install Senza Solaria which has compatibility for Respawning Authors
+
+Also does NOT disable vanilla authors.
+
+
+
+ALSO check out P.O.O.T. (Whenever it releases...)

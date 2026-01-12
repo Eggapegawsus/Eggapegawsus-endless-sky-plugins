@@ -1,0 +1,131 @@
+
+shipyard "Poot Author"
+	"Modified Battleship (P)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-gefullte-taubenbrust" 5000
+
+government "Author (GT)"
+	"display name" "Author"
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (GT)"
+	"hostile hail" "Author (GT)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+phrase "Author (GT)"
+	word
+		"The whole room is spinning."
+		"I am fueling your nightmares."
+		"Turrets = woke. Spinals = broke."
+		"My eyes are on fire."
+		"Curve modifier is love. Curve modifier is life."
+		"Just use denoising."
+		"What is a blender internal?"
+		"You need new sprites?"
+		"Spot the difference."
+
+phrase "Name (GT)"
+	word
+		"Gefullte Taubenbrust"
+
+fleet "authors-respawn-gefullte-taubenbrust"
+	government "Author (GT)"
+	"names" "Name (GT)"
+	cargo 3
+	personality
+		confusion 40
+		plunders staying heroic
+	variant 1
+		"RSS Smoking Dove (P)"
+
+
+ship "Modified Battleship (P)" "RSS Smoking Dove (P)"
+	"display name" "RSS Smoking Dove (P)"
+
+ship "Modified Battleship (P)"
+	"display name" "Modified Battleship (P)"
+	sprite "ship/battleship"
+	thumbnail "thumbnail/battleship"
+	attributes
+		category "Heavy Warship"
+		"cost" 35000000
+		"shields" 36000
+		"hull" 26000
+		"required crew" 160
+		"bunks" 212
+		"mass" 1515
+		"drag" 29.1
+		"heat dissipation" .24
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 1152
+		"weapon capacity" 592
+		"engine capacity" 123
+		"spinal mount" 1
+		weapon
+			"blast radius" 340
+			"shield damage" 3400
+			"hull damage" 1700
+			"hit force" 5100
+	outfits
+		"Prototype Fusion Cannon"
+		"Quad Blaster Turret" 4
+		"Heavy Laser Turret" 4
+		"Electron Turret" 2
+		"Wanderer Anti-Missile"
+		"Torpedo Pod" 4
+		"Torpedo Storage Rack" 2
+		"Torpedo" 42
+		"Typhoon Pod" 2
+		"Typhoon Torpedo" 34
+		
+		"Dark Storm Shielding" 2
+		"Triple Plasma Core"
+		"LP036a Battery Pack"
+		"LP072a Battery Pack"
+		"Large Heat Shunt" 3
+		"Fuel Processor" 3
+		"Tactical Scanner"
+
+		"Afterburner (Lunar Class)"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+	engine 45 212
+	engine 21 220
+		zoom 0.8
+	engine -45 212
+	engine -21 220
+		zoom 0.8
+	gun 0 -223 "Prototype Fusion Cannon"
+	gun -59 14 "Typhoon Pod"
+	gun 59 14 "Typhoon Pod"
+	gun -72 25 "Torpedo Pod"
+	gun 72 26 "Torpedo Pod"
+	gun -84 38 "Torpedo Pod"
+	gun 84 38 "Torpedo Pod"
+	turret -37 -11 "Electron Turret"
+	turret 37 -11 "Electron Turret"
+	turret 0 10 "Wanderer Anti-Missile"
+	turret -37 31 "Quad Blaster Turret"
+	turret 37 31 "Quad Blaster Turret"
+	turret -39 73 "Quad Blaster Turret"
+	turret 39 73 "Quad Blaster Turret"
+	turret -75 108 "Heavy Laser Turret"
+	turret 75 108 "Heavy Laser Turret"
+	turret -23 108 "Heavy Laser Turret"
+	turret 23 108 "Heavy Laser Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`

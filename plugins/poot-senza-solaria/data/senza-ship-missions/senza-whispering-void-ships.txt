@@ -1,0 +1,36 @@
+
+event `Senza Solaria Stocks Pincer Beast`
+	shipyard "Senza Solaria Ships"
+		`Pincer Beast`
+
+mission `Senza Solaria Supply Pincer Beast`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Pincer Beast`
+			not `flagship model: Pincer Beast`
+	on offer
+		conversation
+			scene "thumbnail/pincer beast"
+			`Upon arriving at Senza Solaria With your Pincer Beast, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Pincer Beast to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Pincer Beast`
+			"count" 1
+		event `Senza Solaria Stocks Pincer Beast`
+
+

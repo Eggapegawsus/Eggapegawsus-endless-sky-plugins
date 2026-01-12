@@ -1,0 +1,95 @@
+
+shipyard "Poot Author"
+	"Wandering Subsidurial"
+	"Subsidurial (P Author)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-subsidurial" 5000
+
+government "Author (Subsidurial)"
+	"display name" "Subsidurial"
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (Subsidurial)"
+	"hostile hail" "Author (Subsidurial)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+phrase "Name (Subsidurial)"
+	word
+		"Subsidurial"
+
+fleet "authors-respawn-subsidurial"
+	government "Author (Subsidurial)"
+	"names" "Name (Subsidurial)"
+	cargo 3
+	personality
+		confusion 40
+		timid staying heroic mute
+	variant 40
+		"Wandering Subsidurial"
+	variant 16
+		"Wandering Subsidurial" 2
+	variant 5
+		"Subsidurial (P Author)"
+	variant 2
+		"Subsidurial (P Author)" 2
+		"Wandering Subsidurial" 5
+
+
+ship "Subsidurial" "Wandering Subsidurial"
+	"display name" "Subsidurial"
+	noun "creature"
+	sprite "ship/subsidurial"
+	thumbnail "thumbnail/subsidurial"
+
+ship "Subsidurial (P Author)"
+	"display name" "Suspicious Looking Subsidurial"
+	noun "creature"
+	sprite "ship/subsidurial"
+	thumbnail "thumbnail/subsidurial"
+	attributes
+		category "Unclassified"
+		shields 30000
+		hull 33600
+		"mass" 1050
+		"Cost" 500000
+		"required crew" 35
+		"bunks" 60
+		"cargo space" 70
+		"drag" 12.3
+		"heat dissipation" .54
+		"fuel capacity" 100
+		"thrust" 15
+		"turn" 1200
+		"hull repair rate" 3
+		"ion protection" 3
+		"scramble protection" 3
+		"ion resistance" 1
+		"scramble resistance" 1
+		"energy capacity" 1
+		"inscrutable" 1
+		"gaslining" 1
+		"hyperdrive" 1
+		"jump speed" .2
+	outfits
+		Mouthparts? 3
+	gun 0 -97
+	gun -23 -95
+	gun 23 -95
+	turret -28 0
+	turret 28 0
+	gun 0 -97
+	gun -23 -95
+	gun 23 -95
+	turret -28 0
+	turret 28 0
+	explode "small explosion" 40
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "While in flight, it it looked to be a normal subsidurial, but upon closer inspection, you come to realize that its not even a sbusidurial. It's actually a heavily modified warship, whose origin you cannot make out. Whoever decided to build this ship did a fantastic job at recreating the appearance of the original."
+

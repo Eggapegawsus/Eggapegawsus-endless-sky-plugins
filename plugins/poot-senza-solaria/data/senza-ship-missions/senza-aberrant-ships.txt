@@ -1,0 +1,455 @@
+
+event `Senza Solaria Stocks Aberrant Latte`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Latte`
+
+mission `Senza Solaria Supply Aberrant Latte`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Latte`
+			not `flagship model: Aberrant Latte`
+	on offer
+		conversation
+			scene "thumbnail/aberrant latte"
+			`Upon arriving at Senza Solaria With your Aberrant Latte, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Latte to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Latte`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Latte`
+
+
+event `Senza Solaria Stocks Aberrant Chomper`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Chomper`
+
+mission `Senza Solaria Supply Aberrant Chomper`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Chomper`
+			not `flagship model: Aberrant Chomper`
+	on offer
+		conversation
+			scene "thumbnail/aberrant chomper"
+			`Upon arriving at Senza Solaria With your Aberrant Chomper, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Chomper to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Chomper`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Chomper`
+
+
+event `Senza Solaria Stocks Aberrant Pileup`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Pileup`
+
+mission `Senza Solaria Supply Aberrant Pileup`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Pileup`
+			not `flagship model: Aberrant Pileup`
+	on offer
+		conversation
+			scene "thumbnail/aberrant pileup"
+			`Upon arriving at Senza Solaria With your Aberrant Pileup, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Pileup to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Pileup`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Pileup`
+
+
+event `Senza Solaria Stocks Aberrant Hugger`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Hugger`
+
+mission `Senza Solaria Supply Aberrant Hugger`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Hugger`
+			not `flagship model: Aberrant Hugger`
+	on offer
+		conversation
+			scene "thumbnail/aberrant hugger"
+			`Upon arriving at Senza Solaria With your Aberrant Hugger, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Hugger to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Hugger`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Hugger`
+
+
+event `Senza Solaria Stocks Aberrant Longfellow`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Longfellow`
+
+mission `Senza Solaria Supply Aberrant Longfellow`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Longfellow`
+			not `flagship model: Aberrant Longfellow`
+	on offer
+		conversation
+			scene "thumbnail/aberrant longfellow"
+			`Upon arriving at Senza Solaria With your Aberrant Longfellow, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Longfellow to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Longfellow`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Longfellow`
+
+
+event `Senza Solaria Stocks Aberrant Dancer`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Dancer`
+
+mission `Senza Solaria Supply Aberrant Dancer`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Dancer`
+			not `flagship model: Aberrant Dancer`
+	on offer
+		conversation
+			scene "thumbnail/aberrant dancer"
+			`Upon arriving at Senza Solaria With your Aberrant Dancer, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Dancer to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Dancer`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Dancer`
+
+
+event `Senza Solaria Stocks Aberrant Junior`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Junior`
+
+mission `Senza Solaria Supply Aberrant Junior`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Junior`
+			not `flagship model: Aberrant Junior`
+	on offer
+		conversation
+			scene "thumbnail/aberrant junior"
+			`Upon arriving at Senza Solaria With your Aberrant Junior, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Junior to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Junior`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Junior`
+
+
+event `Senza Solaria Stocks Aberrant Icebreaker`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Icebreaker`
+
+mission `Senza Solaria Supply Aberrant Icebreaker`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Icebreaker`
+			not `flagship model: Aberrant Icebreaker`
+	on offer
+		conversation
+			scene "thumbnail/aberrant icebreaker"
+			`Upon arriving at Senza Solaria With your Aberrant Icebreaker, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Icebreaker to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Icebreaker`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Icebreaker`
+
+
+event `Senza Solaria Stocks Aberrant Pike`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Pike`
+
+mission `Senza Solaria Supply Aberrant Pike`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Pike`
+			not `flagship model: Aberrant Pike`
+	on offer
+		conversation
+			scene "thumbnail/aberrant pike"
+			`Upon arriving at Senza Solaria With your Aberrant Pike, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Pike to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Pike`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Pike`
+
+
+event `Senza Solaria Stocks Aberrant Mole`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Mole`
+
+mission `Senza Solaria Supply Aberrant Mole`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Mole`
+			not `flagship model: Aberrant Mole`
+	on offer
+		conversation
+			scene "thumbnail/aberrant mole"
+			`Upon arriving at Senza Solaria With your Aberrant Mole, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Mole to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Mole`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Mole`
+
+
+event `Senza Solaria Stocks Aberrant Whiskers`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Whiskers`
+
+mission `Senza Solaria Supply Aberrant Whiskers`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Whiskers`
+			not `flagship model: Aberrant Whiskers`
+	on offer
+		conversation
+			scene "thumbnail/aberrant whiskers"
+			`Upon arriving at Senza Solaria With your Aberrant Whiskers, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Whiskers to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Whiskers`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Whiskers`
+
+
+event `Senza Solaria Stocks Aberrant Trip`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Trip`
+
+mission `Senza Solaria Supply Aberrant Trip`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Trip`
+			not `flagship model: Aberrant Trip`
+	on offer
+		conversation
+			scene "thumbnail/aberrant trip"
+			`Upon arriving at Senza Solaria With your Aberrant Trip, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Trip to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Trip`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Trip`
+
+
+event `Senza Solaria Stocks Aberrant Triplet`
+	shipyard "Senza Solaria Ships"
+		`Aberrant Triplet`
+
+mission `Senza Solaria Supply Aberrant Triplet`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Aberrant Triplet`
+			not `flagship model: Aberrant Triplet`
+	on offer
+		conversation
+			scene "thumbnail/aberrant triplet"
+			`Upon arriving at Senza Solaria With your Aberrant Triplet, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Aberrant Triplet to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Aberrant Triplet`
+			"count" 1
+		event `Senza Solaria Stocks Aberrant Triplet`
+

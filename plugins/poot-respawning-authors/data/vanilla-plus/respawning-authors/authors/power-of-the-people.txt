@@ -1,0 +1,211 @@
+
+shipyard "Poot Author"
+	"Modified Osprey (P)"
+
+system "Poot (Omnis)"
+	add fleet "authors-respawn-potp" 5000
+
+government "Author (POTP)"
+	"display name" "Author"
+	swizzle 3
+	"player reputation" 0
+	"attitude toward"
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (POTP)"
+	"hostile hail" "Author (POTP)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+fleet "authors-respawn-potp"
+	government "Author (POTP)"
+	"names" "Name (POTP)"
+	cargo 3
+	personality
+		confusion 40
+		plunders staying heroic
+	variant 40
+		"Modified Osprey (P)"
+	variant 2
+		"Modified Osprey (P)" 3
+	variant 2
+		"Modified Osprey (P)"
+		"Finch Finch (P Author C)" 2
+		"Finch (P Author V)" 2
+
+
+phrase "Author (POTP)"
+	phrase
+		"friendly author"
+phrase "Author (POTP)"
+	word
+		"Does it sound like I'm ordering a pizza?"
+		"I've made a lot of special modifications myself."
+		"I take orders from just one person: me."
+		"You've never heard of the Modified Osprey?"
+		"You know, sometimes I amaze even myself."
+		"I expect the best and I give the best. Here's the beer. Here's the entertainment. Now have fun. That's an order!"
+		"Bugs? Why did it have to be bugs?"
+		"Great, kid. Don't get cocky."
+		"I'm just a fly in the ointment. A monkey in the wrench."
+		"I didn't come here to play Pumbaa on the radio."
+		"I signed on to kill toasters, not take naps!"
+		"Sorry to interrupt just as it was getting interesting, but I'm afraid I've got to blow some bad guys into small pieces."
+		"If you think the other guy might have a blaster hidden under the table... bring two blasters."
+		"I'm a team player. As long as the rest of the team stays behind me."
+phrase "Author (POTP)"
+	word
+		"Take it from me: "
+		"A word of caution: "
+		"A piece of advice: "
+		"" 2
+	word
+		"If you think the other guy might have a blaster hidden under the table... bring two blasters."
+		"I'm a team player. As long as the rest of the team stays behind me."
+		"We had a slight weapons malfunction, but everything's perfectly alright now."
+		"Hokey religions and ancient weapons are no match for a good blaster at your side."
+		"Keep your distance. But don't look like you're trying to keep your distance."
+		"Only the enemy will tell you where you are weak."
+		"Shoot a nuke down a bug hole, you got a lot of dead bugs."
+		"Your enemy cannot push a button... if you disable his hand."
+		"This isn't a combat probe."
+		"Never tell me the odds."
+		"I dare you."
+		"Be sure to test your commits."
+		"Commit early, and commit often."
+		"Make a new branch if you're changing things."
+		"The wiki is full of useful information."
+		"Be sure the beer is really free."
+		"Location, location, location."
+phrase "Author (POTP)"
+	word
+		"When asked a tough question"
+		"Before a big battle"
+		"When the Navy scans your ship"
+		"When docking your ship"
+		"If caught"
+		"When caught"
+	word
+		" "
+	word
+		"I like to say"
+		"don't quip"
+		"don't shout"
+		"be sure to say"
+		"people like to hear"
+		"people like to say"
+		"your best bet is to say"
+		"tell the authorities"
+		"tell your partner"
+	word
+		", "
+	word
+		`"I was out of bullets."`
+		`"There's safety in sandwiches."`
+		`"Welcome to the party, pal!"`
+		`"Punch it!"`
+		`"Here's where the fun begins!"`
+		`"I'm just a guy with a starship for hire."`
+		`"I'm going to grow a beard, just in case."`
+		`"Want a breath mint?"`
+		`"Sorry about the mess."`
+		`"I happen to like to shoot first."`
+		`"Laugh it up, fuzzball."`
+		`"This isn't a combat probe."`
+		`"Negative. I am a meat popsicle."`
+		`"How 'bout a bumper sandwich, Boogerlips?"`
+		`"I recommend the lobster."`
+
+phrase "Name (POTP)"
+	word
+		"Power Of The People"
+
+ship "Modified Osprey (P)"
+	"display name" "Modified Osprey (P)"
+	sprite "ship/mosprey"
+	attributes
+		category "Heavy Warship"
+		"cost" 44000000
+		"shields" 41000
+		"shield generation" 10
+		"hull" 27500
+		"hull repair rate" 10
+		"required crew" 189
+		"bunks" 240
+		"mass" 1416
+		"drag" 22.65
+		"heat dissipation" .4
+		"fuel capacity" 625
+		"cargo space" 80
+		"outfit space" 2172
+		"weapon capacity" 851
+		"engine capacity" 499
+		"afterburner fuel" -.678
+		"afterburner heat" -30
+		"ramscoop" 6
+		weapon
+			"blast radius" 750
+			"shield damage" 7000
+			"hull damage" 3500
+			"heat damage" 24000
+			"ion damage" 24000
+			"scrambling damage" 24000
+			"disruption damage" 1200
+			"hit force" 30000
+	outfits
+		"Nuclear Missile"
+		"Husk-Slice" 4
+		"Korath Detainer" 4
+		"Finisher Pod" 2
+		"Finisher Torpedo" 200
+		"Shield Disruptor Turret" 2
+		"Heliarch Repulsor" 2
+		"Point Defense Turret" 3
+		
+		"Blue Sun Reactor" 3
+		"Red Sun Reactor"
+		"Dark Storm Shielding" 3
+		"Large Repair Module" 4
+		"Large Heat Shunt" 2
+		"Asteroid Scanner"
+		"Large Radar Jammer"
+		"Tactical Scanner"
+		"Wanderer Ramscoop"
+		
+		"Volcano Afterburner"
+		`"Bufaer" Atomic Thruster`
+		"Ionic Afterburner" 5
+		"Type 4 Radiant Thruster"
+		"Type 4 Radiant Steering" 4
+		"Hyperdrive"
+		"Jump Drive"
+		
+	engine -45.5 64 .8
+	engine 45.5 64 .8
+	engine -16.5 105 .6
+	engine 16.5 105 .6
+	gun 0 -114 "Nuclear Missile"
+	gun -6.5 -100 "Husk-Slice"
+	gun 6.5 -100 "Husk-Slice"
+	gun -14 -91 "Husk-Slice"
+	gun 14 -91 "Husk-Slice"
+	gun -19 -59 "Korath Detainer"
+	gun 19 -59 "Korath Detainer"
+	gun -26.5 -53 "Korath Detainer"
+	gun 26.5 -53 "Korath Detainer"
+	gun -67 -1.5 "Finisher Pod"
+	gun 67 -1.5 "Finisher Pod"
+	turret 0 -91.5 "Point Defense Turret"
+	turret -13.5 -15.5 "Shield Disruptor Turret"
+	turret 13.5 -15.5 "Shield Disruptor Turret"
+	turret -49.5 20 "Heliarch Repulsor"
+	turret 49.5 20 "Heliarch Repulsor"
+	turret 0 29 "Point Defense Turret"
+	turret 0 89.5 "Point Defense Turret"
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion large" 1
