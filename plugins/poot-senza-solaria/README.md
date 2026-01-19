@@ -18,7 +18,10 @@ I always enjoyed playing with all outfit plugins like Ursa Polaris or Omnis, alt
 With this being my own personal take on what I'd like from an all outfits plugin, I decided to include some of my own special features:
 
  - The station is availible from the beginning of the game
- - 
+ - Items are unlocked on an as-obtained basis (More info below)
+ - Outfits and ships are supported (Variables are somewhat, see below)
+ - Built in plugin support, with templates for adding plugins
+ - A script to automatically update the outfit list compatible with both, plugins and the base game (More info Below)
 
 ## Unlocking Outfits and Ships
 - For outfits, the outfit **must be IN the cargohold** of one of your ships within the system
@@ -32,5 +35,6 @@ Once you have given up the item to the station, the next time you land on the st
 
 
 ### **NOTE: Donations can ONLY BE MADE AT SENZA SOLARIA, IN RUTILICUS**. Outfits that have been donated can still be purchased at any of the Solaria stations, however.
+
 
 All outfits and ships as of 1.16.0 are supported. If you would like to add support for a plugin, or update Senza Solaria to the newest version of the game, be sure to use the [Senza Solaria Generator script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
