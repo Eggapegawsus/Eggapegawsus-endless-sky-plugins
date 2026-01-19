@@ -1,0 +1,350 @@
+
+event `Senza Solaria Stocks Asteroid Young 4`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Young 4`
+
+mission `Senza Solaria Supply Asteroid Young 4`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Young 4`
+			not `flagship model: Asteroid Young 4`
+	on offer
+		conversation
+			scene "ship/asteroid young 4"
+			`Upon arriving at Senza Solaria With your Asteroid Young 4, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Young 4 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Young 4`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Young 4`
+
+
+event `Senza Solaria Stocks Asteroid Large 1`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Large 1`
+
+mission `Senza Solaria Supply Asteroid Large 1`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Large 1`
+			not `flagship model: Asteroid Large 1`
+	on offer
+		conversation
+			scene "ship/asteroid adult"
+			`Upon arriving at Senza Solaria With your Asteroid Large 1, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Large 1 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Large 1`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Large 1`
+
+
+event `Senza Solaria Stocks Asteroid Large 2`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Large 2`
+
+mission `Senza Solaria Supply Asteroid Large 2`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Large 2`
+			not `flagship model: Asteroid Large 2`
+	on offer
+		conversation
+			scene "ship/asteroid adult 2"
+			`Upon arriving at Senza Solaria With your Asteroid Large 2, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Large 2 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Large 2`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Large 2`
+
+
+event `Senza Solaria Stocks Asteroid Large 3`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Large 3`
+
+mission `Senza Solaria Supply Asteroid Large 3`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Large 3`
+			not `flagship model: Asteroid Large 3`
+	on offer
+		conversation
+			scene "ship/asteroid adult 3"
+			`Upon arriving at Senza Solaria With your Asteroid Large 3, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Large 3 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Large 3`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Large 3`
+
+
+event `Senza Solaria Stocks Asteroid Large 4`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Large 4`
+
+mission `Senza Solaria Supply Asteroid Large 4`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Large 4`
+			not `flagship model: Asteroid Large 4`
+	on offer
+		conversation
+			scene "ship/asteroid adult 4"
+			`Upon arriving at Senza Solaria With your Asteroid Large 4, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Large 4 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Large 4`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Large 4`
+
+
+event `Senza Solaria Stocks Asteroid Large 5`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Large 5`
+
+mission `Senza Solaria Supply Asteroid Large 5`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Large 5`
+			not `flagship model: Asteroid Large 5`
+	on offer
+		conversation
+			scene "ship/asteroid adult 5"
+			`Upon arriving at Senza Solaria With your Asteroid Large 5, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Large 5 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Large 5`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Large 5`
+
+
+event `Senza Solaria Stocks Asteroid Medium`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Medium`
+
+mission `Senza Solaria Supply Asteroid Medium`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Medium`
+			not `flagship model: Asteroid Medium`
+	on offer
+		conversation
+			scene "ship/asteroid medium"
+			`Upon arriving at Senza Solaria With your Asteroid Medium, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Medium to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Medium`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Medium`
+
+
+event `Senza Solaria Stocks Asteroid Young 1`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Young 1`
+
+mission `Senza Solaria Supply Asteroid Young 1`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Young 1`
+			not `flagship model: Asteroid Young 1`
+	on offer
+		conversation
+			scene "ship/asteroid young"
+			`Upon arriving at Senza Solaria With your Asteroid Young 1, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Young 1 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Young 1`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Young 1`
+
+
+event `Senza Solaria Stocks Asteroid Young 2`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Young 2`
+
+mission `Senza Solaria Supply Asteroid Young 2`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Young 2`
+			not `flagship model: Asteroid Young 2`
+	on offer
+		conversation
+			scene "ship/asteroid young 2"
+			`Upon arriving at Senza Solaria With your Asteroid Young 2, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Young 2 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Young 2`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Young 2`
+
+
+event `Senza Solaria Stocks Asteroid Young 3`
+	shipyard "Senza Solaria Ships"
+		`Asteroid Young 3`
+
+mission `Senza Solaria Supply Asteroid Young 3`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid Young 3`
+			not `flagship model: Asteroid Young 3`
+	on offer
+		conversation
+			scene "ship/asteroid young 3"
+			`Upon arriving at Senza Solaria With your Asteroid Young 3, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Young 3 to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid Young 3`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid Young 3`
+

@@ -1,0 +1,35 @@
+
+event `Senza Solaria Stocks vyu-Ir`
+	shipyard "Senza Solaria Ships"
+		`vyu-Ir`
+
+mission `Senza Solaria Supply vyu-Ir`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: vyu-Ir`
+			not `flagship model: vyu-Ir`
+	on offer
+		conversation
+			scene "thumbnail/vyuir"
+			`Upon arriving at Senza Solaria With your vyu-Ir, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a... unkown entity of sorts within your fleet. Would you be willing to donate such a thing for research?`
+			choice
+				`	(Donate the vyu-Ir to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! Yuor donation is very much appreciated, as always!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `vyu-Ir`
+			"count" 1
+		event `Senza Solaria Stocks vyu-Ir`
+

@@ -1,0 +1,340 @@
+
+event "Senza Solaria Stocks Bombardment Cannon"
+	outfitter "Senza Solaria Outfits"
+		"Bombardment Cannon"
+mission "Senza Solaria Supply Bombardment Cannon"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Bombardment Cannon"
+	on offer
+		conversation
+			scene "outfit/bombardment cannon"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Bombardment Cannon to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Bombardment Cannon" -1
+		event "Senza Solaria Stocks Bombardment Cannon"
+
+
+event "Senza Solaria Stocks Bombardment Turret"
+	outfitter "Senza Solaria Outfits"
+		"Bombardment Turret"
+mission "Senza Solaria Supply Bombardment Turret"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Bombardment Turret"
+	on offer
+		conversation
+			scene "outfit/bombardment turret"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Bombardment Turret to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Bombardment Turret" -1
+		event "Senza Solaria Stocks Bombardment Turret"
+
+
+event "Senza Solaria Stocks Finisher Pod"
+	outfitter "Senza Solaria Outfits"
+		"Finisher Pod"
+mission "Senza Solaria Supply Finisher Pod"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Finisher Pod"
+	on offer
+		conversation
+			scene "outfit/finisher pod"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Finisher Pod to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Finisher Pod" -1
+		event "Senza Solaria Stocks Finisher Pod"
+
+
+event "Senza Solaria Stocks Finisher Maegrolain"
+	outfitter "Senza Solaria Outfits"
+		"Finisher Maegrolain"
+mission "Senza Solaria Supply Finisher Maegrolain"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Finisher Maegrolain"
+	on offer
+		conversation
+			scene "outfit/finisher maegrolain"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Finisher Maegrolain to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Finisher Maegrolain" -1
+		event "Senza Solaria Stocks Finisher Maegrolain"
+
+
+event "Senza Solaria Stocks Finisher Storage Tube"
+	outfitter "Senza Solaria Outfits"
+		"Finisher Storage Tube"
+mission "Senza Solaria Supply Finisher Storage Tube"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Finisher Storage Tube"
+	on offer
+		conversation
+			scene "outfit/finisher storage"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Finisher Storage Tube to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Finisher Storage Tube" -1
+		event "Senza Solaria Stocks Finisher Storage Tube"
+
+
+event "Senza Solaria Stocks Finisher Torpedo"
+	outfitter "Senza Solaria Outfits"
+		"Finisher Torpedo"
+mission "Senza Solaria Supply Finisher Torpedo"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Finisher Torpedo"
+	on offer
+		conversation
+			scene "outfit/finisher"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Finisher Torpedo to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Finisher Torpedo" -1
+		event "Senza Solaria Stocks Finisher Torpedo"
+
+
+event "Senza Solaria Stocks Heliarch Attractor"
+	outfitter "Senza Solaria Outfits"
+		"Heliarch Attractor"
+mission "Senza Solaria Supply Heliarch Attractor"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Heliarch Attractor"
+	on offer
+		conversation
+			scene "outfit/heliarch attractor"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Heliarch Attractor to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Heliarch Attractor" -1
+		event "Senza Solaria Stocks Heliarch Attractor"
+
+
+event "Senza Solaria Stocks Heliarch Repulsor"
+	outfitter "Senza Solaria Outfits"
+		"Heliarch Repulsor"
+mission "Senza Solaria Supply Heliarch Repulsor"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Heliarch Repulsor"
+	on offer
+		conversation
+			scene "outfit/heliarch repulsor"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Heliarch Repulsor to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Heliarch Repulsor" -1
+		event "Senza Solaria Stocks Heliarch Repulsor"
+
+
+event "Senza Solaria Stocks Ion Hail Turret"
+	outfitter "Senza Solaria Outfits"
+		"Ion Hail Turret"
+mission "Senza Solaria Supply Ion Hail Turret"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ion Hail Turret"
+	on offer
+		conversation
+			scene "outfit/ion hail turret"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ion Hail Turret to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ion Hail Turret" -1
+		event "Senza Solaria Stocks Ion Hail Turret"
+
+
+event "Senza Solaria Stocks Ion Rain Gun"
+	outfitter "Senza Solaria Outfits"
+		"Ion Rain Gun"
+mission "Senza Solaria Supply Ion Rain Gun"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Ion Rain Gun"
+	on offer
+		conversation
+			scene "outfit/ion rain gun"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Ion Rain Gun to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Ion Rain Gun" -1
+		event "Senza Solaria Stocks Ion Rain Gun"
+
+
+event "Senza Solaria Stocks MCS Extractor"
+	outfitter "Senza Solaria Outfits"
+		"MCS Extractor"
+mission "Senza Solaria Supply MCS Extractor"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): MCS Extractor"
+	on offer
+		conversation
+			scene "outfit/mcs extractor"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the MCS Extractor to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "MCS Extractor" -1
+		event "Senza Solaria Stocks MCS Extractor"

@@ -1,0 +1,105 @@
+
+event `Senza Solaria Stocks Asteroid`
+	shipyard "Senza Solaria Ships"
+		`Asteroid`
+
+mission `Senza Solaria Supply Asteroid`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Asteroid`
+			not `flagship model: Asteroid`
+	on offer
+		conversation
+			scene "asteroid/small rock/spin"
+			`Upon arriving at Senza Solaria With your Asteroid, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown... rock... of sorts. Would you be willing to donate it for our research?" says a researcher.`
+			choice
+				`	(Donate the Asteroid to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Asteroid`
+			"count" 1
+		event `Senza Solaria Stocks Asteroid`
+
+
+event `Senza Solaria Stocks Science Drone`
+	shipyard "Senza Solaria Ships"
+		`Science Drone`
+
+mission `Senza Solaria Supply Science Drone`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Science Drone`
+			not `flagship model: Science Drone`
+	on offer
+		conversation
+			scene "ship/science drone"
+			`Upon arriving at Senza Solaria With your Science Drone, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Science Drone to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Science Drone`
+			"count" 1
+		event `Senza Solaria Stocks Science Drone`
+
+
+event `Senza Solaria Stocks Hallucination`
+	shipyard "Senza Solaria Ships"
+		`Hallucination`
+
+mission `Senza Solaria Supply Hallucination`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Hallucination`
+			not `flagship model: Hallucination`
+	on offer
+		conversation
+			scene "ship/hallucination"
+			`Upon arriving at Senza Solaria With your Hallucination, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a... woah... Woah... WOOOOOOOAH...`
+			choice
+				`	(Donate the Hallucination to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ahhhhhhhhhhhhhhhhhhhh, ooooooooooooooooooooo!"`
+			`The engineers try their best to guide your ship to an isolated landing pad a few miles from the spaceport, and attempt to carefully transport it inside of one of their research facilities, as best as someone borderline unconcious can, that is..."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Hallucination`
+			"count" 1
+		event `Senza Solaria Stocks Hallucination`
+

@@ -1,0 +1,248 @@
+
+event "Senza Solaria Stocks Asteroid Anti-Missile"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Anti-Missile"
+mission "Senza Solaria Supply Asteroid Anti-Missile"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Anti-Missile"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 2"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Anti-Missile to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Anti-Missile" -1
+		event "Senza Solaria Stocks Asteroid Anti-Missile"
+
+
+event "Senza Solaria Stocks Asteroid Anti-Missile 2"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Anti-Missile 2"
+mission "Senza Solaria Supply Asteroid Anti-Missile 2"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Anti-Missile 2"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 8"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Anti-Missile 2 to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Anti-Missile 2" -1
+		event "Senza Solaria Stocks Asteroid Anti-Missile 2"
+
+
+event "Senza Solaria Stocks Asteroid Weapon Small"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Weapon Small"
+mission "Senza Solaria Supply Asteroid Weapon Small"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Weapon Small"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 3"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Weapon Small to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Weapon Small" -1
+		event "Senza Solaria Stocks Asteroid Weapon Small"
+
+
+event "Senza Solaria Stocks Asteroid Weapon Large"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Weapon Large"
+mission "Senza Solaria Supply Asteroid Weapon Large"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Weapon Large"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 6"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Weapon Large to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Weapon Large" -1
+		event "Senza Solaria Stocks Asteroid Weapon Large"
+
+
+event "Senza Solaria Stocks Asteroid Weapon Large 2"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Weapon Large 2"
+mission "Senza Solaria Supply Asteroid Weapon Large 2"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Weapon Large 2"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 1"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Weapon Large 2 to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Weapon Large 2" -1
+		event "Senza Solaria Stocks Asteroid Weapon Large 2"
+
+
+event "Senza Solaria Stocks Asteroid Weapon Large 3"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Weapon Large 3"
+mission "Senza Solaria Supply Asteroid Weapon Large 3"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Weapon Large 3"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 5"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Weapon Large 3 to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Weapon Large 3" -1
+		event "Senza Solaria Stocks Asteroid Weapon Large 3"
+
+
+event "Senza Solaria Stocks Asteroid Weapon Large 4"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Weapon Large 4"
+mission "Senza Solaria Supply Asteroid Weapon Large 4"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Weapon Large 4"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 4"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Weapon Large 4 to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Weapon Large 4" -1
+		event "Senza Solaria Stocks Asteroid Weapon Large 4"
+
+
+event "Senza Solaria Stocks Asteroid Jump Drive"
+	outfitter "Senza Solaria Outfits"
+		"Asteroid Jump Drive"
+mission "Senza Solaria Supply Asteroid Jump Drive"
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has "outfit (cargo): Asteroid Jump Drive"
+	on offer
+		conversation
+			scene "outfit/asteroid weapon 7"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Asteroid Jump Drive to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit "Asteroid Jump Drive" -1
+		event "Senza Solaria Stocks Asteroid Jump Drive"
+

@@ -1,0 +1,280 @@
+
+event `Senza Solaria Stocks Kaiken`
+	shipyard "Senza Solaria Ships"
+		`Kaiken`
+
+mission `Senza Solaria Supply Kaiken`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Kaiken`
+			not `flagship model: Kaiken`
+	on offer
+		conversation
+			scene "thumbnail/kaiken"
+			`Upon arriving at Senza Solaria With your Kaiken, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Kaiken to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Kaiken`
+			"count" 1
+		event `Senza Solaria Stocks Kaiken`
+
+
+event `Senza Solaria Stocks Sasumata`
+	shipyard "Senza Solaria Ships"
+		`Sasumata`
+
+mission `Senza Solaria Supply Sasumata`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Sasumata`
+			not `flagship model: Sasumata`
+	on offer
+		conversation
+			scene "thumbnail/sasumata"
+			`Upon arriving at Senza Solaria With your Sasumata, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Sasumata to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Sasumata`
+			"count" 1
+		event `Senza Solaria Stocks Sasumata`
+
+
+event `Senza Solaria Stocks Tanto`
+	shipyard "Senza Solaria Ships"
+		`Tanto`
+
+mission `Senza Solaria Supply Tanto`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Tanto`
+			not `flagship model: Tanto`
+	on offer
+		conversation
+			scene "thumbnail/tanto"
+			`Upon arriving at Senza Solaria With your Tanto, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Tanto to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Tanto`
+			"count" 1
+		event `Senza Solaria Stocks Tanto`
+
+
+event `Senza Solaria Stocks Ararebo`
+	shipyard "Senza Solaria Ships"
+		`Ararebo`
+
+mission `Senza Solaria Supply Ararebo`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Ararebo`
+			not `flagship model: Ararebo`
+	on offer
+		conversation
+			scene "thumbnail/ararebo"
+			`Upon arriving at Senza Solaria With your Ararebo, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Ararebo to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Ararebo`
+			"count" 1
+		event `Senza Solaria Stocks Ararebo`
+
+
+event `Senza Solaria Stocks Tekkan`
+	shipyard "Senza Solaria Ships"
+		`Tekkan`
+
+mission `Senza Solaria Supply Tekkan`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Tekkan`
+			not `flagship model: Tekkan`
+	on offer
+		conversation
+			scene "thumbnail/tekkan"
+			`Upon arriving at Senza Solaria With your Tekkan, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Tekkan to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Tekkan`
+			"count" 1
+		event `Senza Solaria Stocks Tekkan`
+
+
+event `Senza Solaria Stocks Kunai`
+	shipyard "Senza Solaria Ships"
+		`Kunai`
+
+mission `Senza Solaria Supply Kunai`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Kunai`
+			not `flagship model: Kunai`
+	on offer
+		conversation
+			scene "thumbnail/kunai"
+			`Upon arriving at Senza Solaria With your Kunai, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Kunai to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Kunai`
+			"count" 1
+		event `Senza Solaria Stocks Kunai`
+
+
+event `Senza Solaria Stocks Kama`
+	shipyard "Senza Solaria Ships"
+		`Kama`
+
+mission `Senza Solaria Supply Kama`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Kama`
+			not `flagship model: Kama`
+	on offer
+		conversation
+			scene "thumbnail/kama"
+			`Upon arriving at Senza Solaria With your Kama, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Kama to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Kama`
+			"count" 1
+		event `Senza Solaria Stocks Kama`
+
+
+event `Senza Solaria Stocks Chigiriki`
+	shipyard "Senza Solaria Ships"
+		`Chigiriki`
+
+mission `Senza Solaria Supply Chigiriki`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Chigiriki`
+			not `flagship model: Chigiriki`
+	on offer
+		conversation
+			scene "thumbnail/chigiriki"
+			`Upon arriving at Senza Solaria With your Chigiriki, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Chigiriki to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Chigiriki`
+			"count" 1
+		event `Senza Solaria Stocks Chigiriki`
+

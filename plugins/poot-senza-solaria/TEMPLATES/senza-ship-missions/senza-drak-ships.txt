@@ -1,0 +1,42 @@
+#BEFORE Kimek
+#BEFORE Manta
+#BEFORE Polairi
+#AFTER Quarg Skylark
+
+
+event `Senza Solaria Stocks Archon`
+	shipyard "Senza Solaria Ships"
+		`Archon`
+		"Archon B"
+		"Archon C"
+
+mission `Senza Solaria Supply Archon`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Archon`
+			not `flagship model: Archon`
+	on offer
+		conversation
+			scene "thumbnail/archon"
+			`Upon arriving at Senza Solaria With your Archon, before you can even decide where to go, a group of researchers are waiting at the landing pad. As you approach closer, you slowly come to realize the looks of concern and terror on their faces.`
+			`	"... I don't even want to know how..."`
+			choice
+				`	(Donate the Archon to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`The researcher glances nervously at this "ship" you have acquired, before speaking. "Alright... you all know the drill..."`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you see the local mailman delivering a nearby cafe's newspaper. A ferw minutes passby, until you see some commotion by the newspaper stand. Out of curiosity you decide to check it out, and come to realize that your recent donation has made the front pages main headline. "NEW ONE OF A KIND SPECTACLE AT SENZA SOLARIA".`
+				accept
+	on accept
+		take ship `Archon`
+			"count" 1
+		event `Senza Solaria Stocks Archon`
+

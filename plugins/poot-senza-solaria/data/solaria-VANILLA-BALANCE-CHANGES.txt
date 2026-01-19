@@ -1,0 +1,53 @@
+
+#To balance out it being purchasable
+outfit "Damselflyman"
+	cost 50000000
+
+
+#Cost added for balance
+outfit "Intrusion Countermeasures"
+	cost 200000
+
+
+#Adding a price so they are not infinitely purchaseable
+outfit "Shield Beetle Pendant"
+	cost 100000
+
+
+#Adding a price so they are not infinitely purchaseable
+outfit "Failed Control System"
+	cost 50000
+	
+
+
+#To balance out it being purchasable
+outfit "Mug"
+	cost 50000
+
+
+#For balancing out purchasability
+outfit "Antigrav Glass"
+	cost 50000
+
+
+outfit "Puny"
+	cost 500000000
+
+
+#Bit of balancing for a potentially overpowered unlimited outfit
+outfit "Tear of Skade"
+	cost 20000000
+
+
+#Bit of balancing for a potentially overpowered unlimited outfit
+outfit "Blood of Surtr"
+	cost 20000000
+
+
+#Added price for balance
+outfit "Microbot Grinder"
+	category "Guns"
+	cost 5000000
+	
+ship "Subsidurial"
+	cost 100000
