@@ -6,7 +6,7 @@ However, I found Senza Solaria Station to be too fun to be only availble in POOT
   
   
 # Senza Solaria Station (All-Outfit Station)
-## Senza Solaria is an all-outfits station, with a twist: In order for any of the stations to sell an outfit or ship, you have to **_bring the outfit or ship to the station itself_**.
+Senza Solaria is an all-outfits station, with a twist: In order for any of the stations to sell an outfit or ship, you have to **_bring the outfit or ship to the station itself_**.
 
 
 
@@ -21,6 +21,6 @@ Once you have given up the item to the station, the next time you land on the st
 
 
 
-## **NOTE: Donations can ONLY BE MADE AT SENZA SOLARIA, IN RUTILICUS**. Outfits that have been donated can still be purchased at any of the Solaria stations, however.
+### **NOTE: Donations can ONLY BE MADE AT SENZA SOLARIA, IN RUTILICUS**. Outfits that have been donated can still be purchased at any of the Solaria stations, however.
 
-All outfits and ships as of 1.16.0 are supported, with included templates for plugin support in both outfits and ships.
+All outfits and ships as of 1.16.0 are supported. If you would like to add support for a plugin, or update Senza Solaria to the newest version of the game, be sure to use the [Senza Solaria Generator script](https://github.com/Eggapegawsus/Eggaegpawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
