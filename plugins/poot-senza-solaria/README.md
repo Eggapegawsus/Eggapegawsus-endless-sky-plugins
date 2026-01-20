@@ -45,4 +45,5 @@ I have also decided to not have the script add variants automatically for a numb
 <br>
 <br>
 To add varaints, just find the mission of the ship in the file with missions, and add it to the event directly above the mission which adds the ship to an outfitter.
+
  - The script will also create a file that contains all variants detected in the scanned directory.
