@@ -35,3 +35,10 @@ Once you have given up the item to the station, the next time you land on the st
 If you would like to add support for a plugin, or update Senza Solaria to the newest version of the game, be sure to use the [Senza Solaria Generator script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
 .
  - The script will scan through a given directory, (As long as it is in a folder called "plugins" or "Endless Sky") and find evrry outfit and ship, then produce files that when placed inside of a plugins data folder, will add them.to Senza Solaria.
+
+## Notes on Variants of ships
+Due to the current limitations of the Endless Sky plugin system, variants of ships cannot have their own missions. Instead, variants will have to be manually added to their base ship's mission.<br>
+I have also decided to not have the script add variants automatically for a number of reasons:
+ - It could allow for outfits that have not been encountered to be purchasable
+ - Outfits not yet availible in the maingame could be purchased early (I.E. obtain a carrier, variants with a jump 
+ - Certain variants not meant to be capturable would be purchasable
