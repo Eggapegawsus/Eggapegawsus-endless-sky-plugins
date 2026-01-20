@@ -1,4 +1,4 @@
-![Header](Eggaegpawsus-endless-sky-plugins/images/senzasolaria4.png)<br>
+<img width="850" height="200" alt="Image" src="https://github.com/user-attachments/assets/dd4eb70f-bdbf-4f2b-a688-1d66f94aa3a4" /><br>
 **UPDATED 1/18/2026, for ES 1.16.0**
 
 Senza Solaria was originally intended to be a part of a much larger plugin call Peripherals or Outstanding Trinkets (poot), but gradually evolved into something I felt should be a standalone plugin.
