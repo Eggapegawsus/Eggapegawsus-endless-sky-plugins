@@ -1,7 +1,7 @@
 
 
 # Eggaegpawsus's Endless Sky Plugins
-This is a collection of all of my plugins for nedless sky currently released. It currently includes:
+This is a collection of all of my plugins for Endless Sky that are currently released. It currently includes:
 * [Senza Solaria](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria)
 * [Respawning Author Ships](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
 <br>
