@@ -1,5 +1,7 @@
 Created by Eggapegawsus
 
+https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors
+
 Adds versions of all vanilla person ships that respawn.
 They also spawn more frequently, and all can spawn in any system.
 
