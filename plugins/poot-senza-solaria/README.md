@@ -8,13 +8,14 @@ Senza Solaria is a progressively expanding all-outfits and ship  station with a 
  - In order for any of the stations to sell an outfit or ship, you have to **_bring the outfit or ship to the station_**
 
 ## Senza Solaria's Features
-I always enjoyed playing with all outfit plugins like Ursa Polaris or Omnis, although it always felt like there were some issues I had while playing with them. With this being my own personal take on what I'd like from an all outfits plugin, I decided to include some of my own special features to address said issues:
+I always enjoyed playing with all outfit plugins like Ursa Polaris or Omnis, although it always felt like there were some issues I had while playing with them. With this being my own personal take on what I'd like from an all outfits plugin, I decided to include some of my own special features to "fix" any issues I had:
 
  - The station is availible from the beginning of the game
  - Items are unlocked on an as-obtained basis (More info below)
  - Outfits and ships are supported (Variables are somewhat, see below)
  - Built in plugin support, with templates for adding plugins
- - A script to quickly update the outfit list, compatible with both plugins and the base game content (More info Below)
+ - A compatibility script to quickly update the mod for the base game or plugin content (More info Below)
+ - Cost balance changes to some vanilla outfits not normally obtainable more than once
 
 ## Unlocking Outfits and Ships
 - For outfits, the outfit **must be IN the cargohold** of one of your ships within the system
@@ -27,7 +28,7 @@ Once you have given up the item to the station, the next time you land on the st
 
 
 
- - **NOTE: Donations can ONLY BE MADE AT SENZA SOLARIA, IN RUTILICUS**. Outfits that have been donated can still be purchased at any of the Solaria stations, however.
+ - **NOTE: Donations can ONLY BE MADE AT SENZA SOLARIA, IN RUTILICUS**, although outfits that have been donated can still be purchased at any of the Solaria stations.
 
 
 ## Plugin Support and Updates (Python Script)
