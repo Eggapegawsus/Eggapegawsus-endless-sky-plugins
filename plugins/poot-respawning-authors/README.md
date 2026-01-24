@@ -8,4 +8,9 @@ This plugin makes Author ships respawn and appear more than once in a playthroug
  - The base game Author government does not share any reputation with the respawning author ships
  - _some secret variants..._
 
+There is also a template included if you wish to add another author
+<br>
+<br>
+<br>
+
 _This plugin is compatible with [Senza Solaria Station](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria)_
