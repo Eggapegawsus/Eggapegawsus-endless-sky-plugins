@@ -1,0 +1,572 @@
+#Variants found in files, be sure to add these to their proper missions based on the ship they are a variant of if you wish to be able to purchase them
+#If you would like to make these availible for purchase when playing with everything unlocked, remove the `#` infront of the next line.
+#shipyard `Senza Solaria Unlockall Ships Plugin`
+	`'nra'ret (Crippler)`
+	`'olofez (Digger)`
+	`'olofez (Expeller)`
+	`'olofez (World-Ship)`
+	`Aaulqra (Brawler)`
+	`Aaulqra (Naive)`
+	`Aaulqra (Sniper)`
+	`Aberrant Chomper (Disable-able)`
+	`Aberrant Dancer (Disable-able)`
+	`Aberrant Hugger (Disable-able)`
+	`Aberrant Icebreaker (Disable-able)`
+	`Aberrant Junior (Disable-able)`
+	`Aberrant Latte (Disable-able)`
+	`Aberrant Longfellow (Disable-able)`
+	`Aberrant Mole (Disable-able)`
+	`Aberrant Pike (Disable-able)`
+	`Aberrant Pileup (Disable-able)`
+	`Aberrant Trip (Disable-able)`
+	`Aberrant Triplet (Disable-able)`
+	`Aberrant Whiskers (Disable-able)`
+	`Aerie (Derelict)`
+	`Aerie (Miner)`
+	`Albatross (Ember Shield)`
+	`Albatross (Heavy)`
+	`Albatross (Shield)`
+	`Albatross (Sniper II)`
+	`Albatross (Sniper)`
+	`Albatross (Turret)`
+	`Anomalocaris (Venerable)`
+	`Aphid (Armed)`
+	`Aphid (Phantom Pallet)`
+	`Aphid (Unfettered)`
+	`Arach Courier (Miner)`
+	`Arach Freighter (Miner)`
+	`Arach Hulk (Miner)`
+	`Arach Spindle (Jump Drive)`
+	`Arach Spindle (Miner)`
+	`Arach Spindle (Plasma)`
+	`Arach Transport (Miner)`
+	`Archon (Cloaked)`
+	`Archon (Hyperdrive Cloaked)`
+	`Archon B`
+	`Archon C`
+	`Argosy (Blaster)`
+	`Argosy (Derelict)`
+	`Argosy (Laser)`
+	`Argosy (Missile)`
+	`Argosy (Proton)`
+	`Argosy (Turret)`
+	`Arrow (Hai)`
+	`Asteroid Large (Patir 12.2)`
+	`Atenuatia (Orchid)`
+	`Autumn Leaf (Heavy)`
+	`Auxiliary (Cargo Mark II)`
+	`Auxiliary (Cargo)`
+	`Auxiliary (Jump Transport)`
+	`Auxiliary (Mark II)`
+	`Auxiliary (Transport Mark II)`
+	`Auxiliary (Transport)`
+	`Bactrian (Cosmic Devil)`
+	`Bactrian (Hai Engines)`
+	`Bactrian (Hai Weapons)`
+	`Bactrian (Hired Gun)`
+	`Bactrian (Plasma Blaster Anti-Missile)`
+	`Bactrian (Troop Jump)`
+	`Barb (Gatling)`
+	`Barb (Miner)`
+	`Barb (Proton)`
+	`Bastion (Derelict)`
+	`Bastion (Gatling)`
+	`Bastion (Heavy)`
+	`Bastion (Laser)`
+	`Bastion (Scanner)`
+	`Behemoth (Hai)`
+	`Behemoth (Heavy)`
+	`Behemoth (Miner)`
+	`Behemoth (Proton)`
+	`Behemoth (Speedy)`
+	`Berserker (Afterburner)`
+	`Berserker (CCOR)`
+	`Berserker (Derelict)`
+	`Berserker (Strike)`
+	`Berserker Test Dummy`
+	`Blackbird (Hai Trafficker)`
+	`Blackbird (Prisoner Transport)`
+	`Bounder (Derelict)`
+	`Bounder (Hai Trafficker)`
+	`Bounder (Hai)`
+	`Bounder (Luxury)`
+	`Boxwing (Miner)`
+	`Builder Satellite 2`
+	`Bulk Freighter (Blaster)`
+	`Bulk Freighter (Derelict)`
+	`Bulk Freighter (Hai)`
+	`Bulk Freighter (Heavy)`
+	`Bulk Freighter (Long Haul)`
+	`Bulk Freighter (Proton)`
+	`Bulwark (Heavy)`
+	`Carrier (Alpha)`
+	`Carrier (Jump)`
+	`Carrier (Mark II)`
+	`Centipede (Durable)`
+	`Centipede (Holovid)`
+	`Centipede (Pulse)`
+	`Centipede (Refugees)`
+	`Centipede (Teeneep Jump)`
+	`Centipede (Teeneep)`
+	`Charm-Shallop (Distressed)`
+	`Clipper (Derelict)`
+	`Clipper (Hai Trafficker)`
+	`Clipper (Heavy)`
+	`Clipper (Nuclear)`
+	`Clipper (Speedy)`
+	`Combat Drone (Sidewinder Missiles)`
+	`Container Transport (Blaster)`
+	`Container Transport (Hai)`
+	`Container Transport (Heavy)`
+	`Container Transport (Proton)`
+	`Container Transport (Short Haul)`
+	`Cool Breeze (Sunbeam)`
+	`Corundum (Torch)`
+	`Corvette (Flamethrower Electron Anti-Missile)`
+	`Corvette (Hai Trafficker)`
+	`Corvette (Hai)`
+	`Corvette (Missile)`
+	`Corvette (Particle Chaser)`
+	`Corvette (Speedy)`
+	`Cruiser (Heavy)`
+	`Cruiser (Jump Plasma Anti-Missile)`
+	`Cruiser (Jump)`
+	`Cruiser (Mark II)`
+	`Cruiser (Plasma Anti-Missile)`
+	`Cruiser (Republic Intelligence)`
+	`Dagger (Miner)`
+	`Deep River (Jump, Unarmed)`
+	`Deep River 0`
+	`Deep River 1`
+	`Deep River 2`
+	`Deep River 3`
+	`Deep River 4`
+	`Derecho (Moonbeam)`
+	`Derecho (Tough)`
+	`Derecho (Turret)`
+	`Diaspersi (Orchid)`
+	`Diaspersi (UREB)`
+	`Difraktos (KKV)`
+	`Difraktos (Orchid)`
+	`Difraktos (UREB + Orchid)`
+	`Difraktos (UREB)`
+	`Diorite (Ballistic)`
+	`Doombat`
+	`Dreadnought (Jump)`
+	`Dreadnought (Plasma Blaster Anti-Missile)`
+	`Dreadnought (Plasma Jump)`
+	`Emerald Sword (Fixed)`
+	`Enforcer (CCOR)`
+	`Faes'mar (Strong)`
+	`Falcon (Derelict)`
+	`Falcon (Heavy)`
+	`Falcon (Javelin)`
+	`Falcon (Laser Chaser)`
+	`Falcon (Laser)`
+	`Falcon (Plasma)`
+	`Falcon (Prisoner Transport)`
+	`Falcon (Tractor Beam)`
+	`Fetri'sei (Disable-able)`
+	`Fetri'sei (Patir 12.2)`
+	`Finch (MZ)`
+	`Firebird (CCOR)`
+	`Firebird (Derelict)`
+	`Firebird (Hai Shields)`
+	`Firebird (Hai Weapons)`
+	`Firebird (Heavy Blaster)`
+	`Firebird (Laser)`
+	`Firebird (Missile)`
+	`Firebird (Plasma)`
+	`Flea (Pulse)`
+	`Flivver (Hai)`
+	`Flivver (Luxury)`
+	`Flivver (Racing)`
+	`Freighter (Derelict)`
+	`Freighter (Fancy)`
+	`Freighter (Hai Trafficker)`
+	`Freighter (Hai)`
+	`Freighter (Miner A)`
+	`Freighter (Miner B)`
+	`Freighter (Proton)`
+	`Freighter (Secret Cargo)`
+	`Frigate (Mark II)`
+	`Frigate (Republic Intelligence)`
+	`Fury (Bomber)`
+	`Fury (Derelict)`
+	`Fury (Flamethrower)`
+	`Fury (Gatling)`
+	`Fury (Heavy)`
+	`Fury (Laser)`
+	`Fury (Miner A)`
+	`Fury (Miner B)`
+	`Fury (Missile)`
+	`Geocoris (Tracker)`
+	`Geodesic Geocoris (Phylactery)`
+	`Grasshopper (Hai Start)`
+	`Grasshopper (Ion)`
+	`Grasshopper (Surveillance)`
+	`Grasshopper (Tracker)`
+	`Gull (Bunks)`
+	`Gull (Cargo)`
+	`Gull (Sniper)`
+	`Gull (Support II)`
+	`Gull (Support)`
+	`Gunboat (Bunks)`
+	`Gunboat (Mark II)`
+	`Hauler (Derelict)`
+	`Hauler (Hai)`
+	`Hauler II (CCOR)`
+	`Hauler II (Derelict)`
+	`Hauler II (Hai)`
+	`Hauler III (Hai)`
+	`Hawk (Bomber)`
+	`Hawk (Derelict)`
+	`Hawk (Miner A)`
+	`Hawk (Miner B)`
+	`Hawk (Plasma)`
+	`Hawk (Rocket)`
+	`Hawk (Speedy)`
+	`Headhunter (Hai)`
+	`Headhunter (Miner A)`
+	`Headhunter (Miner B)`
+	`Headhunter (Particle)`
+	`Headhunter (Strike)`
+	`Headhunter (Tractor Beam)`
+	`Heavy Gust (Moonbeam)`
+	`Heavy Shuttle (Armed)`
+	`Heliarch Breacher (Ions)`
+	`Heliarch Breacher (Missile)`
+	`Heliarch Breacher (Scrappy)`
+	`Heliarch Hunter (Burst Fire)`
+	`Heliarch Hunter (Interdicting)`
+	`Heliarch Hunter (Ions)`
+	`Heliarch Hunter (Missile)`
+	`Heliarch Hunter (Scrappy)`
+	`Heliarch Interdictor (Bombardment)`
+	`Heliarch Interdictor (Burst Fire)`
+	`Heliarch Interdictor (Ions)`
+	`Heliarch Interdictor (Missile)`
+	`Heliarch Interdictor (Scrappy)`
+	`Heliarch Judicator (Attractor)`
+	`Heliarch Judicator (Ions)`
+	`Heliarch Judicator (Missile)`
+	`Heliarch Judicator (Repulsor)`
+	`Heliarch Judicator (Scrappy)`
+	`Heliarch Neutralizer (Missile)`
+	`Heliarch Neutralizer (Nimble)`
+	`Heliarch Neutralizer (Scrappy)`
+	`Heliarch Punisher (Burst Fire)`
+	`Heliarch Punisher (Fuel)`
+	`Heliarch Punisher (Interdicting)`
+	`Heliarch Punisher (Ions)`
+	`Heliarch Punisher (Missile)`
+	`Heliarch Punisher (Pure Finishers)`
+	`Heliarch Punisher (Scrappy)`
+	`Heliarch Pursuer (Scrappy)`
+	`Heliarch Rover (Ions)`
+	`Heliarch Stalker (Scrappy)`
+	`Hogshead (CCOR)`
+	`Hogshead (Derelict)`
+	`Hornfel (Heavy Load)`
+	`Hornfel (Heavy Weapons)`
+	`Hornfel (Light Load)`
+	`Hurricane (Moonbeam)`
+	`Hurricane (Tough)`
+	`Hurricane (Turret)`
+	`Interferos (KKV)`
+	`Interferos (Orchid)`
+	`Kar Ik Vot 349 (Defense)`
+	`Kar Ik Vot 349 (Offense)`
+	`Kar Ik Vot 349 (Trapper)`
+	`Kas'lor Ik 582 (Ember)`
+	`Kas'lor Ik 582 (Jump)`
+	`Kas'lor Ik 582 (Stranded)`
+	`Kaskhorade (Brawler)`
+	`Kaskhorade (Sniper)`
+	`Kestrel (More Bays)`
+	`Kestrel (More Engines)`
+	`Kestrel (More Shields)`
+	`Kestrel (More Weapons)`
+	`Kimek Briar (Miner)`
+	`Kimek Spire (Miner)`
+	`Kimek Thistle (Miner)`
+	`Kimek Thistle (Torpedoes)`
+	`Kimek Thorn (Miner)`
+	`Korath Chaser (Digger)`
+	`Korath Chaser (Expeller)`
+	`Korath Chaser (World-Ship)`
+	`Korath Dredger (Civilian)`
+	`Korath Dredger (Crippled)`
+	`Korath Dredger (Digger)`
+	`Korath Dredger (Ground Assault)`
+	`Korath Dredger (Heaver)`
+	`Korath Dredger (Shunt)`
+	`Korath Raider (Blaze)`
+	`Korath Raider (Crippled)`
+	`Korath Raider (Ember Blaze)`
+	`Korath Raider (Ember Shunt)`
+	`Korath Raider (Ember)`
+	`Korath Raider (Hyperdrive)`
+	`Korath World-Ship A (Jump)`
+	`Korath World-Ship B (Crippled)`
+	`Korath World-Ship B (Ember)`
+	`Korath World-Ship B (Jump)`
+	`Korath World-Ship B`
+	`Korath World-Ship C (Jump)`
+	`Korath World-Ship C`
+	`Korsmanath A'awoj (Blaze)`
+	`Korsmanath A'awoj (Special)`
+	`Korsmanath A'awoj (Strike)`
+	`Kvelqde (Mining)`
+	`Kvelqde (Naive)`
+	`Kvelqde (Violent)`
+	`Kvelqde-Khora (Mining)`
+	`Kyanite (Acumen)`
+	`Kyanite (Guile)`
+	`Ladybug (Pulse)`
+	`Ladybug (Three Ion)`
+	`Ladybug (Tracker)`
+	`Lance (Gatling)`
+	`Leviathan (CCOR)`
+	`Leviathan (Derelict)`
+	`Leviathan (Hai Engines)`
+	`Leviathan (Hai Weapons)`
+	`Leviathan (Heavy)`
+	`Leviathan (Laser)`
+	`Leviathan (Particle Chaser)`
+	`Leviathan (Plasma Repeater)`
+	`Lightning Bug (Phantom Pallet)`
+	`Lightning Bug (Pulse)`
+	`Lightning Bug (Surveillance)`
+	`Lightning Bug (Unfettered Shipyards)`
+	`Lor'kas Ik 577 (Digger)`
+	`Lor'kas Ik 577 (Jump)`
+	`Lor'nag Ik 590 (Grab)`
+	`Lor'nag Ik 590 (Troop Transport)`
+	`Maeri'het (Disable-able)`
+	`Maeri'het (EMP)`
+	`Maeri'het (EMP, Disable-able)`
+	`Mammoth (Moonless)`
+	`Manta (Mark II)`
+	`Manta (Nuclear)`
+	`Manta (Proton)`
+	`Marauder Arrow (Engines)`
+	`Marauder Arrow (Weapons)`
+	`Marauder Bounder (Engines)`
+	`Marauder Bounder (Hai)`
+	`Marauder Bounder (Weapons)`
+	`Marauder Falcon (Engines)`
+	`Marauder Falcon (Weapons)`
+	`Marauder Firebird (Engines)`
+	`Marauder Firebird (Hai)`
+	`Marauder Firebird (Weapons)`
+	`Marauder Leviathan (Engines)`
+	`Marauder Leviathan (Weapons)`
+	`Marauder Manta (Engines)`
+	`Marauder Manta (Weapons)`
+	`Marauder Quicksilver (Engines) (Safe)`
+	`Marauder Quicksilver (Engines)`
+	`Marauder Quicksilver (Hai)`
+	`Marauder Quicksilver (Safe)`
+	`Marauder Quicksilver (Weapons) (Safe)`
+	`Marauder Quicksilver (Weapons)`
+	`Marauder Raven (Engines)`
+	`Marauder Raven (Weapons)`
+	`Marauder Splinter (Engines)`
+	`Marauder Splinter (Hai)`
+	`Marauder Splinter (Weapons)`
+	`Merganser (II)`
+	`Met Par Tek 53 (Sniper)`
+	`Modified Argosy (Blaster)`
+	`Modified Argosy (Gatling)`
+	`Modified Argosy (Heavy)`
+	`Modified Argosy (Javelin)`
+	`Modified Argosy (Missile)`
+	`Modified Argosy (Smuggler)`
+	`Modified Dromedary Ghost`
+	`Modified Dromedary Specter`
+	`Modified Dromedary Wreck`
+	`Mule (Hai Engines)`
+	`Mule (Hai Trafficker)`
+	`Mule (Hai Weapons)`
+	`Mule (Heavy)`
+	`Myaede (Mining)`
+	`Myaede (Mining, Defensive)`
+	`Myaede (Naive)`
+	`Myaede (Violent)`
+	`Nest (Miner)`
+	`Nest (Sidewinder)`
+	`Nimbus (Civilian)`
+	`Nimbus (Mining)`
+	`Nimbus FTL`
+	`Nnaatej (Defensive)`
+	`Nnesaarau (Naive)`
+	`Ojde (Mining)`
+	`Ojde (Naive)`
+	`Osprey (Alien Weapons)`
+	`Osprey (Derelict)`
+	`Osprey (Laser)`
+	`Osprey (Missile)`
+	`Osprey (Particle Anti-Missile)`
+	`Palavret (Blaze)`
+	`Palavret (Crippled)`
+	`Palavret (Ember Blaze)`
+	`Palavret (Ember Shunt)`
+	`Palavret (Ember)`
+	`Palavret (Hyperdrive)`
+	`Pelican (Heavy Lift)`
+	`Peregrine (II)`
+	`Photikon (KKV)`
+	`Photikon (Ophrys)`
+	`Pond Strider (Ion)`
+	`Pond Strider (Pulse)`
+	`Pond Strider (Railgun)`
+	`Pond Strider (Tracker)`
+	`Prismaios (Laserstar)`
+	`Prismaios (Orchid)`
+	`Protector (Derelict)`
+	`Protector (Laser)`
+	`Protector (Proton)`
+	`Protector (Quad Blaster)`
+	`Protector (Tractor Beam)`
+	`Quicksilver (Derelict)`
+	`Quicksilver (Mark II)`
+	`Quicksilver (Proton)`
+	`Quicksilver (Scanner)`
+	`Quicksilver Test Dummy`
+	`Ra'at Ik 621 (Automata)`
+	`Ra'at Ik 621 (Digger)`
+	`Ra'at Ik 621 (Probes)`
+	`Ra'at Ik 621 (Storm)`
+	`Ra'gru Ik 618 (Crippled)`
+	`Ra'gru Ik 618 (Ember)`
+	`Ra'gru Ik 618 (Grab)`
+	`Ra'gru Ik 618 (Mereti)`
+	`Ra'gru Ik 618 (Sestor)`
+	`Ra'gru Ik 618 (Storm)`
+	`Rainmaker (Mark II Old Weapons)`
+	`Rainmaker (Mark II)`
+	`Rano'erek (Civilian)`
+	`Rano'erek (Crippled)`
+	`Rano'erek (Digger)`
+	`Rano'erek (Ground Assault)`
+	`Rano'erek (Heaver)`
+	`Rano'erek (Shunt)`
+	`Raven (Afterburner)`
+	`Raven (Heavy)`
+	`Refraktos (Excimer)`
+	`Refraktos (UREB)`
+	`Roost (Sidewinder)`
+	`Saber (CCOR Gatling)`
+	`Saber (CCOR Javelin)`
+	`Saryd Runabout (Miner)`
+	`Saryd Sojourner (Bombardments)`
+	`Saryd Sojourner (Miner)`
+	`Saryd Traveler (Miner)`
+	`Saryd Visitor (Miner)`
+	`Schist (Heavy Load)`
+	`Schist (Light Load)`
+	`Scout (Derelict)`
+	`Scout (Speedy)`
+	`Scrapper (Derelict)`
+	`Scrapper (Gatling)`
+	`Scrapper (Minimal)`
+	`Scrapper (Mod Blaster)`
+	`Sea Scorpion (Ion)`
+	`Sea Scorpion (Ionic Blasters)`
+	`Sea Scorpion (Pulse)`
+	`Sea Scorpion (Shredder)`
+	`Sea Scorpion (Tracker)`
+	`Shield Beetle (Durable Pulse)`
+	`Shield Beetle (Fuel Jump)`
+	`Shield Beetle (Jump)`
+	`Shield Beetle (Jump, Tracker)`
+	`Shield Beetle (Particle Jump)`
+	`Shield Beetle (Plasma Blaster Jump)`
+	`Shield Beetle (Police)`
+	`Shield Beetle (Pulse Tracker)`
+	`Shield Beetle (Pulse)`
+	`Shield Beetle (Six Ion)`
+	`Shield Beetle (Tracker)`
+	`Shield Beetle (Tripulse Ionic Turret)`
+	`Shield Beetle (Unfettered Shipyards)`
+	`Shield Beetle (Unfettered)`
+	`Skein (Sidewinder)`
+	`Smew (Miner)`
+	`Smew (Runabout)`
+	`Smew (Teciimach Ferry)`
+	`Solifuge (Jump)`
+	`Solifuge (Jump, Pulse)`
+	`Solifuge (Jump, Tracker)`
+	`Solifuge (Pulse)`
+	`Solifuge (Tracker)`
+	`Sonikis (Armed)`
+	`Sonikis (Tanker)`
+	`Sparrow (Gatling)`
+	`Sparrow (Miner)`
+	`Sparrow (Patrol)`
+	`Splinter (Derelict)`
+	`Splinter (Flamethrower Blaster)`
+	`Splinter (Laser)`
+	`Splinter (Mark II)`
+	`Splinter (Proton)`
+	`Splinter (Tractor Beam)`
+	`Splinter Test Dummy`
+	`Star Barge (Armed)`
+	`Star Barge (Miner)`
+	`Star Queen (Derelict)`
+	`Star Queen (Hai Trafficker)`
+	`Star Queen (Hai)`
+	`Star Queen (Unarmed)`
+	`Starling (Heavy)`
+	`Starling (Hunter)`
+	`Starling (Keystone)`
+	`Starling (Sniper)`
+	`Starling (Thrasher)`
+	`Stolsaqra (Military)`
+	`Stolsaqra (Mission Escort)`
+	`Stolsaqra (Naive)`
+	`Stolsaqra (Short-Range)`
+	`Sunder (Derelict)`
+	`Sunder (Heavy)`
+	`Tek Far 71 - Lek (Close Quarters)`
+	`Tek Far 78 - Osk (Close Quarters)`
+	`Telis'het (Disable-able)`
+	`Telis'het (EMP)`
+	`Telis'het (EMP, Disable-able)`
+	`Telis'het (Guns)`
+	`Telis'het (Guns, Disable-able)`
+	`Tempest (Heavy)`
+	`Tempest (Missile)`
+	`Tempest (Moonbeam)`
+	`Tubfalet (Crippler)`
+	`Undsyni (Plasmadyne)`
+	`Undsyni (Tanker)`
+	`Vanguard (Missile)`
+	`Vanguard (Particle)`
+	`Vanguard (Plasma Slow)`
+	`Vanguard Test Dummy`
+	`Vareti'het (Disable-able)`
+	`Vareti'het (EMP)`
+	`Vareti'het (EMP, Disable-able)`
+	`Vareti'het (Strong)`
+	`Vareti'het (Strong, Disable-able)`
+	`Veusade (Naive)`
+	`Veusade (Surveillance)`
+	`Violin Spider (Pulse)`
+	`Void Sprite (Infant)`
+	`Vujlet (Aggressive)`
+	`Vujlet (Naive)`
+	`Vujlet (Surveillance)`
+	`Vyrmeid (B)`
+	`Vyrmeid (C)`
+	`Wasp (Gatling)`
+	`Wasp (Javelin)`
+	`Wasp (Meteor)`
+	`Wasp (Plasma)`
+	`Wasp (Proton)`
+	`Water Bug (Jump)`
+	`Water Bug (Phantom Pallet)`
+	`Water Bug (Pulse)`
+	`Winter Gale (Heavy)`
+	`Winter Gale (Missile)`
