@@ -10,4 +10,5 @@ This is a collection of all of my plugins for Endless Sky that are currently rel
 I have also made a few tools, for use either with one of my plugins, or for endless sky itself.
 <br>
 
-* [Senza Solaria Updater and Compatibility Script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
+* [Senza Solaria Updater and Plugin Combatibility Script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
+  * Latest Release: 5.6.0 [(Download)](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.0.0-SCRIPT-senza-solaria-updater/senzasolariaV5.6.py)
