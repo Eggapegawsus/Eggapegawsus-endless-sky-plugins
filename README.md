@@ -6,7 +6,7 @@ This is a collection of all of my plugins for Endless Sky that are currently rel
 * [Respawning Author Ships](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
 <br>
 <br>
-I have also made a few tools, for use either with one of my plguins, or for endless sky itself.
+I have also made a few tools, for use either with one of my plugins, or for endless sky itself.
 <br>
 
-* [Senza Solaria Plugin and Data Parser](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
+* [Senza Solaria Updater and Compatibility Script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
