@@ -1,6 +1,9 @@
 **UPDATED 1/31/2026, for ES Unstable 0.11.0**
+ - [Download v1.0.0](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/tag/v1.0.0-senza-solaria-station) (Latest)
 
-Senza Solaria was originally intended to be a part of a much larger plugin call Peripherals or Outstanding Trinkets (POOT), but gradually evolved into something I felt should be a standalone plugin.
+Senza Solaria was originally intended to be a part of a much larger plugin call Peripherals or Outstanding Trinkets (POOT), but gradually evolved into something I felt should be a standalone plugin. 
+
+So without further ado...
   
 <img width="850" height="200" alt="Image" src="https://github.com/user-attachments/assets/dd4eb70f-bdbf-4f2b-a688-1d66f94aa3a4" /><br>  
 # Senza Solaria Station (All-Outfit Station)
@@ -73,3 +76,4 @@ event "Senza Solaria Stocks Auxiliary (ship)"
 _this plugin supports the following plugins:_
 
  - [(POOT) Respawning Authors](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
+
