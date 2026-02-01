@@ -48,6 +48,124 @@ outfit "Blood of Surtr"
 outfit "Microbot Grinder"
 	category "Guns"
 	cost 5000000
-	
-ship "Subsidurial"
+
+outfit "Plankton Mouth"
 	cost 100000
+
+outfit "Mouthparts?"
+	cost 100000
+
+outfit "Astral Mouth"
+	cost 1200000
+
+outfit "Pincer"
+	cost 7500000
+
+outfit "Imaginary Weapon"
+	cost 100000
+
+outfit "Suicide Gun"
+	cost 150000
+
+outfit "Timer Weapon"
+	cost 100000
+
+outfit "Nano Strike"
+	cost 150000
+
+outfit "Boomerang Organ"
+	cost 250000
+
+outfit "LG Gridfire Turret"
+	cost 34000000
+
+outfit "Absorption Organ"
+	cost 15200000
+
+outfit "Ka'het Machinery"
+	cost 1000000
+
+outfit "Cloak Checker"
+	cost 1000000
+
+
+outfit "Multimodal Armor: Heavy"
+	cost 1000000
+
+outfit "Multimodal Armor: Light"
+	cost 1000000
+
+outfit "Multimodal Armor: Regen"
+	cost 1000000
+
+outfit "Multimodal Armor: Resilient"
+	cost 1000000
+
+
+ship "Subsidurial"
+	attributes
+		"cost" 100000
+
+ship "Nanobot"
+	attributes
+		"cost" 1000000
+
+ship "Science Drone"
+	attributes
+		"cost" 200000
+
+ship "Builder Satellite"
+	attributes
+		"cost" 200000
+
+ship "Remnant Satellite"
+	attributes
+		"cost" 100000
+
+ship "Jje"
+	attributes
+		"cost" 400000
+
+ship "Ayym"
+	attributes
+		"cost" 750000
+
+ship "Asteroid"
+	attributes
+		"cost" 750000
+
+ship "Void Sprite (Infant)"
+	attributes
+		"cost" 500000
+
+ship "Void Sprite"
+	attributes
+		"cost" 1000000
+
+ship "Embershade"
+	attributes
+		"cost" 1000000
+
+ship "Ember Waste Node"
+	attributes
+		"cost" 1500000
+
+ship "Embersylph"
+	attributes
+		"cost" 500000
+
+ship "Vyrmeid"
+	attributes
+		"cost" 200000
+        
+ship "Vyrmeid" "Vyrmeid (B)"
+	attributes
+		"cost" 200000
+
+ship "Vyrmeid" "Vyrmeid (C)"
+	attributes
+		"cost" 200000
+
+ship "Astral Cetacean"
+	attributes
+		"cost" 1000000

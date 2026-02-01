@@ -119,7 +119,6 @@ shipyard `Senza Solaria Unlockall Ships Plugin`
 	`Frigate`
 	`Fury`
 	`Geocoris`
-	`Geodesic Geocoris`
 	`Gero`
 	`Gneiss`
 	`Granofel`
@@ -240,7 +239,6 @@ shipyard `Senza Solaria Unlockall Ships Plugin`
 	`Petrel`
 	`Phononos`
 	`Photikon`
-	`Pincer Beast`
 	`Polari`
 	`Pollen`
 	`Pond Strider`

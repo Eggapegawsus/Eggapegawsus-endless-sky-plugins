@@ -64,8 +64,6 @@
 	`Bactrian (Hai Engines)`
 	`Bactrian (Hai Weapons)`
 	`Bactrian (Hired Gun)`
-	`Bactrian (Plasma Blaster Anti-Missile)`
-	`Bactrian (Troop Jump)`
 	`Barb (Gatling)`
 	`Barb (Miner)`
 	`Barb (Proton)`
@@ -84,13 +82,11 @@
 	`Berserker (Derelict)`
 	`Berserker (Strike)`
 	`Berserker Test Dummy`
-	`Blackbird (Hai Trafficker)`
 	`Blackbird (Prisoner Transport)`
 	`Bounder (Derelict)`
 	`Bounder (Hai Trafficker)`
 	`Bounder (Hai)`
 	`Bounder (Luxury)`
-	`Boxwing (Miner)`
 	`Builder Satellite 2`
 	`Bulk Freighter (Blaster)`
 	`Bulk Freighter (Derelict)`
@@ -102,15 +98,10 @@
 	`Carrier (Alpha)`
 	`Carrier (Jump)`
 	`Carrier (Mark II)`
-	`Centipede (Durable)`
 	`Centipede (Holovid)`
 	`Centipede (Pulse)`
-	`Centipede (Refugees)`
-	`Centipede (Teeneep Jump)`
-	`Centipede (Teeneep)`
 	`Charm-Shallop (Distressed)`
 	`Clipper (Derelict)`
-	`Clipper (Hai Trafficker)`
 	`Clipper (Heavy)`
 	`Clipper (Nuclear)`
 	`Clipper (Speedy)`
@@ -122,17 +113,13 @@
 	`Container Transport (Short Haul)`
 	`Cool Breeze (Sunbeam)`
 	`Corundum (Torch)`
-	`Corvette (Flamethrower Electron Anti-Missile)`
-	`Corvette (Hai Trafficker)`
 	`Corvette (Hai)`
 	`Corvette (Missile)`
-	`Corvette (Particle Chaser)`
 	`Corvette (Speedy)`
 	`Cruiser (Heavy)`
 	`Cruiser (Jump Plasma Anti-Missile)`
 	`Cruiser (Jump)`
 	`Cruiser (Mark II)`
-	`Cruiser (Plasma Anti-Missile)`
 	`Cruiser (Republic Intelligence)`
 	`Dagger (Miner)`
 	`Deep River (Jump, Unarmed)`
@@ -154,14 +141,12 @@
 	`Doombat`
 	`Dreadnought (Jump)`
 	`Dreadnought (Plasma Blaster Anti-Missile)`
-	`Dreadnought (Plasma Jump)`
 	`Emerald Sword (Fixed)`
 	`Enforcer (CCOR)`
 	`Faes'mar (Strong)`
 	`Falcon (Derelict)`
 	`Falcon (Heavy)`
 	`Falcon (Javelin)`
-	`Falcon (Laser Chaser)`
 	`Falcon (Laser)`
 	`Falcon (Plasma)`
 	`Falcon (Prisoner Transport)`
@@ -183,7 +168,6 @@
 	`Flivver (Racing)`
 	`Freighter (Derelict)`
 	`Freighter (Fancy)`
-	`Freighter (Hai Trafficker)`
 	`Freighter (Hai)`
 	`Freighter (Miner A)`
 	`Freighter (Miner B)`
@@ -201,7 +185,6 @@
 	`Fury (Miner B)`
 	`Fury (Missile)`
 	`Geocoris (Tracker)`
-	`Geodesic Geocoris (Phylactery)`
 	`Grasshopper (Hai Start)`
 	`Grasshopper (Ion)`
 	`Grasshopper (Surveillance)`
@@ -275,6 +258,7 @@
 	`Hurricane (Turret)`
 	`Interferos (KKV)`
 	`Interferos (Orchid)`
+	`Jackal (Empty)`
 	`Kar Ik Vot 349 (Defense)`
 	`Kar Ik Vot 349 (Offense)`
 	`Kar Ik Vot 349 (Trapper)`
@@ -333,7 +317,6 @@
 	`Leviathan (Hai Weapons)`
 	`Leviathan (Heavy)`
 	`Leviathan (Laser)`
-	`Leviathan (Particle Chaser)`
 	`Leviathan (Plasma Repeater)`
 	`Lightning Bug (Phantom Pallet)`
 	`Lightning Bug (Pulse)`
@@ -407,7 +390,6 @@
 	`Osprey (Derelict)`
 	`Osprey (Laser)`
 	`Osprey (Missile)`
-	`Osprey (Particle Anti-Missile)`
 	`Palavret (Blaze)`
 	`Palavret (Crippled)`
 	`Palavret (Ember Blaze)`
@@ -444,7 +426,6 @@
 	`Ra'gru Ik 618 (Mereti)`
 	`Ra'gru Ik 618 (Sestor)`
 	`Ra'gru Ik 618 (Storm)`
-	`Rainmaker (Mark II Old Weapons)`
 	`Rainmaker (Mark II)`
 	`Rano'erek (Civilian)`
 	`Rano'erek (Crippled)`
@@ -477,16 +458,10 @@
 	`Sea Scorpion (Pulse)`
 	`Sea Scorpion (Shredder)`
 	`Sea Scorpion (Tracker)`
-	`Shield Beetle (Durable Pulse)`
-	`Shield Beetle (Fuel Jump)`
 	`Shield Beetle (Jump)`
 	`Shield Beetle (Jump, Tracker)`
-	`Shield Beetle (Particle Jump)`
-	`Shield Beetle (Plasma Blaster Jump)`
 	`Shield Beetle (Police)`
-	`Shield Beetle (Pulse Tracker)`
 	`Shield Beetle (Pulse)`
-	`Shield Beetle (Six Ion)`
 	`Shield Beetle (Tracker)`
 	`Shield Beetle (Tripulse Ionic Turret)`
 	`Shield Beetle (Unfettered Shipyards)`
@@ -506,7 +481,6 @@
 	`Sparrow (Miner)`
 	`Sparrow (Patrol)`
 	`Splinter (Derelict)`
-	`Splinter (Flamethrower Blaster)`
 	`Splinter (Laser)`
 	`Splinter (Mark II)`
 	`Splinter (Proton)`

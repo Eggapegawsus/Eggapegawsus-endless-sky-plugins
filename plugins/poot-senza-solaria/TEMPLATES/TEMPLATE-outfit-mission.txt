@@ -1,8 +1,8 @@
 
-event `Senza Solaria Stocks SAMPLEOUTFIT`
-	outfitter "Senza Solaria Outfits"
+event `Senza Solaria Stocks SAMPLEOUTFIT (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
 		`SAMPLEOUTFIT`
-mission `Senza Solaria Supply SAMPLEOUTFIT`
+mission `Senza Solaria Supply SAMPLEOUTFIT (outfit)`
 	invisible
 	landing
 	source
@@ -27,5 +27,4 @@ mission `Senza Solaria Supply SAMPLEOUTFIT`
 				accept
 	on accept
 		outfit `SAMPLEOUTFIT` -1
-		event `Senza Solaria Stocks SAMPLEOUTFIT`
-
+		event `Senza Solaria Stocks SAMPLEOUTFIT (outfit)`

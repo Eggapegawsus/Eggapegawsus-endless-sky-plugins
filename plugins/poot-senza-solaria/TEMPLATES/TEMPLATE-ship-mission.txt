@@ -1,9 +1,9 @@
 
-event `Senza Solaria Stocks SAMPLESHIP`
-	shipyard "Senza Solaria Ships"
+event `Senza Solaria Stocks SAMPLESHIP (ship)`
+	shipyard "Senza Solaria Plugin Ships"
 		`SAMPLESHIP`
 
-mission `Senza Solaria Supply SAMPLESHIP`
+mission `Senza Solaria Supply SAMPLESHIP (ship)`
 	invisible
 	landing
 	source
@@ -31,6 +31,6 @@ mission `Senza Solaria Supply SAMPLESHIP`
 	on accept
 		take ship `SAMPLESHIP`
 			"count" 1
-		event `Senza Solaria Stocks SAMPLESHIP`
+		event `Senza Solaria Stocks SAMPLESHIP (ship)`
 
 
