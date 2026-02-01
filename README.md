@@ -11,4 +11,4 @@ I have also made a few tools, for use either with one of my plugins, or for endl
 <br>
 
 * [Senza Solaria Updater and Plugin Combatibility Script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator)
-  * Latest Release: 5.6.0 [(Download)](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.0.0-SCRIPT-senza-solaria-updater/senzasolariaV5.6.py)
+  * Latest Release: 5.6.1 [(Download)](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.0.1-SCRIPT-senza-solaria-updater/senzasolariaV5.6.1.py)
