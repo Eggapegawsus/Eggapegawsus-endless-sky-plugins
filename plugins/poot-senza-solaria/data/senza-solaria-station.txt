@@ -1,0 +1,243 @@
+
+shipyard "Senza Solaria All Ships"
+	"Star Barge"
+
+outfitter "Senza Solaria All Outfits"
+	"Local Map"
+
+shipyard "Senza Solaria Ships"
+	"Star Barge"
+outfitter "Senza Solaria Outfits"
+	"Local Map"
+
+
+planet "Senza Solaria"
+	attributes "factory" "station" "mining" "research"
+	landscape land/senza-solaria
+	description ` A colossal space station filled to the brim with various intricate and complex assembly structures and research facilities, the Senza Solaris is truly a monument to behold. Despite being covered in a multitide of different facilities, this station has incredibly few people present for a station of its size. There are impressive amounts of androids, machinery, and assembly lines constructing various outfits, weaponry, and space ready vessels.`
+	spaceport ` When you arrive at the spaceport, you are almost mesmorized by the sheer scale of the landing pads and rows among rows of factories. the spaceport and factories are incredibly well kept and open, with enough landing pads that even the largest of Navy fleets could land without hassle.  Despite the station being almost completely devoid of life, there are a surprising amount of people walking around the spaceport, mostly observing different machines and freshly made outfits and ships, talking to each other and jotting down notes.`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+		
+planet "Daemonium Solaria Station"
+	attributes "factory" "station" "mining" "research" "deep"
+	landscape land/epsilon-solaris
+	description ` A massive worldforge of a space station. Factories, androids, and massive assembly machines dominate the overwhelming majority of the station, with what little remains being dedicated to verious outfitters, shipyards, landing pads, and just enough housing and utility buildings to provide for the few residents of the station.`
+	spaceport ` At every turn you take, you feel like you are in the way of someone doing something urgent. Walking through the spaceport gives you the perpetual feeling of almost being trampled by a roaming android, tripped by a speedwalking worker, or flattened by heavy machinery. You feel you should probably head somewhere else and get out of their way, for their well being, and your own.`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+		
+planet "Ursa Polaris Station II"
+	attributes "factory" "station" "mining" "research"
+	landscape land/ursapolaris-ii
+	description ` An assembalage of asteroids converted into a massive automated outfit and ship distribution center. Despite claims of being a newly constructed station for Solaria, there are marks along the inner walls of the station, leading one to believe that this station was used previously for something else...`
+	spaceport ` The spaceport is unlike any you've seen before. Exposed landing pads facing out into exposed space are placed at various heights extending out of the side of the rocky terrain of the station, with tunnels leading from the landing pads into the interior of the station. There also must be some sort of gravity and atmosphere altering technology aboard the station, seeing how you can breath and walk around a spaceport directly exposed to open space...`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+
+planet "Ragnarok Solaris Station"
+	attributes "factory" "station" "mining"
+	landscape land/ragnarok-solaria
+	description ` A desolate, but well stocked Solaria Station nonetheless. It's structure is not to dissimilar to the Senza solaria station, apart from the missing donation and research stations being replaced by freighter docking ports. There are also a notable amount of armed turrets and security cameras located throughout the station.`
+	spaceport ` The spaceport shares a similar ring of landing pads to Senza Solaria, with equally similar pathways leading to the trade center. Walking through the spaceport, you see various dissapointed and angry travellers, grumbling about returning from their failed attempts to sell off outfits from the nearby outfitters at hiked prices.`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	government "Syndicate"
+	security 0.4
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+planet "Valkirus Solaris Station"
+	attributes "factory" "station" "frontier" "military" "north" "research"
+	landscape land/ragnarok-solaria
+	description ` A solitary but large Solaria station. It's structure is notably denser looking and more fortified than some of the other Solaria stations. Being placed so far out from the rest of the galaxy, you can't help but wonder what would make Solaria build a station all the way out here.`
+	spaceport ` The spaceport is surprisingly unremarkable for a station of this size, but features many dozens of rows of landing pads nonetheless. Looking up from the spaceport, you can see a number of republic ships passing by overhead, with your ship picking up occaisional radio signals blipping in and out.`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	security 0.4
+	government Republic
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+planet "Delva Solaris Station"
+	attributes "factory" "station" "mining" "research"
+	landscape land/ragnarok-solaria
+	description ` This station has multiple different sectors of trade centers. In atmosphere, it is very easy to become the target of one of those sectors if you attempt to land there while flying the wrong colors. Otherwise, it is fairly similar to Senza Solaria in its layout and structure.`
+	spaceport ` The spaceport is fairly sturdy near the trade center, however the outer rim is in pieces, if not missing completely in some areas from the frequent combat near the station.`
+	spaceport ` While stepping off of your ship, you notice something scurry past you. You turn around and look behind you and see a small ferret-like robot making its way towards the outer rim, melting bits of chipped-off metal and patching different sections of the damaged landing pads. Occaisionally, you can see one of them grab a small peice of an asteroid and bring it back into the station.`
+	shipyard "Senza Solaria Ships"
+	shipyard "Senza Solaria Plugin Ships"
+	outfitter "Senza Solaria Outfits"
+	outfitter "Senza Solaria Plugin Outfits"
+	bribe 0.1
+	security 0.4
+	government Uninhabited
+	tribute 25000
+		threshold 50000
+		fleet "Large Republic" 10
+		fleet "Large Quarg" 20
+		fleet "Korath Ember Waste Large Raid" 20
+		fleet "Large Kor Sestor" 12
+		fleet "Large Kor Mereti" 12
+		fleet "Large Pug" 20
+		fleet "Vi Warfleet" 12
+		fleet "Scin Warfleet" 12
+
+
+system Rutilicus
+	add object "Senza Solaria"
+		sprite planet/pootstation4
+		distance 2050.41
+		period 500.111
+
+
+system "Epsilon Leonis"
+	add object "Daemonium Solaria Station"
+		sprite planet/pootstation2
+		distance 2050.41
+		period 500.111
+
+system Host
+	add object "Ursa Polaris Station II"
+		sprite planet/ursa-polarus-ii
+		distance 2050.41
+		period 500.111
+
+system Gienah
+	add object "Ragnarok Solaris Station"
+		sprite planet/ragnaroksolaria
+		distance 2050.41
+		period 500.111
+
+system Alnitak
+	add object "Valkirus Solaris Station"
+		sprite planet/valkiriussolaria
+		distance 2050.41
+		period 500.111
+
+system "Beta Lupi"
+	add object "Delva Solaris Station"
+		sprite planet/delvasolaria
+		distance 2050.41
+		period 500.111
+
+mission "senza solaria:first landing"
+	landing
+	source
+		planet "Senza Solaria"
+	on offer
+		log "Senza Solaria is a research library owned by Solaria that catalogues all kinds of technologies from across the galaxy. They have strict donation requirements and protocols, requiring any and all donations to be accepted (As long as it has not already been donated), as well as any items subject for donation to be within a ships cargo hold. They will also not take a fleets flagship, however they will take all outfits within any donated ship."
+		conversation
+			`	While in orbit, you notice an unfamiliar station within the Ruticulus system and decide to approach it. You can see very large ridges covering the surface of the station, moving like small waves in an ocean.`
+			`	As you get closer the surface of the station, you quickly realize that that the ridges you saw on the surface of the station were not just moving sections of the station, but massive assembly lines, spanning the entire way across the station. There is a structural beam at the center of the station that stretches all the way to both ends, and is filled with bridges and connections to the different factories and assembly lines. `
+			choice
+				`	Continue exploring`
+					goto explore1
+			label explore1
+			`	After some exploring of the surface, you notice a thin ring shaped spaceport embedded near the middle of the station, with landing pads extending off of its side. Within moments of landing and exiting your ship, you are quickly approached by a man wearing a light blue labcoat covered with different electronics.`
+			` `
+			`"Welcome to Senza Solaria! Our systems show that you are unregistered with Solaria, would you care to be registered?"`
+			choice
+				`	What is this place?`
+					goto explain
+				`	Who are you?`
+					goto explain
+				`	Yes I Would`
+					goto join
+				`	I already am (skip dialogue)`
+					goto skip
+			label explain
+			`	"I am a researcher for Senza Solaria, a combination research and production facility owned by Solaria Labs, where our goal is to create a full library of every known piece of technology, including having working examples to show off on our station".`
+			`	"Solaria has existed for quite a while as a small collection of research facilities here in the Dirt Belt, however our recent stations are an attempt to share our collection across the galaxy. We are even willing to allow trusted members of Solaria to purchase our duplicates of said discovered technology. However..." He pauses briefly, looking somewhat embarassed before continuing.`
+			` `
+			`	"Due to the cost of making such a massive production facility, we are financially unable to afford to purchase any technology designs or products, meaning that we have to rely solely off of donations and contributions of the public to be able to add anything to our collection."`
+			choice
+				`	I see...`
+					goto explain2
+			label explain2
+			`	"That is where you come in." He says, looking you with a hopeful glance.`
+			`"If you register with the station, we will allow you to contribute any piece of technology you can. Whether it be a system component, weapon, a ship, drone, a historical relic, or any other types of materials and artifacts you may have, we would be very interested to included in our library and be able to research it."`
+			choice
+				`	Sounds interesting... how do I join?`
+					goto join
+			label skip
+			`	You pull out the Senza Solaria card in your pocket and show it to him. The researcher looks startled and jumps slightly, almost dropping his tablet. He quickly double checks his system notes, looking visably embarassed.`
+			`	"Ah... yes, I apologize, it seems you are indeed already in the system... Very well, sorry for the intrusion. e-enjoy your visit!"`
+				goto done
+			label join
+			`	He hands you a small card with a logo of the station on it. You notice it has some sort of electronic system embeded into the thin surface.`
+			`	"By having this card with you, our scanners will be able to see a list of the contents within your cargo hold when you land on the station, and anytime our sensors detect an unknown object within your fleet, we will send a research group out to meet with you and discuss the possibility of donating said item to the station.`
+			`	"Alright, now let me just connect your card with the system quickly... and...... ah, there we go! you are now registered with the system. The next time you should visit the station with any unknown technology, we will be ready and waiting to meet with you to discuss it."`
+			``
+			`	"Very well! Everything should be in working order now. I cannot begin to thank you enough for helping with our... predicament. Hopefully the next time you return we will be meeting over something quite, oh, shall we say... interesting?" The researcher smiles, then turns and heads back in towards the station.`
+			choice
+				`	Continue`
+					goto done
+			label done
+			`	The card in your hand lights up, showing a list of all the contents of your cargo, and your ships within the system. It seems now it is up to you to venture out and decided what you wish to bring to be donated to Senza Solaria...`
+				accept

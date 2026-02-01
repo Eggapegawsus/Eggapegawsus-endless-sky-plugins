@@ -1,0 +1,73 @@
+
+start "senza-solaria"
+	name "Senza Solaria Everything Unlocked"
+	description `You grew up on New Boston, an uninteresting world in the Dirt Belt... That is, until something went 'poof' one night and a space station with every outfit and ship in the known universe appeared in the night sky.`
+	description `   SPOILER WARNING: This start unlocks EVERYTHING in the game at Senza Solaria and all its partner stations right at the start of the game.		Highly unbalanced... as all things should be...`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Rutilicus"
+	planet "New Boston"
+	conversation "Senza Solaria intro"
+	account
+		credits 480000
+		score 400
+		mortgage Mortgage
+			principal 480000
+			interest 0.004
+			term 365
+	set "license: Pilot's"
+	set "species: human"
+	set "human space start"
+
+
+event "senza solaria unlock all"
+	planet "Senza Solaria"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+	planet "Daemonium Solaria Station"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+	planet "Ursa Polaris Station II"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+	planet "Ragnarok Solaris Station"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+	planet "Valkirus Solaris Station"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+	planet "Delva Solaris Station"
+		add outfitter `Senza Solaria Unlockall Outfits`
+		add outfitter `Senza Solaria Unlockall Outfits Plugin`
+		add shipyard `Senza Solaria Unlockall Ships`
+		add shipyard `Senza Solaria Unlockall Ships Plugin`
+	
+
+conversation "Senza Solaria intro"
+	scene "scene/lobby"
+	action
+		event "senza solaria unlock all"
+	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
+	`	The loan broker's office is equally intimidating. Large computer monitors fill the walls, with stock quotes and other information spilling down them almost too fast to read. You occasionally glimpse the names of places that you have only seen in movies: Aldebaran. Tarazed. Earth.`
+	`	The pen is heavy as lead but glides almost without friction as you print your initials on the bottom of page after page of ominous legal documents and sign several dozen statements, notices, and agreements. The banker, a balding middle-aged man in a suit that you suspect costs more than the spaceship you are about to purchase, flips the pages past you quickly, uttering a curt, "Sign here. Now here," as he points to each page. He moves swiftly, mechanically.`
+	`	The only moment when he becomes truly animated is when explaining the Truth in Lending statement to you. "You are borrowing 480,000 credits," he says, "to be repaid over the course of one year. Your daily interest rate is 0.4%, which means that your daily payments are 2,503 credits, and by the end of the year you will have paid... 433,567 credits in interest. Sign here." He grins.`
+	`	You sign your name one final time:`
+	name
+	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
+	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are three ship models within your price range. Which one you choose will determine your future...`
+	`   Now go forth and enjoy all the wonders of Senza Solaria, without restraint! Buy all that you can see...`

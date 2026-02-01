@@ -1,0 +1,17 @@
+#	Use this for non-vanilla ships
+shipyard "Senza Solaria Plugin Ships"
+	"Star Barge"
+
+
+#	Use this for non-vanilla outfits
+outfitter "Senza Solaria Plugin Outfits"
+	"Local Map"
+
+
+#	Use this for the "Unlock All Senza Solaria" start
+outfitter "Senza Solaria Unlockall Outfits Plugin"
+	"Local Map"
+	
+#	Use this for the "Unlock All Senza Solaria" start
+shipyard "Senza Solaria Unlockall Ships Plugin"
+	"Star Barge"
