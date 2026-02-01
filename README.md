@@ -1,7 +1,20 @@
+# Eggapegawsus's Endless Sky Plugins
+This is a collection of all of my plugins for Endless Sky that are currently released.
+
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/Eggapegawsus/Eggapegawsus-endless-sky-plugins/plugins?label=plugins&color=%23ffaa00)
+![GitHub last commit](https://img.shields.io/github/last-commit/Eggapegawsus/Eggapegawsus-endless-sky-plugins?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/Eggapegawsus/Eggapegawsus-endless-sky-plugins?style=flat)
 
 
-# Eggaegpawsus's Endless Sky Plugins
-This is a collection of all of my plugins for Endless Sky that are currently released. It currently includes:
+
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Eggapegawsus/Eggapegawsus-endless-sky-plugins/total?style=flat)
+
+<br>
+<br>
+
+## Current Plugins
+* [Peripherals Or Outstanding Trinkets](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/peripherals-or-outstanding-trinkets)
+  * (WIP)
 * [Senza Solaria](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria)
   * Latest Release : 1.0.0 [(Download)](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.0.0-senza-solaria-station/poot-senza-solaria-v1.0.0.zip)
 * [Respawning Author Ships](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
