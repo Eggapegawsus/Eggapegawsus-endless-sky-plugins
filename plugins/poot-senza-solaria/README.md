@@ -69,3 +69,7 @@ event "Senza Solaria Stocks Auxiliary (ship)"
 ```
 
  - The script will also create a file that contains all variants detected in the scanned directory.
+
+_this plugin supports the following plugins:_
+
+ - [(POOT) Respawning Authors](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
