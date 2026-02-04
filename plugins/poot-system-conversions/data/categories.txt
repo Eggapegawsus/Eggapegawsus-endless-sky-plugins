@@ -1,0 +1,5 @@
+
+category "outfit"
+	"POOT Technology"
+	"System Conversions"
+	"Void Technology"

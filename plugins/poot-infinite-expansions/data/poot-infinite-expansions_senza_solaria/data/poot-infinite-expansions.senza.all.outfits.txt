@@ -1,0 +1,32 @@
+outfitter `Senza Solaria Unlockall Outfits Plugin`
+	`Infentessimal Cargo Expansion`
+	`Infentessimal Cargo Expansion XL`
+	`Infentessimal Outfit Expansion`
+	`Infentessimal Outfit Expansion XL`
+	`V-Capacitor`
+	`V-Capacitor (Colossal)`
+	`V-Capacitor (Huge)`
+	`V-Capacitor (Large)`
+	`V-Capacitor (Medium)`
+	`V-Capacitor (Small)`
+	`V-Capacitor (Tiny)`
+	`V-Cargo Upgrade`
+	`V-Cargo Upgrade XL`
+	`V-Engine Upgrade`
+	`V-Engine Upgrade XL`
+	`V-Mass Removal Upgrade`
+	`V-Mass Removal Upgrade XL`
+	`V-Outfit Upgrade`
+	`V-Outfit Upgrade XL`
+	`V-Weapon Upgrade`
+	`V-Weapon Upgrade XL`
+	`Void Cargo Expansion  XL`
+	`Void Cargo Expansion S`
+	`Void Engine Expansion  XL`
+	`Void Engine Expansion S`
+	`Void Mass Expansion  XL`
+	`Void Mass Expansion S`
+	`Void Outfit Expansion  XL`
+	`Void Outfit Expansion S`
+	`Void Weapon Expansion  XL`
+	`Void Weapon Expansion S`

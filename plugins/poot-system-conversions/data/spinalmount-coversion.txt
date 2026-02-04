@@ -1,0 +1,19 @@
+
+outfitter "Remnant"
+	"Spinalmount Modification"
+
+outfitter "Remnant Core"
+	"Spinalmount Modification"
+
+
+outfit "Spinalmount Modification"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 801
+	cost 50000000
+	thumbnail "outfit/lime screwdriver"
+	"mass" 2000
+	"heat generation" 25
+	"heavy outfit space" -5
+	"spinal mount" 1
+	description "Through rigorous efforts and heavy ship modification, this outfit can add an additional mount for extremely heavy equipment onto almost any ship. Due to the processes and methods involved in installation, it results in a tremendous amount of weight and cooling issues being introduced due to the severe modifications and size required in order to install it."

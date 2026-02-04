@@ -1,0 +1,43 @@
+
+outfitter "Basic Outfits"
+	"Infentessimal Outfit Expansion"
+	"Infentessimal Cargo Expansion"
+	"Infentessimal Outfit Expansion XL"
+	"Infentessimal Cargo Expansion XL"
+
+outfit "Infentessimal Outfit Expansion"
+	category "Void Technology"
+	cost 200000
+	thumbnail "outfit/vanillaplus/infentessimal-outfit"
+	"mass" 0
+	"outfit space" 20
+	unplunderable 1
+	description "An infinitely small, yet unendingly deep storage device. whenever you look inside of this strange device, its internal storage compartment morphs to mach the outfit attatchment points of your ship."
+	
+outfit "Infentessimal Outfit Expansion XL"
+	category "Void Technology"
+	cost 10000000
+	thumbnail "outfit/vanillaplus/infentessimal-outfit"
+	"mass" 0
+	"outfit space" 1000
+	unplunderable 1
+	description "An infinitely small, yet unendingly deep storage device. whenever you look inside of this strange device, its internal storage compartment morphs to mach the outfit attatchment points of your ship."
+	
+outfit "Infentessimal Cargo Expansion"
+	category "Void Technology"
+	cost 200000
+	thumbnail "outfit/vanillaplus/infentessimal-cargo"
+	"mass" 0
+	"cargo space" 20
+	unplunderable 1
+	description "An infinitely small, yet unendingly deep storage device. Whenever you look inside of it, it always seems to be just deep enough to where you can't reach the bottom..."
+	
+outfit "Infentessimal Cargo Expansion XL"
+	category "Void Technology"
+	cost 10000000
+	thumbnail "outfit/vanillaplus/infentessimal-cargo"
+	"mass" 0
+	"cargo space" 1000
+	unplunderable 1
+	description "An infinitely small, yet unendingly deep storage device. Whenever you look inside of it, it always seems to be just deep enough to where you can't reach the bottom..."
+	
