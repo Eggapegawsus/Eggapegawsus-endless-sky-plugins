@@ -1,0 +1,212 @@
+
+outfitter "Basic Outfits"
+	"Turret-to-Outfit Conversion"
+	"Gunport-to-Outfit Conversion"
+	"Cargo Conversion"
+	"Cargo Conversion XL"
+	"Cargo Deconversion"
+	"Cargo Deconversion XL"
+	"Cargo-Bunk Conversion"
+	"Cargo-Bunk Conversion XL"
+	"Engine Conversion"
+	"Engine Conversion XL"
+	"Engine Deconversion"
+	"Engine Deconversion XL"
+	"Weapon Conversion"
+	"Weapon Conversion XL"
+	"Weapon Deconversion"
+	"Weapon Deconversion XL"
+	
+
+outfit "Turret-to-Outfit Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 202
+	cost 100000
+	thumbnail "outfit/green screwdriver"
+	"mass" 10
+	"turret mounts" -1
+	"outfit space" 50
+	unplunderable 1
+	description "Swaps a turret mount for outfit space."
+	
+outfit "Gunport-to-Outfit Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 201
+	cost 100000
+	thumbnail "outfit/green screwdriver"
+	"mass" 10
+	"gun ports" -1
+	"outfit space" 50
+	unplunderable 1
+	description "Swaps a gun port for outfit space."
+	
+outfit "Cargo Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 101
+	cost 30000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 2
+	"cargo space" 15
+	"outfit space" -10
+	unplunderable 1
+	description "Swaps outfit space for cargo space."
+	
+outfit "Cargo Conversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 103
+	cost 3000000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 200
+	"cargo space" 1500
+	"outfit space" -1000
+	unplunderable 1
+	description "Swaps outfit space for cargo space."
+	
+outfit "Cargo Deconversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 102
+	cost 30000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 2
+	"cargo space" -15
+	"outfit space" 10
+	unplunderable 1
+	description "Swaps cargo space for outfit space."
+	
+outfit "Cargo Deconversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 104
+	cost 3000000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 200
+	"cargo space" -1500
+	"outfit space" 1000
+	unplunderable 1
+	description "Swaps cargo space for outfit space."
+	
+outfit "Cargo-Bunk Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 105
+	cost 30000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 2
+	"bunks" -1
+	"cargo space" 5
+	unplunderable 1
+	description "Swaps a single bunk for cargo space."
+	
+outfit "Cargo-Bunk Conversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 106
+	cost 3000000
+	thumbnail "outfit/purple screwdriver"
+	"mass" 200
+	"bunks" -100
+	"cargo space" 500
+	unplunderable 1
+	description "Swaps a single bunk for cargo space."
+	
+outfit "Engine Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 401
+	cost 30000
+	thumbnail "outfit/orange screwdriver"
+	"mass" 2
+	"engine capacity" 10
+	"outfit space" -10
+	unplunderable 1
+	description "Swaps outfit space for engine capacity."
+	
+outfit "Engine Conversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 403
+	cost 3000000
+	thumbnail "outfit/orange screwdriver"
+	"mass" 200
+	"engine capacity" 1000
+	"outfit space" -1000
+	unplunderable 1
+	description "Swaps outfit space for engine capacity."
+	
+outfit "Engine Deconversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 402
+	cost 30000
+	thumbnail "outfit/orange screwdriver"
+	"mass" 2
+	"engine capacity" -10
+	"outfit space" 10
+	unplunderable 1
+	description "Swaps engine capacity space for outfit space."
+	
+outfit "Engine Deconversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 404
+	cost 3000000
+	thumbnail "outfit/orange screwdriver"
+	"mass" 200
+	"engine capacity" -1000
+	"outfit space" 1000
+	unplunderable 1
+	description "Swaps engine capacity space for outfit space."
+	
+outfit "Weapon Conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 301
+	cost 30000
+	thumbnail "outfit/yellow screwdriver"
+	"mass" 2
+	"weapon capacity" 10
+	"outfit space" -10
+	unplunderable 1
+	description "Swaps outfit space for engine capacity."
+	
+outfit "Weapon Conversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 303
+	cost 3000000
+	thumbnail "outfit/yellow screwdriver"
+	"mass" 200
+	"weapon capacity" 1000
+	"outfit space" -1000
+	unplunderable 1
+	description "Swaps outfit space for engine capacity."
+	
+outfit "Weapon Deconversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 302
+	cost 30000
+	thumbnail "outfit/yellow screwdriver"
+	"mass" 2
+	"weapon capacity" -10
+	"outfit space" 10
+	unplunderable 1
+	description "Swaps engine capacity space for outfit space."
+	
+outfit "Weapon Deconversion XL"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 304
+	cost 3000000
+	thumbnail "outfit/yellow screwdriver"
+	"mass" 200
+	"weapon capacity" -1000
+	"outfit space" 1000
+	unplunderable 100
+	description "Swaps engine capacity space for outfit space."
+	

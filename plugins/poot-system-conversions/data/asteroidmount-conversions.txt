@@ -1,0 +1,55 @@
+
+outfitter "Asteroid Conversions"
+	"Asteroid jumpdrive conversion"
+	"Asteroid mount conversion"
+	"Asteroid antimissle conversion"
+	"Asteroid large mount conversion"
+
+
+
+outfit "Asteroid jumpdrive conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 701
+	cost 20000000
+	thumbnail "outfit/magenta screwdriver"
+	"mass" 100
+	"heavy outfit space" -1
+	"asteroid mount jd" 1
+	description "Through means unknown to you, this outfit adds a custom and mysterious mounting point for some equally mysterious equipment."
+	
+outfit "Asteroid mount conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 702
+	cost 20000000
+	thumbnail "outfit/magenta screwdriver"
+	"mass" 100
+	"heavy outfit space" -1
+	"asteroid mount" 1
+	"asteroid mount small" 1
+	description "Through means unknown to you, this outfit adds a custom and mysterious mounting point for some equally mysterious equipment."
+	
+outfit "Asteroid antimissle conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 703
+	cost 20000000
+	thumbnail "outfit/magenta screwdriver"
+	"mass" 100
+	"heavy outfit space" -1
+	"asteroid mount am" 1
+	description "Through means unknown to you, this outfit adds a custom and mysterious mounting point for some equally mysterious equipment."
+	
+outfit "Asteroid large mount conversion"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 704
+	cost 100000000
+	thumbnail "outfit/magenta screwdriver"
+	"mass" 100
+	"heavy outfit space" -1
+	"asteroid mount 2" 1
+	"asteroid mount 3" 1
+	"asteroid mount 4" 1
+	description "Through means unknown to you, this outfit adds a custom and mysterious mounting point for some equally mysterious equipment."

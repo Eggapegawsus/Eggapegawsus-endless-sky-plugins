@@ -1,0 +1,26 @@
+outfitter `Senza Solaria Unlockall Outfits Plugin`
+	`Asteroid antimissle conversion`
+	`Asteroid jumpdrive conversion`
+	`Asteroid large mount conversion`
+	`Asteroid mount conversion`
+	`Cargo Conversion`
+	`Cargo Conversion XL`
+	`Cargo Deconversion`
+	`Cargo Deconversion XL`
+	`Cargo-Bunk Conversion`
+	`Cargo-Bunk Conversion XL`
+	`Compact Heavy Outfit`
+	`Engine Conversion`
+	`Engine Conversion XL`
+	`Engine Deconversion`
+	`Engine Deconversion XL`
+	`Gunport-to-Outfit Conversion`
+	`Heavy Outfit (Gun)`
+	`Heavy Outfit (Turret)`
+	`Spinalmount Modification`
+	`Turret-to-Outfit Conversion`
+	`Utility Heavy Outfit`
+	`Weapon Conversion`
+	`Weapon Conversion XL`
+	`Weapon Deconversion`
+	`Weapon Deconversion XL`
