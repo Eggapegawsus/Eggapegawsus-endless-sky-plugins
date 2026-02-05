@@ -1,7 +1,7 @@
 **UPDATED 1/31/2026, for ES Unstable 0.11.0**
  - [Download v1.0.0]() (Latest)
 
-[!system conversions](/images/system_conversions.png) 
+![system conversions](/images/system_conversions.png) 
 # 
 This plugin adds outfits that can swap outfit, engine, weapon, and cargo space, as well as add spinal mounts for various outfits. 
 <br>
@@ -37,10 +37,13 @@ There are also special conversions for Spinal Mounts and the Asteroid Mounts, as
 Heavy outfit space is recquired to install Asteroid Conversions, and Spinal Mount Conversions
 
 **IMPORTANT NOTES:**
-```
+
  - Spinal Mount conversions can be bought at Remnant Outfitters. 
  - Asteroid Conversions are by default, not obtainable. To acquire them, you must use another plugin which enables them and allows asteroid weapons to be obtainable.
- ```
+
+
+<details>
+<summary>Heavy Outfit Space</summary>
 
   - **Asteroid Jump Drive Conversion**
     - Cost: 20,000,000
@@ -73,7 +76,43 @@ Heavy outfit space is recquired to install Asteroid Conversions, and Spinal Moun
     - heavy outfit space: -1
     - asteroid mount: 1
     - asteroid mount small: 1
+</details>
 
+<details>
+<summary>Asteroid Conversions</summary>
+
+  - **Asteroid Jump Drive Conversion**
+    - Cost: 20,000,000
+    - Mass: 100
+    - heavy outfit space: -1
+    - asteroid mount jd: 1
+
+  - **Asteroid Jump Drive Conversion**
+    - Cost: 20,000,000
+    - Mass: 100
+    - heavy outfit space: -1
+    - asteroid mount jd: 1
+
+  - **Asteroid Mount Conversion**
+    - Cost: 20,000,000
+    - Mass: 100
+    - heavy outfit space: -1
+    - asteroid mount: 1
+    - asteroid mount small: 1
+
+  - **Asteroid Antimissle Conversion**
+    - Cost: 20,000,000
+    - Mass: 100
+    - heavy outfit space: -1
+    - asteroid mount am: 1
+  
+  - **Asteroid Large Mount Conversion**
+    - Cost: 20,000,000
+    - Mass: 100
+    - heavy outfit space: -1
+    - asteroid mount: 1
+    - asteroid mount small: 1
+</details>
 <br>
 
 
