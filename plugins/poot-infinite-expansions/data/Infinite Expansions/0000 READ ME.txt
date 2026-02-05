@@ -1,6 +1,0 @@
-# 	If you're going to use any of the infinite expansion upgrades, I would advise you to pick only one,
-# 	as having all of them enabled will add quite a bit of clutter to the outfitter screen. But hey,
-# 	its your game, do whatever you may so please!
-
-#	If you DO wish to disable any of them, just remember to either delete the file 
-# 	or move it to another folder (I.E. the "unused" folder in the main folder of the plugin)
