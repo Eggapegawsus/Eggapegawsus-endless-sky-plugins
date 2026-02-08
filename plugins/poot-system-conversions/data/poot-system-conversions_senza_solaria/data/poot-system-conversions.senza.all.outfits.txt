@@ -17,6 +17,7 @@ outfitter `Senza Solaria Unlockall Outfits Plugin`
 	`Gunport-to-Outfit Conversion`
 	`Heavy Outfit (Gun)`
 	`Heavy Outfit (Turret)`
+	`Heavy Outfit Expansion`
 	`Spinalmount Modification`
 	`Turret-to-Outfit Conversion`
 	`Utility Heavy Outfit`

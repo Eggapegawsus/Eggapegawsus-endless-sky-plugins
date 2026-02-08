@@ -1,0 +1,434 @@
+
+
+event `Senza Solaria Stocks Infentessimal Outfit Expansion (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Infentessimal Outfit Expansion`
+mission `Senza Solaria Supply Infentessimal Outfit Expansion (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Infentessimal Outfit Expansion`
+	on offer
+		conversation
+			scene "outfit/vanillaplus/infentessimal-outfit"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Infentessimal Outfit Expansion to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Infentessimal Outfit Expansion` -1
+		event `Senza Solaria Stocks Infentessimal Outfit Expansion (outfit)`
+
+
+event `Senza Solaria Stocks Infentessimal Outfit Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Infentessimal Outfit Expansion XL`
+mission `Senza Solaria Supply Infentessimal Outfit Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Infentessimal Outfit Expansion XL`
+	on offer
+		conversation
+			scene "outfit/vanillaplus/infentessimal-outfit"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Infentessimal Outfit Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Infentessimal Outfit Expansion XL` -1
+		event `Senza Solaria Stocks Infentessimal Outfit Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Infentessimal Cargo Expansion (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Infentessimal Cargo Expansion`
+mission `Senza Solaria Supply Infentessimal Cargo Expansion (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Infentessimal Cargo Expansion`
+	on offer
+		conversation
+			scene "outfit/vanillaplus/infentessimal-cargo"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Infentessimal Cargo Expansion to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Infentessimal Cargo Expansion` -1
+		event `Senza Solaria Stocks Infentessimal Cargo Expansion (outfit)`
+
+
+event `Senza Solaria Stocks Infentessimal Cargo Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Infentessimal Cargo Expansion XL`
+mission `Senza Solaria Supply Infentessimal Cargo Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Infentessimal Cargo Expansion XL`
+	on offer
+		conversation
+			scene "outfit/vanillaplus/infentessimal-cargo"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Infentessimal Cargo Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Infentessimal Cargo Expansion XL` -1
+		event `Senza Solaria Stocks Infentessimal Cargo Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Void Mass Expansion S (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Mass Expansion S`
+mission `Senza Solaria Supply Void Mass Expansion S (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Mass Expansion S`
+	on offer
+		conversation
+			scene "outfit/red screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Mass Expansion S to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Mass Expansion S` -1
+		event `Senza Solaria Stocks Void Mass Expansion S (outfit)`
+
+
+event `Senza Solaria Stocks Void Mass Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Mass Expansion XL`
+mission `Senza Solaria Supply Void Mass Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Mass Expansion XL`
+	on offer
+		conversation
+			scene "outfit/red screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Mass Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Mass Expansion XL` -1
+		event `Senza Solaria Stocks Void Mass Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Void Outfit Expansion S (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Outfit Expansion S`
+mission `Senza Solaria Supply Void Outfit Expansion S (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Outfit Expansion S`
+	on offer
+		conversation
+			scene "outfit/green screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Outfit Expansion S to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Outfit Expansion S` -1
+		event `Senza Solaria Stocks Void Outfit Expansion S (outfit)`
+
+
+event `Senza Solaria Stocks Void Outfit Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Outfit Expansion XL`
+mission `Senza Solaria Supply Void Outfit Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Outfit Expansion XL`
+	on offer
+		conversation
+			scene "outfit/green screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Outfit Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Outfit Expansion XL` -1
+		event `Senza Solaria Stocks Void Outfit Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Void Cargo Expansion S (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Cargo Expansion S`
+mission `Senza Solaria Supply Void Cargo Expansion S (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Cargo Expansion S`
+	on offer
+		conversation
+			scene "outfit/purple screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Cargo Expansion S to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Cargo Expansion S` -1
+		event `Senza Solaria Stocks Void Cargo Expansion S (outfit)`
+
+
+event `Senza Solaria Stocks Void Cargo Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Cargo Expansion XL`
+mission `Senza Solaria Supply Void Cargo Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Cargo Expansion XL`
+	on offer
+		conversation
+			scene "outfit/purple screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Cargo Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Cargo Expansion XL` -1
+		event `Senza Solaria Stocks Void Cargo Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Void Engine Expansion S (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Engine Expansion S`
+mission `Senza Solaria Supply Void Engine Expansion S (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Engine Expansion S`
+	on offer
+		conversation
+			scene "outfit/orange screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Engine Expansion S to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Engine Expansion S` -1
+		event `Senza Solaria Stocks Void Engine Expansion S (outfit)`
+
+
+event `Senza Solaria Stocks Void Engine Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Engine Expansion XL`
+mission `Senza Solaria Supply Void Engine Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Engine Expansion XL`
+	on offer
+		conversation
+			scene "outfit/orange screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Engine Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Engine Expansion XL` -1
+		event `Senza Solaria Stocks Void Engine Expansion XL (outfit)`
+
+
+event `Senza Solaria Stocks Void Weapon Expansion S (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Weapon Expansion S`
+mission `Senza Solaria Supply Void Weapon Expansion S (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Weapon Expansion S`
+	on offer
+		conversation
+			scene "outfit/yellow screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Weapon Expansion S to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Weapon Expansion S` -1
+		event `Senza Solaria Stocks Void Weapon Expansion S (outfit)`
+
+
+event `Senza Solaria Stocks Void Weapon Expansion XL (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Void Weapon Expansion XL`
+mission `Senza Solaria Supply Void Weapon Expansion XL (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Void Weapon Expansion XL`
+	on offer
+		conversation
+			scene "outfit/yellow screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Void Weapon Expansion XL to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Void Weapon Expansion XL` -1
+		event `Senza Solaria Stocks Void Weapon Expansion XL (outfit)`

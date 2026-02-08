@@ -1,0 +1,2265 @@
+
+government "Author (senza-solaria)"
+	"display name" "Author"
+	"swizzle" 5
+	"player reputation" 0
+	"attitude toward"
+		"Bounty" -.4
+		"Bounty (Disguised)" -.4
+		"Merchant" .3
+		"Pirate" -.4
+		"Author" 1
+		"Shaded" -.2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "Author (senza-solaria)"
+	"hostile hail" "Author (senza-solaria)"
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+phrase "Author (senza-solaria)"
+	word
+		"Search for Senza Solaria Station!"
+		"Donate Today!"
+		"I've heard there's a station out there that can sell any outfit in the game..."
+		"I bet my collection's bigger than yours!"
+		"Gotta collect 'em all!"
+		"Outfits?.... OUTFITS???"
+		"Do you know what it's like to hold the outfit for someone you love?"
+		"Be very very quiet... I'm hunting outfits..."
+		"I sure hope there aren't any... OUTFITS, nearby..."
+		"Have you seen a man in a blue labcoat? He owes me an outfit."
+		"Got outfits?"
+		"The navy tried to ban me from buying outfits, I got Senza Solaria then got back in."
+		"I got outfits. I've had outfits. I will continue to get outfits."
+		"Oh boy, I sure love Endless Sky! I wonder if there's somewhere around here to buy some outfits..."
+		"These outfits ain't NOTHIN to me!"
+		"*sniff* *sniff*... Is that an... OUTFIT???"
+		"You wouldn't download an outfit, would you?"
+		"Remember to support your local outfitter!"
+		"Give me MOOOOOORE..."
+		"... Wanna buy somethin'?"
+		"Nice outfits... it'd be a shame if someone were to donate them..."
+		"I got the outfits in the back. Outfit is attatched."
+		`I'm looking for an "Ember Tear", have you seen any?`
+		`I there are whispers of some sort of "Antimatter" device... Have you seen one?`
+		`Someone told me a rumor about some sort of Dragon cannon that breaths fire... Can you believe this stuff?!`
+		`I heard a rumor about some sort of Hyperdrive that can jump to systems without any hyperspace links... pretty nutty, huh?`
+		`Someone tried to tell me about some sort of "Asteroid Space Station" orbiting next to a bunch of dinosaurs... People really will believe anything, huh?`
+
+phrase "Name (senza-solaria)"
+	word
+		"Senza Solaria"
+
+fleet "authors-respawn-poot-author"
+	government "Author (senza-solaria)"
+	"names" "Name (senza-solaria)"
+	cargo 3
+	personality
+		confusion 40
+		plunders staying heroic mining
+	variant 15
+		"Senza Solaria II (PRA)"
+	variant 15
+		"Senza Solaria II (PRA)"
+		"Quick Donater (PRA)"
+		"Plentiful Donater (PRA)"
+		"Searching Donater (PRA)"
+		"Powerful Donater (PRA)"
+		"Collecting Donater (PRA)"
+		"Intelligent Researcher (PRA)"
+		"Egotistical Researcher (PRA)"
+		"Thorough Researcher (PRA)"
+		"Purposeful Researcher (PRA)"
+		"Observant Researcher (PRA)"
+
+ship "Senza Solaria" "Senza Solaria II (PRA)"
+	"display name" "Senza Solaria II"
+ship "Solarian Star Barge" "Quick Donater (PRA)"
+	"display name" "Quick Donater"
+ship "Solarian Star Barge" "Plentiful Donater (PRA)"
+	"display name" "Plentiful Donater"
+ship "Solarian Star Barge" "Searching Donater (PRA)"
+	"display name" "Searching Donater"
+ship "Solarian Star Barge" "Powerful Donater (PRA)"
+	"display name" "Powerful Donater"
+ship "Solarian Star Barge" "Collecting Donater (PRA)"
+	"display name" "Collecting Donater"
+ship "Solarian Research Drone" "Intelligent Researcher (PRA)"
+	"display name" "Intelligent Researcher"
+ship "Solarian Research Drone" "Egotistical Researcher (PRA)"
+	"display name" "Egotistical Researcher"
+ship "Solarian Research Drone" "Thorough Researcher (PRA)"
+	"display name" "Thorough Researcher"
+ship "Solarian Research Drone" "Purposeful Researcher (PRA)"
+	"display name" "Purposeful Researcher"
+ship "Solarian Research Drone" "Observant Researcher (PRA)"
+	"display name" "Observant Researcher"
+
+
+#	Coalition
+system "14 Pole"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "12 Autumn Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "10 Pole"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "16 Autumn Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "5 Summer Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "14 Summer Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "3 Pole"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "11 Autumn Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "7 Autumn Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "4 Summer Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sol Kimek"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "9 Spring Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "3 Spring Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "4 Spring Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "1 Axis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "4 Winter Rising"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "5 Winter Above"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "3 Axis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "11 Spring Below"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "8 Winter Below"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "5 Spring Below"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "4 Axis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "14 Winter Below"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "5 Axis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ki War Ek"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fell Omen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Last Word"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Quaru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ekuarik"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Belug"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Homeward"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Speloog"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Torbab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Flugbu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Debrugt"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ablodab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mebla"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gupta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Belugt"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pelubta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Meblumem"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sol Arach"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Blugtad"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eblumab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Silver String"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Silver Bell"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Steep Roof"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bright Void"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Answer"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hunter"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Broken Bowl"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dark Hills"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Belonging"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sol Saryd"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Companion"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ancient Hope"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Far Horizon"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Four Pillars"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lone Cloud"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Good Omen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Beginning"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Remembrance"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fallen Leaf"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bloptab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Plort"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Glubatub"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tebuteb"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Miblulub"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ablub"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Blubipad"
+
+#	Avgi and Abberant
+system "Saquergen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Quartet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Quintet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Trio"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Duet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Headwind"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tailwind"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pinnacle"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tumble"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Peak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tap"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Flutter"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mellow"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Billow"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tide"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cusp"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Span"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sail"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vivace"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Clip"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Soar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Anax"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Frenzy"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Thread"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lumine"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Corporeal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vorpal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Firmament"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Empyrean"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Axiom"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Quintessence"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Apeiron"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Evanescence"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Stream"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wake"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aileron"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rivulet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pearl"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wave"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gust"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gossamer"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Whirlwind"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Current"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Caesura"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kr-84"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "As-75"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gale"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Torrent"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Glide"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mote"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lift"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Twirl"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Prelude"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Si-28"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "He-4"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Arche"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Be-9"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "H-1"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ne-20"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mg-24"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "S-32"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Interlude"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ca-40"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ar-40"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "P-31"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sonata"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Madrigal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chorale"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Opera"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Serenade"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Anthem"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ballad"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ge-73"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Br-80"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ensemble"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Na-23"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cl-35"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "K-39"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Symphony"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cantata"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Concerto"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Acapella"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rhapsody"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Demilude"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "F-19"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "C-12"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "O-16"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Li-7"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "B-11"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "N-14"
+
+#	Successors
+system "Maspa-Raaqa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Maspa-Mavra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Maspa-Cavaasa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Osolaa-Uuoru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kella-Uoasa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Luue-Saqru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Raaqa-Ryuit"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chyyra-Osolaa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Myiara-Nnesa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pelaa-Muora"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Myruet-Kvelq"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aaura-Kaska"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Stiidej-Nnesa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tuur-Kella"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mosaa-Iyra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ojstaan-Sola"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uuoru-Kella"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Valkraa-Uuoru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vade-Staja"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Khosa-Kaska"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Next to Avgi and Successor, below kahet
+system "Oublaa-Khora"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kasii-Sola"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vasa-Oorua"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uuoru-Sossa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kasi-Vasa-Novaa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kiiraj-Luue"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Postlude"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eta Carinae"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mavra-Ijsola"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kasii-Cavaasa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Avasaa-Novaa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Khasola-Ryuit"
+
+#	Kahet
+system "Delia"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aki'il"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dixere"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Giribea"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lire"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fearis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Feraticus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Relifer"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fereti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Septet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nonet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sextet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Decet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Octet"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Patir"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ritilas"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Queri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nona"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gerenus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Esix"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Paeli"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Polerius"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Ember waste & Remnant
+system "Nenia"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Antevorta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cardea"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ossipago"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Insitor"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Convector"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aescolanus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Peragenor"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Segesta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Stercutus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Caeculus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Perfica"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Farinus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cinxia"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pantica"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Arculus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Edusa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Levana"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Coluber"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lucina"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Parca"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Postverta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Diespiter"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Statina"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Egeria"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vaticanus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Prosa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Human, Free Worlds/south
+system "Beta Lupi"
+	add fleet "authors-respawn-poot-author" 350000
+
+system "Kappa Centauri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Yed Prior"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pherkad"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Graffias"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alniyat"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Han"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Atria"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dschubba"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aldhibain"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Unukalhai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zubenelhakrabi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sabik"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zubenelgenubi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ildaria"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kochab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zubeneschamali"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alkaid"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hadar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zeta Centauri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Izar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Acrux"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kraz"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mimosa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Minkar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Spica"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gamma Corvi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kornephoros"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sargas"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lesath"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sadr"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Albireo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lurata"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Albaldah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Girtab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rastaban"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wei"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Seginus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alnasl"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eber"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alpha Arae"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Delta Sagittarii"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eltanin"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dabih"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tarazed"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Umbral"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Enif"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sadalmelik"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sadalsuud"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tais"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Peacock"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kaus Australis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Naper"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kaus Borealis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ascella"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hintar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cebalrai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Boral"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alphecca"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alioth"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Holeb"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Arcturus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rutilicus"
+	add fleet "authors-respawn-poot-author" 350000
+
+
+#	Human, syndicate
+system "Persian"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alnair"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alderamin"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Matar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gamma Cassiopeiae"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mirach"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Schedar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Achernar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Scheat"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Al Dhanab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Delta Capricorni"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Markab"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fomalhaut"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Caph"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Diphda"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ankaa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Algol"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Acamar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kugel"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hamal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ruchbah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alpheratz"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alpha Hydri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Polaris"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sheratan"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zaurak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Menkar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bellatrix"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mirfak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Moktar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Atik"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Human, Paradise/northern republic
+system "Sirius"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Procyon"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pollux"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Talita"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Castor"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Capella"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Menkalinan"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alhena"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kursa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wazn"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Phact"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Miaplacidus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tejat"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alphard"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Phurad"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Canopus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mirzam"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Betelgeuse"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mebsuta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alheka"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ultima Thule"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rajak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sumar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hassaleh"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Danoa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rigel"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Saiph"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alnitak"
+	add fleet "authors-respawn-poot-author" 350000
+
+system "Tortor"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gorvi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mintaka"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Human, Deep
+system "Dubhe"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zosma"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gomeisa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Adhara"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Epsilon Leonis"
+	add fleet "authors-respawn-poot-author" 350000
+
+system "Aspidiske"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Markeb"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Avior"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aludra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Naos"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wezen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Regor"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Suhail"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Human, republic
+system "Altair"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eteron"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aldebaran"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Elnath"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nihal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sospi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Volax"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cardax"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Algieba"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lolami"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Orbona"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Limen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mora"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tania Australis"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Regulus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fala"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Delta Velorum"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Turais"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gacrux"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Muhlifain"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sarin"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vindemiatrix"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cor Caroli"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Algorel"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mizar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ipsing"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Menkent"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rasalhague"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zeta Aquilae"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Orvala"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vega"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nocte"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Muphrid"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Porrima"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Phecda"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Merak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Denebola"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fingol"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alpha Centauri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sol"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Human, Southern Pirates
+system "Alpherg"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Citadelle"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fumalsamakah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Belenos"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Thuban"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Men"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Antares"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Shaula"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nunki"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Syndicate Pirates
+system "Algenib"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gienah"
+	add fleet "authors-respawn-poot-author" 350000
+
+system "Oblate"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alcyone"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Durax"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Misam"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Almach"
+
+#	Northern Pirates
+system "Unagi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Almaaz"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hatysa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Alnilam"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Arneb"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+
+#	Human, Devil Run
+system "Al Hurr"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Devil-Run"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 7C"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 7F"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 5J"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 5N"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 5T"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 1Q"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 1X"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 19M1"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 19M2"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Devil-Hide"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 19K12"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Deep Space 19M5"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Pug
+system "Deneb"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pug Iyik"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Over the Rainbow"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Terra Incognita"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "World's End"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#Wanderer
+system "Aya'k'k"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Es'sprak'ai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pik'ro'iyak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kiru'kichi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Iyech'yek"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Si'yak'ku"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ek'kek'ru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sko'karak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ka'ch'chrai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ap'arak"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chirr'ay'akai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ka'pru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kiro'ku"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sich'ka'ara"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Prakacha'a"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chy'chra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ik'kara'ka"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Hai, Unfettered
+system "Hi Yahr"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wah Yoot"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ehma Ti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Hai
+system "Hevru Hai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fah Soom"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fah Root"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wah Oh"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Io Mann"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rati Cal"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Due Yoot"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Waypoint"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Heia Due"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lom Tahr"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Da Lest"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Da Ent"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uwa Fahn"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ya Hai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Io Lowe"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mei Yohn"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ula Mon"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bote Asu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bore Fah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wah Ki"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Imo Dep"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zuba Zub"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Kor Effret
+system "Hesselpost"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kashikt"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sevrelect"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sumprast"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dokdobaru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Kor Effret, Quarg
+system "Chornifath"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Furmeliki"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chikatip"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Seketra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Skeruto"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Meftarkata"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Korsmanath"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Solifar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sepriaptu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sabriset"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Kor Mereti, Sestor
+system "Kaliptari"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fornarep"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Farbutero"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Feroteri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sepetrosk"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Chimitarp"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mekislepti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eshkoshtar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Similisti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Faronektu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Salipastart"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mesuket"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eneremprukt"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Silikatakfar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ferukistek"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sobarati"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Asikafarnut"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Celeborim"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Makferuti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Incipias Space
+system "Il'le"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Dom'us"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Hui'uc"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Porta Terra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Supra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cura Dic"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Clepsydra"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pedita Sec"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pedita Pri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sedes"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tectum"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ianua"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Currus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rota"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Equus"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Vyrmeid Deepspace
+system "Ae Il A-3"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il B-11"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il G-66"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il I-99"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il Z-59"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Ce G-460"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il H-24"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Ce J-591"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il F-46"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il M-77"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Il O-96"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il T-94"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Ce F-422"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Ce B-139"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Ce L-332"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il V-263"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il T-127"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il X-626"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ae Ce Q-761"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Is Il Z-814"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Korath 
+system "Kor Nor'peli"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor Tar'bei"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor Zena'i"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor Ak'Mari"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor Men"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor En'lakfar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kor Fel'tar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Drak
+system "Fasitopfar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kasikfar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Peresedersi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sayaiban"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Persitar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Rulei
+system "Kanguwa"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aierena"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zolpulti"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Lloloi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vanguwo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Msalbit"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Yranjiu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vulcuja"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gaungu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Bunrodea
+system "Eneva Katta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Genta Bo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Thshybo Le"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Era Natta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Elo Chigo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Shini Bori"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bunri Lemeta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Erabu Lemeta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Jentu Le"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Elabi Choati"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Bosuno Le"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eragaru Le"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Avo Chigo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Paru Paru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ravu Kon"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kifrana Terberah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Xutluno Fali"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mego Inito"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mego Seo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Piadenli"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Jentu Centi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Xutluno Rees"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mego Faro"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gento Ah"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Urba Pest"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Sera Natta"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Space between gegno and bunrodea
+system "Aik Kamgatake"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aksek"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uwo Seija"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Iise"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nnatai"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Gegno vi
+system "Oihaug"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Jied"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nssryos"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Wreoul"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Yli"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Empeles"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vaiov"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Maoni"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Rouseu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pukako"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Karhio"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cshudlye"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uhebe"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vorsuke"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kiluit"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Nnaug"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ookmya"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Scija"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ptetubo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ptobeh"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Acnanjo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Gegno
+system "Kneirc"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eogho"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eebu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ilirco"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Yerser"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Cotpoxi"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vilacira"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mnashyu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Anbrim"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Huud"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Fscher"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Jyelio"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Vesvii"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Gualetri"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Eogho"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uelawan"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Oosuoro"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Asio"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Heutesl"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Uttna"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Iigen"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Yllke"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Tscera"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Ghhil"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Aleit"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Actannka"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Elifennka"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Gegno Scin
+system "Iliniza"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Evrae"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Pbelnep"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Mohuwo"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Auhru"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Erba Yle"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Kilema"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Zeinar"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Iinjma"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Deepspace Iije
+
+system "L-6181"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "MS-219"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "G-6183"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "E-4183"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "M-1188"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "E-9182"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "O-3184"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "U-5188"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "V-2189"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Rulei
+
+system "G-719"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "W-3197"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "G-819"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "H-8188"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "MC-42"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "H-9187"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "L-118"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "G-3191"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+#	Rogue Systems
+system "Sagittarius A*"
+	add fleet "authors-respawn-poot-author" 2500000
+
+system "Host"
+	add fleet "authors-respawn-poot-author" 350000
+
+system "Jyeg Pvu"
+	add fleet "authors-respawn-poot-author" 2500000
+
+
+
+
+system "Terminus"
+	add fleet "authors-respawn-poot-author" 350000

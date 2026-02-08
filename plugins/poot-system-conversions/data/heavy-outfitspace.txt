@@ -4,6 +4,7 @@ outfitter "Basic Outfits"
 	"Heavy Outfit (Turret)"
 	"Utility Heavy Outfit"
 	"Compact Heavy Outfit"
+	"Heavy Outfit Expansion"
 	
 
 	
@@ -31,10 +32,22 @@ outfit "Heavy Outfit (Turret)"
 	"heavy outfit space" 1
 	description "Adds capacity for very large outfits by extracing and replacing a turret mount. Due to most ships not being designed around the removal of turret mounts, it causeses immense heating issues due to a lack of previousy availible ventilation."
 
-outfit "Utility Heavy Outfit"
+outfit "Heavy Outfit Expansion"
 	category "System Conversions"
 	series "poot: System Conversions"
 	index 603
+	cost 1200000
+	thumbnail "outfit/black_screwdriver"
+	"mass" 100
+	"outfit space" -100
+	"heat generation" 8.4
+	"heavy outfit space" 1
+	description "Adds capacity for very large outfits. In doing so however, it occupies a lot of open space in your ships hull, causing heating issues to occur."
+
+outfit "Utility Heavy Outfit"
+	category "System Conversions"
+	series "poot: System Conversions"
+	index 604
 	cost 2500000
 	thumbnail "outfit/black_screwdriver"
 	"mass" 240
@@ -48,8 +61,8 @@ outfit "Utility Heavy Outfit"
 outfit "Compact Heavy Outfit"
 	category "System Conversions"
 	series "poot: System Conversions"
-	index 604
-	cost 5500000
+	index 605
+	cost 7500000
 	thumbnail "outfit/black_screwdriver"
 	"mass" 50
 	"outfit space" -50

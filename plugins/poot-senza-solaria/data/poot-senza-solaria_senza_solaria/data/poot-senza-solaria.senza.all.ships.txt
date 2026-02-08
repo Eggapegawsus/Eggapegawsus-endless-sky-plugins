@@ -1,0 +1,4 @@
+shipyard `Senza Solaria Unlockall Ships Plugin`
+	`Senza Solaria`
+	`Solarian Research Drone`
+	`Solarian Star Barge`

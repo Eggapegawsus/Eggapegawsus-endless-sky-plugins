@@ -14,7 +14,7 @@ outfit "Asteroid jumpdrive conversion"
 	cost 20000000
 	thumbnail "outfit/magenta screwdriver"
 	"mass" 100
-	"heavy outfit space" 1
+	"heavy outfit space" -1
 	"asteroid mount jd" 1
 	description "Through means unknown to you, this outfit adds a custom and mysterious mounting point for some equally mysterious equipment."
 	

@@ -1,12 +1,13 @@
-**UPDATED 1/31/2026, for ES Unstable 0.11.0**
- - [Download v1.0.0](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/tag/v1.0.0-senza-solaria-station) (Latest)
+**UPDATED 2/7/2026, for ES Unstable 0.11.0**
+ - [Download v1.1.0](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.1.0-senza-solaria-station/poot-senza-solaria-v1.1.0.zip) (Latest)
 
 Senza Solaria was originally intended to be a part of a much larger plugin call Peripherals or Outstanding Trinkets (POOT), but gradually evolved into something I felt should be a standalone plugin. 
-
-So without further ado...
+<br>
+<br>
+<br>
   
 <img width="850" height="200" alt="Image" src="https://github.com/user-attachments/assets/dd4eb70f-bdbf-4f2b-a688-1d66f94aa3a4" /><br>  
-# Senza Solaria Station (All-Outfit Station)
+#
 Senza Solaria is a progressively expanding all-outfits and ship station where each outfit/ship has an unlock requirement:
  - In order for the outfit or ship to be sold, you have to **_donate the outfit or ship to Senza Solaria Station_**
 
@@ -19,8 +20,10 @@ I always enjoyed playing with all outfit plugins like Ursa Polaris or Omnis, alt
  - There are a few different stations across the galaxy, to not have to jump across 40 Systems just to buy _one_ outfit
  - Items are unlocked on an _as-obtained_ basis, to keep balance somewhat reasonable (More info below)
  - Outfits and ships are supported (Variants are somewhat, see below)
- - Built in plugin support, with [templates](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria/TEMPLATES) for adding plugins
+ - A custom start with everything unlocked at Senza Solaria (And a Dev-start for testing)
  - [Cost balance changes](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/blob/main/plugins/poot-senza-solaria/data/solaria-VANILLA-BALANCE-CHANGES.txt) to some vanilla outfits and ships not normally obtainable or not obtainable more than once
+ - A custom Author ship
+ - Built in plugin support, with [templates](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria/TEMPLATES) for adding plugins
  - An [updater and plugin compatibility script](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/tools/scripts/senza-solaria-generator) to quickly update the plugin for the base game or add another plugin's content.
    - The hope of this is to ensure the plugin does not go out of date overtime should updates cease in the future, while also not having it be an absolute _slog_ to add compatibility for plugins with hundreds of items.
 <img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/fe023c9a-bf53-41b6-b311-3b00d7c7200e" />
@@ -72,8 +75,11 @@ event "Senza Solaria Stocks Auxiliary (ship)"
 ```
 
  - The script will also create a file that contains all variants detected in the scanned directory.
-
+#
 _this plugin supports the following plugins:_
 
- - [(POOT) Respawning Authors](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
+ - [Respawning Authors](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
+ - [Infinite Expanse](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-infinite-expanse)
+ - [System Conversions](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-system-conversions)
+
 

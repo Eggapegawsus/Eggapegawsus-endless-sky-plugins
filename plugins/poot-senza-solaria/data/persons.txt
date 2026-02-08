@@ -1,0 +1,471 @@
+
+government "Senza Solaria Author"
+	"swizzle" 5
+	"display name" "Author"
+	"player reputation" 1
+	"attitude toward"
+		"Bounty" -.4
+		"Bounty (Disguised)" -.4
+		"Merchant" .3
+		"Pirate" -.4
+		"Shaded" -.2
+	"bribe" 0
+	"friendly disabled hail" "friendly disabled"
+	"hostile disabled hail" "hostile disabled"
+
+person "Senza Solaria III"
+	government "Senza Solaria Author"
+	frequency 200
+	personality
+		mining harvests surveillance unconstrained staying heroic
+	phrase
+		word
+			"Search for Senza Solaria Station!"
+			"Donate Today!"
+			"I've heard there's a station out there that can sell any outfit in the game..."
+			"I bet my collection's bigger than yours!"
+			"Gotta collect 'em all!"
+			"Outfits?.... OUTFITS???"
+			"Do you know what it's like to hold the outfit for someone you love?"
+			"Be very very quiet... I'm hunting outfits..."
+			"I sure hope there aren't any... OUTFITS, nearby..."
+			"Have you seen a man in a blue labcoat? He owes me an outfit."
+			"Got outfits?"
+			"The navy tried to ban me from buying outfits, I got Senza Solaria then got back in."
+			"I got outfits. I've had outfits. I will continue to get outfits."
+			"Oh boy, I sure love Endless Sky! I wonder if there's somewhere around here to buy some outfits..."
+			"These outfits ain't NOTHIN to me!"
+			"*sniff* *sniff*... Is that an... OUTFIT???"
+			"You wouldn't download an outfit, would you?"
+			"Remember to support your local outfitter!"
+			"Give me MOOOOOORE..."
+			"... Wanna buy somethin'?"
+			"Nice outfits... it'd be a shame if someone were to donate them..."
+			"I got the outfits in the back. Outfit is attatched."
+			`I'm looking for an "Ember Tear", have you seen any?`
+			`I there are whispers of some sort of "Antimatter" device... Have you seen one?`
+			`Someone told me a rumor about some sort of Dragon cannon that breaths fire... Can you believe this stuff?!`
+			`I heard a rumor about some sort of Hyperdrive that can jump to systems without any hyperspace links... pretty nutty, huh?`
+			`Someone tried to tell me about some sort of "Asteroid Space Station" orbiting next to a bunch of dinosaurs... People really will believe anything, huh?`
+	ship "Senza Solaria" "Senza Solaria III"
+
+person "Senza Solaria II"
+	government "Senza Solaria Author"
+	frequency 200
+	personality
+		mining harvests surveillance unconstrained staying heroic
+	phrase
+		word
+			"Search for Senza Solaria Station!"
+			"Donate Today!"
+			"I've heard there's a station out there that can sell any outfit in the game..."
+			"I bet my collection's bigger than yours!"
+			"Gotta collect 'em all!"
+			"Outfits?.... OUTFITS???"
+			"Do you know what it's like to hold the outfit for someone you love?"
+			"Be very very quiet... I'm hunting outfits..."
+			"I sure hope there aren't any... OUTFITS, nearby..."
+			"Have you seen a man in a blue labcoat? He owes me an outfit."
+			"Got outfits?"
+			"The navy tried to ban me from buying outfits, I got Senza Solaria then got back in."
+			"I got outfits. I've had outfits. I will continue to get outfits."
+			"Oh boy, I sure love Endless Sky! I wonder if there's somewhere around here to buy some outfits..."
+			"These outfits ain't NOTHIN to me!"
+			"*sniff* *sniff*... Is that an... OUTFIT???"
+			"You wouldn't download an outfit, would you?"
+			"Remember to support your local outfitter!"
+			"Give me MOOOOOORE..."
+			"... Wanna buy somethin'?"
+			"Nice outfits... it'd be a shame if someone were to donate them..."
+			"I got the outfits in the back. Outfit is attatched."
+			`I'm looking for an "Ember Tear", have you seen any?`
+			`I there are whispers of some sort of "Antimatter" device... Have you seen one?`
+			`Someone told me a rumor about some sort of Dragon cannon that breaths fire... Can you believe this stuff?!`
+			`I heard a rumor about some sort of Hyperdrive that can jump to systems without any hyperspace links... pretty nutty, huh?`
+			`Someone tried to tell me about some sort of "Asteroid Space Station" orbiting next to a bunch of dinosaurs... People really will believe anything, huh?`
+	ship "Senza Solaria" "Senza Solaria II"
+	ship "Solarian Star Barge" "Quick Donater"
+	ship "Solarian Star Barge" "Plentiful Donater"
+	ship "Solarian Star Barge" "Searching Donater"
+	ship "Solarian Star Barge" "Powerful Donater"
+	ship "Solarian Star Barge" "Collecting Donater"
+	ship "Solarian Research Drone" "Intelligent Researcher"
+	ship "Solarian Research Drone" "Egotistical Researcher"
+	ship "Solarian Research Drone" "Thorough Researcher"
+	ship "Solarian Research Drone" "Purposeful Researcher"
+	ship "Solarian Research Drone" "Observant Researcher"
+
+ship "Senza Solaria"
+	sprite "ship/senza_solaria"
+	thumbnail "thumbnail/senza_solaria_thumbnail"
+	attributes
+		category "Unclassified"
+		"cost" 22700000
+		"shields" 50000
+		"hull" 27500
+		"required crew" 150
+		"bunks" 750
+		"mass" 2250
+		"drag" 24.2
+		"hull repair rate" 7
+		"turn" 10000
+		"thrust" 600
+		"reverse thrust" 600
+		"shield generation" 15
+		"energy generation" 250
+		"outfit scan power" 150
+		"outfit scan efficiency" 20
+		"tactical scan power" 100
+		"heat dissipation" .8
+		"fuel capacity" 1500
+		"cargo space" 4400
+		"outfit space" 4200
+		"weapon capacity" 1700
+		"engine capacity" 1900
+		"heat capacity" 400000
+		"gaslining"
+		"spinal mount" 4
+		weapon
+			"blast radius" 1500
+			"shield damage" 5000
+			"hull damage" 2500
+			"hit force" 6000
+	outfits
+		"Blood of Surtr"
+		"Blue Sun Reactor" 5
+		"Cryogenic Deuterium Tank" 2
+		"Dark Storm Shielding" 2
+		"Dragonflame Cannon" 2
+		"Fusion Drive"
+		Hyperdrive
+		"Interference Plating" 40
+		"Large Collector Module" 9
+		"Large Hybrid Cooling" 10
+		"Large Radar Jammer" 5
+		"Magnetic Scoop" 20
+		"Point Defense Turret" 4
+		"Pug Biodefenses" 500
+		"Quantum Vacuum Battery" 5
+		"Quarg Skylance" 4
+		"Solarian Particle Waveform Turret" 4
+		"Solarian Zapper Turret" 4
+		"Systems Core (Large)" 2
+		"Tear of Skade"
+		
+	gun 16 -193 "Dragonflame Cannon"
+		under
+	gun -15 -193 "Dragonflame Cannon"
+		under
+	gun 27.5 -192
+		under
+	gun -28 -192
+		under
+	turret 23 -136 "Point Defense Turret"
+		over
+	turret -22 -136 "Solarian Zapper Turret"
+		over
+	turret 41.5 -134 "Point Defense Turret"
+		over
+	turret -41 -133 "Point Defense Turret"
+		over
+	turret 41.5 1 "Quarg Skylance"
+		over
+	turret -41.5 1 "Quarg Skylance"
+		over
+	turret 50 1.5 "Quarg Skylance"
+		over
+	turret -51 1 "Quarg Skylance"
+		over
+	turret 57.5 4.5 "Solarian Particle Waveform Turret"
+		over
+	turret -56 3 "Solarian Particle Waveform Turret"
+		over
+	turret 66 51 "Solarian Particle Waveform Turret"
+		over
+	turret -66 51 "Solarian Particle Waveform Turret"
+		over
+	turret 82 52.5 "Solarian Zapper Turret"
+		over
+	turret -80.5 52 "Point Defense Turret"
+		over
+	turret 90 55.5 "Solarian Zapper Turret"
+		over
+	turret -90 54.5 "Solarian Zapper Turret"
+		over
+	bay "Drone" -15 -104
+	bay "Fighter" 15.5 -103.5
+	bay "Drone" -15 -66
+	bay "Fighter" 16 -65
+	bay "Drone" -15 -27.5
+	bay "Fighter" 16 -27.5
+	bay "Drone" -14.5 13
+	bay "Fighter" 17 11.5
+	bay "Drone" -15 49
+	bay "Fighter" 15.5 49
+	engine 0 192.5
+		zoom 2
+	`reverse engine` 0 -157.5
+		zoom 2
+	`steering engine` 37.5 -126
+		angle -45
+		left
+	`steering engine` -37 -125.5
+		angle 45
+		right
+	
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "A massive space station, filled to the brim with countless versions of every outfit in the galaxy. If only you had the password to the door of the storage area..."
+
+ship "Solarian Star Barge"
+	sprite "ship/star barge"
+	thumbnail "thumbnail/star barge"
+	attributes
+		category "Fighter"
+		"cost" 1900000
+		"shields" 6000
+		"hull" 10000
+		"required crew" 3
+		"bunks" 15
+		"mass" 400
+		"drag" 2.2
+		"heat dissipation" .77
+		"fuel capacity" 500
+		"cargo space" 500
+		"outfit space" 1600
+		"weapon capacity" 750
+		"engine capacity" 600
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 240
+	outfits
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Electron Turret" 4
+		Hyperdrive
+		"Interference Plating" 15
+		"Ka'het Nullifier"
+		"Large Hybrid Cooling" 2
+		"Large Radar Jammer" 4
+		"Overclocked Repair Module" 2
+		"Quantum Vacuum Battery" 2
+		"Quasar Core" 2
+		"Systems Core (Large)"
+		
+	engine -9.5 38
+	engine 9.5 38
+	turret 0 -18
+		over
+	turret 13.5 -2 "Electron Turret"
+		over
+	turret -14 -2 "Electron Turret"
+		over
+	turret 13.5 15.5 "Electron Turret"
+		over
+	turret -14 15.5 "Electron Turret"
+		over
+	gun 4.5 -38
+	gun -3 -38
+	gun 11.5 -27.5
+	gun -10 -29.5
+	leak "leak" 60 50
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description "The Syndicate CT-50 Star Barge is little more than a cluster of cargo containers with an engine at one end and a cockpit on the other. It is a slow and ugly ship, but it can carry enough cargo to earn its captain a steady income even in parts of the galaxy where it is hard to find passengers to carry or courier missions."
+	description "	Because they often carry valuable cargo, and because they are too slow to evade any attackers, Star Barges are a common target of pirates."
+
+
+
+ship "Solarian Research Drone"
+	sprite "ship/science drone"
+	thumbnail "ship/science drone"
+	attributes
+		category "Drone"
+		"cost" 1800000
+		"shields" 14000
+		"hull" 5000
+		"automaton" 1
+		"mass" 500
+		"drag" 4
+		"heat dissipation" .86
+		"fuel capacity" 1500
+		"cargo space" 150
+		"outfit space" 2000
+		"weapon capacity" 700
+		"engine capacity" 900
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 240
+	outfits
+		"Afterburner (Stellar Class)"
+		"Dual Sunbeam Turret"
+		"Electron Beam" 2
+		"Electron Turret"
+		"Heavy Laser" 2
+		"Heavy Laser Turret"
+		Hyperdrive
+		"Interference Plating" 20
+		"Korath Inferno"
+		"Large Hybrid Cooling" 2
+		"Large Radar Jammer" 5
+		"Moonbeam Turret"
+		"Overclocked Repair Module" 2
+		"Quantum Vacuum Battery" 2
+		"Quasar Core" 3
+		"Solarian Zapper Turret"
+		"Steering (Stellar Class)" 2
+		"Systems Core (Large)" 2
+		"Thruster (Planetary Class)"
+		
+	engine 0.5 30.5
+		zoom 1.5
+	`steering engine` 15.5 4
+		left
+		angle -45
+		zoom .7
+	`steering engine` -13.5 4
+		zoom .7
+		right
+		angle 45
+	turret -30.5 -9.5
+	turret 30.5 -9
+	turret -26 -26
+	turret 33 -33.5
+	turret -7 -24.5
+	turret -2 -38
+	gun 0 -9
+	gun 0 -9
+	gun 0 -9
+	gun 0 -9
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "With space for neither cargo nor passengers nor heavy weaponry, the Flivver's only selling point is speed. Flivvers are sold mostly to wealthy individuals who want to be able to travel the stars without needing to share a bunk room on a merchant transport with common people."
+
+
+outfit "Solarian Particle Waveform Turret"
+	category "Turrets"
+	series "Turrets"
+	index 13010
+	cost 7580000
+	thumbnail "outfit/pwave turret"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"unique" 1
+	weapon
+		sprite "projectile/pwavecannon"
+			"frame rate" 20
+		sound "pwave"
+		"fire effect" "lightning flare"
+		"hit effect" "pwave impact"
+		"inaccuracy" 1.5
+		"turret turn" 2.4
+		"velocity" 50
+		"lifetime" 48
+		"reload" 15
+		"firing energy" 180
+		"firing heat" 651
+		"shield damage" 190
+		"hull damage" 320
+		"heat damage" 224
+		"ion damage" 4.2
+		"scrambling damage" 4.2
+	description "A heavily modified alien turret."
+
+outfit "Solarian Particle Waveform Cannon"
+	category "Guns"
+	series "Guns"
+	index 13010
+	cost 7580000
+	thumbnail "outfit/pwave turret"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"unique" 1
+	weapon
+		sprite "projectile/pwavecannon"
+			"frame rate" 20
+		sound "pwave"
+		"fire effect" "lightning flare"
+		"hit effect" "pwave impact"
+		"inaccuracy" 1.5
+		"velocity" 50
+		"lifetime" 48
+		"reload" 15
+		"firing energy" 180
+		"firing heat" 651
+		"shield damage" 190
+		"hull damage" 320
+		"heat damage" 224
+		"ion damage" 4.2
+		"scrambling damage" 4.2
+	description "A heavily modified alien turret."
+
+
+outfit "Solarian Zapper Turret"
+	category "Turrets"
+	series "Turrets"
+	index 90010
+	cost 21600000
+	thumbnail "outfit/pug zapper turret"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"turret mounts" -1
+	weapon
+		sprite "projectile/solarian_lightning"
+			"frame rate" 60
+			"random start frame"
+		sound "zapper"
+		"hit effect" "zapper impact"
+		"inaccuracy" .2
+		"turret turn" 1.8
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 9
+		"firing heat" 4
+		"shield damage" 22
+		"hull damage" 17
+	description "A heavily modified alien turret."
+
+outfit "Solarian Zapper"
+	category "Guns"
+	series "Guns"
+	index 90010
+	cost 21600000
+	thumbnail "outfit/pug zapper"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"gun ports" -1
+	"unique" 1
+	weapon
+		sprite "projectile/solarian_lightning"
+			"frame rate" 60
+			"random start frame"
+		sound "zapper"
+		"hit effect" "zapper impact"
+		"inaccuracy" .2
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 9
+		"firing heat" 4
+		"shield damage" 22
+		"hull damage" 17
+	description "A heavily modified alien turret."

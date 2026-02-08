@@ -1,0 +1,105 @@
+
+
+event `Senza Solaria Stocks Senza Solaria (ship)`
+	shipyard "Senza Solaria Plugin Ships"
+		`Senza Solaria`
+
+mission `Senza Solaria Supply Senza Solaria (ship)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Senza Solaria`
+			not `flagship model: Senza Solaria`
+	on offer
+		conversation
+			scene "thumbnail/senza_solaria_thumbnail"
+			`Upon arriving at Senza Solaria With your Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Senza Solaria to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Senza Solaria`
+			"count" 1
+		event `Senza Solaria Stocks Senza Solaria (ship)`
+
+
+event `Senza Solaria Stocks Solarian Star Barge (ship)`
+	shipyard "Senza Solaria Plugin Ships"
+		`Solarian Star Barge`
+
+mission `Senza Solaria Supply Solarian Star Barge (ship)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Solarian Star Barge`
+			not `flagship model: Solarian Star Barge`
+	on offer
+		conversation
+			scene "thumbnail/star barge"
+			`Upon arriving at Senza Solaria With your Solarian Star Barge, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Solarian Star Barge to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Solarian Star Barge`
+			"count" 1
+		event `Senza Solaria Stocks Solarian Star Barge (ship)`
+
+
+event `Senza Solaria Stocks Solarian Research Drone (ship)`
+	shipyard "Senza Solaria Plugin Ships"
+		`Solarian Research Drone`
+
+mission `Senza Solaria Supply Solarian Research Drone (ship)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		and	
+			has `ship model: Solarian Research Drone`
+			not `flagship model: Solarian Research Drone`
+	on offer
+		conversation
+			scene "ship/science drone"
+			`Upon arriving at Senza Solaria With your Solarian Research Drone, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected a ship unknown to them within your fleet, would you be willing to donate it for us to research it?" says a researcher.`
+			choice
+				`	(Donate the Solarian Research Drone to be researched.) WARNING: ALL INSTALLED OUTFITS WILL BE LOST.`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers guide your ship to an isolated landing pad a few miles from the spaceport, and carefully transport it inside of one of their research facilities."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new ship entering production soon at Senza Solaria.`
+				accept
+	on accept
+		take ship `Solarian Research Drone`
+			"count" 1
+		event `Senza Solaria Stocks Solarian Research Drone (ship)`
