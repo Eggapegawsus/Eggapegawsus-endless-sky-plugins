@@ -1,0 +1,16 @@
+#Variants found in files, be sure to add these to their proper missions based on the ship they are a variant of if you wish to be able to purchase them
+#If you would like to make these availible for purchase when playing with everything unlocked, remove the `#` infront of the next line.
+#shipyard `Senza Solaria Unlockall Ships Plugin`
+	`Collecting Donater (PRA)`
+	`Egotistical Researcher (PRA)`
+	`Intelligent Researcher (PRA)`
+	`Observant Researcher (PRA)`
+	`Plentiful Donater (PRA)`
+	`Powerful Donater (PRA)`
+	`Purposeful Researcher (PRA)`
+	`Quick Donater (PRA)`
+	`Searching Donater (PRA)`
+	`Senza Solaria II (PRA)`
+	`Thorough Researcher (PRA)`
+	`Vyrmeid (B)`
+	`Vyrmeid (C)`

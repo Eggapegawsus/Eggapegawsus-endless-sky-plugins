@@ -1,0 +1,6 @@
+outfitter `Senza Solaria Unlockall Outfits Plugin`
+	`Microbot Grinder`
+	`Solarian Particle Waveform Cannon`
+	`Solarian Particle Waveform Turret`
+	`Solarian Zapper`
+	`Solarian Zapper Turret`
