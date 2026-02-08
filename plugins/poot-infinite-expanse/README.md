@@ -1,5 +1,5 @@
-**UPDATED 1/31/2026, for ES Unstable 0.11.0**
- - [Download v1.0.0]() (Latest)
+**UPDATED 2/7/2026, for ES Unstable 0.11.0**
+ - [Download v1.0.0](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v1.0.0-infinite-expanse/poot-infinite-expanse-v1.0.0.zip) (Latest)
 
 ![infinite Expanse](/images/infinite_expanse.png) 
 # Infinite Expanse
@@ -42,9 +42,4 @@ There are two types of outfits: Void Expansions, and Infentessimal Expansions
 
 - All outfits can be purchased from any "basic" outfitter.
 
-<br>
-
-_this plugin supports the following plugins:_
-
- - [(POOT) Respawning Authors](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-respawning-authors)
 
