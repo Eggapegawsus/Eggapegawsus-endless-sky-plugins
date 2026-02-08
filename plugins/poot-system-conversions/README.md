@@ -1,7 +1,7 @@
 **UPDATED 1/31/2026, for ES Unstable 0.11.0**
  - [Download v1.0.0]() (Latest)
 
-![system conversions](/images/system_conversions.png) 
+[!system conversions](/images/system_conversions.png) 
 # 
 This plugin adds outfits that can swap outfit, engine, weapon, and cargo space, as well as add spinal mounts for various outfits. 
 <br>

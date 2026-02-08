@@ -49,7 +49,7 @@ outfit "Compact Heavy Outfit"
 	category "System Conversions"
 	series "poot: System Conversions"
 	index 604
-	cost 5500000
+	cost 7500000
 	thumbnail "outfit/black_screwdriver"
 	"mass" 50
 	"outfit space" -50
