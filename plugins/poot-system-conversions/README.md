@@ -1,124 +1,109 @@
-**UPDATED 1/31/2026, for ES Unstable 0.11.0**
+**UPDATED 2/7/2026, for ES Unstable 0.11.0**
  - [Download v1.0.0]() (Latest)
 
-[!system conversions](/images/system_conversions.png) 
+![system conversions](/images/system_conversions.png) 
 # 
 This plugin adds outfits that can swap outfit, engine, weapon, and cargo space, as well as add spinal mounts for various outfits. 
 <br>
 
-## Basic Conversions
+## Info about Conversions
 
-  Cargo, Outfit, Weapon, and Engine conversions have XL version, which are essentially 100 of their base conversion in a single outfit
+  - Cargo, Outfit, Weapon, and Engine conversions have XL version, which are 100x the size of the standard "S" versions.
+  - Cargo, Weapon, and Engine conversion also have "Deconversions", which allow you to turn said space into Outfit Space.
 
-  - **Cargo Conversion**
-    - Cost: 30,000
-    - Outfit Space: -10
-    - Cargo Space: 15
+<br>
+<br>
 
-  - **Cargo Bunk Conversion**
-    - Cost: 30,000
-    - Bunks: -1
-    - Cargo Space: 5
+# Types of Conversions
+<details>
+<summary>Cargo Conversions</summary>
+ <br>
+ 
+Cargo Conversions can be bought at any basic outfitter
+ - Has a bunk conversion which can convert 1 bunk into 5 cargo space
+ 
+ <br>
+ 
+<img src="/images/system_conversions/system_conversions_cargo_convert.png" width="220"> <img src="/images/system_conversions/system_conversions_cargo_deconvert.png" width="220"> <img src="/images/system_conversions/system_conversions_cargo_bunk.png" width="220">
 
-  - **Weapon and Engine Conversions**
-    - Cost: 30,000
-    - Outfit Space: -1
-    - Weapon/Engine Space: 5
+</details>
 
-  - **Gunport/Turret Conversions**
-    - Cost: 100,000
-    - Gun Ports/Turret Mounts: -1
-    - Outfit Space: 50
+<details>
+<summary>Outfit Conversions</summary>
+ <br>
+ 
+Outfit Conversions can be bought at any basic outfitter 
+ 
+ <br>
+ 
+<img src="/images/system_conversions/system_conversions_outfit_gun.png" width="220"> <img src="/images/system_conversions/system_conversions_outfit_turret.png" width="220"> 
+</details>
+
+<details>
+<summary>Engine Conversions</summary>
+ <br>
+ 
+Engine Conversions can be bought at any basic outfitter 
+ 
+ <br>
+ 
+<img src="/images/system_conversions/system_conversions_engine.png" width="220"> <img src="/images/system_conversions/system_conversions_engine_deconvert.png" width="220">
+</details>
+
+<details>
+<summary>Weapon Conversions</summary>
+ <br>
+ 
+Weapon Conversions can be bought at any basic outfitter 
+ 
+ <br>
+ 
+<img src="/images/system_conversions/system_conversions_weapon.png" width="220"> <img src="/images/system_conversions/system_conversions_weapon_deconvert.png" width="220"> 
+</details>
 
 ## Special Conversions
 
-There are also special conversions for Spinal Mounts and the Asteroid Mounts, as well as a new type called Heavy Outfit Space.
-
-Heavy outfit space is recquired to install Asteroid Conversions, and Spinal Mount Conversions
-
-**IMPORTANT NOTES:**
-
- - Spinal Mount conversions can be bought at Remnant Outfitters. 
- - Asteroid Conversions are by default, not obtainable. To acquire them, you must use another plugin which enables them and allows asteroid weapons to be obtainable.
-
+ - There are also special conversions for Spinal Mounts and the Asteroid Mounts, as well as a new type called Heavy Outfit Space.
 
 <details>
 <summary>Heavy Outfit Space</summary>
+ <br>
+Heavy Outfit Space is used by Special Conversions. They can be bought at any Basic Outfitter
+ 
+ - Some other plugins may also utilize it, such as [POOT](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/peripherals-or-outstanding-trinkets)
+ 
+ <img src="/images/system_conversions/system_conversions_heavyoutfit.png" width="220">
+<img src="/images/system_conversions/system_conversions_heavyoutfit_gun.png" width="220"> <img src="/images/system_conversions/system_conversions_heavyoutfit_turret.png" width="220"> <img src="/images/system_conversions/system_conversions_utility_heavyoutfit.png" width="220"> <img src="/images/system_conversions/system_conversions_compact_heavyoutfit.png" width="220"> 
+</details>
 
-  - **Asteroid Jump Drive Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount jd: 1
+<details>
+<summary>Spinal Mount</summary>
+ <br>
+ 
+This outfit can use 5 Heavy Outfit Space for installation of a Spinal Mount
+ - Spinal Mount conversions can be bought at Remnant Outfitters. 
 
-  - **Asteroid Jump Drive Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount jd: 1
-
-  - **Asteroid Mount Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount: 1
-    - asteroid mount small: 1
-
-  - **Asteroid Antimissle Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount am: 1
-  
-  - **Asteroid Large Mount Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount: 1
-    - asteroid mount small: 1
+ <br>
+ 
+ <img src="/images/system_conversions/system_conversions_spinalmount.png" width="220">
 </details>
 
 <details>
 <summary>Asteroid Conversions</summary>
-
-  - **Asteroid Jump Drive Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount jd: 1
-
-  - **Asteroid Jump Drive Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount jd: 1
-
-  - **Asteroid Mount Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount: 1
-    - asteroid mount small: 1
-
-  - **Asteroid Antimissle Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount am: 1
-  
-  - **Asteroid Large Mount Conversion**
-    - Cost: 20,000,000
-    - Mass: 100
-    - heavy outfit space: -1
-    - asteroid mount: 1
-    - asteroid mount small: 1
+ <br>
+ 
+ These are conversions to utilize the Asteroid Outfits from the Beyond Patir missions
+  - **NOTE:** By default there are no ways to obtain these, you must use a plugin which can also allow the asteroid outfits to be obtainable.
+ 
+ <br>
+ <br>
+ 
+ <img src="/images/system_conversions/system_conversions_asteroidmount.png" width="220">
+<img src="/images/system_conversions/system_conversions_asteroidantimissle.png" width="220"> <img src="/images/system_conversions/system_conversions_asteroidjumpdrive.png" width="220"> <img src="/images/system_conversions/system_conversions_largeasteroidmount.png" width="220">
 </details>
 <br>
 
 
-## Purchasing
-
-- All outfits can be purchased from any "basic" outfitter.
 
 
 
