@@ -93,7 +93,8 @@ This outfit can use 5 Heavy Outfit Space for installation of a Spinal Mount
  <br>
  
  These are conversions to utilize the Asteroid Outfits from the Beyond Patir missions
-  - **NOTE:** By default there are no ways to obtain these, you must use a plugin which can also allow the asteroid outfits to be obtainable.
+  - **NOTE:** By default there are no ways to obtain these, you must use a plugin which can also allow the asteroid outfits to be obtainable. Because of this, this plugin has built-in support for [Senza Solaria](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria).
+    - To obtain the Asteroid Conversions with Senza Solaria installed, they will be purchasable once the Spinal Mount Conversion is donated.
  
  <br>
  <br>
@@ -102,6 +103,7 @@ This outfit can use 5 Heavy Outfit Space for installation of a Spinal Mount
 <img src="/images/system_conversions/system_conversions_asteroidantimissle.png" width="220"> <img src="/images/system_conversions/system_conversions_asteroidjumpdrive.png" width="220"> <img src="/images/system_conversions/system_conversions_largeasteroidmount.png" width="220">
 </details>
 <br>
+
 
 
 
