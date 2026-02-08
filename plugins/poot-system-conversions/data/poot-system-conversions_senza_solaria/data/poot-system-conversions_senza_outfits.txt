@@ -186,6 +186,37 @@ mission `Senza Solaria Supply Heavy Outfit (Turret) (outfit)`
 		event `Senza Solaria Stocks Heavy Outfit (Turret) (outfit)`
 
 
+event `Senza Solaria Stocks Heavy Outfit Expansion (outfit)`
+	outfitter "Senza Solaria Plugin Outfits"
+		`Heavy Outfit Expansion`
+mission `Senza Solaria Supply Heavy Outfit Expansion (outfit)`
+	invisible
+	landing
+	source
+		planet "Senza Solaria"
+	to offer
+		has `outfit (cargo): Heavy Outfit Expansion`
+	on offer
+		conversation
+			scene "outfit/black_screwdriver"
+			`Upon arriving at Senza Solaria, before you can even decide where to go, a group of researchers are already there to meet you the moment you step off of your ship.`
+			`	"Our scanners detected an unknown outfit aboard your ship, would you be willing to donate it for us to reverse engineer?" says a researcher.`
+			choice
+				`	(Donate the Heavy Outfit Expansion to be researched.)`
+					goto donate
+				`	(Don't donate.)`
+					defer
+			label donate
+			`"Ah, perfect! We appreciate your donation, and assure you, your contribution will not go to waste!"`
+			`The engineers carefully extract the donation from your ship, and take it to their research facility to reverse engineer."`
+			``
+			`	After idling at the spaceport for a few hours, you hear rumors of a new stock arriving soon at Senza Solaria.`
+				accept
+	on accept
+		outfit `Heavy Outfit Expansion` -1
+		event `Senza Solaria Stocks Heavy Outfit Expansion (outfit)`
+
+
 event `Senza Solaria Stocks Utility Heavy Outfit (outfit)`
 	outfitter "Senza Solaria Plugin Outfits"
 		`Utility Heavy Outfit`
@@ -251,6 +282,10 @@ mission `Senza Solaria Supply Compact Heavy Outfit (outfit)`
 event `Senza Solaria Stocks Spinalmount Modification (outfit)`
 	outfitter "Senza Solaria Plugin Outfits"
 		`Spinalmount Modification`
+		`Asteroid antimissle conversion`
+		`Asteroid jumpdrive conversion`
+		`Asteroid large mount conversion`
+		`Asteroid mount conversion`
 mission `Senza Solaria Supply Spinalmount Modification (outfit)`
 	invisible
 	landing
