@@ -1,0 +1,15 @@
+outfitter `Senza Solaria Unlockall Outfits Plugin`
+	`Infentessimal Cargo Expansion`
+	`Infentessimal Cargo Expansion XL`
+	`Infentessimal Outfit Expansion`
+	`Infentessimal Outfit Expansion XL`
+	`Void Cargo Expansion S`
+	`Void Cargo Expansion XL`
+	`Void Engine Expansion S`
+	`Void Engine Expansion XL`
+	`Void Mass Expansion S`
+	`Void Mass Expansion XL`
+	`Void Outfit Expansion S`
+	`Void Outfit Expansion XL`
+	`Void Weapon Expansion S`
+	`Void Weapon Expansion XL`

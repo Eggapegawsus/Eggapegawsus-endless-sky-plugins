@@ -1,15 +1,15 @@
 
 outfitter "Basic Outfits"
 	"Void Mass Expansion S"
-	"Void Mass Expansion  XL"
+	"Void Mass Expansion XL"
 	"Void Outfit Expansion S"
-	"Void Outfit Expansion  XL"
+	"Void Outfit Expansion XL"
 	"Void Cargo Expansion S"
-	"Void Cargo Expansion  XL"
+	"Void Cargo Expansion XL"
 	"Void Engine Expansion S"
-	"Void Engine Expansion  XL"
+	"Void Engine Expansion XL"
 	"Void Weapon Expansion S"
-	"Void Weapon Expansion  XL"
+	"Void Weapon Expansion XL"
 
 outfit "Void Mass Expansion S"
 	category "Void Technology"
@@ -18,16 +18,16 @@ outfit "Void Mass Expansion S"
 	"mass" -25
 	"heat generation" 4.66
 	unplunderable 1
-	description "Utilizing void technology, this appliance can condense pieces of a ship to reduce their mass. Unforunetly, doing so causes quite a few heating problems."
+	description "By utilizing void technology, this expansion can condense pieces of a ship to reduce their mass by 25. Unforunetly, doing so causes quite a few heating problems."
 	
-outfit "Void Mass Expansion  XL"
+outfit "Void Mass Expansion XL"
 	category "Void Technology"
 	cost 20000000
 	thumbnail "outfit/red screwdriver"
 	"mass" -2500
 	"heat generation" 466
 	unplunderable 1
-	description "Utilizing void technology, this appliance can condense pieces of a ship to reduce their mass. Unforunetly, doing so causes quite a few heating problems."
+	description "By utilizing void technology, this expansion can condense pieces of a ship to reduce their mass by 25. Unforunetly, doing so causes quite a few heating problems."
 	
 outfit "Void Outfit Expansion S"
 	category "Void Technology"
@@ -38,9 +38,9 @@ outfit "Void Outfit Expansion S"
 	"cargo space" -5
 	"heat generation" 2.25
 	unplunderable 1
-	description "Expands outfit space by 20 at the cost of 5 cargo space."
+	description "By utilizing void technology, this expansion increases outfit space by 20 at the cost of 5 cargo space."
 	
-outfit "Void Outfit Expansion  XL"
+outfit "Void Outfit Expansion XL"
 	category "Void Technology"
 	cost 16000000
 	thumbnail "outfit/green screwdriver"
@@ -49,7 +49,7 @@ outfit "Void Outfit Expansion  XL"
 	"cargo space" -500
 	"heat generation" 225
 	unplunderable 1
-	description "Expands outfit space by 2000 at the cost of 500 cargo space."
+	description "By utilizing void technology, this expansion increases outfit space by 2000 at the cost of 500 cargo space."
 	
 outfit "Void Cargo Expansion S"
 	category "Void Technology"
@@ -60,9 +60,9 @@ outfit "Void Cargo Expansion S"
 	"outfit space" -5
 	"heat generation" 2
 	unplunderable 1
-	description "An Altered version of the Void Outfit Conversion designed to be installed in the cargohold of a ship. It is very heavy however, and due to high density walls to protect the holding bay, it is know to cause some heating problems due to shoving en extra wall infront of the engine components of a ship."
+	description "By utilizing void technology, this expansion increases cargo space by 2000 at the cost of 500 Outfit Space. The expansion does, however, cause some heat inefficiency."
 	
-outfit "Void Cargo Expansion  XL"
+outfit "Void Cargo Expansion XL"
 	category "Void Technology"
 	cost 40000000
 	thumbnail "outfit/purple screwdriver"
@@ -71,7 +71,7 @@ outfit "Void Cargo Expansion  XL"
 	"outfit space" -500
 	"heat generation" 200
 	unplunderable 1
-	description "An Altered version of the Void Outfit Conversion designed to be installed in the cargohold of a ship. It is very heavy however, and due to high density walls to protect the holding bay, it is know to cause some heating problems due to shoving en extra wall infront of the engine components of a ship."
+	description "By utilizing void technology, this expansion increases cargo space by 2000 at the cost of 500 Outfit Space. The expansion does, however, cause some heat inefficiency."
 	
 outfit "Void Engine Expansion S"
 	category "Void Technology"
@@ -82,9 +82,9 @@ outfit "Void Engine Expansion S"
 	"engine capacity" 20
 	unplunderable 1
 	"heat generation" 1.5
-	description "Expands engine storage, but has even bigger walls than the cargo expansions, so more heat gets trapped."
+	description "By utilizing void technology, this expansion increases engine capacity by 20 at the cost of 5 Outfit Space."
 	
-outfit "Void Engine Expansion  XL"
+outfit "Void Engine Expansion XL"
 	category "Void Technology"
 	cost 16000000
 	thumbnail "outfit/orange screwdriver"
@@ -93,7 +93,7 @@ outfit "Void Engine Expansion  XL"
 	"engine capacity" 2000
 	"heat generation" 150
 	unplunderable 1
-	description "Expands engine storage, but has even bigger walls than the cargo expansions, so more heat gets trapped."
+	description "By utilizing void technology, this expansion increases engine capacity by 2000 at the cost of 500 Outfit Space."
 	
 outfit "Void Weapon Expansion S"
 	category "Void Technology"
@@ -104,9 +104,9 @@ outfit "Void Weapon Expansion S"
 	"weapon capacity" 20
 	unplunderable 1
 	"heat generation" 1.5
-	description "Swaps outfit space for weapon capacity."
+	description "By utilizing void technology, this expansion increases weapon capacity by 20 at the cost of 5 Outfit Space."
 	
-outfit "Void Weapon Expansion  XL"
+outfit "Void Weapon Expansion XL"
 	category "Void Technology"
 	cost 16000000
 	thumbnail "outfit/yellow screwdriver"
@@ -115,5 +115,5 @@ outfit "Void Weapon Expansion  XL"
 	"weapon capacity" 2000
 	"heat generation" 150
 	unplunderable 1
-	description "Swaps outfit space for weapon capacity."
+	description "By utilizing void technology, this expansion increases weapon capacity by 2000 at the cost of 500 Outfit Space."
 	
