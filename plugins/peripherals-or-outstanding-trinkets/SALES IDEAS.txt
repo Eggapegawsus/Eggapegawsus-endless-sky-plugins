@@ -1,0 +1,116 @@
+TO BE ENCOUNTERED:
+
+"Scram Jumper (POOT)"
+"Nuclear Power Plant (POOT)"
+"Regenerative Liquid Cooler (POOT)"
+"Scrapped Freighter (POOT)"
+"Prototype Fusion Turret (POOT)"
+"Neutron Beam (POOT)"
+"Neutron Beam Turret (POOT)"
+		"Twin Neutron Beam (POOT)"
+		"Twin Neutron Beam Turret (POOT)"
+
+"B985 Nuclear Steering (POOT)"
+"B980 Nuclear Thruster (POOT)"
+"Heavy Ancient Combustion Thruster (POOT)"
+"Heavy Ancient Combustion Steering (POOT)"
+
+"Emporer Beetle Pendant (POOT)"
+
+"Automaton Shield Module (POOT)"
+"Automaton System Repair Module (POOT)"
+"Sextuple Plasma Core (POOT)"
+"Systems Core (Huge) (POOT)"
+"Optimized Double Plasma Core (POOT)"
+"Optimized Triple Plasma Core (POOT)"
+"Optimized Sextuple Plasma Core (POOT)"
+"Korath Omni-Drive Engines (Galactic Class) (POOT)"
+"Korath Omni-Drive Engines (Universe Class) (POOT)"
+
+
+Korath encountered weapons
+	`Blaze-Pike Lance (POOT)`
+	`Cluster Warder Anti-Missile (POOT)`
+	`Heavy Dual Thermal Repeater (POOT)`
+	`Heavy Thermal "Threepeater" Repeater (POOT)`
+	`Heavy Thermal "Threepeater" Turret (POOT)`
+	`Heavy Thermal Repeater (POOT)`
+	`Heavy Thermal Repeater Turret (POOT)`
+	`Husk-Cleaver (POOT)`
+	`Husk-Cleaver Turret (POOT)`
+	`Korath Inferno Lance (POOT)`
+	`Korath Overreacher (POOT)`
+	`Korath Overreacher Turret (POOT)`
+	`Korath Tripulse Detainer (POOT)`
+	`Korath Wildfire (POOT)`
+	`Korath Wildfire Lance (POOT)`
+	`Modified Husk-Slice (POOT)`
+	`Modified Husk-Slice Turret (POOT)`
+	`Shield Devastator (POOT)`
+	`Shield Devastator Turret (POOT)`
+	`Shield Disruptor Laser (POOT)`
+	`Thermal "Hellfire" Chain Repeater (POOT)`
+	`Thermal "Hellfire" Chain Repeater Turret (POOT)`
+	`Triple Thermal Repeater (POOT)`
+	`Triple Thermal Repeater Turret (POOT)`
+	`Twin Thermal Repeater (POOT)`
+
+
+Avgi encountered weapons
+	`Antimatter Optical Laser (POOT)`
+	`Antimatter Optical Laser Turret (POOT)`
+	`Event Horizon Optical Laser (POOT)`
+	`Event Horizon Optical Laser Turret (POOT)`
+	`Prismatic Optical Laser (POOT)`
+	`Prismatic Optical Laser Turret (POOT)`
+	`Mini Prismatic Optical Laser (POOT)`
+	`Mini Prismatic Optical Laser Turret (POOT)`
+	`Modified UREB Laser (POOT)`
+	`Modified UREB Turret (POOT)`
+	`UREB Lance (POOT)`
+	`UREB Lance Turret (POOT)`
+	`UREB Laser (POOT)`
+
+
+#MAYBE Make encounters only
+
+Avgi encounters weapons
+	`Cyan Optical Laser (POOT)`
+	`Cyan Optical Laser Turret (POOT)`
+	`Capital Cyan Optical Laser (POOT)`
+	`Capital Cyan Optical Laser Turret (POOT)`
+	`Yellow Optical Laser (POOT)`
+	`Yellow Optical Laser Turret (POOT)`
+	`Capital Yellow Optical Laser (POOT)`
+	`Capital Yellow Optical Laser Turret (POOT)`
+
+
+
+
+Abberant encounters weapons
+"Nucleolysis Turret (POOT)"
+"Heavy Nucleolysis Beam (POOT)"
+"Heavy Nucleolysis Laser Turret (POOT)"
+
+
+
+
+Wanderer encounters weapons
+	`Twin Dusk Beam (POOT)`
+	`Dusk Turret (POOT)`
+
+Hai encounters weapons
+	`Modified Unfettered Ion Turret (POOT)`
+
+
+
+
+TO BE UNLOCKED:
+
+"Quantum Jump Drive (POOT)"
+"Horizon Jump Drive (POOT)"
+"Quantum Supercapacitor (POOT)"
+
+
+
+
