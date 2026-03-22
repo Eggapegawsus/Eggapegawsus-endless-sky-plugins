@@ -39,7 +39,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
  
-	<details><summary>List of All Human weapons</summary>
+<details><summary>List of All Human weapons</summary>
 
 <blockquote>
 
@@ -75,7 +75,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Hai Weapons</summary>
+<details><summary>List of All Hai Weapons</summary>
 	
 <blockquote>
 
@@ -94,7 +94,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Korath Weapons</summary>
+<details><summary>List of All Korath Weapons</summary>
 	
 <blockquote>
 
@@ -118,7 +118,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Coalition Weapons</summary>
+<details><summary>List of All Coalition Weapons</summary>
 	
 <blockquote>
 
@@ -136,7 +136,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Quarg Weapons</summary>
+<details><summary>List of All Quarg Weapons</summary>
 	
 <blockquote>
 
@@ -161,7 +161,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Pug Weapons</summary>
+<details><summary>List of All Pug Weapons</summary>
 	
 <blockquote>
 
@@ -192,7 +192,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Avgi Weapons</summary>
+<details><summary>List of All Avgi Weapons</summary>
 	
 <blockquote>
 
@@ -220,7 +220,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>List of All Wanderer Weapons</summary>
+<details><summary>List of All Wanderer Weapons</summary>
 	
 <blockquote>
 
@@ -239,7 +239,7 @@ If you would like to spoil yourself on the vast contents of Peripherals and Outs
 
 <blockquote>
 	 
-	<details><summary>Additional New Weapons</summary>
+<details><summary>Additional New Weapons</summary>
 	
 
 	- New versions of Abberant weapons
