@@ -1,0 +1,151 @@
+
+outfitter "Solaria Basics (POOT)"
+	"Terrorizer Plasma Engines (POOT)"
+	"X12900 Ion Engines (POOT)"
+	"Liquid Hydrogen Cooler (POOT)"
+	"Triple Heavy Laser (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+
+outfitter "Solaria Advanced (POOT)"
+	"Quantum Chamber (POOT)"
+	"Terrorizer Plasma Engines (POOT)"
+	"Domination Plasma Engines (POOT)"
+	"X12900 Ion Engines (POOT)"
+	"X21700 Ion Engines (POOT)"
+	"Liquid Hydrogen Cooler (POOT)"
+	"Regenerative Liquid Cooler (POOT)"
+	"Quantum Supercapacitor (POOT)"
+
+outfitter "Solaria Quantum Basics (POOT)"
+	"Solarian Meteor Array (POOT)"
+	"Solarian Sidewinder Array (POOT)"
+	"Solarian Javelin Array (POOT)"
+	"Solarian Javelin Turret Array (POOT)"
+	"Solarian Torpedo Array (POOT)"
+	"Solarian Heavy Rocket Array (POOT)"
+	"Modified Heavy Gatling Gun (POOT)"
+
+outfitter "Solaria Quantum Advanced (POOT)"
+	"Quantum Chamber (POOT)"
+	"Modified Heavy Gatling Turret (POOT)"
+	`Modified "Octogatler" Gatling Turret (POOT)`
+
+
+planet Wayfarer
+	add outfitter "Solaria Quantum Basics (POOT)"
+	add outfitter "Solaria Quantum Advanced (POOT)"
+	add outfitter "Solaria Basics (POOT)"
+	add outfitter "Solaria Advanced (POOT)"
+
+
+
+
+outfitter "Lovelace Advanced"
+	"Nuclear Power Plant (POOT)"
+
+outfitter "Pirate Advanced"
+	"Heavy Ancient Combustion Thruster (POOT)"
+	"Heavy Ancient Combustion Steering (POOT)"
+
+
+outfitter "South Pirate Advanced"
+	"Scrapped Freighter (POOT)"
+
+
+
+
+outfitter "Avgi Militia Surplus"
+	`Modified UREB Laser (POOT)`
+	`Modified UREB Turret (POOT)`
+	`UREB Lance (POOT)`
+	`UREB Lance Turret (POOT)`
+	`UREB Laser (POOT)`
+
+outfitter "Avgi Dissonance Smuggling"
+	`Modified UREB Laser (POOT)`
+	`Modified UREB Turret (POOT)`
+	`UREB Lance (POOT)`
+	`UREB Lance Turret (POOT)`
+	`UREB Laser (POOT)`
+	`Antimatter Optical Laser (POOT)`
+	`Antimatter Optical Laser Turret (POOT)`
+	`Event Horizon Optical Laser (POOT)`
+	`Event Horizon Optical Laser Turret (POOT)`
+	"Nucleolysis Turret (POOT)"
+	"Heavy Nucleolysis Beam (POOT)"
+	"Heavy Nucleolysis Laser Turret (POOT)"
+
+
+
+
+
+outfitter "Korath Basics"
+	"Worldship Bunk Room (POOT)"
+	"Optimized Double Plasma Core (POOT)"
+	"Optimized Triple Plasma Core (POOT)"
+	"Optimized Sextuple Plasma Core (POOT)"	
+
+
+
+
+
+outfitter "Korath Exiles"
+	"Plasma Core Addition (POOT)"
+	"Sextuple Plasma Core (POOT)"
+	"Systems Core (Huge) (POOT)"
+	"Korath Omni-Drive Engines (Galactic Class) (POOT)"
+	"Korath Omni-Drive Engines (Universe Class) (POOT)"
+	`Blaze-Pike Lance (POOT)`
+	`Cluster Warder Anti-Missile (POOT)`
+	`Heavy Dual Thermal Repeater (POOT)`
+	`Heavy Thermal "Threepeater" Repeater (POOT)`
+	`Heavy Thermal "Threepeater" Turret (POOT)`
+	`Heavy Thermal Repeater (POOT)`
+	`Heavy Thermal Repeater Turret (POOT)`
+	`Husk-Cleaver (POOT)`
+	`Husk-Cleaver Turret (POOT)`
+	`Korath Inferno Lance (POOT)`
+	`Korath Overreacher (POOT)`
+	`Korath Overreacher Turret (POOT)`
+	`Korath Tripulse Detainer (POOT)`
+	`Shield Devastator (POOT)`
+	`Shield Devastator Turret (POOT)`
+	`Thermal "Hellfire" Chain Repeater (POOT)`
+	`Thermal "Hellfire" Chain Repeater Turret (POOT)`
+
+
+
+outfitter "Remnant Salvage"
+	`Korath Inferno Lance (POOT)`
+	"Optimized Plasma Core (POOT)"
+	"Automaton Shield Module (POOT)"
+	"Automaton System Repair Module (POOT)"
+	`Korath Wildfire (POOT)`
+	`Korath Wildfire Lance (POOT)`
+	`Modified Husk-Slice (POOT)`
+	`Modified Husk-Slice Turret (POOT)`
+	`Shield Disruptor Laser (POOT)`
+	`Triple Thermal Repeater (POOT)`
+	`Triple Thermal Repeater Turret (POOT)`
+	`Twin Thermal Repeater (POOT)`
+
+
+
+event "deep sky tech available"
+	outfitter "Deep Sky Basics"
+		"Triple Electron Beam (POOT)"
+	outfitter "Deep Sky Advanced"
+		"Neutron Beam (POOT)"
+		"Neutron Beam Turret (POOT)"
+		"Twin Neutron Beam (POOT)"
+		"Twin Neutron Beam Turret (POOT)"
+
+
+
+
+
+event "wanderers: moonbeam mass production"
+	outfitter "Wanderer Advanced"
+		`Twin Dusk Beam (POOT)`
+		`Dusk Turret (POOT)`

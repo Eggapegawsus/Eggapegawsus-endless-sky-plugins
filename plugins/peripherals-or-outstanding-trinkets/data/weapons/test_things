@@ -1,0 +1,214 @@
+#Initial test outfit
+
+outfit "Sidewinder DRIFT THING Test (POOT)"
+	"display name" `Sidewinder DRIFT THING Test`
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01071
+	cost 420
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 25
+		"velocity" 14
+		"lifetime" 70
+		"reload" 10
+		"firing energy" 1
+		"firing heat" 1
+		"acceleration" .2
+		"drag" .01
+		"turn" 7
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)"
+	description "A test weapon that launches a drifting sidewinder which turns towards its target, which then launches a submunition that moves rapidly towards the target."
+
+#New test outfit
+outfit "Sidewinder Stationary Test Thing (POOT)"
+	"display name" `Sidewinder Stationary Test Thing`
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01071
+	cost 420
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 360
+		"velocity" 15
+		"lifetime" 1
+		"reload" 16
+		"firing energy" 1
+		"firing heat" 1
+		"acceleration" 0.1
+		"drag" .1
+		"turn" 7
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"stream"
+		"submunition" "Sidewinder stationary missile 1 (POOT)" 2
+	description "A test weapon that launches a stationary missile launcher that aims at its targets, which then launches another submunition missile in the exact launcher and a missile at the same time. It repeats this process 5 times."
+
+outfit "Sidewinder stationary missile 1 (POOT)"
+	weapon
+		sprite "outfit/unknown"
+			"scale" .5
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 1
+		"lifetime" 60
+		"acceleration" .0001
+		"drag" .5
+		"turn" 12
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)"
+		"submunition" "Sidewinder stationary missile 2 (POOT)"
+
+outfit "Sidewinder stationary missile 2 (POOT)"
+	weapon
+		sprite "outfit/unknown"
+			"scale" .5
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 1
+		"lifetime" 60
+		"acceleration" .0001
+		"drag" .5
+		"turn" 12
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)" 2
+		"submunition" "Sidewinder stationary missile 3 (POOT)"
+
+outfit "Sidewinder stationary missile 3 (POOT)"
+	weapon
+		sprite "outfit/unknown"
+			"scale" .5
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 1
+		"lifetime" 60
+		"acceleration" .0001
+		"drag" .5
+		"turn" 12
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)" 2
+		"submunition" "Sidewinder stationary missile 4 (POOT)"
+
+outfit "Sidewinder stationary missile 4 (POOT)"
+	weapon
+		sprite "outfit/unknown"
+			"scale" .5
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 1
+		"lifetime" 60
+		"acceleration" .0001
+		"drag" .5
+		"turn" 12
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)" 2
+		"submunition" "Sidewinder stationary missile 5 (POOT)"
+
+outfit "Sidewinder stationary missile 5 (POOT)"
+	weapon
+		sprite "outfit/unknown"
+			"scale" .5
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4
+		"velocity" 1
+		"lifetime" 60
+		"acceleration" .0001
+		"drag" .5
+		"turn" 12
+		"homing"
+		"radar tracking" .9
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18
+		"submunition" "Sidewinder drift missile (POOT)" 2
+
+outfit "Sidewinder drift missile (POOT)"
+	weapon
+		sprite "projectile/javelin"
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1
+		"velocity override" 10
+		"lifetime" 350
+		"acceleration" 2
+		"random velocity" 5
+		"turn" 360
+		"homing"
+			"leading"
+		"drag" .1
+		"shield damage" 260
+		"hull damage" 180
+		"hit force" 255
+		"missile strength" 18

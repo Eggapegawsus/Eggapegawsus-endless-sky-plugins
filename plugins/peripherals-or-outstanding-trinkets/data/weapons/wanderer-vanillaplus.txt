@@ -1,0 +1,337 @@
+
+outfit "Modified Moonbeam (POOT)"
+	"display name" `Modified Moonbeam`
+	category "Guns"
+	series "Guns"
+	index 09011
+	licenses
+		"Wanderer Outfits"
+	cost 1440000
+	thumbnail "outfit/moonbeam"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/modified-moonbeam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.0
+		"velocity" 610
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.4
+		"firing heat" 2.1
+		"shield damage" 4.8
+		"hull damage" 8.4
+	description "A heavily modified moonbeam, capable of sustaining continuous fire. Despite the increased damage output, the modifications do affect the weapons overall efficiency."
+
+outfit "Modified Moonbeam Turret (POOT)"
+	"display name" `Modified Moonbeam Turret`
+	category "Turrets"
+	series "Turrets"
+	index 09011
+	licenses
+		"Wanderer Outfits"
+	cost 1870000
+	thumbnail "outfit/moonbeam turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/modified-moonbeam"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		"hardpoint offset" 9.
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"turret turn" 2.2
+		"inaccuracy" 2.0
+		"velocity" 610
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.4
+		"firing heat" 2.1
+		"shield damage" 4.8
+		"hull damage" 8.4
+	description "A heavily modified moonbeam, capable of sustaining continuous fire. Despite the increased damage output, the modifications do affect the weapons overall efficiency."
+
+outfit "Twin Modified Moonbeam (POOT)"
+	"display name" `Twin Modified Moonbeam`
+	category "Guns"
+	series "Guns"
+	index 09012
+	licenses
+		"Wanderer Outfits"
+	cost 2590000
+	thumbnail "poot-exp/outfit/twin-moonbeam"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/twin-modified-moonbeam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.0
+		"velocity" 610
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12.8
+		"firing heat" 4.2
+		"shield damage" 9.6
+		"hull damage" 16.8
+	description "A pair of heavily modified moonbeams, capable of sustaining continuous fire."
+
+outfit "Twin Modified Moonbeam Turret (POOT)"
+	"display name" `Twin Modified Moonbeam Turret`
+	category "Turrets"
+	series "Turrets"
+	index 09013
+	licenses
+		"Wanderer Outfits"
+	cost 3140000
+	thumbnail "poot-exp/outfit/twin_moonbeam_turret"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/twin-modified-moonbeam"
+			"random start frame"
+		"hardpoint sprite" "poot-exp/hardpoint/twin_moonbeam"
+			"scale" .75
+		"hardpoint offset" 12.
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.0
+		"turret turn" 2.2
+		"velocity" 610
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12.8
+		"firing heat" 4.2
+		"shield damage" 9.6
+		"hull damage" 16.8
+	description "A pair of heavily modified moonbeams, capable of sustaining continuous fire."
+
+outfit "Dual Sunbeam (POOT)"
+	"display name" `Dual Sunbeam`
+	category "Guns"
+	series "Guns"
+	index 09031
+	licenses
+		"Wanderer Outfits"
+	cost 3720000
+	thumbnail "poot-exp/outfit/twin-sunbeam"
+	"mass" 79
+	"outfit space" -79
+	"weapon capacity" -79
+	"gun ports" -1
+	weapon
+		sprite "projectile/sunbeam/2x sunbeam"
+			"frame rate" 30
+		sound "sunbeam"
+		"hit effect" "sunbeam impact" 2
+		"inaccuracy" .2
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.4
+		"firing heat" 12.4
+		"shield damage" 14.4
+		"hull damage" 6.0
+		"heat damage" 24.2
+	description "This is a pair of Wanderer Sunbeams. For any ship that can support its energy requirements, it is an immensely powerful weapon."
+
+effect "duskbeam fire (POOT)"
+	sound "sunbeam"
+
+outfit "Dusk Beam (POOT)"
+	"display name" `Dusk Beam`
+	category "Guns"
+	series "Guns"
+	index 09041
+	licenses
+		"Wanderer Outfits"
+	cost 5650000
+	thumbnail "poot-exp/outfit/dusk_beam"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/sunmoon/sunmoon-beam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "duskbeam fire (POOT)"
+		"hit effect" "moonbeam impact"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.4
+		"velocity" 675
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 21
+		"firing heat" 12.4
+		"shield damage" 18.8
+		"hull damage" 19.8
+		"heat damage" 12.1
+	description "A combination with powerful synergy, the Dusk beam is a Modified Moonbeam mounted ontop of a Sunbeam. Together they make one of the strongest laser weapons across the known galaxy, acting as a symbol of the Wanderers adaptability in times of need."
+
+outfit "Twin Dusk Beam (POOT)"
+	"display name" `Twin Dusk Beam`
+	category "Guns"
+	series "Guns"
+	index 09042
+	licenses
+		"Wanderer Outfits"
+	cost 11950000
+	thumbnail "poot-exp/outfit/twin_dusk_beam"
+	"mass" 147
+	"outfit space" -147
+	"weapon capacity" -147
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/sunmoon/twin-sunmoon-beam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "duskbeam fire (POOT)"
+		"hit effect" "moonbeam impact" 2
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.4
+		"velocity" 675
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 27
+		"shield damage" 37.6
+		"hull damage" 39.6
+		"heat damage" 24.2
+	description "A combination with powerful synergy, the Dusk beam is a Modified Moonbeam mounted ontop of a Sunbeam. Together they make one of the strongest laser weapons across the known galaxy, acting as a symbol of the Wanderers adaptability in times of need."
+
+outfit "Dusk Turret (POOT)"
+	"display name" `Dusk Turret`
+	category "Turrets"
+	series "Turrets"
+	index 09042
+	licenses
+		"Wanderer Outfits"
+	cost 13250000
+	thumbnail "poot-exp/outfit/dusk_turret"
+	"mass" 160
+	"outfit space" -160
+	"weapon capacity" -160
+	"turret mounts" -1
+	"required crew" 5
+	weapon
+		sprite "poot-exp/projectile/sunmoon/twin-sunmoon-beam"
+			"random start frame"
+		"hardpoint sprite" "poot-exp/hardpoint/duskbeam_turret"
+			"scale" .6
+		"hardpoint offset" 12.
+		sound "moonbeam"
+		"fire effect" "moonbeam fleck"
+		"hit effect" "duskbeam fire (POOT)"
+		"hit effect" "moonbeam impact" 2
+			"scale" 3
+		"hit effect" "sunbeam impact"
+			"scale" 3
+		"inaccuracy" 0.4
+		"turret turn" 1
+		"velocity" 675
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 27
+		"shield damage" 37.6
+		"hull damage" 39.6
+		"heat damage" 24.2
+	description "A combination with powerful synergy, the Dusk beam is a Modified Moonbeam mounted ontop of a Sunbeam. Together they make one of the strongest laser weapons across the known galaxy, acting as a symbol of the Wanderers adaptability in times of need."
+
+outfit `Overcharged "Sungod" Sunbeam (POOT)`
+	"display name" `Overcharged "Sungod" Sunbeam`
+	category "Guns"
+	series "Guns"
+	index 09032
+	licenses
+		"Wanderer Outfits"
+	cost 15470000
+	thumbnail "poot-exp/outfit/sungod_beam"
+	"mass" 255
+	"outfit space" -255
+	"weapon capacity" -255
+	"gun ports" -1
+	"spinal mount" -1
+	"heat generation" 12.7
+	weapon
+		sprite "poot-exp/projectile/sunbeam/tes-sunbeam"
+			"frame rate" 30
+		sound "sunbeam"
+		"hit effect" "sungod impact (POOT)" 2
+		"inaccuracy" .2
+		"velocity" 1200
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 68.9
+		"firing heat" 95.5
+		"shield damage" 53.7
+		"hull damage" 29.3
+		"heat damage" 88.8
+	description `Known as the "Sungod's Beam" amongst Wanderer Space, this massive collection of 5 Sunbeams overcharged with energy fires synchronomously to generate an insane amount of heat. Within the collective, the modified energy control systems enable the beam to draw larger amounts of power, resulting in a hefty boost to shield and hull damage, range, and heat damage to its targets. It has no shortage of overheating problems, as one would imagine 5 overcharged heat beams combined into a single gunport would.`
+
+outfit `Overcharged "Sungod" Turret (POOT)`
+	"display name" `Overcharged "Sungod" Turret`
+	category "Turrets"
+	series "Turrets"
+	index 09032
+	licenses
+		"Wanderer Outfits"
+	cost 15470000
+	thumbnail "poot-exp/outfit/sungod_beam_turret"
+	"mass" 255
+	"outfit space" -255
+	"weapon capacity" -255
+	"turret mounts" -1
+	"spinal mount" -1
+	"heat generation" 12.7
+	weapon
+		sprite "poot-exp/projectile/sunbeam/tes-sunbeam"
+			"frame rate" 30
+		"hardpoint sprite" "poot-exp/hardpoint/sungod_beam"
+			"scale" .75
+		"hardpoint offset" 20.
+		sound "sunbeam"
+		"hit effect" "sungod impact (POOT)" 2
+		"turret turn" 1
+		"inaccuracy" .2
+		"velocity" 1200
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 68.9
+		"firing heat" 95.5
+		"shield damage" 53.7
+		"hull damage" 29.3
+		"heat damage" 88.8
+	description `Known as the "Sungod's Beam" amongst Wanderer Space, this massive collection of 5 Sunbeams overcharged with energy fires synchronomously to generate an insane amount of heat. Within the collective, the modified energy control systems enable the beam to draw larger amounts of power, resulting in a hefty boost to shield and hull damage, range, and heat damage to its targets. It has no shortage of overheating problems, as one would imagine 5 overcharged heat beams combined into a single turret mount would.`
+
+effect "sungod impact (POOT)"
+	sprite "poot-exp/effect/sungod_impact"
+		"frame rate" 30
+		"random start frame"
+		"scale" 2
+	"lifetime" 3
+	"random angle" 360
+	"random spin" 360
+	"random velocity" 8
+	"velocity scale" -.0002

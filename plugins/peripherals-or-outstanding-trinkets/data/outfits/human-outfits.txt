@@ -1,0 +1,1240 @@
+
+outfit "Overclocked Scram Drive (POOT)"
+	"display name" `Overclocked Scram Drive`
+	category "POOT Technology"
+	series "Drives"
+	index 11001
+	cost 500000
+	thumbnail "outfit/scram drive"
+	"mass" 35
+	"outfit space" -35
+	"scram drive" 2.5
+	"jump speed" 2.5
+	"jump fuel" 200
+	"ramscoop" 1
+	"hyperdrive" 1
+	description "The Overclocked Scram Drive is used by those stuck in a pinch. It uses excess amounts of fuel, at the cost of being able to jump at even higher speeds than the standard Scram Drive."
+	description "Due to the exorbant jumping fuel cost, all Overclocked Scram Drives are equipped with a small ramscoop."
+
+outfit "Freighter Drive (POOT)"
+	"display name" `Freighter Drive`
+	category "POOT Technology"
+	series "Drives"
+	index 11002
+	cost 25000000
+	thumbnail "poot-exp/outfit/hyperdrive_freighter"
+	"mass" 95
+	"outfit space" -65
+	"scram drive" 7
+	"jump speed" 7
+	"jump fuel" 125
+	"jump mass cost" 4
+	"ramscoop" 2
+	"hyperdrive" 1
+	description "The Freighter Drive is a heavyduty hyperdrive designed primarily to grant super heavy freight vessels the ability to escape and avoid becoming sitting ducks for opportunistic pirates. Capable of entering hyperspace at a much higher speed than an overclocked hyperdrive, it utilizes a complex internal mapping algorithm that allows for quick connection to hyperspace lanes at incredibly high speeds. However, it is very strenuous on the drive to send large vessels into hyperspace at high velocity, with heavier ships causing the drive to lack the power to fully energize without an additional boost to its fuel intake."
+	description "Due to the exorbant jumping fuel cost, all Freighter Drives are equipped with a ramscoop."
+
+outfit "Quantum Jump Drive (POOT)"
+	"display name" `Quantum Jump Drive`
+	category "POOT Technology"
+	series "Drives"
+	index 11011
+	cost 12000000
+	thumbnail "poot-exp/outfit/quantum_jumper"
+	"mass" 50
+	"outfit space" -50
+	"quantum chamber" -1
+	"jump speed" 1
+	"jump drive fuel" 350
+	"jump drive" 1
+	"jump range" 175
+	"jump effect" "quantum jump drive" .5
+	description "The workings of the jump drive are a total mystery. The quantum jump drive is a marvel, even amongst the most advanced species in the galaxy. It is capable of jumping at higher speeds and a longer range than a typical jump drive, while also remaining fairly compact for its capabilities."
+
+outfit "Hyperactive Jump Drive (POOT)"
+	"display name" `Hyperactive Jump Drive`
+	category "POOT Technology"
+	series "Drives"
+	index 11012
+	cost 4500000
+	thumbnail "poot-exp/outfit/scram_jumper"
+	"mass" 35
+	"outfit space" -35
+	"quantum chamber" -1
+	"jump speed" 5
+	"jump drive fuel" 300
+	"jump drive" 1
+	"jump effect" "scram jump drive" .3
+	description "The workings of the jump drive are a total mystery. This jump drive is capable of jumping at very high speeds compared to an average jump drive, but uses more hyperspace fuel to do so."
+
+outfit "Horizon Jump Drive (POOT)"
+	"display name" `Horizon Jump Drive`
+	category "POOT Technology"
+	series "Drives"
+	index 11013
+	cost 15000000
+	thumbnail "poot-exp/outfit/horizon_jumper"
+	"mass" 75
+	"outfit space" -75
+	"quantum chamber" -1
+	"jump speed" .3
+	"jump drive fuel" 200
+	"jump mass cost" 10
+	"jump drive" 1
+	"jump range" 225
+	"jump effect" "horizon jump drive" 1
+	description "The workings of the jump drive are a total mystery. This jump drive is capable of going extraordinary distances, but struggles to send larger ships across hyperspace, causing it to use much more fuel."
+
+effect "quantum jump drive"
+	sprite "poot-exp/effect/quantum jump drive"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+
+effect "scram jump drive"
+	sprite "poot-exp/effect/scram jump drive"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+	
+effect "horizon jump drive"
+	sprite "poot-exp/effect/horizon jump drive"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+
+outfit "Quantum Chamber (POOT)"
+	"display name" `Quantum Chamber`
+	category "POOT Technology"
+	series "Functional Unique"
+	index 11001
+	cost 11500000
+	thumbnail "poot-exp/outfit/quantum_chamber"
+	"mass" 100
+	"outfit space" -25
+	"quantum chamber" 25
+	"energy consumption" 2
+	"heat generation" -5
+	description "A confined chamber containing a Solarian Quantum Reactor. You cannot even begin to understand how it works, but know it is capable of powering and controlling all sorts of experimental equipment."
+
+
+outfit "X12900 Ion Engines (POOT)"
+	"display name" `X12900 Ion Engines`
+	plural "X12900 Ion Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01060
+	"cost" 2579000
+	thumbnail "poot-exp/outfit/huge_ion_mixed_engine"
+	"mass" 261
+	"outfit space" -261
+	"engine capacity" -261
+	"thrust" 265.3
+	"thrusting energy" 13.75
+	"thrusting heat" 22.942
+	"turn" 8537.2
+	"turning energy" 9.32
+	"turning heat" 15.72
+	"flare sprite" "poot-exp/effect/colossal_engines/ion_colossal"
+		"frame rate" 0.8
+		"scale" .8
+	"flare sound" "ion huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/ion_colossal"
+		"frame rate" 0.8
+		"scale" .8
+	"steering flare sound" "ion huge"
+	description `A gigantic set of Ion engines, designed for ships of equally great size. Few ships in the galaxy can even carry one of these engines, let alone power and cool them.`
+	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+
+outfit "X21700 Ion Engines (POOT)"
+	"display name" `X21700 Ion Engines`
+	plural "X21700 Ion Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01061
+	"cost" 5896000
+	thumbnail "poot-exp/outfit/capital_ion_engines"
+	"mass" 611
+	"outfit space" -611
+	"engine capacity" -611
+	"thrust" 790.5
+	"thrusting energy" 38.75
+	"thrusting heat" 67.142
+	"turn" 26470.2
+	"turning energy" 31.84
+	"turning heat" 47.57
+	"flare sprite" "poot-exp/effect/colossal_engines/ion_colossal"
+		"frame rate" 0.8
+	"flare sound" "ion huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/ion_colossal"
+		"frame rate" 0.8
+	"steering flare sound" "ion huge"
+	description `The largest of all ion engines, created specifically for the Navy's superheavy capital ships. These engines alone are larger than some ships in human space.`
+	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space for the same amount of thrust."
+
+outfit "Terrorizer Plasma Engines (POOT)"
+	"display name" `Terrorizer Plasma Engines`
+	plural "Terrorizer Plasma Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01141
+	"cost" 3442000
+	thumbnail "poot-exp/outfit/huge_mixed_plasma_engines"
+	"mass" 301
+	"outfit space" -301
+	"engine capacity" -301
+	"thrust" 397.225
+	"thrusting energy" 21.1
+	"thrusting heat" 44.4
+	"turn" 11423.7
+	"turning energy" 9.5
+	"turning heat" 27.2
+	"flare sprite" "poot-exp/effect/colossal_engines/plasma_colossal"
+		"frame rate" 9
+		"scale" .8
+	"flare sound" "plasma huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/plasma_colossal"
+		"frame rate" 9
+		"scale" .8
+	"steering flare sound" "plasma huge"
+	description "A gargantuan set of thrusters, capable of moving the heaviest of capital ships with ease."
+	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+
+outfit "Domination Plasma Engines (POOT)"
+	"display name" `Domination Plasma Engines`
+	plural "Domination Plasma Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01141
+	"cost" 7942000
+	thumbnail "poot-exp/outfit/capital_plasma_thruster"
+	"mass" 635
+	"outfit space" -635
+	"engine capacity" -635
+	"thrust" 821.225
+	"thrusting energy" 43.4
+	"thrusting heat" 91.2
+	"turn" 21412.7
+	"turning energy" 20.9
+	"turning heat" 55.6
+	"flare sprite" "poot-exp/effect/colossal_engines/plasma_colossal"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/plasma_colossal"
+		"frame rate" 9
+	"steering flare sound" "plasma huge"
+	description `A set of thrusters so massive, few ships even have enough space for the cooling systems required to run them.`
+	description `The dinosaur printed on the shipping box of the thrusters is even bigger than on the previous models packaging, with more rows of teeth. In fact it's so big, it's almost to scale of an actual T-Rex. It also doesn't fit fully on the front of the shipping box.`
+	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+
+outfit "A2150 Atomic Engines (POOT)"
+	"display name" `A2150 Atomic Engines`
+	plural "A2150 Atomic Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01241
+	"cost" 10452000
+	thumbnail "poot-exp/outfit/huge_mixed_atomic_engines"
+	"mass" 345
+	"outfit space" -345
+	"engine capacity" -345
+	"thrust" 425.95
+	"thrusting energy" 27.3
+	"thrusting heat" 62.1
+	"turn" 11495.3
+	"turning energy" 14.5
+	"turning heat" 37.4
+	"flare sprite" "poot-exp/effect/colossal_engines/atomic_colossal"
+		"frame rate" 10
+		"scale" 0.8
+	"flare sound" "atomic huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/atomic_colossal"
+		"frame rate" 10
+		"scale" 0.8
+	"steering flare sound" "atomic huge"
+	description "A massive set of Deep Skys Atomic Steering and Propulsion thrusters. Designed for superheavy warships, few human engines can surpase these gigantic engines in their raw propultion and power."
+
+outfit "A4270 Atomic Engines (POOT)"
+	"display name" `A4270 Atomic Engines`
+	plural "A4270 Atomic Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 01241
+	"cost" 24759000
+	thumbnail "poot-exp/outfit/capital_atomic_engines"
+	"mass" 670
+	"outfit space" -670
+	"engine capacity" -670
+	"thrust" 970.95
+	"thrusting energy" 55.5
+	"thrusting heat" 134.2
+	"turn" 24795.4
+	"turning energy" 31
+	"turning heat" 77.7
+	"flare sprite" "poot-exp/effect/colossal_engines/atomic_colossal"
+		"frame rate" 10
+	"flare sound" "atomic huge"
+	"steering flare sprite" "poot-exp/effect/colossal_engines/atomic_colossal"
+		"frame rate" 10
+	"steering flare sound" "atomic huge"
+	description "Both the priciest and largest engine ever sold in human space, the A4270 Atomic thruster is the bee's knee's of gargantuan capital propulsion systems. These engines are capable of producing such a massive amount of thrust, many captains often confuse the flame expelled from the exhaust to be some sort of huge atomic antiburner."
+
+outfit "Double Armageddon Core (POOT)"
+	"display name" `Double Armageddon Core`
+	category "POOT Technology"
+	series "Generators"
+	index 01131
+	cost 14000000
+	thumbnail "poot-exp/outfit/armageddon_core_double"
+	"mass" 250
+	"outfit space" -250
+	"energy generation" 51.2
+	"heat generation" 152
+	"reactor core expansions" 84
+	description "Desperate times call for desperate measures, hence the creation of the Double Armageddon core. Not very efficient as far as heat generation goes, but when you need massive amounts of energy for massive Navy capital ships, nothing smaller would even come close to sufficing."
+
+outfit "Triple Armageddon Core (POOT)"
+	"display name" `Triple Armageddon Core`
+	category "POOT Technology"
+	series "Generators"
+	index 01132
+	cost 21000000
+	thumbnail "poot-exp/outfit/armageddon_core_triple"
+	"mass" 325
+	"outfit space" -325
+	"energy generation" 79.2
+	"heat generation" 237
+	"reactor core expansions" 128
+	description "The sheer radiation emenating from this colossal piece of equipment is enough alone to melt weaker metals."
+
+outfit "Nuclear Power Plant (POOT)"
+	"display name" `Nuclear Power Plant`
+	category "POOT Technology"
+	series "Generators"
+	index 01133
+	cost 45000000
+	thumbnail "poot-exp/outfit/nuclear_reactor"
+	"mass" 410
+	"outfit space" -410
+	"required crew" 10
+	"energy generation" 202.2
+	"heat generation" 390
+	"reactor core expansions" 169
+	description "If you asked most pilots if they would put a nuclear power plant on their ship, they'd look at you as if you were crazy. That is, until they see it up in perfect working operation."
+	description "A Nuclear Power Plant provides massive amounts of energy, while also requiring multiple crew to properly operate."
+
+outfit "Engineered Nuclear Power Plant (POOT)"
+	"display name" `Engineered Nuclear Power Plant`
+	category "POOT Technology"
+	series "Generators"
+	index 01134
+	cost 65000000
+	thumbnail "poot-exp/outfit/nuclear_reactor_optimized"
+	"mass" 510
+	"outfit space" -375
+	"required crew" 6
+	"energy generation" 229.2
+	"heat generation" 355
+	"energy capacity" 225000
+	"reactor core expansions" 210
+	description `Believe it or not, hiring a qualified engineer to create the blueprint for a nuclear powerplant installed on an interstellar space vessel will help the nuclear power plant run more optimally.`
+	description `Now boasting an improved cooling system, further optimization of the uranium insertion and extraction process, improved reactor ventilation and heat expulsion, and now has batteries included.`
+
+outfit "Liquid Hydrogen Cooler (POOT)"
+	"display name" `Liquid Hydrogen Cooler`
+	category "POOT Technology"
+	series "Cooling"
+	index 01041
+	cost 450000
+	thumbnail "poot-exp/outfit/liquid_hydrogen_cooling"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 109
+	description "For extreme needs of internal tempurature change, the Liquid Hydrogen Cooler is a common goto in human space. ."
+
+outfit "Regenerative Liquid Cooler (POOT)"
+	"display name" `Regenerative Liquid Cooler`
+	category "POOT Technology"
+	series "Cooling"
+	index 01042
+	cost 1140000
+	thumbnail "poot-exp/outfit/liquid_regenerator_cooling"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 179
+	description "Only the largest of overburdened capital ships would need such a massive amount of cooling. By utilizing an advanced process of extracting heat from the ships internal systems via fuel lines before fuel is sent to the engines, it allows for greater use of refridgerant after it has already passed through the built in heat exchangers, resulting in one of the most efficient human internal systems ever made."
+
+outfit "NTS-I 450 Radiothermalvoltaic (POOT)"
+	"display name" `NTS-I 450 Thermoradialvoltaic`
+	category "POOT Technology"
+	series "Generators"
+	index 01081
+	cost 1575000
+	thumbnail "poot-exp/outfit/huge_radiothermal"
+	"mass" 135
+	"outfit space" -95
+	"energy generation" 16.7
+	"heat generation" 34.5
+	"reactor core expansions" 46
+	description "While slightly unstable, this generator actively harvest energy from decaying isotopes at a far more efficient rate than any other nuclear decay-based generator on the market, while also running slightly hotter than some higher end models. It might be more efficient to install a larger reactor instead, it is far more compact than most availible."
+
+outfit "Large Bunk Room (POOT)"
+	"display name" `Large Bunk Room`
+	category "POOT Technology"
+	series "Passenger"
+	index 21
+	cost 95000
+	thumbnail "poot-exp/outfit/huge_bunk_room"
+	"mass" 15
+	"bunks" 8
+	"outfit space" -32
+	"unplunderable" 1
+	description "A larger bunk room, capable of supporting an additional 8 passengers (or crew)."
+
+outfit "Worldship Bunk Room (POOT)"
+	"display name" `Worldship Bunk Room`
+	category "POOT Technology"
+	series "Passenger"
+	index 22
+	cost 500000
+	thumbnail "poot-exp/outfit/capital_bunk_room"
+	"mass" 140
+	"bunks" 32
+	"heat generation" 4
+	"outfit space" -100
+	"unplunderable" 1
+	description "Typically reserved for capital and world ships, this bunkroom can support a wopping 32 people. Unfortunately, having so many people aboard your ship, some manage to get into places they are not supposed to. One such place being the room with the ship's thermostat. As a result, it has the unfortunate but unavoidable side effect that is the the constant adjustment of the thermostat by numerous people..."
+
+outfit "Large Fuel Pod (POOT)"
+	"display name" `Large Fuel Pod`
+	category "POOT Technology"
+	series "Fuel"
+	index 11
+	cost 75000
+	thumbnail "poot-exp/outfit/large_fuel_pod"
+	"mass" 27
+	"outfit space" -16
+	"fuel capacity" 300
+	description "An even larger fuel pod, allowing your ship to make a few additional hyperspace jumps before it needs to land and refuel."
+
+outfit "Large Fuel System (POOT)"
+	"display name" `Large Fuel System`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 325000
+	thumbnail "poot-exp/outfit/large_fuel_pod_array"
+	"mass" 80
+	"outfit space" -48
+	"fuel capacity" 1000
+	description "A collection of large fuel pods interlinked togethor, allowing your ship to make multiple additional hyperspace jumps before it needs to land and refuel. The lines connecting the fuel pods together also contain enough hyperspace fuel to allow for an additional hyperspace jump."
+
+outfit "Scrapped Star Barge (POOT)"
+	"display name" `Scrapped Star Barge`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 3800000
+	thumbnail "poot-exp/outfit/scrapped_starbarge"
+	"mass" 160
+	"shields" 150
+	"hull" 250
+	"cargo space" 50
+	"outfit space" 45
+	"engine capacity" 20
+	"weapon capacity" 15
+	"fuel capacity" 100
+	"bunks" 2
+	"cooling inefficiency" .5
+	"heat dissipation" -.01
+	"heat generation" 3
+	"energy consumption" 2
+	"reactor core expansions" 2
+	description `A scrapped Star Barge, likely scavenged by someone with a less-than-acceptable reputation. While not worth anywhere near as much as one sold in a shipyard, when brought to one of the local mechanics to be scrapped for parts, they offered a bit of a more "unconventional" option: Weld it onto the hull of your ship.`
+	description `   The process is very labor intensive, causing its cost to be out of the range for most pilots to even consider. As one could imagine, this level of ship modification comes with all sorts of issues... While also offering some very unique benefits.`
+
+outfit "Scrapped Sparrow (POOT)"
+	"display name" `Scrapped Sparrow`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 4500000
+	thumbnail "poot-exp/outfit/scrapped_sparrow"
+	"mass" 120
+	"hull" 100
+	"shields" 350
+	"cargo space" 15
+	"outfit space" 45
+	"weapon capacity" 45
+	"engine capacity" 25
+	"bunks" 1
+	"fuel capacity" 100
+	"cooling inefficiency" .5
+	"heat dissipation" -.01
+	"heat generation" 3
+	"energy consumption" 2
+	"reactor core expansions" 3
+	description `A scrapped Sparrow, likely scavenged by someone with a less-than-acceptable reputation. While not worth anywhere near as much as one sold in a shipyard, when brought to one of the local mechanics to be scrapped for parts, they offered a bit of a more "unconventional" option: Weld it onto the hull of your ship.`
+	description `   The process is very labor intensive, causing its cost to be out of the range for most pilots to even consider. As one could imagine, this level of ship modification comes with all sorts of issues... While also offering some very unique benefits.`
+
+outfit "Scrapped Shuttle (POOT)"
+	"display name" `Scrapped Shuttle`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 3600000
+	thumbnail "poot-exp/outfit/scrapped_shuttle"
+	"mass" 170
+	"shields" 125
+	"hull" 150
+	"cargo space" 25
+	"engine capacity" 60
+	"weapon capacity" 25
+	"outfit space" 60
+	"bunks" 6
+	"fuel capacity" 125
+	"cooling inefficiency" .5
+	"heat dissipation" -.01
+	"heat generation" 3.5
+	"energy consumption" 2.4
+	"reactor core expansions" 4
+	description `A scrapped Shuttle, likely scavenged by someone with a less-than-acceptable reputation. While not worth anywhere near as much as one sold in a shipyard, when brought to one of the local mechanics to be scrapped for parts, they offered a bit of a more "unconventional" option: Weld it onto the hull of your ship.`
+	description `   The process is very labor intensive, causing its cost to be out of the range for most pilots to even consider. As one could imagine, this level of ship modification comes with all sorts of issues... While also offering some very unique benefits.`
+
+outfit "Scrapped Heavy Shuttle (POOT)"
+	"display name" `Scrapped Heavy Shuttle`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 9400000
+	thumbnail "poot-exp/outfit/scrapped_heavy_shuttle"
+	"mass" 220
+	"shields" 175
+	"hull" 175
+	"cargo space" 40
+	"engine capacity" 65
+	"weapon capacity" 15
+	"outfit space" 65
+	"bunks" 10
+	"fuel capacity" 125
+	"cooling inefficiency" .65
+	"heat dissipation" -.014
+	"heat generation" 4
+	"energy consumption" 2.5
+	"reactor core expansions" 8
+	description `A scrapped Heavy Shuttle, likely scavenged by someone with a less-than-acceptable reputation. While not worth anywhere near as much as one sold in a shipyard, when brought to one of the local mechanics to be scrapped for parts, they offered a bit of a more "unconventional" option: Weld it onto the hull of your ship.`
+	description `   The process is very labor intensive, causing its cost to be out of the range for most pilots to even consider. As one could imagine, this level of ship modification comes with all sorts of issues... While also offering some very unique benefits.`
+
+outfit "Scrapped Freighter (POOT)"
+	"display name" `Scrapped Freighter`
+	category "POOT Technology"
+	series "Fuel"
+	index 12
+	cost 14600000
+	thumbnail "poot-exp/outfit/scrapped_freighter"
+	"mass" 820
+	"hull" 500
+	"shields" 500
+	"cargo space" 150
+	"outfit space" 125
+	"engine capacity" 40
+	"weapon capacity" 40
+	"bunks" 6
+	"fuel capacity" 200
+	"cooling inefficiency" .7
+	"heat dissipation" -.02
+	"heat generation" 5
+	"energy consumption" 4
+	"reactor core expansions" 11
+	description `A scrapped Freighter, likely scavenged by someone with a less-than-acceptable reputation. While not worth anywhere near as much as one sold in a shipyard, when brought to one of the local mechanics to be scrapped for parts, they offered a bit of a more "unconventional" option: Weld it onto the hull of your ship.`
+	description `   The process is very labor intensive, causing its cost to be out of the range for most pilots to even consider. As one could imagine, this level of ship modification comes with all sorts of issues... While also offering some very unique benefits.`
+
+outfit "Quantum Supercapacitor (POOT)"
+	"display name" `Quantum Supercapacitor`
+	category "POOT Technology"
+	series "Batteries"
+	index 01011
+	cost 15000000
+	thumbnail "poot-exp/outfit/quantum_supercapacitor"
+	"mass" 4
+	"outfit space" -4
+	"energy capacity" 45000
+	"reactor core expansions" 3
+	description "Through the incredible properties of quantum mechanics, this supercapacitor is capable of storing absurd amounts of energy for its size."
+
+
+outfit "eSRC-AA Fuel Generator Cell (POOT)"
+	"display name" `eSRC-AA Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01011
+	cost 125000
+	thumbnail "poot-exp/outfit/tiny_fuel_generator"
+	"mass" 40
+	"outfit space" -20
+	"fuel generation" .062
+	"energy consumption" -.6
+	"fuel heat" 5.7
+	"ramscoop" .25
+	description "External Stellar Radiation Collectors (or eSRCs) are hefty pieces of equipment that allow for a greater collection of solar plasma than a standard ramscoop, while also having a hefty power draw in order to fully function. Each eSRC Fuel Generator is also equiped with a smaller backup ramscoop incase the main collector fails."
+
+outfit "eSRC-BB Fuel Generator Cell (POOT)"
+	"display name" `eSRC-BB Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01021
+	cost 199000
+	thumbnail "poot-exp/outfit/small_fuel_generator"
+	"mass" 60
+	"outfit space" -30
+	"fuel generation" .1
+	"energy consumption" -.9
+	"fuel heat" 8.7
+	"ramscoop" .4
+	description "This small hyperspace fuel generator is capable of generating fuel faster than the AA model, but with a higher heat output and power draw."
+
+outfit "eSRC-CC Fuel Generator Cell (POOT)"
+	"display name" `eSRC-CC Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01031
+	cost 287000
+	thumbnail "poot-exp/outfit/medium_fuel_generator"
+	"mass" 80
+	"outfit space" -40
+	"fuel generation" .19
+	"energy consumption" 1.7
+	"fuel heat" 11.4
+	"ramscoop" .64
+	description "A midsized fuel generator, capable of rapid collection of hyperspace fuel."
+
+outfit "eSRC-DD Fuel Generator Cell (POOT)"
+	"display name" `eSRC-DD Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01041
+	cost 641000
+	thumbnail "poot-exp/outfit/large_fuel_generator"
+	"mass" 120
+	"outfit space" -60
+	"fuel generation" .32
+	"energy consumption" 2.05
+	"fuel heat" 17.1
+	"ramscoop" .98
+	description "A larger fuel generator, capable of collecting solar plasma at a high rate from the surrounding space."
+
+outfit "eSRC-EE Fuel Generator Cell (POOT)"
+	"display name" `eSRC-EE Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01051
+	cost 1064000
+	thumbnail "poot-exp/outfit/huge_fuel_generator"
+	"mass" 160
+	"outfit space" -80
+	"fuel generation" .44
+	"energy consumption" 3.1
+	"fuel heat" 23.4
+	"ramscoop" 1.7
+	description "A very large slar plasma collector. Typically only seen on larger freighters, this fuel generator is capable of very rapid collection and fabrication of hyperspace fuel from solar plasma."
+
+outfit "eSRC-FF Fuel Generator Cell (POOT)"
+	"display name" `eSRC-FF Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01061
+	cost 3247000
+	thumbnail "poot-exp/outfit/gigantic_fuel_generator"
+	"mass" 220
+	"outfit space" -110
+	"fuel generation" .87
+	"energy consumption" 4.7
+	"fuel heat" 37.8
+	"ramscoop" 2.5
+	description "Most would consider a fuel generator of this size impractical. Its power draw is so high, most ships would need their own designated fuel-focused reactor in order to power it. However desperate times call for depserate measures, serving as the solution for the the freight organizations across the galaxy that have expressed their dire need for more hyperspace fuel capacity amongst their starships."
+
+outfit "eSRC-GG Fuel Generator Cell (POOT)"
+	"display name" `eSRC-GG Fuel Generator Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01071
+	cost 9785000
+	thumbnail "poot-exp/outfit/fuel_generator_cell_colossal"
+	"mass" 370
+	"outfit space" -185
+	"fuel generation" 1.72
+	"energy consumption" 8.9
+	"fuel heat" 75.4
+	"ramscoop" 4.4
+	description "Some capital ships are so large, it would require a notable amount of time, money, and fuel just to be able to land and refuel at a spaceport. This is the sole reason why the absolutely titanic eSRC-GG Fuel Generator Cell was ever even conceptualized. By allowing for rapid hyperspace fuel regeneration without the need to land and takeoff from an additional spaceport, it can save mega-freight captains and corporations from having to spend excessive amounts of time and money solely around their refueling process."
+
+outfit "nGVF-FF Aftermarket Fuel Cell (POOT)"
+	"display name" `nGVF-FF Aftermarket Fuel Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01051
+	cost 317000
+	thumbnail "poot-exp/outfit/fuel_cell_gigantic"
+	"mass" 135
+	"outfit space" -110
+	"energy generation" 12.4
+	"heat generation" 18.5
+	"reactor core expansions" 19
+	description "A heavily modified afterarket Fuel Cell. While there are many stronger and more efficient methods of energy generation out on the market, not all planets are as easily accessible, causing some to be skipped when manuifacturers decide where they are willing to ship their supply to. The result is this mechination of fuel cells, combined together to produce a greater energy output."
+
+outfit "nGVF-GG Aftermarket Fuel Cell (POOT)"
+	"display name" `nGVF-FF Aftermarket Fuel Cell`
+	category "POOT Technology"
+	series "Generators"
+	index 01052
+	cost 677000
+	thumbnail "poot-exp/outfit/fuel_cell_colossal"
+	"mass" 245
+	"outfit space" -185
+	"energy generation" 25.5
+	"heat generation" 45.4
+	"reactor core expansions" 34
+	description "Larger than most heavy reactors, this collection of extensively modified and patched together fuel cells can produce far more energy than any other fuel cell availible on the market. By ditching any attempts at efficiency for more power at any cost, this highly inefficient fuel cell can output enough energy to operate a slim few capital ships, assuming it doesn't burn them down first."
+
+outfit "Small Systems Block (POOT)"
+	"display name" `Small Systems Block`
+	category "POOT Technology"
+	series "Drives"
+	index 01
+	cost 120000
+	thumbnail "poot-exp/outfit/system_core"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 3.5
+	"heat generation" 8
+	"active cooling" 8.5
+	"cooling" 2
+	"cooling energy" 2
+	"ramscoop" .24
+	"energy capacity" 5000
+	"shield generation" .18
+	"shield energy" .2
+	"hyperdrive" 1
+	"jump speed" 0.1
+	"jump fuel" 100
+	"cooling inefficiency" 1
+	"reactor core expansions" 6
+	description "This is a small systems block designed for drones and fighters. Equipped with a battery pack, hyperdrive, miniature fuel generator and shield system, these collections of outfits are designed as a bare-bones system for the smallest of ships to still be able to operate, albeit at a vary inefficient capacity."
+
+outfit "LP1027a Battery Pack (POOT)"
+	"display name" `LP1027a Battery Pack`
+	category "POOT Technology"
+	series "Batteries"
+	index 01061
+	cost 170000
+	thumbnail "poot-exp/outfit/huge_battery_double"
+	"mass" 160
+	"outfit space" -120
+	"energy capacity" 88000
+	"reactor core expansions" 5
+	description "A pair of the huge LP576a Batteries wired in series. The result being a bit of lost total energy capacity, but takes up notably less space by being reconfigured and connected together."
+
+outfit "LP1740a Battery Pack (POOT)"
+	"display name" `LP1740a Battery Pack`
+	category "POOT Technology"
+	series "Batteries"
+	index 01062
+	cost 290000
+	thumbnail "poot-exp/outfit/huge_battery_triple"
+	"mass" 240
+	"outfit space" -160
+	"energy capacity" 124000
+	"reactor core expansions" 8
+	description "The immense size of this trio of batteries can store so much energy, a smaller vessel with one equipped may be able to fly through multiple star systems without even having a generator installed."
+
+outfit "RN144-VC Shield Regenerator (POOT)"
+	"display name" `RN144-VC Shield Regenerator`
+	category "POOT Technology"
+	series "Shields"
+	index 01071
+	cost 650000
+	thumbnail "poot-exp/outfit/capital_regenerator_small"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 2.5
+	"shield energy" 1.4
+	"energy consumption" 1.25
+	"heat generation" 4.6
+	description "An experimental new shield technology funded largely by the Republic Navy, this smart shield generator has a much greater adaptibility to shield generation than the standard shield Generators. It contains an internal system analysis control board, which can observe and detect different patterns in a shields depletion. It then will reconfigure the shield matrix to focus its generation in a specific area of high depletion, resulting in a far more direct and rapid shield generation. The analysis and redirection of shields does however add additional power draw in order to complete its operations."
+
+outfit "RN265-RT Shield Regenerator (POOT)"
+	"display name" `RN265-RT Shield Regenerator`
+	category "POOT Technology"
+	series "Shields"
+	index 01072
+	cost 2410000
+	thumbnail "poot-exp/outfit/capital_regenerator_large"
+	"mass" 115
+	"outfit space" -115
+	"shield generation" 6.4
+	"shield energy" 2.9
+	"energy consumption" 3.2
+	"heat generation" 10.4
+	description "An upgrade over the RN144, this larger shield regenerator can perform its analysis faster than the RN144, while also having a larger internal shield generation matrix. Typically only seen on larger vessels, this regenerator may overwhelm smaller reactors all on its own."
+
+outfit "RN377-DX Shield Regenerator (POOT)"
+	"display name" `RN377-DX Shield Regenerator`
+	category "POOT Technology"
+	series "Shields"
+	index 01073
+	cost 14560000
+	thumbnail "poot-exp/outfit/capital_regenerator_huge"
+	"mass" 155
+	"outfit space" -155
+	"shield generation" 15.5
+	"shield energy" 7
+	"energy consumption" 7.75
+	"heat generation" 25
+	description "The largest of the Navy sponsered shield generators. Designed for their capital ships, these shield generators are capable of holding up against weapons more technologically advanced than most seen in human space."
+
+outfit "Tectonic Afterburner (POOT)"
+	"display name" `Tectonic Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01022
+	"cost" 989000
+	thumbnail "poot-exp/outfit/afterburner_tectonic"
+	"mass" 58
+	"outfit space" -58
+	"engine capacity" -58
+	"afterburner thrust" 304.1
+	"afterburner fuel" 1.495
+	"afterburner heat" 91.0
+	"afterburner effect" "tectonic afterburner (POOT)"
+	description "A massive afterburner capable of propelling the largest of human warships ships. It has gained notoriety amongst some captains for its ability to cause temporary obstructions from the huge cloud of smoke it emits when active."
+
+outfit "Heavy Tectonic Afterburner (POOT)"
+	"display name" `Heavy Tectonic Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01023
+	"cost" 2214000
+	thumbnail "poot-exp/outfit/afterburner_tectonic_heavy"
+	"mass" 127
+	"outfit space" -82
+	"engine capacity" -82
+	"afterburner thrust" 542.2
+	"afterburner fuel" 2.545
+	"afterburner heat" 154.0
+	"afterburner effect" "heavy tectonic afterburner (POOT)"
+	description "A massive afterburner capable of propelling the largest of human warships ships. It has gained notoriety amongst some captains for its ability to cause temporary obstructions from the huge cloud of smoke it emits when active."
+
+effect "tectonic afterburner (POOT)"
+	sprite "effect/afterburner"
+		"scale" 1.75
+		"no repeat"
+		"frame rate" 20
+	sound "afterburner"
+	"sound category" "afterburner"
+	"lifetime" 14
+	"random angle" 1
+	"random spin" 1
+	"random velocity" -8.
+	"velocity scale" 1.
+
+effect "heavy tectonic afterburner (POOT)"
+	sprite "effect/afterburner"
+		"scale" 1.9
+		"no repeat"
+		"frame rate" 20
+	sound "afterburner"
+	"sound category" "afterburner"
+	"lifetime" 14
+	"random angle" 1
+	"random spin" 1
+	"random velocity" -25.
+	"velocity scale" 1.
+
+outfit "Combustion Afterburner (POOT)"
+	"display name" `Combustion Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01021
+	"cost" 1240000
+	thumbnail "poot-exp/outfit/afterburner_combustion"
+	"mass" 60
+	"outfit space" -40
+	"engine capacity" -40
+	"afterburner thrust" 547.4
+	"afterburner fuel" 5.245
+	"afterburner heat" 265.4
+	"afterburner effect" "combustion afterburner (POOT)"
+	"afterburner effect" "combustion afterburner (POOT)"
+	description "A very old model of afterburner once utilized by humans centuries ago to propel their first starships into orbit. Still sometimes used by pilots from worlds with less access to newer propulsion technology, the Combustion Afterburner provides very strong ammounts of propulsion for its size, but being an ancient human design, is incredibly fuel hungry. It has gained notoriety amongst some captains for its ability to cause temporary obstructions from the huge cloud of smoke it emits when active"
+
+effect "combustion afterburner OLD (POOT)"
+	sprite "poot-exp/effect/heavy_afterburner"
+		"scale" 2
+		"no repeat"
+		"frame rate" 30
+	sound "poot-exp/combustion_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 20
+	"random angle" 15
+	"random spin" 10
+	"random velocity" -40.
+	"velocity scale" 1.
+
+effect "combustion afterburner (POOT)"
+	sprite "poot-exp/effect/heavy_afterburner"
+		"scale" 2
+		"no repeat"
+		"frame rate" 7
+	sound "poot-exp/combustion_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 70
+	"random angle" 15
+	"random spin" 10
+	"random velocity" -10.
+	"velocity scale" 1.
+
+
+outfit "Plasma Infused Afterburner (POOT)"
+	"display name" `Plasma Infused Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01031
+	"cost" 1985000
+	thumbnail "poot-exp/outfit/afterburner_infused"
+	"mass" 55
+	"outfit space" -55
+	"engine capacity" -55
+	"afterburner thrust" 389.3
+	"afterburner fuel" .279
+	"afterburner energy" 61.7
+	"afterburner heat" 50.9
+	"afterburner effect" "plasma infused afterburner (POOT)"
+	description "The Ionic Afterburner was designed by the Syndicate to compensate for the primary weakness of an ordinary afterburner: namely, that it consumes hyperspace fuel at a prodigious rate. Ionic afterburners instead use a small amount of fuel combined with a large burst of energy from your ship's batteries to achieve the same effect."
+
+effect "plasma infused afterburner (POOT)"
+	sprite "poot-exp/effect/plasma_infused_afterburner"
+		"no repeat"
+		"frame rate" 20
+	sound "poot-exp/plasma_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 18
+	"random angle" 45
+	"random spin" 30
+	"random velocity" -4.
+	"velocity scale" 1.
+
+outfit "A175 Atomic Afterburner (POOT)"
+	"display name" `A175 Atomic Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01041
+	"cost" 355000
+	thumbnail "poot-exp/outfit/atomic_afterburner_small"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"afterburner thrust" 64.1
+	"afterburner fuel" .11
+	"afterburner energy" 8.2
+	"afterburner heat" 14.4
+	"afterburner effect" "small atomic afterburner (POOT)"
+	description "Amongst the largest of afterburners availible on the market, Deep Sky's Atomic Afterburner uses the latest Deep technology to utilize a mix of fuel and energy to achieve an incredible amount of momentary thrust."
+	description "   A few Deep Sky engineers love to tell the tale that when the Atomic Afterburner was in development, they were being contacted through emergency channels from some concerned onlooking captains thinking that some of Deep Sky's hyperdrives were malfunctioning and causing their ships to be launched at incredible speeds, only to be dumbfounded when informed the ships had only switched their afterburners on."
+
+effect "small atomic afterburner (POOT)"
+	sprite "poot-exp/effect/atomic_afterburner"
+		"scale" .28
+		"no repeat"
+		"frame rate" 60
+	sound "poot-exp/atomic_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 15
+	"random angle" 7
+	"random spin" 1
+	"random velocity" -15.
+	"velocity scale" 1.
+
+outfit "A575 Atomic Afterburner (POOT)"
+	"display name" `A575 Atomic Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01042
+	"cost" 1285000
+	thumbnail "poot-exp/outfit/atomic_afterburner"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"afterburner thrust" 342.1
+	"afterburner fuel" .42
+	"afterburner energy" 38.3
+	"afterburner heat" 62.7
+	"afterburner effect" "atomic afterburner (POOT)"
+	description "Amongst the largest of afterburners availible on the market, Deep Sky's Atomic Afterburner uses the latest Deep technology to utilize a mix of fuel and energy to achieve an incredible amount of momentary thrust."
+	description "   A few Deep Sky engineers love to tell the tale that when the Atomic Afterburner was in development, they were being contacted through emergency channels from some concerned onlooking captains thinking that some of Deep Sky's hyperdrives were malfunctioning and causing their ships to be launched at incredible speeds, only to be dumbfounded when informed the ships had only switched their afterburners on."
+
+effect "atomic afterburner (POOT)"
+	sprite "poot-exp/effect/atomic_afterburner"
+		"scale" .4
+		"no repeat"
+		"frame rate" 60
+	sound "poot-exp/atomic_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 15
+	"random angle" 7
+	"random spin" 1
+	"random velocity" -22.
+	"velocity scale" 1.
+
+outfit "A945 Atomic Afterburner (POOT)"
+	"display name" `A945 Atomic Afterburner`
+	category "POOT Technology"
+	series "Afterburners"
+	index 01043
+	"cost" 3585000
+	thumbnail "poot-exp/outfit/atomic_afterburner_large"
+	"mass" 94
+	"outfit space" -94
+	"engine capacity" -94
+	"afterburner thrust" 692.3
+	"afterburner fuel" .822
+	"afterburner energy" 80.2
+	"afterburner heat" 128.1
+	"afterburner effect" "huge atomic afterburner (POOT)"
+	description "Amongst the largest of afterburners availible on the market, Deep Sky's Atomic Afterburner uses the latest Deep technology to utilize a mix of fuel and energy to achieve an incredible amount of momentary thrust."
+	description "   A few Deep Sky engineers love to tell the tale that when the Atomic Afterburner was in development, they were being contacted through emergency channels from some concerned onlooking captains thinking that some of Deep Sky's hyperdrives were malfunctioning and causing their ships to be launched at incredible speeds, only to be dumbfounded when informed the ships had only switched their afterburners on."
+
+effect "huge atomic afterburner (POOT)"
+	sprite "poot-exp/effect/atomic_afterburner"
+		"scale" .7
+		"no repeat"
+		"frame rate" 30
+	sound "poot-exp/atomic_afterburner"
+	"sound category" "afterburner"
+	"lifetime" 25
+	"random angle" 7
+	"random spin" 1
+	"random velocity" -25.
+	"velocity scale" 1.
+
+outfit "B980 Nuclear Thruster (POOT)"
+	"display name" `B980 Nuclear Thruster`
+	category "POOT Technology"
+	series "Engines"
+	index 01243
+	"cost" 5475000
+	thumbnail "poot-exp/outfit/nuclear_thruster"
+	"mass" 98
+	"outfit space" -98
+	"engine capacity" -98
+	"thrust" 245.5
+	"thrusting energy" 11.4
+	"thrusting heat" 21.5
+	"flare sprite" "poot-exp/effect/colossal_engines/nuclear_engine"
+		"scale" .6
+		"frame rate" 15
+	"flare sound" "atomic huge"
+	description "A highly efficient experimental nuclear powered thruster. Being stronger than any of the standard thrusters in human space, and with its highly compact yet efficient design, one can't help but wonder where such a creation would have come from."
+
+outfit "B985 Nuclear Steering (POOT)"
+	"display name" `B985 Nuclear Steering`
+	category "POOT Technology"
+	series "Engines"
+	index 01242
+	"cost" 4975000
+	thumbnail "poot-exp/outfit/nuclear_steering"
+	"mass" 72
+	"outfit space" -72
+	"engine capacity" -72
+	"turn" 7948.4
+	"turning energy" 5.2
+	"turning heat" 12.4
+	"steering flare sprite" "poot-exp/effect/colossal_engines/nuclear_engine"
+		"frame rate" 15
+		"scale" .6
+	"steering flare sound" "atomic huge"
+	description "A highly efficient experimental nuclear powered steering thruster. Being stronger than any of the standard thrusters in human space, and with its highly compact yet efficient design, one can't help but wonder where such a creation would have come from."
+
+outfit "Heavy Ancient Combustion Thruster (POOT)"
+	"display name" `Heavy Ancient Combustion Thruster`
+	category "POOT Technology"
+	series "Engines"
+	index 01147
+	"cost" 1499000
+	thumbnail "poot-exp/outfit/combustion_thruster_large"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"thrust" 211.45
+	"thrusting energy" 5.9
+	"thrusting fuel" 1
+	"thrusting heat" 69.5
+	"flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"frame rate" 30
+	"flare sound" "poot-exp/combustion_engine"
+	description "An ancient human thruster with a very powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the gal."
+
+outfit "Heavy Ancient Combustion Steering (POOT)"
+	"display name" `Heavy Ancient Combustion Steering`
+	category "POOT Technology"
+	series "Engines"
+	index 01146
+	"cost" 1427000
+	thumbnail "poot-exp/outfit/combustion_steering_large"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"turn" 7114.9
+	"turning energy" 2.6
+	"turning fuel" .6
+	"turning heat" 41.9
+	"steering flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"frame rate" 30
+	"steering flare sound" "poot-exp/combustion_engine"
+	description "An ancient human steering thruster with a very powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the galaxy."
+
+outfit "Ancient Combustion Thruster (POOT)"
+	"display name" `Ancient Combustion Thruster`
+	category "POOT Technology"
+	series "Engines"
+	index 01145
+	"cost" 642000
+	thumbnail "poot-exp/outfit/combustion_thruster_medium"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"thrust" 107.5
+	"thrusting energy" 3
+	"thrusting fuel" .45
+	"thrusting heat" 31.4
+	"flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"scale" .7
+		"frame rate" 30
+	"flare sound" "poot-exp/combustion_engine"
+	description "An ancient human thruster with a decently powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the gal."
+
+outfit "Ancient Combustion Steering (POOT)"
+	"display name" `Ancient Combustion Steering`
+	category "POOT Technology"
+	series "Engines"
+	index 01144
+	"cost" 619000
+	thumbnail "poot-exp/outfit/combustion_steering_medium"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"turn" 3507.4
+	"turning energy" 1.4
+	"turning fuel" .27
+	"turning heat" 19.8
+	"steering flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"scale" .7
+		"frame rate" 30
+	"steering flare sound" "poot-exp/combustion_engine"
+	description "An ancient human steering thruster with a nuclear powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the galaxy."
+
+outfit "Light Ancient Combustion Thruster (POOT)"
+	"display name" `Ancient Combustion Thruster`
+	category "POOT Technology"
+	series "Engines"
+	index 01143
+	"cost" 125000
+	thumbnail "poot-exp/outfit/combustion_thruster_small"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 40.5
+	"thrusting energy" 1.7
+	"thrusting fuel" .135
+	"thrusting heat" 12.9
+	"flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"scale" .5
+		"frame rate" 30
+	"flare sound" "poot-exp/combustion_engine"
+	description "An ancient human thruster with a decently powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the gal."
+
+outfit "Light Ancient Combustion Steering (POOT)"
+	"display name" `Ancient Combustion Steering`
+	category "POOT Technology"
+	series "Engines"
+	index 01142
+	"cost" 112000
+	thumbnail "poot-exp/outfit/combustion_steering_small"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 1355.9
+	"turning energy" .55
+	"turning fuel" .8
+	"turning heat" 7.4
+	"steering flare sprite" "poot-exp/effect/colossal_engines/combustion_engine"
+		"scale" .5
+		"frame rate" 30
+	"steering flare sound" "poot-exp/combustion_engine"
+	description "An ancient human steering thruster with a nuclear powerful push behind it for its size, but requires fuel in order to run. Designes like these were abandoned centuries ago for more modern energy based thrusters, but on very rare occaisions, one of these relics of a bygone era can be seen on a starship, traipsing across the galaxy."
+
+outfit "Engines Expansion (POOT)"
+	"display name" `Engines Expansion`
+	category "POOT Technology"
+	series "Expansions"
+	index 30
+	cost 100000
+	thumbnail "poot-exp/outfit/orange screwdriver"
+	"mass" 5
+	"engine capacity" 15
+	"outfit space" -10
+	"cooling inefficiency" .7
+	"unplunderable" 1
+	description "This expansion allows you to sacrifice some outfit space in order to make room for more propulsion systems, in situations where you need just a bit more space to install a particular system. It does not increase your cargo or weapon space."
+	description "	Unfortunately, rearranging the interior of your ship in such a fundamental way tends to interfere with its cooling systems."
+
+outfit "Weapons Expansion (POOT)"
+	"display name" `Weapons Expansion`
+	category "POOT Technology"
+	series "Expansions"
+	index 40
+	cost 100000
+	thumbnail "poot-exp/outfit/yellow screwdriver"
+	"mass" 5
+	"weapon capacity" 15
+	"outfit space" -10
+	"cooling inefficiency" .7
+	"unplunderable" 1
+	description "This expansion allows you to sacrifice some outfit space in order to make room for more weapons, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space."
+	description "	Unfortunately, rearranging the interior of your ship in such a fundamental way tends to interfere with its cooling systems."
+
+outfit "Outfit Docking Port Installation (POOT)"
+	"display name" `Outfit Docking Port Installation`
+	category "POOT Technology"
+	series "Expansions"
+	index 50
+	cost 100000
+	thumbnail "poot-exp/outfit/docking_port"
+	"mass" 25
+	"gun ports" -1
+	"outfit space" 30
+	"cooling inefficiency" 1
+	"unplunderable" 1
+	description "By converting a gun port into a makeshift docking bay, it can allow a ship to install additional outfits on its surface."
+	description "	Unfortunately, rearranging the exterior of your ship in such a fundamental way tends to interfere with its heat dispersion abilities."
+
+outfit "Loading Bay Installation (POOT)"
+	"display name" `Loading Bay Installation`
+	category "POOT Technology"
+	series "Expansions"
+	index 60
+	cost 100000
+	thumbnail "poot-exp/outfit/loading_area_conversion"
+	"mass" 25
+	"turret mounts" -1
+	"cargo space" 50
+	"cooling inefficiency" 1
+	"unplunderable" 1
+	description "By converting a turret mount into a makeshift loading bay, it can allow a ship to carry additional cargo on its surface."
+	description "	Unfortunately, rearranging the exterior of your ship in such a fundamental way tends to interfere with its heat dispersion abilities."
+

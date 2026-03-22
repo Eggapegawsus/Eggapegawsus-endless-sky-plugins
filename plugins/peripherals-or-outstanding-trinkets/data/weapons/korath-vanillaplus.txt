@@ -1,0 +1,862 @@
+
+outfit "Korath Tripulse Detainer (POOT)"
+	"display name" `Korath Tripulse Detainer`
+	category "Guns"
+	series "Guns"
+	index 04061
+	cost 6420000
+	thumbnail "poot-exp/outfit/tripulse-detainer"
+	"mass" 256
+	"outfit space" -256
+	"weapon capacity" -256
+	"energy capacity" 5000
+	"gun ports" -1
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .5
+		"velocity" 14
+		"lifetime" 140
+		"reload" 30
+		"firing energy" 756
+		"firing force" 60
+		"firing heat" 400
+		"hit force" 120
+		"shield damage" 320
+		"hull damage" 240
+		"slowing damage" 40
+		"blast radius" 20
+	description "A rotating trifecta of one of the most notorious weapons in Korath space, the Tri-Detainer instills fear as massive as the weapon itself within its victims."
+
+outfit "Blaze-Pike Lance (POOT)"
+	"display name" `Blaze-Pike Lance`
+	category "Guns"
+	series "Guns"
+	index 04021
+	cost 1560000
+	thumbnail "poot-exp/outfit/twin-fire-lance"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaze-pike"
+			"frame rate" 20
+		sound "blaze-pike"
+		"hit effect" "blaze-pike hit"
+		"inaccuracy" 0.45
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5
+		"firing heat" 4.5
+		"shield damage" 7.1
+		"hull damage" 3.1
+		"heat damage" 18
+		"burn damage" 0.4
+	description "The seeming reverence the Korath have for fire appears embodied in this weapon. This pair of Fire-Lances mounted together in a gun port do not merely create twin lances of fire: Rather, they begin to form a gestalt - a single, longer, hotter, and almost hypnotic column of fire."
+
+outfit "Korath Inferno Lance (POOT)"
+	"display name" `Korath Inferno Lance`
+	category "Guns"
+	series "Guns"
+	index 04022
+	cost 2240000
+	thumbnail "poot-exp/outfit/tri-fire-lance"
+	"mass" 79
+	"outfit space" -69
+	"weapon capacity" -69
+	"gun ports" -1
+	weapon
+		sprite "projectile/korath inferno"
+			"frame rate" 20
+		sound "korath inferno"
+		"hit effect" "korath inferno hit"
+		"inaccuracy" 0.5
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.5
+		"firing heat" 8.5
+		"shield damage" 10.8
+		"hull damage" 4.8
+		"heat damage" 30
+		"burn damage" 0.75
+	description "Some Korath consider the Inferno the crowning achievement of Exile weapon design. Three Fire-Lances mounted together in precisely the right manner combine synergistically, creating a longer, more powerful beam than three would individually."
+
+
+outfit "Shield Disruptor Laser (POOT)"
+	"display name" `Shield Disruptor Laser`
+	category "Guns"
+	series "Guns"
+	index 04051
+	cost 873000
+	thumbnail "poot-exp/outfit/disruptor-cannon"
+	"mass" 31
+	"outfit space" -31
+	"weapon capacity" -31
+	"gun ports" -1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8.0
+		"firing heat" 2.7
+		"shield damage" 3.8
+		"hull damage" .5
+		"disruption damage" .24
+	description "Shield Disruptor Turrets interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+
+outfit "Shield Devastator (POOT)"
+	"display name" `Shield Devastator`
+	category "Guns"
+	series "Guns"
+	index 04052
+	cost 3120000
+	thumbnail "poot-exp/outfit/tri-disruptor-cannon"
+	"mass" 98
+	"outfit space" -98
+	"weapon capacity" -98
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/tri-disruptor"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"velocity" 600
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 24.0
+		"firing heat" 8.1
+		"shield damage" 11.4
+		"hull damage" 1.5
+		"disruption damage" .72
+	description "A collection of three shield disrupters with enough shield disruption capabilities to scare captains without shield generators."
+
+outfit "Shield Devastator Turret (POOT)"
+	"display name" `Shield Devastator Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04071
+	cost 3810000
+	thumbnail "poot-exp/outfit/tri-disruptor"
+	"mass" 115
+	"outfit space" -115
+	"weapon capacity" -115
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/tri-disruptor"
+			"frame rate" 15
+		"hardpoint sprite" "poot-exp/hardpoint/tri_disruptor"
+		"hardpoint offset" 13.
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"turret turn" 1.6
+		"velocity" 600
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 24.0
+		"firing heat" 8.1
+		"shield damage" 11.4
+		"hull damage" 1.5
+		"disruption damage" .72
+	description "With the menace that was the Inferno, a Korath somewhere out there felt a shield disrupter of the same scale would deal sufficiently with enemy ships."
+
+outfit "Modified Husk-Slice (POOT)"
+	"display name" `Modified Husk-Slice`
+	category "Guns"
+	series "Guns"
+	index 04041
+	cost 1132000
+	thumbnail "outfit/slicer"
+	"mass" 51
+	"outfit space" -51
+	"weapon capacity" -51
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/modified_slicer"
+			"frame rate" 6
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" 0
+		"velocity" 650
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.6
+		"firing heat" 20.8
+		"shield damage" 6.3
+		"hull damage" 16.7
+	description "A heavily modified husk slicer capable of sustained fire. The increase in output does cause some overheating issues, in addition to increasing energy draw."
+
+outfit "Modified Husk-Slice Turret (POOT)"
+	"display name" `Modified Husk-Slice Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04061
+	cost 1843000
+	thumbnail "outfit/slicer turret"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/modified_slicer"
+			"frame rate" 6
+		"hardpoint sprite" "hardpoint/slicer turret"
+		"hardpoint offset" 17.
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" 0
+		"turret turn" 2.6
+		"velocity" 650
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.6
+		"firing heat" 20.8
+		"shield damage" 6.3
+		"hull damage" 16.7
+	description "This turret fires a tightly focused sustained energy beam capable of shredding hull armor. Combine it with a disrupter turret for a devestating combination."
+
+outfit "Husk-Cleaver (POOT)"
+	"display name" `Husk-Cleaver`
+	category "Guns"
+	series "Guns"
+	index 04042
+	cost 5132000
+	thumbnail "poot-exp/outfit/tri-hull-slicer"
+	"mass" 159
+	"outfit space" -159
+	"weapon capacity" -159
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/tri-slicer"
+			"frame rate" 6
+		sound "slicer"
+		"hit effect" "triple slicer impact"
+		"inaccuracy" 0
+		"velocity" 650
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 19.8
+		"firing heat" 62.4
+		"shield damage" 18.9
+		"hull damage" 50.1
+	description "A colossal trio of heavily modified husk slicers capable of sustained fire. Their damage output on hull armor is unmatched in korath space."
+
+outfit "Husk-Cleaver Turret (POOT)"
+	"display name" `Husk-Cleaver Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04062
+	cost 6423000
+	thumbnail "poot-exp/outfit/tri-hull-slicer-turret"
+	"mass" 197
+	"outfit space" -197
+	"weapon capacity" -197
+	"turret mounts" -1
+	"required crew" 5
+	weapon
+		sprite "poot-exp/projectile/tri-slicer"
+			"frame rate" 6
+		"hardpoint sprite" "poot-exp/hardpoint/tri_hull_slicer"
+		"hardpoint offset" 17.
+		sound "slicer"
+		"hit effect" "triple slicer impact"
+		"inaccuracy" 0
+		"turret turn" 2.6
+		"velocity" 650
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 19.8
+		"firing heat" 62.4
+		"shield damage" 18.9
+		"hull damage" 50.1
+	description "This monstrous turret can sustain 3 continous beams of highly potent energy, capable of ripping hulls to pieces. The combined synergy with a Shield Devastator turret is almost unmatched."
+
+effect "triple slicer impact"
+	sprite "effect/slicer impact"
+		"no repeat"
+		"scale" 2
+		"frame rate" 10
+	"lifetime" 19
+	"random angle" 360
+	"random spin" 2
+	"random velocity" .1
+	"velocity scale" -.002
+
+outfit "Korath Wildfire Lance (POOT)"
+	"display name" `Korath Wildfire Lance`
+	category "Guns"
+	series "Guns"
+	index 04023
+	cost 7920000
+	thumbnail "poot-exp/outfit/korath_wildfire_lance"
+	"mass" 232
+	"outfit space" -207
+	"weapon capacity" -207
+	"gun ports" -1
+	"required crew" 7
+	weapon
+		sprite "poot-exp/projectile/korath_wildfire"
+			"frame rate" 20
+		sound "korath inferno"
+		"hit effect" "korath inferno hit"
+		"inaccuracy" 0.5
+		"velocity" 950
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 22
+		"firing heat" 29
+		"shield damage" 24.7
+		"hull damage" 11.4
+		"heat damage" 82
+		"burn damage" 1.85
+	description "A pair of Inferno lances welded together into a single gunport. The sheer heat output of this weapon is intimidating enough that some captains of larger ships with one installed have weekly fire-prevention training programs."
+
+outfit "Korath Wildfire (POOT)"
+	"display name" `Korath Wildfire`
+	category "Turrets"
+	series "Turrets"
+	index 04031
+	cost 7920000
+	thumbnail "poot-exp/outfit/korath-wildfire"
+	"mass" 245
+	"outfit space" -216
+	"weapon capacity" -216
+	"turret mounts" -1
+	"required crew" 7
+	weapon
+		sprite "poot-exp/projectile/korath_wildfire"
+			"frame rate" 20
+		"hardpoint sprite" "poot-exp/hardpoint/korath_wildfire"
+		sound "korath inferno"
+		"hit effect" "korath inferno hit"
+		"inaccuracy" 0.5
+		"turret turn" 0.8
+		"velocity" 950
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 22
+		"firing heat" 29
+		"shield damage" 24.7
+		"hull damage" 11.4
+		"heat damage" 82
+		"burn damage" 1.85
+	description "If the inferno is the ruler of the exiles weaponry, this is the crown's jewel. The jet of flames that erupt from this weapon are so hot, there are rumors of it melting off of its own turret mount and floating away in to space."
+
+outfit "Korath Overreacher (POOT)"
+	"display name" `Korath Overreacher`
+	category "Guns"
+	series "Guns"
+	index 04031
+	cost 2414000
+	thumbnail "poot-exp/outfit/korath_overreacher"
+	"mass" 92
+	"outfit space" -92
+	"weapon capacity" -92
+	"energy capacity" 500
+	"gun ports" -1
+	weapon
+		sprite "projectile/grab-strike"
+			"scale" 1
+			"frame rate" 25
+			"random start frame"
+		sound "grab-strike"
+		"hit effect" "grab-strike impact"
+		"die effect" "grab-strike impact"
+		"inaccuracy" 1
+		"turret turn" 2.6
+		"arc" 35
+		"velocity" 15
+		"lifetime" 200
+		"reload" 8
+		"firing energy" 60
+		"firing heat" 150
+		"acceleration" 2
+		"drag" .1
+		"turn" .8
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .82
+		"shield damage" 124
+		"hull damage" 67
+		"hit force" -240
+	description "A direct upgrade to the Grab-Strike, the Overreach fires a much more potent projectile, allowing it to both last longer, and hit harder."
+
+outfit "Korath Overreacher Turret (POOT)"
+	"display name" `Korath Overreacher Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04041
+	cost 2924000
+	thumbnail "poot-exp/outfit/korath_overreacher"
+	"mass" 101
+	"outfit space" -101
+	"weapon capacity" -101
+	"energy capacity" 500
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/grab-strike"
+			"scale" 1
+			"frame rate" 25
+			"random start frame"
+		"hardpoint sprite" "poot-exp/hardpoint/korath_overreach"
+		"hardpoint offset" 10.
+		sound "grab-strike"
+		"hit effect" "grab-strike impact"
+		"die effect" "grab-strike impact"
+		"inaccuracy" 1
+		"turret turn" 2.6
+		"velocity" 15
+		"lifetime" 200
+		"reload" 8
+		"firing energy" 60
+		"firing heat" 150
+		"acceleration" 2
+		"drag" .1
+		"turn" .8
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .82
+		"shield damage" 124
+		"hull damage" 67
+		"hit force" -240
+	description "A direct upgrade to the Grab-Strike, the Overreach fires a much more potent projectile, allowing it to both last longer, and hit harder."
+
+outfit "Cluster Warder Anti-Missile (POOT)"
+	"display name" `Cluster Warder Anti-Missile`
+	category "Turrets"
+	series "Anti-Missile"
+	index 04011
+	cost 4450000
+	thumbnail "poot-exp/outfit/korath_triple_warder"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"energy capacity" 200
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/warder"
+			"scale" 1.7
+		"hardpoint offset" 5.
+		"hit effect" "korath warder"
+		"anti-missile" 25
+		"velocity" 600
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 40
+		"firing heat" 17
+	description "A group of modified Korath Warder Anti-Missiles, capable of targeting missiles from a further distance than a regular Warder."
+
+outfit "Twin Thermal Repeater (POOT)"
+	"display name" `Twin Thermal Repeater`
+	category "Guns"
+	series "Guns"
+	index 04011
+	cost 760000
+	thumbnail "poot-exp/outfit/korath_twin_repeater"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"energy capacity" 200
+	"gun ports" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 4
+		"velocity" 13
+		"lifetime" 44
+		"reload" 5
+		"burst reload" 2
+		"burst count" 6
+		"cluster"
+		"firing energy" 24
+		"firing heat" 108
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "A pair of Korath Thermal Repeaters. These weapons need to cool down between their shots to avoid overheating."
+
+outfit "Triple Thermal Repeater (POOT)"
+	"display name" `Triple Thermal Repeater`
+	category "Guns"
+	series "Guns"
+	index 04012
+	cost 1140000
+	thumbnail "poot-exp/outfit/korath_triple_repeater"
+	"mass" 39
+	"outfit space" -39
+	"weapon capacity" -39
+	"energy capacity" 300
+	"gun ports" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 4
+		"velocity" 16
+		"lifetime" 52
+		"reload" 3
+		"burst reload" 2
+		"burst count" 9
+		"cluster"
+		"firing energy" 24
+		"firing heat" 108
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "A trio of Korath Thermal Repeaters. These weapons need to cool down between their shots to avoid overheating."
+
+outfit "Triple Thermal Repeater Turret (POOT)"
+	"display name" `Triple Thermal Repeater Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04012
+	cost 1140000
+	thumbnail "poot-exp/outfit/korath_triple_repeater_turret"
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"energy capacity" 300
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		"hardpoint sprite" "poot-exp/hardpoint/korath_triple_repeater_turret"
+			"scale" .6
+		"hardpoint offset" 8.
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"turret turn" 2.6
+		"inaccuracy" 4
+		"velocity" 16
+		"lifetime" 52
+		"reload" 3
+		"burst reload" 2
+		"burst count" 9
+		"cluster"
+		"firing energy" 24
+		"firing heat" 108
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "A trio of Korath Thermal Repeaters. These weapons need to cool down between their shots to avoid overheating."
+
+outfit `Thermal "Hellfire" Chain Repeater (POOT)`
+	"display name" `Thermal "Hellfire" Chain Repeater`
+	category "Guns"
+	series "Guns"
+	index 04013
+	cost 2890000
+	thumbnail "poot-exp/outfit/korath_sextuple_repeater"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"energy capacity" 300
+	"gun ports" -1
+	weapon
+		sprite "projectile/2x tinyflare"
+			"scale" 1.1
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"turret turn" 2.6
+		"arc" 15
+		"inaccuracy" 0
+		"velocity" 18
+		"lifetime" 1
+		"reload" 3
+		"burst reload" 2
+		"burst count" 100
+		"cluster"
+		"firing energy" 24
+		"firing heat" 121
+		"submunition" `thermal chain repeater blast (POOT)`
+			"offset" -2.5 3
+		"submunition" `thermal chain repeater blast (POOT)`
+			"offset" 2.5 3
+	description "A devestating group of six Thermal Repeaters connected into a single gun port. This massive outfits heat output is notably high due to the incredible amount of energy that has to be coursing through the weapon for its operations."
+
+outfit `Thermal "Hellfire" Chain Repeater Turret (POOT)`
+	"display name" `Thermal "Hellfire" Chain Repeater Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04013
+	cost 3790000
+	thumbnail "poot-exp/outfit/korath_sextuple_repeater_turret"
+	"mass" 96
+	"outfit space" -96
+	"weapon capacity" -96
+	"energy capacity" 300
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "projectile/2x tinyflare"
+			"scale" 1.1
+		"hardpoint sprite" "poot-exp/hardpoint/korath_sextuple_repeater_turret"
+			"scale" .7
+		"hardpoint offset" 7.
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"turret turn" 2.6
+		"inaccuracy" 0
+		"velocity" 18
+		"lifetime" 1
+		"reload" 3
+		"burst reload" 2
+		"burst count" 100
+		"cluster"
+		"firing energy" 24
+		"firing heat" 121
+		"submunition" `thermal chain repeater blast (POOT)`
+			"offset" -2.5 3
+		"submunition" `thermal chain repeater blast (POOT)`
+			"offset" 2.5 3
+	description "A devestating group of six Thermal Repeaters connected into a single gun port. This massive outfits heat output is notably high due to the incredible amount of energy that has to be coursing through the weapon for its operations."
+
+outfit `thermal chain repeater blast (POOT)`
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		"hit effect" "repeater impact"
+		"inaccuracy" 4
+		"lifetime" 60
+		"reload" 2
+		"burst reload" 1
+		"burst count" 200
+		"cluster"
+		"firing energy" 24
+		"firing heat" 121
+		"shield damage" 26
+		"hull damage" 22
+		"heat damage" 33
+	description "A devestating group of six Thermal Repeaters connected into a single gun port. This massive outfits heat output is notably high due to the incredible amount of energy that has to be coursing through the weapon for its operations."
+
+outfit "Heavy Thermal Repeater (POOT)"
+	"display name" `Heavy Thermal Repeater`
+	category "Guns"
+	series "Guns"
+	index 04014
+	cost 7900000
+	thumbnail "poot-exp/outfit/korath_heavy_repeater"
+	"mass" 69
+	"outfit space" -69
+	"weapon capacity" -69
+	"energy capacity" 2000
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/korath_heavy_repeater"
+			"frame rate" 5
+		sound "poot-exp/korath_heavy_repeater"
+		"hit effect" "heavy repeater impact (POOT)" 1
+		"hit effect" "heavy repeater explosion (POOT)" 1
+		"live effect" "heavy repeater trail (POOT)" 45
+		"inaccuracy" 2.2
+		"velocity" 40
+		"lifetime" 45
+		"reload" 60
+		"burst reload" 30
+		"burst count" 3
+		"cluster"
+		"firing energy" 530
+		"firing heat" 1210
+		"shield damage" 610
+		"hull damage" 570
+		"heat damage" 1225
+		"blast radius" 100
+	description "A superheavy modification of a Korath Thermal Repeater. By internally superheating the plasma before firing, the Heavy Thermal Repeater unleashes an explosive plasma fireball onto its victims, causing immense heat damage to the target and anything caught within the surrounding blast."
+
+outfit "Heavy Dual Thermal Repeater (POOT)"
+	"display name" `Heavy Dual Thermal Repeater`
+	category "Guns"
+	series "Guns"
+	index 04015
+	cost 12900000
+	thumbnail "poot-exp/outfit/korath_heavy_repeater_twin"
+	"mass" 99
+	"outfit space" -99
+	"weapon capacity" -99
+	"energy capacity" 2000
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/korath_heavy_repeater"
+			"frame rate" 5
+		sound "poot-exp/korath_heavy_repeater"
+		"hit effect" "heavy repeater impact (POOT)" 1
+		"hit effect" "heavy repeater explosion (POOT)" 1
+		"live effect" "heavy repeater trail (POOT)" 45
+		"inaccuracy" 2.2
+		"velocity" 40
+		"lifetime" 45
+		"reload" 30
+		"burst reload" 15
+		"burst count" 6
+		"cluster"
+		"firing energy" 530
+		"firing heat" 1210
+		"shield damage" 610
+		"hull damage" 570
+		"heat damage" 1225
+		"blast radius" 100
+	description "A pair of the modified superheavy Korath Thermal Repeaters. Few Korath ships have the capacity to install multiple of these, let alone handle the heat output from continuous use."
+
+outfit "Heavy Thermal Repeater Turret (POOT)"
+	"display name" `Heavy Thermal Repeater Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04015
+	cost 16700000
+	thumbnail "poot-exp/outfit/korath_heavy_repeater_turret"
+	"mass" 117
+	"outfit space" -117
+	"weapon capacity" -117
+	"energy capacity" 2000
+	"turret mounts" -1
+	weapon
+		sprite "poot-exp/projectile/korath_heavy_repeater"
+			"frame rate" 5
+		"hardpoint sprite" "poot-exp/hardpoint/korath_heavy_repeater_turret"
+			"scale" 1
+		"hardpoint offset" 20.
+		sound "poot-exp/korath_heavy_repeater"
+		"hit effect" "heavy repeater impact (POOT)" 1
+		"hit effect" "heavy repeater explosion (POOT)" 1
+		"live effect" "heavy repeater trail (POOT)" 45
+		"turret turn" 2
+		"inaccuracy" 2.2
+		"velocity" 40
+		"lifetime" 45
+		"reload" 30
+		"burst reload" 15
+		"burst count" 6
+		"cluster"
+		"firing energy" 530
+		"firing heat" 1410
+		"shield damage" 610
+		"hull damage" 570
+		"heat damage" 1325
+		"blast radius" 100
+	description "A pair of the superheavy Korath explosive burst cannons, now on a rotating turret. The modifications to install them onto the turret platform result in less availible space for installing heat sinks, causing the already hot cannons to run at even higher tempuratures."
+
+outfit `Heavy Thermal "Threepeater" Repeater (POOT)`
+	"display name" `Heavy Thermal "Threepeater" Repeater`
+	category "Guns"
+	series "Guns"
+	index 04016
+	cost 21200000
+	thumbnail "poot-exp/outfit/korath_heavy_repeater_triple"
+	"mass" 159
+	"outfit space" -159
+	"weapon capacity" -159
+	"energy capacity" 2000
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/korath_heavy_repeater"
+			"frame rate" 5
+		sound "poot-exp/korath_heavy_repeater"
+		"hit effect" "heavy repeater impact (POOT)" 1
+		"hit effect" "heavy repeater explosion (POOT)" 1
+		"live effect" "heavy repeater trail (POOT)" 45
+		"inaccuracy" 2.2
+		"velocity" 40
+		"lifetime" 45
+		"reload" 20
+		"stream"
+		"firing energy" 530
+		"firing heat" 1710
+		"shield damage" 610
+		"hull damage" 570
+		"heat damage" 1290
+		"blast radius" 100
+	description "A massive trifecta of superheavy Thermal Repeaters, extensively modified to fire in series with one another. Unfortunately mounting an additional cannon blocks off multiple existing heat sinks and airways on the Heavy Repeaters, causing higher than usual operating tempuratures."
+
+outfit `Heavy Thermal "Threepeater" Turret (POOT)`
+	"display name" `Heavy Thermal "Threepeater" Turret`
+	category "Turrets"
+	series "Turrets"
+	index 04016
+	cost 23700000
+	thumbnail "poot-exp/outfit/korath_heavy_threepeater_turret"
+	"mass" 169
+	"outfit space" -169
+	"weapon capacity" -169
+	"energy capacity" 2000
+	"turret mounts" -1
+	weapon
+		sprite "poot-exp/projectile/korath_heavy_repeater"
+			"frame rate" 5
+		"hardpoint sprite" "poot-exp/hardpoint/korath_heavy_threepeater_turret"
+			"scale" 1
+		"hardpoint offset" 20.
+		sound "poot-exp/korath_heavy_repeater"
+		"hit effect" "heavy repeater impact (POOT)" 1
+		"hit effect" "heavy repeater explosion (POOT)" 1
+		"live effect" "heavy repeater trail (POOT)" 45
+		"turret turn" 2.2
+		"inaccuracy" 2.2
+		"velocity" 40
+		"lifetime" 45
+		"reload" 20
+		"stream"
+		"firing energy" 530
+		"firing heat" 1810
+		"shield damage" 610
+		"hull damage" 570
+		"heat damage" 1375
+		"blast radius" 100
+	description "A massive trifecta of superheavy Thermal Repeaters, extensively modified to fire in series with one another. Unfortunately mounting the cannons onto a turret mount blocks off multiple additional existing heat sinks and airways on the already highly cooling inefficient Triple Heavy Repeater, resulting in even higher operating tempuratures."
+
+effect "heavy repeater impact (POOT)"
+	sprite "poot-exp/effect/korath_heavy_repeater_impact"
+		"scale" 3
+		"no repeat"
+		"frame rate" 8
+	"lifetime" 14
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 100
+	"random velocity" .2
+	"velocity scale" 0
+
+effect "heavy repeater trail (POOT)"
+	sprite "poot-exp/effect/korath_heavy_repeater_impact"
+		"scale" .42
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 21
+	"random angle" 360
+	"random spin" 100
+	"random velocity" .6
+	"velocity scale" .1
+
+effect "heavy repeater explosion (POOT)"
+	sprite "effect/explosion/huge"
+		"scale" 1
+		"no repeat"
+		"frame rate" 30
+	sound "explosion large"
+	"lifetime" 18
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .2
+	"velocity scale" 0

@@ -1,0 +1,240 @@
+
+outfit "Huge Graviton Thruster (POOT)"
+	"display name" `Huge Graviton Thruster`
+	category "POOT Technology"
+	series "Engines"
+	index 91031
+	"cost" 38000000
+	thumbnail "poot-exp/outfit/huge_quarg_thruster"
+	"mass" 180
+	"outfit space" -180
+	"engine capacity" -180
+	"thrust" 280
+	"thrusting energy" 19
+	"thrusting heat" 5
+	"reverse thrust" 138
+	"reverse thrusting energy" 10
+	"reverse thrusting heat" 2.3
+	"force protection" 0.25
+	"inertia reduction" 0.25
+	"flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.25
+	description "These massive engines are capable of propelling even the largest of quarg cargo and warships as if they weigh close to nothing."
+	description "	They have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+
+outfit "Huge Graviton Steering (POOT)"
+	"display name" `Huge Graviton Steering`
+	category "POOT Technology"
+	series "Engines"
+	index 91032
+	"cost" 30000000
+	thumbnail "poot-exp/outfit/huge_quarg_steering"
+	"mass" 110
+	"outfit space" -110
+	"engine capacity" -110
+	"turn" 5000
+	"turning energy" 10
+	"turning heat" 2.3
+	"force protection" 0.25
+	"inertia reduction" 0.25
+	"steering flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.25
+	description "The ability to turn as quick and swiftly as quarg ships can is something well wished amongst most human freighter pilots who have been lucky enough to have encountered a quarg ship with engines like these in equipped."
+	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+outfit "Huge Graviton Engines (POOT)"
+	"display name" `Huge Graviton Engines`
+	plural "Huge Graviton Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 91033
+	"cost" 52000000
+	thumbnail "poot-exp/outfit/huge_quarg_mixed_thrusters"
+	"mass" 280
+	"outfit space" -280
+	"engine capacity" -280
+	"turn" 9000
+	"turning energy" 18
+	"turning heat" 4.1
+	"thrust" 535
+	"thrusting energy" 35
+	"thrusting heat" 9
+	"reverse thrust" 228
+	"reverse thrusting energy" 18
+	"reverse thrusting heat" 4.1
+	"force protection" 0.25
+	"inertia reduction" 0.25
+	"flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.25
+	"steering flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.25
+	description "The sheer amount agility within these engines is almost unparalleled, while simultaneously being incredibly compact for such a powerful engine block."
+	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+outfit "Colossal Graviton Engines (POOT)"
+	"display name" `Colossal Graviton Engines`
+	plural "Colossal Graviton Engines"
+	category "POOT Technology"
+	series "Engines"
+	index 91034
+	"cost" 74000000
+	thumbnail "poot-exp/outfit/capital_quarg_thruster"
+	"mass" 470
+	"outfit space" -470
+	"engine capacity" -470
+	"turn" 21000
+	"turning energy" 42
+	"turning heat" 11.1
+	"thrust" 1145
+	"thrusting energy" 80
+	"thrusting heat" 21
+	"reverse thrust" 497
+	"reverse thrusting energy" 42
+	"reverse thrusting heat" 11.1
+	"force protection" 0.25
+	"inertia reduction" 0.25
+	"flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.4
+	"steering flare sprite" "poot-exp/effect/colossal_engines/graviton_colossal"
+		"frame rate" 5
+		"scale" 1.4
+	description "While these engines are in full operation, they consume more energy than a small fleet of human warships. Despite this, they are incredibly compact engines for their gargantuan size, showing just how advanced some of the Quargs techonolgy can be."
+	description "	They also have strange capabilities which seem to violate the laws of physics as humanity understands them. Ships with these engines accelerate faster under their own power than one would expect, while also taking less impact from external forces."
+
+outfit "Quarg Quantum Vacuum Battery Array (POOT)"
+	"display name" `Quarg Quantum Vacuum Battery Array`
+	plural "Quarg Quantum Vacuum Battery Arrays"
+	category "POOT Technology"
+	series "Batteries"
+	index 91011
+	cost 12000000
+	thumbnail "poot-exp/outfit/quarg_dark_quantum_battery"
+	"mass" 110
+	"outfit space" -110
+	"energy capacity" 300000
+	"active cooling" 100
+	"cooling energy" 5
+	description "A collection of Quarg Vaccuum Batteries. Through an unknown property of the Quargs technology, when these batteries are connected in series with one another, they are capable of storing a slightly increased amount of energy."
+
+outfit "Quarg Supernova Generator (POOT)"
+	"display name" `Quarg Supernova Generator`
+	category "POOT Technology"
+	series "Generators"
+	index 91031
+	cost 140000000
+	thumbnail "poot-exp/outfit/quarg_generator_supernova"
+	"mass" 950
+	"outfit space" -190
+	"energy generation" 84.4
+	"heat generation" 65
+	"inertia reduction" 0.15
+	description "By generating subatomic particles and through extreme amounts of internal preassure from collidng them, this generator is capable of producing monumental amounts of energy, far more than any current human technology could even dream of."
+
+outfit "Quarg Heavy Antimatter Generator (POOT)"
+	"display name" `Quarg Heavy Antimatter Generator`
+	category "POOT Technology"
+	series "Generators"
+	index 91032
+	cost 210000000
+	thumbnail "poot-exp/outfit/quarg_generator_heavy_antimatter"
+	"mass" 1125
+	"outfit space" -225
+	"energy generation" 159.4
+	"heat generation" 89
+	"inertia reduction" 0.17
+	description "A monumental Anitmatter Generator made by the Quarg. This level of energy generation is unprecendented in most regions of space."
+	description "   This outfit is typically used in the Quargs Capital ships."
+
+outfit "Quarg Superheavy Antimatter Generator (POOT)"
+	"display name" `Quarg Superheavy Antimatter Generator`
+	category "POOT Technology"
+	series "Generators"
+	index 91033
+	cost 245000000
+	thumbnail "poot-exp/outfit/quarg_generator_superheavy_antimatter"
+	"mass" 1450
+	"outfit space" -260
+	"energy generation" 247.2
+	"heat generation" 149
+	"inertia reduction" 0.25
+	description "One of the strongest sources of interstellar power generation in known existence. This generator takes up so much space and weighs so much, it has its own built-in systems to reduce its impact on its host ships space travel. Capable of outputing more energy than an entire human navy fleet all by itself, it makes you wonder what kind of technology the Quarg could possibly have that needs this much power to run."
+	description "   This outfit is typically used in the Quargs Capital ships."
+
+outfit "Quarg Scutum Shield Generator (POOT)"
+	"display name" `Quarg Scutum Shield Generator`
+	category "POOT Technology"
+	series "Shields"
+	index 91031
+	cost 15500000
+	thumbnail "poot-exp/outfit/quarg_shield_scutum"
+	"mass" 120
+	"outfit space" -120
+	"shield generation" 21
+	"shield energy" 10.5
+	"corrosion protection" .15
+	"disruption protection" .7
+	"piercing protection" 1
+	description "An incredibly durable Quarg shield generator, capable of generating impressively dense shields for the Quargs strongest ships."
+
+outfit "Quarg Orion Shield Generator (POOT)"
+	"display name" `Quarg Orion Shield Generator`
+	category "POOT Technology"
+	series "Shields"
+	index 91032
+	cost 15500000
+	thumbnail "poot-exp/outfit/quarg_shield_orion"
+	"mass" 200
+	"outfit space" -200
+	"shield generation" 45
+	"shield energy" 21
+	"scramble protection" .25
+	"corrosion protection" .25
+	"disruption protection" 1
+	"piercing protection" 1
+	description "If the Quarg are annoyed from being accused of using magic in their technology, this Shield Generator does not help. Able to withstand direct hits from most weapons without even flinching, the Quarg Orion Shield Generator is one of the strongest in this region of the Galaxy, typically only seen on the strongest of Quarg superheavy and capital ships."
+
+outfit "Quarg Master Repair Hub (POOT)"
+	"display name" `Quarg Master Repair Hub`
+	category "POOT Technology"
+	series "Repair"
+	index 91021
+	cost 12000000
+	thumbnail "poot-exp/outfit/quarg_master_repair_hub"
+	"mass" 75
+	"outfit space" -75
+	"fuel generation" 0.25
+	"hull repair rate" 8
+	"hull energy" 5.4
+	description "Installed within the rough center of a ship, this Master Repair Hub collects dark matter from the outter perimeter of the ship and refabricates it into materials for reconstruction of the hull, and can also fabricate hyperspace fuel out of it. How it is able to collect dark matter has yet to be revealed to humans by the Quarg."
+
+outfit "Quarg Microsystems (POOT)"
+	"display name" `Quarg Microsystems`
+	plural "Quarg Microsystems"
+	category "POOT Technology"
+	series "Drives"
+	index 02
+	cost 15000000
+	thumbnail "poot-exp/outfit/quarg_microsystems"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 28
+	"heat generation" 5
+	"active cooling" 40
+	"cooling" 20
+	"cooling energy" 4
+	"energy capacity" 90000
+	"shield generation" 5
+	"hull repair rate" 3.5
+	"hull energy" 2
+	"shield energy" 1
+	"jump drive fuel" 350
+	"jump drive" 1
+	"jump speed" .8
+	"reactor core expansions" 12
+	description "A Quarg systems block, containing varying types of complex and egnigmatic Quarg technology. This versatile collection of core components is commonly used by the Quarg on their small fighters and drones, as it's capable of handling most requirements on a starship outside of their propulsion and weapons."

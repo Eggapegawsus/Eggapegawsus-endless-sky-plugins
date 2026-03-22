@@ -1,0 +1,260 @@
+
+#Human
+#
+#
+
+outfit "Supercapacitor"
+	"reactor core expansions" 1
+
+outfit "nGVF-BB Fuel Cell"
+	"reactor core expansions" 2
+
+outfit "nGVF-CC Fuel Cell"
+	"reactor core expansions" 4
+
+outfit "nGVF-DD Fuel Cell"
+	"reactor core expansions" 6
+
+
+outfit "nGVF-EE Fuel Cell"
+	"reactor core expansions" 8
+
+outfit "LP576a Battery Pack"
+	"reactor core expansions" 3
+
+
+outfit "RT-I Radiothermal"
+	"reactor core expansions" 6
+
+
+outfit "S3 Thermionic"
+	"reactor core expansions" 8
+
+
+outfit "NT-200 Nucleovoltaic"
+	"reactor core expansions" 10
+
+
+outfit "Dwarf Core"
+	"reactor core expansions" 14
+
+
+outfit "Fission Reactor"
+	"reactor core expansions" 16
+
+
+outfit "Breeder Reactor"
+	"reactor core expansions" 22
+
+
+outfit "Fusion Reactor"
+	"reactor core expansions" 26
+
+
+outfit "Armageddon Core"
+	"reactor core expansions" 40
+
+outfit "Stack Core"
+	"reactor core expansions" 50
+
+
+outfit "Scram Drive"
+	"reactor core expansions" 1
+outfit "Hyperdrive"
+	"reactor core expansions" 3
+
+#Hai
+#
+#
+
+outfit "Boulder Reactor"
+	"reactor core expansions" 20
+
+outfit "Geode Reactor"
+	"reactor core expansions" 14
+
+
+outfit "Pebble Core"
+	"reactor core expansions" 8
+
+outfit "Sand Cell"
+	"reactor core expansions" 2
+
+#Korath
+#
+#
+
+outfit "Generator (Candle Class)"
+	"reactor core expansions" 4
+
+outfit "Generator (Furnace Class)"
+	"reactor core expansions" 8
+
+outfit "Generator (Inferno Class)"
+	"reactor core expansions" 16
+
+outfit "Plasma Core"
+	"reactor core expansions" 14
+
+outfit "Double Plasma Core"
+	"reactor core expansions" 28
+
+outfit "Triple Plasma Core"
+	"reactor core expansions" 44
+
+outfit "Systems Core (Tiny)"
+	"reactor core expansions" 6
+
+outfit "Systems Core (Small)"
+	"reactor core expansions" 12
+
+outfit "Systems Core (Medium)"
+	"reactor core expansions" 20
+
+outfit "Systems Core (Large)"
+	"reactor core expansions" 38
+
+#Avgi
+#
+#
+
+outfit "Lantern Fission Core"
+	"reactor core expansions" 6
+
+#Bunrodea
+#
+#
+
+outfit "Quark Reactor"
+	"reactor core expansions" 12
+
+outfit "Electroweak Reactor"
+	"reactor core expansions" 28
+
+outfit "Dark Reactor"
+	"reactor core expansions" 48
+
+#Coalition
+#
+#
+
+
+outfit "Small Reactor Module"
+	"reactor core expansions" 12
+
+outfit "Large Reactor Module"
+	"reactor core expansions" 40
+
+outfit "Small Cogeneration Module"
+	"reactor core expansions" 6
+
+outfit "Large Cogeneration Module"
+	"reactor core expansions" 24
+
+#Kahet
+#
+#
+
+
+outfit "Ka'het MHD Generator"
+	"reactor core expansions" 8
+
+#Remnant
+#
+#
+
+outfit "Millennium Cell"
+	"reactor core expansions" 6
+
+outfit "Epoch Cell"
+	"reactor core expansions" 22
+
+outfit "Aeon Cell"
+	"reactor core expansions" 36
+
+#Sheragi
+#
+#
+
+outfit "Small EM Battery"
+	"reactor core expansions" 4
+outfit "Large EM Battery"
+	"reactor core expansions" 50
+outfit "Fusion Drive"
+	"reactor core expansions" 36
+
+#Successor
+#
+#
+outfit `1-"Uurau" Betavoltaic Cell`
+	"reactor core expansions" 4
+
+outfit `OC-"Mavra" Betavoltaic Cell`
+	"reactor core expansions" 8
+
+outfit `3-"Kaska" Betavoltaic Cell`
+	"reactor core expansions" 14
+
+outfit `6-"Ruuv" Betavoltaic Cell`
+	"reactor core expansions" 30
+
+outfit `"Nnesa" Fusion Core`
+	"reactor core expansions" 20
+
+outfit `"Ryuit" Fusion Core`
+	"reactor core expansions" 42
+
+outfit `"Uoret" Fusion Core`
+	"reactor core expansions" 66
+
+#Wanderer
+#
+#
+
+outfit "Small Biochemical Cell"
+	"reactor core expansions" 8
+
+outfit "Large Biochemical Cell"
+	"reactor core expansions" 30
+
+outfit "Red Sun Reactor"
+	"reactor core expansions" 12
+
+outfit "Yellow Sun Reactor"
+	"reactor core expansions" 20
+
+outfit "White Sun Reactor"
+	"reactor core expansions" 36
+
+outfit "Blue Sun Reactor"
+	"reactor core expansions" 50
+
+outfit "Dark Storm Shielding"
+	"reactor core expansions" 10
+
+
+#Gegno
+#
+#
+
+outfit "R03 Warforge Battery"
+	"reactor core expansions" 4
+
+outfit "R04 Crusade Battery"
+	"reactor core expansions" 8
+
+
+outfit "C3 Scrap Cell"
+	"reactor core expansions" 4
+
+outfit "C7 Brawl Cell"
+	"reactor core expansions" 9
+
+outfit "C17 Warzone Core"
+	"reactor core expansions" 21
+
+outfit "C27 Campaign Core"
+	"reactor core expansions" 40
+
+outfit "I70 Ameliorate Cell"
+	"reactor core expansions" 5

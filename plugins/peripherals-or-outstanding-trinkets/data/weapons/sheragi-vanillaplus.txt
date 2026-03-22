@@ -1,0 +1,130 @@
+
+outfit "Dragonflame Turret (POOT)"
+	"display name" "Dragonflame Turret"
+	category "Turrets"
+	series "Turrets"
+	index 10160
+	cost 180000000
+	thumbnail "outfit/dragonflame"
+	"mass" 156
+	"outfit space" -156
+	"weapon capacity" -156
+	"required crew" 15
+	"turret mounts" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "dragonflame"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"turret turn" 1.8
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 180
+		"firing energy" 16000
+		"firing fuel" 200
+		"firing heat" 40000
+		"firing force" 1500
+		"hit force" 3000
+		"shield damage" 25000
+		"hull damage" 15000
+		"heat damage" 50000
+		"piercing" 0.4
+		"penetration count" 20
+	description "The ancient Sheragi superweapon is simple in concept, but the cost involved in developing something like it is exorbitant. It's hard to envision what could have motivated the creation of such a thing. It uses an obscene amount of energy to trigger an extremely powerful thermonuclear reaction, directing most of the energy from the resulting explosion forwards in a devastatingly powerful beam of gamma radiation."
+
+outfit "Overcharged Dragonflame Cannon (POOT)"
+	"display name" "Overcharged Dragonflame Cannon"
+	category "Guns"
+	series "Guns"
+	index 10161
+	cost 180000000
+	thumbnail "poot-exp/outfit/overcharged_dragonflame"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"required crew" 15
+	"gun ports" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "overcharged_dragonflame"
+		"hit effect" "overcharged bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 4000
+		"lifetime" 1
+		"reload" 240
+		"firing energy" 48000
+		"firing fuel" 125
+		"firing heat" 100000
+		"firing force" 6000
+		"hit force" 3000
+		"shield damage" 35000
+		"hull damage" 20000
+		"heat damage" 75000
+		"piercing" 0.6
+		"penetration count" 30
+		"blast radius" 200
+	description "What happens when you overload an ancient superweapon with massive amounts of energy? It would seem someone messed around and found out."
+
+outfit "Overcharged Dragonflame Turret (POOT)"
+	"display name" "Overcharged Dragonflame Turret"
+	category "Turrets"
+	series "Turrets"
+	index 10161
+	cost 180000000
+	thumbnail "poot-exp/outfit/overcharged_dragonflame"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"required crew" 15
+	"turret mounts" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "overcharged_dragonflame"
+		"hit effect" "overcharged bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"turret turn" 1.8
+		"velocity" 4000
+		"lifetime" 1
+		"reload" 240
+		"firing energy" 48000
+		"firing fuel" 125
+		"firing heat" 100000
+		"firing force" 6000
+		"hit force" 3000
+		"shield damage" 25000
+		"hull damage" 15000
+		"heat damage" 50000
+		"piercing" 0.6
+		"penetration count" 30
+		"blast radius" 200
+	description "What happens when you overload an ancient superweapon with massive amounts of energy? It would seem someone messed around and found out."
+
+effect "overcharged_dragonflame"
+	sprite "poot-exp/effect/overcharged_dragonflame"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 21
+	"velocity scale" 1
+
+effect "overcharged bright hit"
+	sprite "effect/explosion/nuke"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 60
+	sound "explosion nuke"
+	"lifetime" 7
+	"random angle" 360
+	"random spin" 30
+	"velocity scale" 0.005

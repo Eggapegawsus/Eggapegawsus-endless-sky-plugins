@@ -1,0 +1,37 @@
+
+outfit "Prototype Fusion Cannon"
+	category "Guns"
+	series "Guns"
+	index 01134
+	weapon
+		sprite "projectile/fusion gun bolt"
+			"no repeat"
+			"frame rate" .25
+		sound "dragonflame"
+		icon "poot-exp/icon/prototype_fusion_cannon"
+		"fire effect" "fusion cannon fire"
+		"die effect" "fusion cannon cloud" 5
+		"hit effect" "fusion cannon impact" 20
+		"hit effect" "fusion cannonspark" 40
+		"hit effect" "fusion cannon explosion 1" 10
+		"hit effect" "fusion cannon explosion 2" 10
+		"hit effect" "fusion cannon explosion 3" 10
+		"hit effect" "fusion cannon nuke" 1
+		"live effect" "fusion cannon cloud" 10
+		"inaccuracy" 0.2
+		"velocity" 66
+		"lifetime" 20
+		"reload" 40
+		"firing energy" 2500
+		"firing heat" 3000
+		"firing fuel" 100
+		"shield damage" 1100
+		"hull damage" 1550
+		"piercing" 0.2
+		"disruption damage" 5
+		"safe"
+		"hit force" 150
+		"missile strength" 50
+		"trigger radius" 75
+		"blast radius" 250
+	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
