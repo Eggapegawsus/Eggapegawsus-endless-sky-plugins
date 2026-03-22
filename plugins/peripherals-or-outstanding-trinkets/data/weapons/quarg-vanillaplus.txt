@@ -1,0 +1,1017 @@
+#   Outfits
+
+
+
+
+#
+#   Weapons
+#
+
+
+
+outfit "Quarg Vindicator (POOT)"
+	"display name" "Quarg Vindicator"
+	category "Guns"
+	series "Guns"
+	index 91024
+	cost 70000000
+	thumbnail "poot-exp/outfit/quarg-vindicator"
+	"mass" 250
+	"outfit space" -250
+	"weapon capacity" -250
+	"gun ports" -1
+	"required crew" 7
+	weapon
+		sprite "poot-exp/projectile/vindicator"
+			"frame rate" 1
+		sound "poot-exp/neutron_beam"
+		"hit effect" "skylance impact"
+		"inaccuracy" .2
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 125
+		"firing heat" 30
+		"shield damage" 250
+		"hull damage" 200
+		"ion damage" .5
+		"scrambling damage" .5
+	description "A behemoth of a weapon kept amongst the Quarg, this weapon is so powerful that speaking of its existence is kept to a minimum to prevent panic amongst other nearby species. For a weapon of its magnitude, it requires a great deal of energy just to fire."
+	
+outfit "Quarg Vindicator Turret (POOT)"
+	"display name" "Quarg Vindicator Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91024
+	cost 70000000
+	thumbnail "poot-exp/outfit/quarg-vindicator"
+	"mass" 250
+	"outfit space" -250
+	"weapon capacity" -250
+	"turret mounts" -1
+	"required crew" 7
+	weapon
+		sprite "poot-exp/projectile/vindicator"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/quarg_vindicator"
+		"hardpoint offset" 12.
+		sound "poot-exp/neutron_beam"
+		"hit effect" "skylance impact"
+		"inaccuracy" .2
+		"turret turn" 1.8
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 125
+		"firing heat" 30
+		"shield damage" 250
+		"hull damage" 200
+		"ion damage" .5
+		"scrambling damage" .5
+	description "A behemoth of a weapon kept amongst the Quarg, this weapon is so powerful that speaking of its existence is kept to a minimum to prevent panic amongst other nearby species. For a weapon of its magnitude, it requires a great deal of energy just to fire."
+
+outfit "Heavy Skylance (POOT)"
+	"display name" "Heavy Skylance"
+	category "Guns"
+	series "Guns"
+	index 91023
+	cost 40000000
+	thumbnail "poot-exp/outfit/quarg-heavy-skylance"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/heavy-skylance"
+			"frame rate" 1
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .2
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 15
+		"shield damage" 75
+		"hull damage" 60
+		"ion damage" .15
+		"scrambling damage" .15
+	description "A modernized version of an old Quarg weapon. Notably stronger than its prior version, very few have been under its crosshairs. Atleast, those who have lived to tell the tale."
+	
+outfit "Heavy Skylance Turret (POOT)"
+	"display name" "Heavy Skylance Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91023
+	cost 40000000
+	thumbnail "poot-exp/outfit/quarg-heavy-skylance"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/heavy-skylance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"turret turn" 2.6
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 45
+		"firing heat" 15
+		"shield damage" 75
+		"hull damage" 60
+		"ion damage" .15
+		"scrambling damage" .15
+	description "A modernized version of an old Quarg weapon. Notably stronger than its prior version, very few have been under its crosshairs. Atleast, those who have lived to tell the tale."
+
+
+outfit "Quarg Aerolance (POOT)"
+	"display name" "Quarg Aerolance"
+	category "Guns"
+	series "Guns"
+	index 91022
+	cost 18000000
+	thumbnail "outfit/quarg skylance"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 10
+		"shield damage" 50
+		"hull damage" 40
+		"ion damage" .1
+		"scrambling damage" .1
+	description "These immensely powerful beam weapons are used by Quarg warships to strike fear into the hearts of all who dare oppose them."
+
+
+outfit "Quarg Aerolance Turret (POOT)"
+	"display name" "Quarg Aerolance Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91022
+	cost 18000000
+	thumbnail "outfit/quarg skylance"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"turret turn" 2.6
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 10
+		"shield damage" 50
+		"hull damage" 40
+		"ion damage" .1
+		"scrambling damage" .1
+	description "These immensely powerful beam weapons are used by Quarg warships to strike fear into the hearts of all who dare oppose them."
+
+outfit "Astral Ribault"
+	"display name" "Quarg Astral Ribault Turret"
+
+outfit "Quarg Astral Ribault Cannon (POOT)"
+	"display name" "Quarg Astral Ribault Cannon"
+	category "Guns"
+	series "Guns"
+	index 91031
+	cost 13000000
+	thumbnail "outfit/quarg ribault"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
+		"hardpoint offset" 10.
+		"fire effect" "ribault flare"
+		"hit effect" "electron impact"
+		sound "ribault"
+		"inaccuracy" 13
+		"turret turn" 2.5
+		"velocity" 13
+		"reload" 17
+		"burst reload" 2
+		"burst count" 19
+		"firing energy" 80
+		"firing heat" 5
+		"submunition" "ribault unguided" 2
+	description "The rapid flurries shot by this turret cover a wide area at a long range, firing a storm of negative energy particles. Attractive forces guide these particles towards their target, dealing very high damage to enemies within the immediate vicinity while keeping those that flee within the Quarg's reach."
+
+outfit "Quarg Heavy Astral Ribault Turret (POOT)"
+	"display name" "Quarg Heavy Astral Ribault Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91033
+	cost 24000000
+	thumbnail "poot-exp/outfit/quarg_heavy_ribault"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"required crew" 2
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
+			"scale" 1.4
+		"hardpoint offset" 14.
+		"fire effect" "heavy ribault flare"
+		"hit effect" "electron impact" 3
+		sound "ribault"
+		"inaccuracy" 33
+		"turret turn" 2.5
+		"velocity" 17
+		"reload" 8
+		"burst reload" 2
+		"burst count" 35
+		"firing energy" 440
+		"firing heat" 70
+		"submunition" "heavy ribault unguided (POOT)" 6
+	description "A very strong cannon capable of firing a swarm of negative energy projectiles. While dealing significantly more damge than its predecessor, it does not feature attraction abilities anywhere near as strong."
+
+outfit "Quarg Heavy Astral Ribault (POOT)"
+	"display name" "Quarg Heavy Astral Ribault"
+	category "Guns"
+	series "Guns"
+	index 91033
+	cost 22000000
+	thumbnail "poot-exp/outfit/quarg_heavy_ribault"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/ribault"
+		"fire effect" "heavy ribault flare"
+		"hit effect" "electron impact" 3
+		sound "ribault"
+		"inaccuracy" 33
+		"velocity" 17
+		"reload" 8
+		"burst reload" 2
+		"burst count" 35
+		"firing energy" 440
+		"firing heat" 70
+		"submunition" "heavy ribault unguided (POOT)" 6
+	description "A very strong cannon capable of firing a swarm of negative energy projectiles. While dealing significantly more damge than its predecessor, it does not feature attraction abilities anywhere near as strong."
+
+outfit "heavy ribault unguided (POOT)"
+	weapon
+		sprite "projectile/ribault"
+			"scale" 1.5
+		"hit effect" "ribault impact"
+		"inaccuracy" 11
+		"lifetime" 20
+		"submunition" "heavy ribault guided (POOT)"
+
+outfit "heavy ribault guided (POOT)"
+	weapon
+		sprite "projectile/ribault"
+			"frame rate" 10
+			"random start frame"
+			"scale" 1.5
+		"hit effect" "ribault impact (POOT)" 3
+		"inaccuracy" 25
+		"lifetime" 200
+		"fade out" 60
+		"turn" 5
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .9
+		"acceleration" 1
+		"drag" .1
+		"random velocity" 5
+		"hit force" -30
+		"shield damage" 180
+		"hull damage" 90
+
+effect "heavy ribault flare (POOT)"
+	sprite "effect/distancer"
+		"frame rate" 1.2
+		"scale" 1.5
+	"lifetime" 0
+	"velocity scale" .1
+
+effect "heavy ribault impact (POOT)"
+	sprite "effect/electron impact"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
+outfit "Quarg Astral Ribaultiquin (POOT)"
+	"display name" "Quarg Astral Ribaultiquin"
+	category "Guns"
+	series "Guns"
+	index 91032
+	cost 20400000
+	thumbnail "poot-exp/outfit/quarg_ribaultiquin"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/ribault"
+		"fire effect" "ribault flare"
+		"hit effect" "electron impact"
+		sound "ribault"
+		"inaccuracy" 13
+		"velocity" 13
+		"reload" 2
+		"firing energy" 70
+		"firing heat" 8
+		"submunition" "ribaultequin unguided" 2
+		"cluster"
+	description "A collection of Quarg Ribaults modified to fire rapidly one after another. By inducing a larger flow of electric current into the Ribualts, they are able to sustain their projectile's flight for much longer durations. How it is capable of this no one knows, as the Quarg have had no intentiion to share the workings of their artillery."
+
+outfit "Quarg Astral Ribaultiquin Turret (POOT)"
+	"display name" "Quarg Astral Ribaultiquin Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91032
+	cost 22000000
+	thumbnail "poot-exp/outfit/quarg_ribaultiquin"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
+		"hardpoint offset" 10.
+		"fire effect" "ribault flare"
+		"hit effect" "electron impact"
+		sound "ribault"
+		"inaccuracy" 13
+		"turret turn" 2.5
+		"velocity" 13
+		"reload" 2
+		"firing energy" 70
+		"firing heat" 8
+		"submunition" "ribaultequin unguided" 2
+		"cluster"
+	description "A collection of Quarg Ribaults modified to fire rapidly one after another. By inducing a larger flow of electric current into the Ribualts, they are able to sustain their projectile's flight for much longer durations. How it is capable of this no one knows, as the Quarg have had no intentiion to share the workings of their artillery."
+
+outfit "ribaultequin unguided"
+	weapon
+		sprite "projectile/ribault"
+		"hit effect" "ribault impact"
+		"inaccuracy" 11
+		"lifetime" 20
+		"submunition" "ribaultequin guided"
+
+outfit "ribaultequin guided"
+	weapon
+		sprite "projectile/ribault"
+			"frame rate" 10
+			"random start frame"
+		"hit effect" "ribault impact"
+		"inaccuracy" 11
+		"lifetime" 120
+		"fade out" 21
+		"turn" 5
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .6
+		"acceleration" 1.2
+		"drag" .1
+		"hit force" -60
+		"shield damage" 75
+		"hull damage" 24
+
+outfit "Celestial Culverin"
+	"display name" "Celestial Culverin Cannon"
+
+outfit "Quarg Celestial Culverin Turret (POOT)"
+	"display name" "Quarg Celestial Culverin Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91041
+	cost 24000000
+	mass 45
+	thumbnail "poot-exp/outfit/quarg_celestial_culverin_turret"
+	"turret mounts" -1
+	"outfit space" -45
+	"weapon capacity" -45
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			rewind
+		sound "culverin"
+		"hit effect" "culverin hit" 20
+		"die effect" "culverin die"
+		"turret turn" 2.6
+		lifetime 110
+		reload 36
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 10
+		acceleration 0.6
+		drag 0.05
+		turn 60
+		inaccuracy 12
+		"stream"
+		tracking .7
+		"firing energy" 180
+		"firing heat" 22.5
+		"shield damage" 300
+		"hull damage" 225
+		"slowing damage" 4.5
+		"fuel damage" 9
+		"missile strength" 600
+	description "This weapon tangles with spacetime in ways beyond understanding, producing gravitational forces that slow the target down. As if fulfilling their own intended destiny, the projectiles are guided to their target, disrupting their fuel systems. This utility, on top of being almost unavoidable, allows the weapon to lock down the Quarg's more distant enemies."
+
+outfit "Quarg Quad Celestial Culverin Turret (POOT)"
+	"display name" "Quarg Quad Celestial Culverin Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91042
+	cost 44000000
+	mass 125
+	thumbnail "poot-exp/outfit/quarg_quad_celestial_culverin_turret"
+	"turret mounts" -1
+	"required crew" 2
+	"outfit space" -125
+	"weapon capacity" -125
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			rewind
+		sound "culverin"
+		"hit effect" "culverin hit" 20
+		"die effect" "culverin die"
+		"turret turn" 2.6
+		lifetime 140
+		reload 9
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 10
+		acceleration 0.6
+		drag 0.05
+		turn 60
+		inaccuracy 12
+		"stream"
+		tracking .7
+		"firing energy" 240
+		"firing heat" 32.5
+		"shield damage" 300
+		"hull damage" 225
+		"slowing damage" 4.5
+		"fuel damage" 9
+		"missile strength" 600
+	description "A quad group of Celestial Culverins mounted into a single turret port. By infusing the Culverins with additional energy, not only does this turret gain additional firerate over the standard Celestial Culverin, but also gains additional range."
+
+outfit "Quarg Quad Celestial Culverin (POOT)"
+	"display name" "Quarg Quad Celestial Culverin"
+	category "Guns"
+	series "Guns"
+	index 91042
+	cost 40000000
+	mass 125
+	thumbnail "poot-exp/outfit/quarg_quad_celestial_culverin"
+	"gun ports" -1
+	"outfit space" -125
+	"weapon capacity" -125
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			rewind
+		sound "culverin"
+		"hit effect" "culverin hit" 20
+		"die effect" "culverin die"
+		lifetime 140
+		reload 9
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 10
+		acceleration 0.6
+		drag 0.05
+		turn 60
+		inaccuracy 12
+		"stream"
+		tracking .7
+		"firing energy" 240
+		"firing heat" 32.5
+		"shield damage" 300
+		"hull damage" 225
+		"slowing damage" 4.5
+		"fuel damage" 9
+		"missile strength" 600
+	description "A quad group of Celestial Culverins mounted into a single turret port. By infusing the Culverins with additional energy, not only does this turret gain additional firerate over the standard Celestial Culverin, but also gains additional range."
+
+outfit "Quarg Elysian Ranseur Turret (POOT)"
+	"display name" "Quarg Elysian Ranseur Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91051
+	cost 49000000
+	mass 65
+	thumbnail "poot-exp/outfit/quarg_ranseur_turret"
+	"turret mounts" -1
+	"required crew" 1
+	"outfit space" -65
+	"weapon capacity" -65
+	weapon
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "ranseur"
+		"fire effect" "ranseur"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 10
+		"turret turn" 1.8
+		lifetime 1
+		reload 100
+		velocity 600
+		"firing energy" 900
+		"firing heat" 30
+		"shield damage" 2100
+		"hull damage" 1500
+		"hit force" 600
+		"penetration count" 5
+	description "The technology behind this weapon is incomprehensibly complex, creating pulses of energy that bend spacetime itself. Powerful gravitational pulses are forced through the fold, penetrating through multiple targets with ease and delivering dangerous blows to those along the path. How the weapon is able to do any of this is only known to the Quarg."
+
+outfit "Quarg Triple Elysian Ranseur (POOT)"
+	"display name" "Quarg Triple Elysian Ranseur"
+	category "Guns"
+	series "Guns"
+	index 91052
+	cost 75000000
+	mass 170
+	thumbnail "poot-exp/outfit/quarg_ranseur_triple"
+	"gun ports" -1
+	"outfit space" -170
+	"weapon capacity" -170
+	weapon
+		sound "ranseur"
+		"fire effect" "ranseur"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 10
+		lifetime 1
+		reload 30
+		velocity 600
+		"firing energy" 900
+		"firing heat" 30
+		"shield damage" 2100
+		"hull damage" 1500
+		"hit force" 600
+		"penetration count" 5
+	description "A trio of the incomprehensible Quarg technology mounted into a single gunport."
+
+outfit "Quarg Triple Elysian Ranseur Turret (POOT)"
+	"display name" "Quarg Triple Elysian Ranseur"
+	category "Turrets"
+	series "Turrets"
+	index 91052
+	cost 75000000
+	mass 170
+	thumbnail "poot-exp/outfit/quarg_ranseur_triple_turret"
+	"turret mounts" -1
+	"required crew" 2
+	"outfit space" -170
+	"weapon capacity" -170
+	weapon
+		"hardpoint sprite" "hardpoint/quarg skylance"
+		"hardpoint offset" 10
+		sound "ranseur"
+		"fire effect" "ranseur"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 10
+		"turret turn" 1.8
+		lifetime 1
+		reload 30
+		velocity 600
+		"firing energy" 900
+		"firing heat" 30
+		"shield damage" 2100
+		"hull damage" 1500
+		"hit force" 600
+		"penetration count" 5
+	description "A trio of the incomprehensible Quarg technology mounted into a single turret mount."
+
+
+effect "elite ranseur (POOT)"
+	sprite "poot-exp/effect/elite_ranseur"
+		"frame rate" 30
+		"no repeat"
+	lifetime 11
+
+outfit "elite elysian ranseur lance (POOT)"
+	"velocity scale" -1
+	"velocity" 0.0
+	weapon
+		sprite "poot-exp/effect/elite_ranseur"
+			"frame rate" 30
+			"no repeat"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 20
+		lifetime 11
+		"firing energy" 3500
+		"firing heat" 125
+		"shield damage" 24000
+		"hull damage" 16400
+		"hit force" 900
+		"blast radius" 50
+		"velocity" -1800
+
+
+outfit "Quarg Elite Elysian Ranseur (POOT)"
+	"display name" "Quarg Elite Elysian Ranseur"
+	category "Guns"
+	series "Guns"
+	index 91053
+	cost 79000000
+	mass 155
+	thumbnail "poot-exp/outfit/quarg_elite_ranseur"
+	"gun ports" -1
+	"required crew" 1
+	"outfit space" -155
+	"weapon capacity" -155
+	weapon
+		"hardpoint sprite" "hardpoint/quarg skylance"
+			"scale" 1.5
+		"hardpoint offset" 15.
+		sound "ranseur"
+		"fire effect" "elite ranseur (POOT)"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 20
+		"turret turn" 1.8
+		"arc" 45
+		lifetime 1
+		reload 240
+		velocity 1800
+		"firing energy" 9800
+		"firing heat" 2200
+		"shield damage" 24000
+		"minable damage" 16400
+		"hull damage" 16400
+		"hit force" 900
+		"penetration count" 2
+	description "By channeling all its energy into a more confined beam, the Elite Elysian Ranseur is capable of inflicting massive hull and shield damage to anything caught under its crosshair. Capable of destroying human heavy warships in a single shot, the Elite Elysian Ranseur is a weapon no one wishes to be on the bearing end of."
+
+outfit "Quarg Elite Elysian Ranseur Turret (POOT)"
+	"display name" "Quarg Elite Elysian Ranseur Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91053
+	cost 86000000
+	mass 155
+	thumbnail "poot-exp/outfit/quarg_heavy_ranseur_turret"
+	"turret mounts" -1
+	"required crew" 3
+	"outfit space" -155
+	"weapon capacity" -155
+	weapon
+		"hardpoint sprite" "hardpoint/quarg skylance"
+			"scale" 1.5
+		"hardpoint offset" 15.
+		sound "ranseur"
+		"fire effect" "elite ranseur (POOT)"
+		"hit effect" "jump drive"
+		"hit effect" "disruptor impact" 20
+		"turret turn" 1.8
+		lifetime 1
+		reload 240
+		velocity 1800
+		"firing energy" 9800
+		"firing heat" 2200
+		"shield damage" 24000
+		"minable damage" 16400
+		"hull damage" 16400
+		"hit force" 900
+		"penetration count" 2
+	description "By channeling all its energy into a more confined beam, the Elite Elysian Ranseur is capable of inflicting massive hull and shield damage to anything caught under its crosshair. Capable of destroying human heavy warships in a single shot, the Elite Elysian Ranseur is a weapon no one wishes to be on the bearing end of."
+
+effect "elite culverin hit sound (POOT)"
+	sprite "poot-exp/effect/explosion/neutron_torpedo_atomic"
+		"frame rate" 20
+		"no repeat"
+		"scale" .75
+	sound "explosion large"
+
+outfit "Quarg Elite Celestial Culverin (POOT)"
+	"display name" "Quarg Elite Celestial Culverin"
+	category "Guns"
+	series "Guns"
+	index 91044
+	cost 97000000
+	mass 170
+	thumbnail "poot-exp/outfit/quarg_elite_culverin"
+	"gun ports" -1
+	"required crew" 1
+	"outfit space" -170
+	"weapon capacity" -170
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			"scale" 3
+			rewind
+		sound "culverin"
+		"hit effect" "culverin hit" 50
+		"hit effect" "elite culverin hit sound (POOT)"
+		"die effect" "culverin die"
+		lifetime 1000
+		reload 75
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 25
+		acceleration 1.5
+		drag 0.05
+		turn 60
+		inaccuracy 6
+		"stream"
+		tracking .95
+		"firing energy" 4500
+		"firing heat" 1200
+		"shield damage" 8000
+		"hull damage" 5000
+		"slowing damage" 75
+		"fuel damage" 135
+		"missile strength" 1200
+	description "Launching what can only be described as a miniature super dense blackhole, the Elite Celestial Culverin launches a gravitational anomaly that can heavily alter a ships propulsion, severly hindering their ability to escape from this devestating weapon."
+
+outfit "Quarg Elite Celestial Culverin Turret (POOT)"
+	"display name" "Quarg Elite Celestial Culverin Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91044
+	cost 97000000
+	mass 170
+	thumbnail "poot-exp/outfit/quarg_elite_culverin_turret"
+	"turret mounts" -1
+	"required crew" 3
+	"outfit space" -170
+	"weapon capacity" -170
+	weapon
+		sprite projectile/culverin
+			"frame rate" 60
+			"random start frame"
+			"scale" 3
+			rewind
+		"hardpoint sprite" "hardpoint/quarg skylance"
+			"scale" 1.5
+		"hardpoint offset" 15.
+		sound "culverin"
+		"hit effect" "culverin hit" 50
+		"hit effect" "elite culverin hit sound (POOT)"
+		"die effect" "culverin die"
+		lifetime 1000
+		"turret turn" 2
+		reload 75
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 25
+		acceleration 1.5
+		drag 0.05
+		turn 60
+		inaccuracy 6
+		"stream"
+		tracking .95
+		"firing energy" 4500
+		"firing heat" 1200
+		"shield damage" 8000
+		"hull damage" 5000
+		"slowing damage" 75
+		"fuel damage" 135
+		"missile strength" 1200
+	description "Launching what can only be described as a miniature super dense blackhole, the Elite Celestial Culverin launches a gravitational anomaly that can heavily alter a ships propulsion, severly hindering their ability to escape from this devestating weapon."
+
+outfit "Quarg Harbinger (POOT)"
+	"display name" "Quarg Harbinger"
+	category "Guns"
+	series "Guns"
+	index 91045
+	cost 140000000
+	mass 270
+	thumbnail "poot-exp/outfit/quarg_shield_orion"
+	"gun ports" -1
+	"required crew" 17
+	"outfit space" -270
+	"weapon capacity" -270
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			"scale" 4
+			rewind
+		sound "torpedo"
+		icon "poot-exp/icon/harbinger"
+		"hit effect" "harbinger hit visual (POOT)"
+		"live effect" "harbinger live visual (POOT)" 600
+		"submunition" "quarg harbinger thing"
+		lifetime 600
+		reload 720
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 20
+		acceleration 1.75
+		drag 0.2
+		turn 360
+		inaccuracy 1
+		"stream"
+		tracking 1
+		"firing energy" 60000
+		"firing heat" 12000
+		"shield damage" -249950
+		"hull damage" -234965
+		"slowing damage" -1298
+		"fuel damage" -1495
+		"missile strength" 5000
+		"penetration count" 0
+		"piercing" .4
+		"fused"
+		"safe"
+	description `This is a Quarg weapon of mass destruction, capable of damage far beyond anything in human space. Some call it "The Harbinger", as just the sight of one alone usually means someone is about to meet their untimely demise.`
+	description `   It achieves its catastrophic destruction by initiating an incredibly violent particle collision, which it then charges and condenses even further, resulting in a miniature super condensed blackhole on the brink of collapse. Just before it reaches its limit, the supercharged particle is then launched outwards into space, only surviving for a short period until it consumes enough surrounding mass to instantaneously explode into a supernova.`
+	description ``
+	description `   A Quarg weapon of this Calibur is typically beyond what the Quarg are willing to use in human space. There would have to be a truly meddlesome part of another species in order for any of the Quarg to be willing to bring one of their weapons of mass destruction into human space.`
+
+#
+#The ACTUAL damage of the quarg harbinger blast is the "quarg harbinger thing" stats
+#
+
+outfit "Quarg Harbinger Turret (POOT)"
+	"display name" "Quarg Harbinger Turret"
+	category "Turrets"
+	series "Turrets"
+	index 91045
+	cost 140000000
+	mass 270
+	thumbnail "poot-exp/outfit/quarg_shield_orion"
+	"turret mounts" -1
+	"required crew" 17
+	"outfit space" -270
+	"weapon capacity" -270
+	weapon
+		sprite projectile/culverin
+			"frame rate" 60
+			"random start frame"
+			"scale" 5
+			rewind
+		sound "torpedo"
+		icon "poot-exp/icon/harbinger"
+		"hit effect" "harbinger hit visual (POOT)"
+		"live effect" "harbinger live visual (POOT)" 600
+		"submunition" "quarg harbinger thing"
+		"turret turn" 1
+		lifetime 600
+		reload 720
+		"homing"
+			"leading"
+			"throttle control"
+		velocity 20
+		acceleration 1.75
+		drag 0.2
+		turn 360
+		inaccuracy 1
+		"stream"
+		tracking 1
+		"firing energy" 60000
+		"firing heat" 12000
+		"shield damage" -249950
+		"hull damage" -234965
+		"slowing damage" -1298
+		"fuel damage" -1495
+		"missile strength" 5000
+		"penetration count" 0
+		"piercing" .4
+		"fused"
+		"safe"
+	description `This is a Quarg weapon of mass destruction, capable of damage far beyond anything in human space. Some call it "The Harbinger", as just the sight of one alone usually means someone is about to meet their untimely demise.`
+	description `   It achieves its catastrophic destruction by initiating an incredibly violent particle collision, which it then charges and condenses even further, resulting in a miniature super condensed blackhole on the brink of collapse. Just before it reaches its limit, the supercharged particle is then launched outwards into space, only surviving for a short period until it consumes enough surrounding mass to instantaneously explode into a supernova.`
+	description ``
+	description `   A Quarg weapon of this Calibur is typically beyond what the Quarg are willing to use in human space. There would have to be a truly meddlesome part of another species in order for any of the Quarg to be willing to bring one of their weapons of mass destruction into human space.`
+
+effect "harbinger hit visual (POOT)"
+	sprite "poot-exp/effect/explosion/neutron_small"
+		"frame rate" 20
+		"no repeat"
+		"scale" .75
+	sound "poot-exp/neutron_beam"
+    
+effect "harbinger live visual (POOT)"
+	sprite "poot-exp/effect/skylance_colors/blue skylance impact"
+		"frame rate" 12
+		"random start frame"
+		"scale" 1
+	"velocity scale" 0.1
+	"random velocity" .2
+	"random angle" 360
+	"lifetime" 75
+
+effect "quarg harbinger die (POOT)"
+	sprite "poot-exp/effect/explosion/neutron_torpedo_atomic"
+		"frame rate" 10
+		"no repeat"
+		"scale" 4
+	sound "explosion nuke"
+	"lifetime" 45
+	"velocity scale" 0.1
+
+effect "quarg harbinger die 2 (POOT)"
+	sprite "poot-exp/effect/explosion/neutron_torpedo_atomic"
+		"frame rate" 12
+		"no repeat"
+		"scale" 3
+	sound "asteroid crunch large"
+	"lifetime" 40
+	"velocity scale" 0.1
+
+
+effect "quarg harbinger mini blast fast"
+	sprite "poot-exp/effect/explosion/neutron_huge"
+		"no repeat"
+		"frame rate" 5
+		"scale" 2
+	"lifetime" 108
+	"random lifetime" 12
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 12
+	"velocity scale" 0.1
+
+effect "quarg harbinger mini blast slow"
+	sprite "poot-exp/effect/explosion/neutron_large"
+		"no repeat"
+		"frame rate" 3
+		"scale" 2
+	"lifetime" 180
+	"random lifetime" 12
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 7
+	"velocity scale" 0.1
+
+outfit "quarg harbinger thing"
+	weapon
+		sprite "projectile/culverin"
+			"frame rate" 60
+			"random start frame"
+			"scale" 4
+			rewind
+		sound "torpedo"
+		"hit effect" "quarg harbinger die (POOT)"
+		"hit effect" "quarg harbinger die 2 (POOT)"
+		"hit effect" "quarg harbinger mini blast slow" 35
+		"hit effect" "quarg harbinger mini blast fast" 35
+		"die effect" "quarg harbinger die (POOT)"
+		"die effect" "quarg harbinger die 2 (POOT)"
+		"die effect" "quarg harbinger mini blast slow" 35
+		"die effect" "quarg harbinger mini blast fast" 35
+		lifetime 20
+		velocity 0
+		drag 0.05
+		"fade out" 20
+		"shield damage" 250000
+		"hull damage" 235000
+		"slowing damage" 1300
+		"fuel damage" 1500
+		"missile strength" 5000
+		"blast radius" 750
+		"trigger radius" 750
+		"fused"
+		"no damage scaling"
+		"safe"

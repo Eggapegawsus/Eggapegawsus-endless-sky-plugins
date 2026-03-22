@@ -1,0 +1,2259 @@
+
+outfit "Speckle Coilgun"
+	category "Guns"
+	series "Guns"
+	index 07000
+
+outfit "Speckle Turret"
+	category "Turrets"
+	series "Turrets"
+	index 07040
+
+outfit "Ultrarelativistic Electron Beam"
+	category "Guns"
+	series "Guns"
+	index 07039
+
+outfit "Ultraviolet Excimer Laser"
+	series "Avgi: Beams"
+	index 39
+
+outfit "UREB Turret"
+	category "Turrets"
+	series "Turrets"
+	index 07031
+
+outfit "Blue Optical Laser"
+	"display name" `Blue Optical Laser Turret`
+
+outfit "Blue Optical Laser (POOT)"
+	"display name" `Blue Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07010
+	licenses
+		"Twilight Guard"
+	cost 101000
+	thumbnail "outfit/blue optical laser"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"lasing power" -2
+	weapon
+		"hardpoint sprite" "hardpoint/blue optical laser"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "blue laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "blue laser reflection" 60
+		"hit effect" "blue laser scattering"
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.6
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 6
+		"firing heat" 12
+		"shield damage" 4.2
+		"hull damage" 6
+		"heat damage" 6
+		"damage dropoff" 0 1500
+		"dropoff modifier" 0
+	description "This lightweight laser can be fed a beam of light from a lasing generator, which is then combined and focused to produce an intense beam ideal for damaging other ships. By pulsing thousands of times each second, the beam can create thermal and mechanical shocks in the target material, enhancing its ability to drill through armor. Unlike the advanced beam weapons used by some other species, this laser is subject to the effects of diffraction, causing its damage to become less intense with distance while also rendering it invisible. However, precise optics allow the beam to be targeted from an exceptional range, despite the tenuous damage at the edge of the laser's reach."
+	description "	The laser itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator is needed to run this laser, providing enough power to support a single Blue Laser."
+
+outfit "Red Optical Laser (POOT)"
+	"display name" `Red Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07011
+	licenses
+		"Twilight Guard"
+	cost 500000
+	thumbnail "poot-exp/outfit/optical_laser_red"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"lasing power" -4
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_red"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "red laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "red laser reflection" 60
+		"hit effect" "red laser scattering"
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 11
+		"firing heat" 22
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2000
+		"dropoff modifier" 0
+	description "A direct upgrade to the Blue Optical Laser, this stronger Optical Laser is a staple amongst Avgi pilots. Capable of sustaining photons for a longer distance and with a higher damage output, while also being more energy efficient than others of its size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Red Optical Laser Turret (POOT)"
+	"display name" `Red Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07011
+	licenses
+		"Twilight Guard"
+	cost 650000
+	thumbnail "poot-exp/outfit/optical_laser_red"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"lasing power" -4
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_red"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "red laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "red laser reflection" 60
+		"hit effect" "red laser scattering"
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 11
+		"firing heat" 22
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2000
+		"dropoff modifier" 0
+	description "A direct upgrade to the Blue Optical Laser, this stronger Optical Laser is a staple amongst Avgi pilots. Capable of sustaining photons for a longer distance and with a higher damage output, while also being more energy efficient than others of its size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Red Optical Laser (POOT)"
+	"display name" `Capital Red Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07011
+	licenses
+		"Twilight Guard"
+	cost 2500000
+	thumbnail "poot-exp/outfit/optical_laser_red_triple"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"gun ports" -1
+	"lasing power" -14
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_red"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "red laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "red laser reflection" 60
+		"hit effect" "red laser scattering"
+		"velocity" 3000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 33
+		"firing heat" 66
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3000
+		"dropoff modifier" 0
+	description "A large triple-lensed Red Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Red Optical Laser Turret (POOT)"
+	"display name" `Capital Red Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07011
+	licenses
+		"Twilight Guard"
+	cost 3250000
+	thumbnail "poot-exp/outfit/optical_laser_red_triple"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	"lasing power" -14
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_red"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "red laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "red laser reflection" 60
+		"hit effect" "red laser scattering"
+		"velocity" 3000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 33
+		"firing heat" 66
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3000
+		"dropoff modifier" 0
+	description "A large triple-lensed Red Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "red laser glare"
+	sprite "poot-exp/effect/avgi_lasers/red optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "red laser reflection"
+	sprite "poot-exp/effect/skylance_colors/red skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "red laser scattering"
+	sprite "poot-exp/effect/skylance_colors/red skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Purple Optical Laser (POOT)"
+	"display name" `Purple Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07012
+	licenses
+		"Twilight Guard"
+	cost 670000
+	thumbnail "poot-exp/outfit/optical_laser_purple"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_purple"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "purple laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "purple laser reflection" 60
+		"hit effect" "purple laser scattering"
+		"velocity" 3500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 23
+		"firing heat" 31
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2500
+		"dropoff modifier" 0.6
+	description "An optical laser turret with a notably longer range, and energy consumption. The photonic beam within its internal system is more stable than other lasers of its size, but requires notably more Optical power."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Purple Optical Laser Turret (POOT)"
+	"display name" `Purple Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07012
+	licenses
+		"Twilight Guard"
+	cost 790000
+	thumbnail "poot-exp/outfit/optical_laser_purple"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_purple"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "purple laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "purple laser reflection" 60
+		"hit effect" "purple laser scattering"
+		"velocity" 3500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 23
+		"firing heat" 31
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2500
+		"dropoff modifier" 0.6
+	description "An optical laser turret with a notably longer range, and energy consumption. The photonic beam within its internal system is more stable than other lasers of its size, but requires notably more Optical power."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Purple Optical Laser (POOT)"
+	"display name" `Capital Purple Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07012
+	licenses
+		"Twilight Guard"
+	cost 3350000
+	thumbnail "poot-exp/outfit/optical_laser_purple_triple"
+	"mass" 144
+	"outfit space" -144
+	"weapon capacity" -144
+	"gun ports" -1
+	"lasing power" -18
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_purple"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "purple laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "purple laser reflection" 60
+		"hit effect" "purple laser scattering"
+		"velocity" 5250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 69
+		"firing heat" 93
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3750
+		"dropoff modifier" 0.6
+	description "A large triple-lensed Purple Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Purple Optical Laser Turret (POOT)"
+	"display name" `Capital Purple Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07012
+	licenses
+		"Twilight Guard"
+	cost 3950000
+	thumbnail "poot-exp/outfit/optical_laser_purple_triple"
+	"mass" 144
+	"outfit space" -144
+	"weapon capacity" -144
+	"turret mounts" -1
+	"lasing power" -18
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_purple"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "purple laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "purple laser reflection" 60
+		"hit effect" "purple laser scattering"
+		"velocity" 5250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 69
+		"firing heat" 93
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3750
+		"dropoff modifier" 0.6
+	description "A triple-lensed Purple Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "purple laser glare"
+	sprite "poot-exp/effect/avgi_lasers/purple optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "purple laser reflection"
+	sprite "poot-exp/effect/skylance_colors/purple skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "purple laser scattering"
+	sprite "poot-exp/effect/skylance_colors/purple skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Orange Optical Laser (POOT)"
+	"display name" `Orange Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07013
+	licenses
+		"Twilight Guard"
+	cost 730000
+	thumbnail "poot-exp/outfit/optical_laser_orange"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_orange"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "orange laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "orange laser reflection" 60
+		"hit effect" "orange laser scattering"
+		"velocity" 1250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 22
+		"firing heat" 34
+		"shield damage" 13
+		"hull damage" 18
+		"heat damage" 18
+		"damage dropoff" 500 1250
+		"dropoff modifier" .60
+	description "A heavy modification to the Red Optical Laser, this stronger Optical Laser has a more concentrated beam of photons, dealing more damage to its targets, while also reducing its range."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Orange Optical Laser Turret (POOT)"
+	"display name" `Orange Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07013
+	licenses
+		"Twilight Guard"
+	cost 830000
+	thumbnail "poot-exp/outfit/optical_laser_orange"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_orange"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "orange laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "orange laser reflection" 60
+		"hit effect" "orange laser scattering"
+		"velocity" 1250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 22
+		"firing heat" 34
+		"shield damage" 13
+		"hull damage" 18
+		"heat damage" 18
+		"damage dropoff" 500 1250
+		"dropoff modifier" .60
+	description "A heavy modification to the Red Optical Laser, this stronger Optical Laser has a more concentrated beam of photons, dealing more damage to its targets, while also reducing its range."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Orange Optical Laser (POOT)"
+	"display name" `Capital Orange Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07013
+	licenses
+		"Twilight Guard"
+	cost 2250000
+	thumbnail "poot-exp/outfit/optical_laser_orange_triple"
+	"mass" 115
+	"outfit space" -115
+	"weapon capacity" -115
+	"gun ports" -1
+	"lasing power" -17
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_orange"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "orange laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "orange laser reflection" 60
+		"hit effect" "orange laser scattering"
+		"velocity" 1875
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 66
+		"firing heat" 102
+		"shield damage" 39
+		"hull damage" 54
+		"heat damage" 54
+		"damage dropoff" 625 1875
+		"dropoff modifier" .60
+	description "A large triple-lensed Orange Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Orange Optical Laser Turret (POOT)"
+	"display name" `Capital Orange Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07013
+	licenses
+		"Twilight Guard"
+	cost 2550000
+	thumbnail "poot-exp/outfit/optical_laser_orange_triple"
+	"mass" 115
+	"outfit space" -115
+	"weapon capacity" -115
+	"turret mounts" -1
+	"lasing power" -17
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_orange"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "orange laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "orange laser reflection" 60
+		"hit effect" "orange laser scattering"
+		"velocity" 1875
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 66
+		"firing heat" 102
+		"shield damage" 39
+		"hull damage" 54
+		"heat damage" 54
+		"damage dropoff" 625 1875
+		"dropoff modifier" .60
+	description "A large triple-lensed Orange Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "orange laser glare"
+	sprite "poot-exp/effect/avgi_lasers/orange optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "orange laser reflection"
+	sprite "poot-exp/effect/skylance_colors/orange skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "orange laser scattering"
+	sprite "poot-exp/effect/skylance_colors/orange skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "White Optical Laser (POOT)"
+	"display name" `White Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07014
+	licenses
+		"Twilight Guard"
+	cost 958000
+	thumbnail "poot-exp/outfit/optical_laser_white"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_white"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "white laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "white laser reflection" 60
+		"hit effect" "white laser scattering"
+		"velocity" 2400
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 20
+		"firing heat" 32
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 1000 2200
+		"dropoff modifier" .9
+	description "A heavy modification to the Red Optical Laser, this heavy duty Optical Laser has a stronger beam, longer range, but is much larger than some of its alternatives. While it does use a decent bit of energy, the laser is able to stay focused and centralized for longer, resulting in less damage lost over distance."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "White Optical Laser Turret (POOT)"
+	"display name" `White Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07014
+	licenses
+		"Twilight Guard"
+	cost 1400000
+	thumbnail "poot-exp/outfit/optical_laser_white"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"lasing power" -5
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_white"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "white laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "white laser reflection" 60
+		"hit effect" "white laser scattering"
+		"velocity" 2400
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 20
+		"firing heat" 32
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 1500 2200
+		"dropoff modifier" .9
+	description "A heavy modification to the Red Optical Laser, this optimized Optical Laser has a very stable beam, being able to stay focused and centralized for longer, resulting in less damage lost over distance."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital White Optical Laser (POOT)"
+	"display name" `Capital White Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07014
+	licenses
+		"Twilight Guard"
+	cost 2874000
+	thumbnail "poot-exp/outfit/optical_laser_white_triple"
+	"mass" 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"gun ports" -1
+	"lasing power" -20
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_white"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "white laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "white laser reflection" 60
+		"hit effect" "white laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 60
+		"firing heat" 96
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 1500 3300
+		"dropoff modifier" .9
+	description "A large triple-lensed White Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital White Optical Laser Turret (POOT)"
+	"display name" `Capital White Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07014
+	licenses
+		"Twilight Guard"
+	cost 4200000
+	thumbnail "poot-exp/outfit/optical_laser_white_triple"
+	"mass" 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"turret mounts" -1
+	"lasing power" -20
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_white"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "white laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "white laser reflection" 60
+		"hit effect" "white laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 60
+		"firing heat" 96
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 1500 3300
+		"dropoff modifier" .9
+	description "A large triple-lensed White Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "white laser glare"
+	sprite "poot-exp/effect/avgi_lasers/white optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "white laser reflection"
+	sprite "poot-exp/effect/skylance_colors/white skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "white laser scattering"
+	sprite "poot-exp/effect/skylance_colors/white skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Optic Pulse Laser (POOT)"
+	"display name" `Optic Pulse Laser`
+	category "Guns"
+	series "Guns"
+	index 07015
+	licenses
+		"Twilight Guard"
+	cost 790000
+	thumbnail "poot-exp/outfit/optical_laser_green"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pgreen"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 2750
+		"lifetime" 1
+		"reload" 6
+		"burst count" 10
+		"burst reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 100
+		"firing heat" 100
+		"shield damage" 68
+		"hull damage" 80
+		"heat damage" 80
+		"damage dropoff" 1000 2750
+		"dropoff modifier" .5
+		"cluster"
+	description "A heavy modification to the Red Optical Laser, this modified Optical Laser charges before each shot, resulting in a large increase in damage per shot. It also benefits from lowered energy consumption and a lack of deterioration over distance by not constantly running optic generators to power a continuous and steady beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Optic Pulse Turret (POOT)"
+	"display name" `Optic Pulse Turret Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07015
+	licenses
+		"Twilight Guard"
+	cost 884000
+	thumbnail "poot-exp/outfit/optical_laser_green"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pgreen"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 2750
+		"lifetime" 1
+		"reload" 6
+		"burst count" 10
+		"burst reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 100
+		"firing heat" 100
+		"shield damage" 68
+		"hull damage" 80
+		"heat damage" 80
+		"damage dropoff" 1000 2750
+		"dropoff modifier" .5
+		"cluster"
+	description "A heavy modification to the Red Optical Laser, this modified Optical Laser charges before each shot, resulting in a large increase in damage per shot. It also benefits from lowered energy consumption and a lack of deterioration over distance by not constantly running optic generators to power a continuous and steady beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Optic Pulse Laser (POOT)"
+	"display name" `Capital Optic Pulse Laser`
+	category "Guns"
+	series "Guns"
+	index 07015
+	licenses
+		"Twilight Guard"
+	cost 2370000
+	thumbnail "poot-exp/outfit/optical_laser_green_triple"
+	"mass" 135
+	"outfit space" -135
+	"weapon capacity" -135
+	"gun ports" -1
+	"lasing power" -19
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pgreen"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 4075
+		"lifetime" 1
+		"reload" 6
+		"burst count" 10
+		"burst reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 300
+		"firing heat" 300
+		"shield damage" 204
+		"hull damage" 240
+		"heat damage" 240
+		"damage dropoff" 1000 2750
+		"dropoff modifier" .5
+		"cluster"
+	description "A large triple-lensed Pulse Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Optic Pulse Turret (POOT)"
+	"display name" `Capital Optic Pulse Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07015
+	licenses
+		"Twilight Guard"
+	cost 2652000
+	thumbnail "poot-exp/outfit/optical_laser_green_triple"
+	"mass" 135
+	"outfit space" -135
+	"weapon capacity" -135
+	"turret mounts" -1
+	"lasing power" -19
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pgreen"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 4075
+		"lifetime" 1
+		"reload" 6
+		"burst count" 10
+		"burst reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 300
+		"firing heat" 300
+		"shield damage" 204
+		"hull damage" 240
+		"heat damage" 240
+		"damage dropoff" 1000 2750
+		"dropoff modifier" .5
+		"cluster"
+	description "A large triple-lensed Pulse Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "green-p laser glare"
+	sprite "poot-exp/effect/avgi_lasers/green-p optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "green-p laser reflection"
+	sprite "poot-exp/effect/skylance_colors/green skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "green-p laser scattering"
+	sprite "poot-exp/effect/skylance_colors/green skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Deep Blue Optical Laser (POOT)"
+	"display name" `Deep Blue Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07016
+	licenses
+		"Twilight Guard"
+	cost 990000
+	thumbnail "poot-exp/outfit/optical_laser_deepblue"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	"lasing power" -7
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 22
+		"firing heat" 34
+		"shield damage" 16.667
+		"hull damage" 16.667
+		"heat damage" 16.667
+		"damage dropoff" 1000 1500
+		"dropoff modifier" .2
+	description "A heavily modified and updated version of the Blue Optical Laser. This modified Optical Laser has significantly upgraded peripherals and internal controls, alowing it to heavily optimize its concentration of energy into a very precise beam. While it does use a significant amount of energy and lacks the range of some other Optical Lasers, it does offer potent damage."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Deep Blue Optical Laser Turret (POOT)"
+	"display name" `Deep Blue Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07016
+	licenses
+		"Twilight Guard"
+	cost 1200000
+	thumbnail "poot-exp/outfit/optical_laser_deepblue"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	"lasing power" -7
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "blue-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "blue-p laser reflection" 60
+		"hit effect" "blue-p laser scattering"
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 27
+		"firing heat" 37
+		"shield damage" 16.667
+		"hull damage" 16.667
+		"heat damage" 16.667
+		"damage dropoff" 1000 1500
+		"dropoff modifier" .4
+	description "A heavily modified and updated version of the Blue Optical Laser. This modified Optical Laser has significantly upgraded peripherals and internal controls, alowing it to heavily optimize its concentration of energy into a very potent beam. While it does use a significant amount of energy and lacks the range of some other Optical Lasers, it does offer potent damage."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Deep Blue Optical Laser (POOT)"
+	"display name" `Capital Deep Blue Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07016
+	licenses
+		"Twilight Guard"
+	cost 4970000
+	thumbnail "poot-exp/outfit/optical_laser_deepblue_triple"
+	"mass" 170
+	"outfit space" -170
+	"weapon capacity" -170
+	"gun ports" -1
+	"lasing power" -24
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "green-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "green-p laser reflection" 60
+		"hit effect" "green-p laser scattering"
+		"velocity" 2250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 66
+		"firing heat" 102
+		"shield damage" 50
+		"hull damage" 50
+		"heat damage" 50
+		"damage dropoff" 1500 2250
+		"dropoff modifier" .2
+	description "A large triple-lensed Deep Blue Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Deep Blue Optical Laser Turret (POOT)"
+	"display name" `Capital Deep Blue Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07016
+	licenses
+		"Twilight Guard"
+	cost 1200000
+	thumbnail "poot-exp/outfit/optical_laser_deepblue_triple"
+	"mass" 170
+	"outfit space" -170
+	"weapon capacity" -170
+	"turret mounts" -1
+	"lasing power" -24
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "blue-p laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "blue-p laser reflection" 60
+		"hit effect" "blue-p laser scattering"
+		"velocity" 2250
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 66
+		"firing heat" 102
+		"shield damage" 50
+		"hull damage" 50
+		"heat damage" 50
+		"damage dropoff" 1500 2250
+		"dropoff modifier" .2
+	description "A large triple-lensed Deep Blue Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "blue-p laser glare"
+	sprite "poot-exp/effect/avgi_lasers/blue-p optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "blue-p laser reflection"
+	sprite "poot-exp/effect/skylance_colors/blue skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "blue-p laser scattering"
+	sprite "poot-exp/effect/skylance_colors/blue skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Cyan Optical Laser (POOT)"
+	"display name" `Cyan Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07017
+	licenses
+		"Twilight Guard"
+	cost 1944000
+	thumbnail "poot-exp/outfit/optical_laser_cyan"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_cyan"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "cyan laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "cyan laser reflection" 60
+		"hit effect" "cyan laser scattering"
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 32
+		"firing heat" 16
+		"shield damage" 36
+		"discharge damage" .12
+		"hull damage" 3
+		"heat damage" 6
+		"damage dropoff" 1200 2000
+		"dropoff modifier" .1
+	description "A heavy modification to the Red Optical Laser, this distorting Optical Laser has a very strong efffect against shields, while being very ineffective against hull armor. The heavy modifications on this optic laser cause it to run far cooler than other Optic Lasers of similar size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Cyan Optical Laser Turret (POOT)"
+	"display name" `Cyan Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07017
+	licenses
+		"Twilight Guard"
+	cost 2100000
+	thumbnail "poot-exp/outfit/optical_laser_cyan"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_cyan"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "cyan laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "cyan laser reflection" 60
+		"hit effect" "cyan laser scattering"
+		"velocity" 2400
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 32
+		"firing heat" 16
+		"shield damage" 36
+		"discharge damage" .12
+		"hull damage" 3
+		"heat damage" 6
+		"damage dropoff" 1200 2000
+		"dropoff modifier" .1
+	description "A heavy modification to the Red Optical Laser, this distorting Optical Laser has a very strong efffect against shields, while being very ineffective against hull armor. The heavy modifications on this optic laser cause it to run far cooler than other Optic Lasers of similar size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Cyan Optical Laser (POOT)"
+	"display name" `Capital Cyan Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07017
+	licenses
+		"Twilight Guard"
+	cost 9720000
+	thumbnail "poot-exp/outfit/optical_laser_cyan_triple"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"gun ports" -1
+	"lasing power" -20
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_cyan"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "cyan laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "cyan laser reflection" 60
+		"hit effect" "cyan laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 96
+		"firing heat" 48
+		"shield damage" 108
+		"discharge damage" .36
+		"hull damage" 9
+		"heat damage" 18
+		"damage dropoff" 1800 3600
+		"dropoff modifier" .1
+	description "A large triple-lensed Cyan Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Cyan Optical Laser Turret (POOT)"
+	"display name" `Capital Cyan Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07017
+	licenses
+		"Twilight Guard"
+	cost 2100000
+	thumbnail "poot-exp/outfit/optical_laser_cyan_triple"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"turret mounts" -1
+	"lasing power" -20
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_cyan"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "cyan laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "cyan laser reflection" 60
+		"hit effect" "cyan laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 96
+		"firing heat" 48
+		"shield damage" 108
+		"discharge damage" .36
+		"hull damage" 9
+		"heat damage" 18
+		"damage dropoff" 1800 3600
+		"dropoff modifier" .1
+	description "A large triple-lensed Cyan Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "cyan laser glare"
+	sprite "poot-exp/effect/avgi_lasers/cyan optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "cyan laser reflection"
+	sprite "poot-exp/effect/skylance_colors/cyan skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "cyan laser scattering"
+	sprite "poot-exp/effect/skylance_colors/cyan skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Yellow Optical Laser (POOT)"
+	"display name" `Yellow Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07018
+	licenses
+		"Twilight Guard"
+	cost 1944000
+	thumbnail "poot-exp/outfit/optical_laser_yellow"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_yellow"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "yellow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "yellow laser reflection" 60
+		"hit effect" "yellow laser scattering"
+		"velocity" 2400
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 32
+		"firing heat" 16
+		"shield damage" 6
+		"hull damage" 32
+		"piercing" .1
+		"heat damage" 6
+		"damage dropoff" 1200 2400
+		"dropoff modifier" .1
+	description "A heavily modified Optic Laser. this dense Optical Laser has a very strong efffect against hull armor, while being very ineffective against a ship's shields. The heavy modifications on this optic laser cause it to run far cooler than other Optic Lasers of similar size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Yellow Optical Laser Turret (POOT)"
+	"display name" `Yellow Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07018
+	licenses
+		"Twilight Guard"
+	cost 2100000
+	thumbnail "poot-exp/outfit/optical_laser_yellow"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"lasing power" -6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_yellow"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "yellow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "yellow laser reflection" 60
+		"hit effect" "yellow laser scattering"
+		"velocity" 2400
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 32
+		"firing heat" 16
+		"shield damage" 6
+		"hull damage" 32
+		"piercing" .1
+		"heat damage" 6
+		"damage dropoff" 1200 2400
+		"dropoff modifier" .1
+	description "A heavily modified Optic Laser. this dense Optical Laser has a very strong efffect against hull armor, while being very ineffective against a ship's shields. The heavy modifications on this optic laser cause it to run far cooler than other Optic Lasers of similar size."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Yellow Optical Laser (POOT)"
+	"display name" `Capital Yellow Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07018
+	licenses
+		"Twilight Guard"
+	cost 9720000
+	thumbnail "poot-exp/outfit/optical_laser_yellow_triple"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"gun ports" -1
+	"lasing power" -23
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_yellow"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "yellow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "yellow laser reflection" 60
+		"hit effect" "yellow laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 96
+		"firing heat" 48
+		"shield damage" 18
+		"hull damage" 96
+		"piercing" .1
+		"heat damage" 18
+		"damage dropoff" 1800 3600
+		"dropoff modifier" .1
+	description "A large triple-lensed Yellow Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Yellow Optical Laser Turret (POOT)"
+	"display name" `Capital Yellow Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07018
+	licenses
+		"Twilight Guard"
+	cost 10500000
+	thumbnail "poot-exp/outfit/optical_laser_yellow_triple"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"turret mounts" -1
+	"lasing power" -23
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_yellow"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "yellow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "yellow laser reflection" 60
+		"hit effect" "yellow laser scattering"
+		"velocity" 3600
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 96
+		"firing heat" 48
+		"shield damage" 18
+		"hull damage" 96
+		"piercing" .1
+		"heat damage" 18
+		"damage dropoff" 1800 3600
+		"dropoff modifier" .1
+	description "A large triple-lensed Yellow Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "yellow laser glare"
+	sprite "poot-exp/effect/avgi_lasers/yellow optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "yellow laser reflection"
+	sprite "poot-exp/effect/skylance_colors/yellow skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "yellow laser scattering"
+	sprite "poot-exp/effect/skylance_colors/yellow skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+
+outfit "Magenta Optical Laser (POOT)"
+	"display name" `Magenta Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07019
+	licenses
+		"Twilight Guard"
+	cost 2100000
+	thumbnail "poot-exp/outfit/optical_laser_magenta"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"lasing power" -7
+	weapon
+		"sound" "optical laser"
+		"fire effect" "magenta laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "magenta laser reflection" 60
+		"hit effect" "magenta laser scattering"
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 35
+		"firing heat" 31
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2500
+		"dropoff modifier" 0
+		"penetration count" 10
+	description "An optical laser turret with a penetrating beam. The photonic beam within its internal system is more stable than other lasers of its size with a higher power draw, enabling it to pierce through multiple targets."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Magenta Optical Laser Turret (POOT)"
+	"display name" `Magenta Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07019
+	licenses
+		"Twilight Guard"
+	cost 2360000
+	thumbnail "poot-exp/outfit/optical_laser_magenta"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"lasing power" -7
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_magenta"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "magenta laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "magenta laser reflection" 60
+		"hit effect" "magenta laser scattering"
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 35
+		"firing heat" 31
+		"shield damage" 9
+		"hull damage" 12
+		"heat damage" 12
+		"damage dropoff" 0 2500
+		"dropoff modifier" 0
+		"penetration count" 10
+	description "An optical laser turret with a penetrating beam. The photonic beam within its internal system is more stable than other lasers of its size with a higher power draw, enabling it to pierce through multiple targets."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Magenta Optical Laser (POOT)"
+	"display name" `Capital Magenta Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07019
+	licenses
+		"Twilight Guard"
+	cost 10500000
+	thumbnail "poot-exp/outfit/optical_laser_magenta_triple"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"gun ports" -1
+	"lasing power" -25
+	weapon
+		"sound" "optical laser"
+		"fire effect" "magenta laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "magenta laser reflection" 60
+		"hit effect" "magenta laser scattering"
+		"velocity" 3750
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 105
+		"firing heat" 93
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3750
+		"dropoff modifier" 0
+		"penetration count" 25
+	description "A large triple-lensed Magenta Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Capital Magenta Optical Laser Turret (POOT)"
+	"display name" `Capital Magenta Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07019
+	licenses
+		"Twilight Guard"
+	cost 11800000
+	thumbnail "poot-exp/outfit/optical_laser_magenta_triple"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"turret mounts" -1
+	"lasing power" -25
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_magenta"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "magenta laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "magenta laser reflection" 60
+		"hit effect" "magenta laser scattering"
+		"velocity" 3750
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 105
+		"firing heat" 93
+		"shield damage" 27
+		"hull damage" 36
+		"heat damage" 36
+		"damage dropoff" 0 3750
+		"dropoff modifier" 0
+		"penetration count" 25
+	description "A large triple-lensed Magenta Optical Laser Turret capable of outputing three times the amount of photons in a more stable beam."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "magenta laser glare"
+	sprite "poot-exp/effect/avgi_lasers/magenta optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "magenta laser reflection"
+	sprite "poot-exp/effect/skylance_colors/magenta skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 1
+	"random lifetime" 3
+	"random velocity" -90
+	"velocity scale" -0.0003
+
+effect "magenta laser scattering"
+	sprite "poot-exp/effect/skylance_colors/magenta skylance impact"
+		"frame rate" 3
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Antimatter Optical Laser (POOT)"
+	"display name" `Antimatter Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07020
+	licenses
+		"Twilight Guard"
+	cost 12300000
+	thumbnail "poot-exp/outfit/optical_laser_dark"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"lasing power" -9
+	weapon
+		"sound" "moonbeam"
+		"fire effect" "dark laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "dark laser reflection" 60
+		"hit effect" "dark laser scattering"
+		"velocity" 3500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 30
+		"firing heat" 10
+		"shield damage" 4
+		"hull damage" 4
+		"hit force" -50
+		"damage dropoff" 250 2000
+		"dropoff modifier" 0
+	description "An particle colliding optical laser. This optical laser launches photons at incredible speeds into one another at a targeted point, resulting in a narrow trail of subatomic black holes forming for a brief instant, causing anything unfortunate enough within range to be pulled towards the rapid particle collisions."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Antimatter Optical Laser Turret (POOT)"
+	"display name" `Antimatter Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07020
+	licenses
+		"Twilight Guard"
+	cost 14500000
+	thumbnail "poot-exp/outfit/optical_laser_dark"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"lasing power" -9
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_dark"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "moonbeam"
+		"fire effect" "dark laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "dark laser reflection" 60
+		"hit effect" "dark laser scattering"
+		"velocity" 3500
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 30
+		"firing heat" 10
+		"shield damage" 4
+		"hull damage" 4
+		"hit force" -50
+		"damage dropoff" 250 2000
+		"dropoff modifier" 0
+	description "An particle colliding optical laser. This optical laser launches photons at incredible speeds into one another at a targeted point, resulting in a narrow trail of subatomic black holes forming for a brief instant, causing anything unfortunate enough within range to be pulled towards the rapid particle collisions."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Event Horizon Optical Laser (POOT)"
+	"display name" `Event Horizon Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07021
+	licenses
+		"Twilight Guard"
+	cost 32300000
+	thumbnail "poot-exp/outfit/optical_laser_dark_triple"
+	"mass" 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"gun ports" -1
+	"lasing power" -35
+	weapon
+		"sound" "moonbeam"
+		"fire effect" "dark laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "heavy dark laser reflection" 40
+		"hit effect" "heavy dark laser scattering"
+		"velocity" 4000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 100
+		"firing heat" 50
+		"shield damage" 33.334
+		"hull damage" 33.334
+		"hit force" -200
+		"firing force" -100
+		"damage dropoff" 1500 4000
+		"dropoff modifier" .1
+		"blast radius" 250
+		"safe" 250
+	description "What is essentially a portable particle collider mounted onto a turret, this overhauled Antimatter Laser features much a larger internal photonic generator within its core. By causing a long trail of increasingly intense particle collisons, the result is the creation of still incredibly brief, but much larger blackholes. Of course, they are still incredibly small being subatomic, however the devestating impact on anything caught within the trail of photonic collisions is far from negligable."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+outfit "Event Horizon Optical Laser Turret (POOT)"
+	"display name" `Event Horizon Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07021
+	licenses
+		"Twilight Guard"
+	cost 35500000
+	thumbnail "poot-exp/outfit/optical_laser_dark_triple"
+	"mass" 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"turret mounts" -1
+	"lasing power" -35
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_dark"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "moonbeam"
+		"fire effect" "dark laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "heavy dark laser reflection" 40
+		"hit effect" "heavy dark laser scattering"
+		"velocity" 4000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.5
+		"turret turn" 6
+		"firing energy" 100
+		"firing heat" 50
+		"shield damage" 33.334
+		"hull damage" 33.334
+		"hit force" -200
+		"firing force" -100
+		"damage dropoff" 1500 4000
+		"dropoff modifier" .1
+		"blast radius" 250
+		"safe" 250
+	description "What is essentially a portable particle collider mounted onto a turret, this overhauled Antimatter Laser features much a larger internal photonic generator within its core. By causing a long trail of increasingly intense particle collisons, the result is the creation of still incredibly brief, but much larger blackholes. Of course, they are still incredibly small being subatomic, however the devestating impact on anything caught within the trail of photonic collisions is far from negligable."
+	description "	The turret itself only contains the optics needed to synthesize, focus, and target the beam, allowing the laser light to be produced elsewhere. Because of this, an Optical Lasing Generator or Stacked Optical Lasing Generator are needed to run this turret."
+
+effect "dark laser glare"
+	sprite "poot-exp/effect/avgi_lasers/dark optical laser glare"
+		"frame rate" 3
+		"random start frame"
+		"rewind"
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "dark laser reflection"
+	sprite "poot-exp/effect/skylance_colors/dark skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 6
+	"random lifetime" 3
+	"random velocity" -15
+	"velocity scale" -0.0006
+
+effect "heavy dark laser reflection"
+	sprite "poot-exp/effect/skylance_colors/dark skylance impact"
+		"random start frame"
+		"scale" 0.125
+	"lifetime" 18
+	"random lifetime" 3
+	"random velocity" -15
+	"random angle" 3
+	"velocity scale" -0.0006
+
+effect "dark laser scattering"
+	sprite "poot-exp/effect/skylance_colors/dark skylance impact"
+		"frame rate" 3
+		"scale" 1
+	"lifetime" 3
+	"velocity scale" 0
+
+effect "heavy dark laser scattering"
+	sprite "poot-exp/effect/skylance_colors/dark skylance impact"
+		"frame rate" 5
+		"scale" 2
+	"lifetime" 3
+	"velocity scale" 0
+
+
+
+
+
+
+
+outfit "Prismatic Optical Laser (POOT)"
+	"display name" `Prismatic Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07021
+	licenses
+		"Twilight Guard"
+	cost 125000000
+	thumbnail "poot-exp/outfit/optical_laser_prism"
+	"mass" 260
+	"outfit space" -260
+	"weapon capacity" -260
+	"gun ports" -1
+	"lasing power" -75
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "rainbow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "rainbow laser reflection" 30
+		"hit effect" "rainbow laser scattering"
+		"velocity" 5000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.3
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 250
+		"firing heat" 400
+		"shield damage" 250
+		"hull damage" 250
+		"heat damage" 250
+		"dropoff modifier" 2
+	description "Taste the rainbow.."
+
+outfit "Prismatic Optical Laser Turret (POOT)"
+	"display name" `Prismatic Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07021
+	licenses
+		"Twilight Guard"
+	cost 125000000
+	thumbnail "poot-exp/outfit/optical_laser_prism"
+	"mass" 260
+	"outfit space" -260
+	"weapon capacity" -260
+	"turret mounts" -1
+	"lasing power" -75
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "rainbow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "rainbow laser reflection" 30
+		"hit effect" "rainbow laser scattering"
+		"velocity" 5000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.3
+		"turret turn" 6
+		"firing energy" 250
+		"firing heat" 400
+		"shield damage" 250
+		"hull damage" 250
+		"heat damage" 250
+		"dropoff modifier" 2
+	description "Taste the rainbow.."
+
+effect "rainbow laser glare"
+	sprite "poot-exp/effect/avgi_rainbow/rainbow optical laser glare"
+		"scale" 1.5
+		"frame rate" 15
+	"lifetime" 1
+	"absolute angle" 0
+
+effect "rainbow laser reflection"
+	sprite "poot-exp/effect/skylance_rainbow/rainbow skylance impact"
+		"frame rate" 10
+		"scale" 0.17
+	"lifetime" 8
+	"random lifetime" 3
+	"random velocity" -45
+	"random angle" 7
+	"velocity scale" -0.0003
+
+effect "rainbow laser scattering"
+	sprite "poot-exp/effect/skylance_rainbow/rainbow skylance impact"
+		"frame rate" 10
+		"scale" 0.5
+	"lifetime" 3
+	"velocity scale" 0
+
+outfit "Mini Prismatic Optical Laser (POOT)"
+	"display name" `Mini Prismatic Optical Laser`
+	category "Guns"
+	series "Guns"
+	index 07022
+	licenses
+		"Twilight Guard"
+	cost 25000000
+	thumbnail "poot-exp/outfit/optical_laser_prism"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	"lasing power" -15
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "mini rainbow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "mini rainbow laser reflection" 30
+		"hit effect" "rainbow laser scattering"
+		"velocity" 5000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.3
+		"turret turn" 6
+		"arc" 45
+		"firing energy" 50
+		"firing heat" 75
+		"shield damage" 50
+		"hull damage" 50
+		"heat damage" 50
+		"dropoff modifier" 2
+	description "Taste the tiny rainbow.."
+
+outfit "Mini Prismatic Optical Laser Turret (POOT)"
+	"display name" `Mini Prismatic Optical Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07022
+	licenses
+		"Twilight Guard"
+	cost 25000000
+	thumbnail "poot-exp/outfit/optical_laser_prism"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	"lasing power" -15
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/optical_laser_pblue"
+		"hardpoint offset" 3
+			"frame rate" 3
+		"sound" "optical laser"
+		"fire effect" "mini rainbow laser glare"
+		"hit effect" "laser ejecta" 6
+		"hit effect" "mini rainbow laser reflection" 30
+		"hit effect" "rainbow laser scattering"
+		"velocity" 5000
+		"lifetime" 1
+		"reload" 1
+		"inaccuracy" 0.3
+		"turret turn" 6
+		"firing energy" 50
+		"firing heat" 75
+		"shield damage" 50
+		"hull damage" 50
+		"heat damage" 50
+		"dropoff modifier" 2
+	description "Taste the tiny rainbow.."
+
+effect "mini rainbow laser reflection"
+	sprite "poot-exp/effect/skylance_rainbow/rainbow skylance impact"
+		"frame rate" 10
+		"scale" 0.125
+	"lifetime" 8
+	"random lifetime" 3
+	"random velocity" -25
+	"random angle" 5
+	"velocity scale" -0.0003
+
+effect "mini rainbow laser glare"
+	sprite "poot-exp/effect/avgi_rainbow/rainbow optical laser glare"
+		"frame rate" 15
+	"lifetime" 1
+	"absolute angle" 0
+
+outfit "UREB Laser (POOT)"
+	"display name" `UREB Laser`
+	category "Guns"
+	series "Guns"
+	index 07031
+	cost 3000000
+	thumbnail "outfit/ureb turret"
+	"mass" 60
+	"outfit space" -45
+	"weapon capacity" -60
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/ureb turret"
+		"hardpoint offset" 21
+		sound "slicer"
+		"fire effect" "electron flare"
+		"firing energy" 60
+		"firing heat" 90
+		"turret turn" 0.3
+		"arc" 15
+		"reload" 6
+		"burst reload" 3
+		"burst count" 30
+		"inaccuracy" 3
+			"narrow"
+		"velocity override" 300
+		"piercing" 0.15
+		"submunition" "GeV Electron Bunch (POOT)" 5
+			"offset" 0 -100
+
+
+outfit "Modified UREB Turret (POOT)"
+	"display name" `Modified UREB Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07032
+	cost 9600000
+	thumbnail "outfit/ureb turret"
+	"mass" 80
+	"outfit space" -65
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/ureb turret"
+		"hardpoint offset" 21
+		sound "slicer"
+		"fire effect" "electron flare"
+		"firing energy" 60
+		"firing heat" 90
+		"turret turn" 0.5
+		"reload" 3
+		"inaccuracy" 3
+			"narrow"
+		"velocity override" 300
+		"piercing" 0.15
+		"submunition" "GeV Electron Bunch (POOT)" 5
+			"offset" 0 -100
+
+outfit "Modified UREB Laser (POOT)"
+	"display name" `Modified UREB Laser`
+	category "Guns"
+	series "Guns"
+	index 07032
+	cost 8900000
+	thumbnail "outfit/ureb turret"
+	"mass" 80
+	"outfit space" -65
+	"weapon capacity" -80
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/ureb turret"
+		"hardpoint offset" 21
+		sound "slicer"
+		"fire effect" "electron flare (POOT)"
+		"firing energy" 60
+		"firing heat" 90
+		"turret turn" 0.5
+		"arc" 15
+		"reload" 3
+		"inaccuracy" 3
+			"narrow"
+		"velocity override" 300
+		"piercing" 0.15
+		"submunition" "GeV Electron Bunch (POOT)" 5
+			"offset" 0 -100
+
+outfit "GeV Electron Bunch (POOT)"
+	weapon
+		sprite "poot-exp/projectile/ureb_modified"
+			"frame rate" 15
+			"no repeat"
+		"hit effect" "bremsstrahlung (POOT)" 5
+		"hit effect" "nuclear spallation (POOT)" 5
+		"velocity" 300
+		"random velocity" -210
+		"lifetime" 12
+		"random lifetime" 3
+		"inaccuracy" 0.3
+		"shield damage" 4.32
+		"hull damage" 5.4
+		"scrambling damage" 0.108
+		"piercing" 0.15
+		"penetration count" 3
+
+effect "bremsstrahlung (POOT)"
+	sprite "effect/skylance impact"
+		"frame rate" 60
+		"no repeat"
+		scale 0.5
+	"random lifetime" 3
+	"velocity scale" 0.3
+
+effect "nuclear spallation (POOT)"
+	sprite "effect/detainer sparks"
+		"frame rate" 120
+		"no repeat"
+		scale 0.5
+	"random angle" 15
+	"random spin" 15
+	"random lifetime" 6
+	"random velocity" -6
+	"velocity scale" -0.03
+
+effect "electron flare (POOT)"
+	sprite "effect/pwaveflare"
+		"frame rate" 60
+		"random start frame"
+	"lifetime" 1
+	"velocity scale" 1
+
+outfit "UREB Lance Turret (POOT)"
+	"display name" `UREB Lance Turret`
+	category "Turrets"
+	series "Turrets"
+	index 07033
+	cost 14700000
+	thumbnail "outfit/ureb turret"
+	"mass" 150
+	"outfit space" -110
+	"weapon capacity" -150
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/ureb turret"
+		"hardpoint offset" 21
+		sound "slicer"
+		"fire effect" "electron flare"
+		"firing energy" 70
+		"firing heat" 90
+		"turret turn" 0.5
+		"reload" 1
+		"inaccuracy" 3
+			"narrow"
+		"velocity override" 300
+		"piercing" 0.15
+		"submunition" "GeV Electron Bunch (POOT)" 5
+			"offset" 0 -100
+
+outfit "UREB Lance (POOT)"
+	"display name" `UREB Lance`
+	category "Guns"
+	series "Guns"
+	index 07033
+	cost 13200000
+	thumbnail "outfit/ureb turret"
+	"mass" 150
+	"outfit space" -110
+	"weapon capacity" -150
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/ureb turret"
+		"hardpoint offset" 21
+		sound "slicer"
+		"fire effect" "electron flare"
+		"firing energy" 70
+		"firing heat" 90
+		"turret turn" 0.5
+		"arc" 25
+		"reload" 1
+		"inaccuracy" 3
+			"narrow"
+		"velocity override" 300
+		"piercing" 0.15
+		"submunition" "GeV Electron Bunch (POOT)" 5
+			"offset" 0 -100

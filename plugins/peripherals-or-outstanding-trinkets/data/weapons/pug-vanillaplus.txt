@@ -1,0 +1,2085 @@
+
+outfit "Pug Seeker"
+	category "Guns"
+	series "Guns"
+	index 90000
+
+outfit "Pug Seeker Turret (POOT)"
+	"display name" `Pug Seeker Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90001
+	cost 2140000
+	thumbnail "poot-exp/outfit/pug/pug_seeker_turret"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"turret mounts" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 13
+		"lifetime" 220
+		"reload" 5
+		"firing energy" 25
+		"firing heat" 20
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .5
+		"shield damage" 24
+		"hull damage" 13
+		"hit force" 3
+		"missile strength" 10
+	description "A pair of pug seekers. You are not sure how they operate, but manage to draw energy from your ship nonetheless."
+
+outfit "Pug Triple Seeker (POOT)"
+	"display name" `Pug Triple Seeker`
+	category "Guns"
+	series "Guns"
+	index 90002
+	cost 2140000
+	thumbnail "poot-exp/outfit/pug/pug_seeker_triple"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 13
+		"lifetime" 220
+		"reload" 3.3
+		"firing energy" 25
+		"firing heat" 20
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .5
+		"shield damage" 24
+		"hull damage" 13
+		"hit force" 3
+		"missile strength" 10
+	description "Even more confusing and obfuscated, this appears to be 3 pug seekers that can fire in turn. Still no clue how it does so."
+
+outfit "Pug T3 Quin-Seeker (POOT)"
+	"display name" `Pug T3 Quin-Seeker`
+	category "Guns"
+	series "Guns"
+	index 90003
+	cost 5400000
+	thumbnail "poot-exp/outfit/pug/pug_seeker_quin"
+	"mass" 117
+	"outfit space" -117
+	"weapon capacity" -117
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 15
+		"lifetime" 400
+		"reload" 2
+		"firing energy" 35
+		"firing heat" 25
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 5
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .6
+		"shield damage" 37
+		"hull damage" 24
+		"hit force" 3
+		"missile strength" 17
+	description "An even larger group of the ever unknowable pug seekers, firing one after another."
+
+outfit "Pug T3 Quin-Seeker Turret (POOT)"
+	"display name" `Pug T3 Quin-Seeker Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90003
+	cost 5400000
+	thumbnail "poot-exp/outfit/pug/pug_seeker_quin_turret"
+	"mass" 124
+	"outfit space" -124
+	"weapon capacity" -124
+	"turret mounts" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 15
+		"lifetime" 400
+		"reload" 2
+		"firing energy" 35
+		"firing heat" 25
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 5
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .6
+		"shield damage" 37
+		"hull damage" 24
+		"hit force" 3
+		"missile strength" 17
+	description "An even larger group of the ever unknowable pug seekers, firing one after another."
+
+outfit "Pug T5 Seeker (POOT)"
+	"display name" `Pug T5 Seeker`
+	category "Guns"
+	series "Guns"
+	index 90105
+	cost 35400000
+	thumbnail "poot-exp/outfit/pug/pug_t5_seeker"
+	"mass" 79
+	"outfit space" -79
+	"weapon capacity" -79
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 13
+		"lifetime" 300
+		"reload" 24
+		"firing energy" 2950
+		"firing heat" 2880
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .9
+		"shield damage" 2250
+		"hull damage" 2250
+		"hit force" 3
+		"missile strength" 100
+	description "Even more confusing and obfuscated, this appears to be 3 pug seekers that can fire in turn. Still no clue how it does so."
+
+outfit "Pug T5 Seeker Turret (POOT)"
+	"display name" `Pug T5 Seeker Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90106
+	cost 62500000
+	thumbnail "poot-exp/outfit/pug/pug_t5_seeker_turret"
+	"mass" 155
+	"outfit space" -155
+	"weapon capacity" -155
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 13
+		"lifetime" 300
+		"reload" 12
+		"firing energy" 2950
+		"firing heat" 2880
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .9
+		"shield damage" 2250
+		"hull damage" 2250
+		"hit force" 3
+		"missile strength" 100
+	description "A pair of pug seekers. You are not sure how they operate, but manage to draw energy from your ship nonetheless."
+
+outfit "Pug T5 Quin-Seeker (POOT)"
+	"display name" `Pug T5 Quin-Seeker`
+	category "Guns"
+	series "Guns"
+	index 90107
+	cost 97500000
+	thumbnail "poot-exp/outfit/pug/pug_t5_seeker_quin"
+	"mass" 279
+	"outfit space" -279
+	"weapon capacity" -279
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 15
+		"lifetime" 400
+		"reload" 5
+		"firing energy" 2950
+		"firing heat" 2880
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .9
+		"shield damage" 2250
+		"hull damage" 2250
+		"hit force" 3
+		"missile strength" 100
+	description "An even larger group of the ever unknowable pug seekers, firing one after another."
+
+outfit "Pug T5 Quin-Seeker Turret (POOT)"
+	"display name" `Pug T5 Quin-Seeker Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90107
+	cost 101000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_seeker_quin_turret"
+	"mass" 299
+	"outfit space" -299
+	"weapon capacity" -299
+	"turret mounts" -1
+	"required crew" 5
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 15
+		"lifetime" 400
+		"reload" 5
+		"firing energy" 2950
+		"firing heat" 2880
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 4
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .9
+		"shield damage" 2250
+		"hull damage" 2250
+		"hit force" 3
+		"missile strength" 100
+	description "An even larger group of the ever unknowable pug seekers, firing one after another."
+
+outfit "Pug Tracer (POOT)"
+	"display name" `Pug Tracer`
+	category "Guns"
+	series "Guns"
+	index 90031
+	cost 3170000
+	thumbnail "poot-exp/outfit/pug/pug_tracer"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .6
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug t3 seeker trail (POOT)" 400
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 30
+		"firing energy" 200
+		"firing heat" 140
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 240
+		"hull damage" 160
+		"hit force" 10
+		"missile strength" 60
+	description "Fires a very fast moving seeker that can turn incredibly quick."
+
+outfit "Pug Twin Tracer (POOT)"
+	"display name" `Pug Twin Tracer`
+	category "Guns"
+	series "Guns"
+	index 90032
+	cost 4570000
+	thumbnail "poot-exp/outfit/pug/pug_twin_tracer"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .6
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug t3 seeker trail (POOT)" 400
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 15
+		"firing energy" 200
+		"firing heat" 140
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 240
+		"hull damage" 160
+		"hit force" 10
+		"missile strength" 60
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug Tracer Turret (POOT)"
+	"display name" `Pug Tracer Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90032
+	cost 5160000
+	thumbnail "poot-exp/outfit/pug/pug_twin_tracer_turret"
+	"mass" 88
+	"outfit space" -88
+	"weapon capacity" -88
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .6
+			"frame rate" 40
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug t3 seeker trail (POOT)" 400
+		"turret turn" 2
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 15
+		"firing energy" 200
+		"firing heat" 140
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 240
+		"hull damage" 160
+		"hit force" 10
+		"missile strength" 60
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T3 Quad Tracer (POOT)"
+	"display name" `Pug T3 Quad Tracer`
+	category "Guns"
+	series "Guns"
+	index 90033
+	cost 8790000
+	thumbnail "poot-exp/outfit/pug/pug_quad_tracer"
+	"mass" 144
+	"outfit space" -144
+	"weapon capacity" -144
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .6
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug t3 seeker trail (POOT)" 400
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 7.5
+		"firing energy" 200
+		"firing heat" 140
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 240
+		"hull damage" 160
+		"hit force" 10
+		"missile strength" 60
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T3 Quad Tracer Turret (POOT)"
+	"display name" `Pug T3 Quad Tracer Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90033
+	cost 9160000
+	thumbnail "poot-exp/outfit/pug/pug_quad_tracer_turret"
+	"mass" 165
+	"outfit space" -165
+	"weapon capacity" -165
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .6
+			"frame rate" 40
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug t3 seeker trail (POOT)" 400
+		"turret turn" 2
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 7.5
+		"firing energy" 200
+		"firing heat" 140
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 240
+		"hull damage" 160
+		"hit force" 10
+		"missile strength" 60
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T4 Tracer (POOT)"
+	"display name" `Pug T4 Tracer`
+	category "Guns"
+	series "Guns"
+	index 90034
+	cost 9740000
+	thumbnail "poot-exp/outfit/pug/pug_t5_tracer"
+	"mass" 97
+	"outfit space" -97
+	"weapon capacity" -97
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .75
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 20
+		"firing energy" 570
+		"firing heat" 360
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 825
+		"hull damage" 750
+		"hit force" 10
+		"missile strength" 120
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T4 Tracer Turret (POOT)"
+	"display name" `Pug T4 Tracer Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90034
+	cost 25410000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_tracer_turret"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" .75
+			"frame rate" 40
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug deepspace seeker trail (POOT)" 400
+		"turret turn" 2
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 400
+		"reload" 10
+		"firing energy" 570
+		"firing heat" 360
+		"acceleration" 3
+		"drag" .1
+		"turn" 10
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .85
+		"shield damage" 825
+		"hull damage" 750
+		"hit force" 10
+		"missile strength" 120
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+effect "pug t3 seeker trail (POOT)"
+	sprite "poot-exp/effect/pug_seeker_trail"
+		"scale" .3
+		"frame rate" 8
+		"no repeat"
+	"lifetime" 64
+	"random angle" 15
+	"random velocity" 3
+	"velocity scale" 0.1
+
+outfit "Pug T5 Deepspace Tracer (POOT)"
+	"display name" `Pug T5 Deepspace Tracer`
+	category "Guns"
+	series "Guns"
+	index 90135
+	cost 47570000
+	thumbnail "poot-exp/outfit/pug/pug_t5_tracer"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" 1
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 500
+		"reload" 30
+		"firing energy" 5700
+		"firing heat" 4470
+		"acceleration" 3
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 7850
+		"hit force" 10
+		"missile strength" 1000
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T5 Twin Deepspace Tracer (POOT)"
+	"display name" `Pug T5 Twin Deepspace Tracer`
+	category "Guns"
+	series "Guns"
+	index 90136
+	cost 92900000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_tracer"
+	"mass" 347
+	"outfit space" -347
+	"weapon capacity" -347
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" 1
+			"frame rate" 40
+			"random start frame"
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 500
+		"reload" 15
+		"firing energy" 5700
+		"firing heat" 4470
+		"acceleration" 3
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 7850
+		"hit force" 10
+		"missile strength" 1000
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+outfit "Pug T5 Deepspace Tracer Turret (POOT)"
+	"display name" `Pug T5 Deepspace Tracer Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90136
+	cost 107400000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_tracer_turret"
+	"mass" 368
+	"outfit space" -368
+	"weapon capacity" -368
+	"turret mounts" -1
+	"required crew" 5
+	weapon
+		sprite "poot-exp/projectile/pug_deepspace_seeker"
+			"scale" 1
+			"frame rate" 40
+			"random start frame"
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" 7.
+		sound "poot-exp/pug_tracer"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"live effect" "pug deepspace seeker trail (POOT)" 500
+		"turret turn" 2
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 500
+		"reload" 15
+		"firing energy" 5700
+		"firing heat" 4470
+		"acceleration" 3
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"shield damage" 8000
+		"hull damage" 7850
+		"hit force" 10
+		"missile strength" 1000
+	description "A pair of quick firing pug tracers, able to trace down their targets from large distances."
+
+effect "pug deepspace seeker trail (POOT)"
+	sprite "poot-exp/effect/pug_seeker_trail"
+		"scale" .25
+		"frame rate" 8
+		"no repeat"
+	"lifetime" 64
+	"random angle" 15
+	"random velocity" 5
+	"velocity scale" 0.1
+
+outfit "Pug T3 Zapper (POOT)"
+	"display name" `Pug T3 Zapper`
+	category "Guns"
+	series "Guns"
+	index 90011
+	cost 29000000
+	thumbnail "poot-exp/outfit/pug/pug_t3_zapper"
+	"mass" 115
+	"outfit space" -115
+	"weapon capacity" -115
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pugt5-zapper"
+			"scale" .5
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		sound "zapper"
+		"hit effect" "pug t3 zapper impact (POOT)" 2
+		"inaccuracy" .1
+		"velocity" 750
+		"turret turn" 2.7
+		"arc" 45
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 25
+		"firing heat" 35
+		"shield damage" 25
+		"hull damage" 20
+	description "The sheer amount of electricity eminating from the beam of this weapon is akin to a lightning strike on earth. Only a ship with unimaginable energy capabilities could fire this weapon for a few seconds, let alone continuous fire."
+
+outfit "Pug T3 Zapper Turret (POOT)"
+	"display name" `Pug T3 Zapper Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90011
+	cost 29000000
+	thumbnail "poot-exp/outfit/pug/pug_t3_zapper_turret"
+	"mass" 127
+	"outfit space" -127
+	"weapon capacity" -127
+	"turret mounts" -1
+	weapon
+		sprite "poot-exp/projectile/pugt5-zapper"
+			"scale" .5
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		"hardpoint sprite" "poot-exp/hardpoint/pug_t3_zapper"
+			"scale" .75
+		"hardpoint offset" 6.
+		sound "zapper"
+		"hit effect" "pug t3 zapper impact (POOT)" 3
+		"inaccuracy" .1
+		"velocity" 750
+		"turret turn" 2.7
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 25
+		"firing heat" 35
+		"shield damage" 25
+		"hull damage" 20
+	description "The sheer amount of electricity eminating from the beam of this weapon is akin to a lightning strike on earth. Only a ship with unimaginable energy capabilities could fire this weapon for a few seconds, let alone continuous fire."
+
+outfit "Pug T5 Deepspace Zapper (POOT)"
+	"display name" `Pug T5 Deepspace Zapper`
+	category "Guns"
+	series "Guns"
+	index 90112
+	cost 90000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_zapper"
+	"mass" 269
+	"outfit space" -269
+	"weapon capacity" -269
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pugt5-zapper"
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		sound "zapper"
+		"hit effect" "pug t5 zapper impact (POOT)" 4
+		"inaccuracy" .1
+		"velocity" 1500
+		"turret turn" 5
+		"arc" 45
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 450
+		"firing heat" 650
+		"shield damage" 500
+		"hull damage" 400
+		"ion damage" 5
+	description "The sheer amount of electricity eminating from the beam of this weapon is akin to a lightning strike on earth. Only a ship with unimaginable energy capabilities could fire this weapon for a few seconds, let alone continuous fire."
+
+outfit "Pug T5 Deepspace Zapper Turret (POOT)"
+	"display name" `Pug T5 Deepspace Zapper Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90112
+	cost 94500000
+	thumbnail "poot-exp/outfit/pug/pug_t5_zapper_turret"
+	"mass" 295
+	"outfit space" -295
+	"weapon capacity" -295
+	"turret mounts" -1
+	weapon
+		sprite "poot-exp/projectile/pugt5-zapper"
+			"frame rate" 60
+			"random start frame"
+			"delay" 6
+		"hardpoint sprite" "poot-exp/hardpoint/pug_t5_zapper"
+			"scale" .75
+		"hardpoint offset" 10.
+		sound "zapper"
+		"hit effect" "pug t5 zapper impact (POOT)" 4
+		"inaccuracy" .1
+		"velocity" 1500
+		"turret turn" 5
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 450
+		"firing heat" 650
+		"shield damage" 500
+		"hull damage" 400
+		"ion damage" 5
+	description "The sheer amount of electricity eminating from the beam of this weapon is akin to a lightning strike on earth. Only a ship with unimaginable energy capabilities could fire this weapon for a few seconds, let alone continuous fire."
+
+effect "pug t3 zapper impact (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .5
+		"frame rate" 60
+		"random start frame"
+		"no repeat"
+	"lifetime" 2
+	"random angle" 55
+	"random velocity" 15
+	"random spin" 1
+	"velocity scale" 0.0
+
+effect "pug t5 zapper impact (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .75
+		"frame rate" 60
+		"random start frame"
+		"no repeat"
+	"lifetime" 2
+	"random lifetime" 2
+	"random angle" 40
+	"random velocity" 21
+	"random spin" 1
+	"velocity scale" 0.0
+
+outfit "Pug T5 Flarer Turret (POOT)"
+	"display name" `Pug T5 Flarer Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90191
+	cost 224100000
+	thumbnail "poot-exp/outfit/pug/pug_t5_seeker_quin_turret"
+	"mass" 355
+	"outfit space" -355
+	"weapon capacity" -355
+	"turret mounts" -1
+	"required crew" 7
+	weapon
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" -20.
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" 50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -45
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -47
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		"submunition" "pug flarer (POOT)"
+			"offset" 0 0
+			"facing" -50
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"turret turn" 2
+		"velocity" 25
+		"lifetime" 1
+		"reload" 12
+		"firing energy" 9500
+		"firing heat" 8750
+		"acceleration" 4
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"hit force" 10
+		"missile strength" 960
+	description "A complex and egnigmatic device, capable of countering incredibly strong species antimissles."
+
+outfit "pug flarer (POOT)"
+	weapon
+		sprite "poot-exp/projectile/pug_flare"
+			"scale" .75
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 15
+			"uniform"
+		"lifetime" 120
+		"acceleration" 2
+		"drag" .1
+		"turn" 6
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .88
+		"random velocity" 10
+		"shield damage" 50
+		"hull damage" 40
+		"hit force" 2
+		"missile strength" 15
+
+outfit "Pug T4 Streamliner Turret (POOT)"
+	"display name" `Pug T4 Streamliner Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90092
+	cost 21790000
+	thumbnail "poot-exp/outfit/pug/pug_twin_tracer_turret"
+	"mass" 122
+	"outfit space" -122
+	"weapon capacity" -122
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" -20.
+		"submunition" "pug t4 streamliner (POOT)"
+			"offset" 0 0
+			"facing" 1
+		"submunition" "pug t4 streamliner (POOT)"
+			"offset" 0 0
+			"facing" -1
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"turret turn" 4.7
+		"velocity" 25
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 240
+		"firing heat" 179
+		"acceleration" 4
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"hit force" 10
+		"missile strength" 960
+		"stream"
+	description "A complex and egnigmatic device, capable of countering incredibly strong species antimissles."
+
+outfit "Pug T5 Deepspace Streamliner Turret (POOT)"
+	"display name" `Pug T5 Deepspace Streamliner Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90193
+	cost 91790000
+	thumbnail "poot-exp/outfit/pug/pug_t5_quad_tracer_turret"
+	"mass" 255
+	"outfit space" -255
+	"weapon capacity" -255
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		"hardpoint sprite" "hardpoint/pug zapper turret"
+		"hardpoint offset" -20.
+		"submunition" "pug t5 streamliner (POOT)"
+			"offset" 0 0
+			"facing" 1
+		"submunition" "pug t5 streamliner (POOT)"
+			"offset" 0 0
+			"facing" 2
+		"submunition" "pug t5 streamliner (POOT)"
+			"offset" 0 0
+			"facing" -2
+		"submunition" "pug t5 streamliner (POOT)"
+			"offset" 0 0
+			"facing" -1
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"turret turn" 4.7
+		"velocity" 25
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 2600
+		"firing heat" 1970
+		"acceleration" 4
+		"drag" .1
+		"turn" 25
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"hit force" 10
+		"missile strength" 960
+		"stream"
+	description "A complex and egnigmatic device, capable of countering incredibly strong species antimissles."
+
+outfit "pug t4 streamliner (POOT)"
+	weapon
+		sprite "poot-exp/projectile/pug_flare"
+			"scale" 1
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 1
+			"uniform"
+		"lifetime" 240
+		"acceleration" 3
+		"drag" .1
+		"turn" 9
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" .95
+		"random velocity" 7
+		"shield damage" 50
+		"hull damage" 40
+		"hit force" 2
+		"missile strength" 40
+
+outfit "pug t5 streamliner (POOT)"
+	weapon
+		sprite "poot-exp/projectile/pug_flare"
+			"scale" 1
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 1
+			"uniform"
+		"lifetime" 240
+		"acceleration" 4
+		"drag" .1
+		"turn" 12
+		"homing"
+			"leading"
+			"throttle control"
+		"tracking" 1
+		"random velocity" 7
+		"shield damage" 350
+		"hull damage" 320
+		"hit force" 2
+		"missile strength" 40
+
+outfit "Pug T3 Archaic Gridfire (POOT)"
+	"display name" `Pug T3 Archaic Gridfire`
+	category "Guns"
+	series "Guns"
+	index 90021
+	cost 31000000
+	thumbnail "poot-exp/outfit/pug/pug_gridfire_heavy"
+	"mass" 111
+	"outfit space" -111
+	"weapon capacity" -111
+	"gun ports" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug gridfire turret"
+			"scale" 1.25
+		"fire effect" "gridfire fire"
+		"hit effect" "gridfire hit" 1
+		"hit effect" "gridfire cloud"
+		sound "gridfire"
+		"velocity" 1770
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 5
+		"arc" 90
+		"firing energy" 60
+		"firing heat" 30
+		"shield damage" 45
+		"hull damage" 45
+		"piercing" .25
+	description "An ancient pug weapon. Likely a predecessor to the modern Pug Gridfire Turret, this weapon is capable of doing far more damage than anything in human space."
+
+outfit "Pug T3 Archaic Gridfire Turret (POOT)"
+	"display name" `Pug T3 Archaic Gridfire Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90021
+	cost 33000000
+	thumbnail "poot-exp/outfit/pug/pug_gridfire_heavy"
+	"mass" 111
+	"outfit space" -111
+	"weapon capacity" -111
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug gridfire turret"
+			"scale" 1.25
+		"fire effect" "gridfire fire"
+		"hit effect" "gridfire hit" 1
+		"hit effect" "gridfire cloud"
+		sound "gridfire"
+		"velocity" 1770
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 5
+		"firing energy" 60
+		"firing heat" 30
+		"shield damage" 45
+		"hull damage" 45
+		"piercing" .25
+	description "An ancient pug weapon. Likely a predecessor to the modern Pug Gridfire Turret, this weapon is capable of doing far more damage than anything in human space."
+
+outfit "Pug T4 Helix Gridfire (POOT)"
+	"display name" `Pug T4 Helix Gridfire`
+	category "Guns"
+	series "Guns"
+	index 90122
+	cost 35000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_helix_gridfire"
+	"mass" 144
+	"outfit space" -144
+	"weapon capacity" -144
+	"gun ports" -1
+	"unique" 1
+	weapon
+		"fire effect" "gridfire fire"
+		"hit effect" "gridfire hit" 2
+		"hit effect" "pug archaic gridfire cloud"
+		"hit effect" "gridfire cloud"
+		sound "gridfire"
+		"phasing"
+		"velocity" 2150
+		"lifetime" 1
+		"reload" 5
+		"turret turn" 20
+		"arc" 90
+		"firing energy" 440
+		"firing heat" 320
+		"shield damage" 300
+		"hull damage" 300
+		"blast radius" 40
+		"piercing" .3
+	description "A group of Gridfire Turrets that have somehow been modified to rapidly fire one after another."
+
+outfit "Pug T4 Helix Gridfire Turret (POOT)"
+	"display name" `Pug T4 Helix Gridfire Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90122
+	cost 37800000
+	thumbnail "poot-exp/outfit/pug/pug_t5_helix_gridfire"
+	"mass" 185
+	"outfit space" -185
+	"weapon capacity" -185
+	"turret mounts" -1
+	"unique" 1
+	weapon
+		"hardpoint sprite" "hardpoint/pug gridfire turret"
+			"scale" 1.2
+		"fire effect" "gridfire fire"
+		"hit effect" "gridfire hit" 2
+		"hit effect" "gridfire cloud"
+		sound "gridfire"
+		"phasing"
+		"velocity" 2150
+		"lifetime" 1
+		"reload" 5
+		"turret turn" 20
+		"firing energy" 440
+		"firing heat" 320
+		"shield damage" 300
+		"hull damage" 300
+		"blast radius" 40
+		"piercing" .3
+	description "A group of Gridfire Turrets that have somehow been modified to rapidly fire one after another."
+
+effect "pug archaic gridfire cloud"
+	sprite "effect/gridfire cloud"
+		"scale" .5
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 31
+	"random angle" 10
+	"random spin" 10
+	"random velocity" 3
+	"velocity scale" -.002
+
+outfit "Pug T3 Helios (POOT)"
+	"display name" `Pug T3 Helios`
+	plural "Pug Helios"
+	category "Guns"
+	series "Guns"
+	index 90023
+	cost 44000000
+	thumbnail "poot-exp/outfit/pug/pug_helios"
+	"mass" 280
+	"outfit space" -280
+	"weapon capacity" -280
+	"gun ports" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		"fire effect" "pug helios fire"
+		"hit effect" "pug helios hit" 1
+		"hit effect" "pug helios cloud"
+		"hit effect" "pug helios cloud stationary"
+		sound "gridfire"
+		"phasing"
+		"velocity" 2650
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 20
+		"arc" 90
+		"firing energy" 240
+		"firing heat" 215
+		"shield damage" 200
+		"hull damage" 200
+		"blast radius" 75
+		"piercing" .4
+		"safe"
+	description "A colossal version of the gridfire turret, capable of continuous fire. How the pug would even manufacture something of this magnitude you are unsure, but it is neverless an impressive, yet mysterious piece of technology."
+
+outfit "Pug T3 Helios Turret (POOT)"
+	"display name" `Pug T3 Helios Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90023
+	cost 47000000
+	thumbnail "poot-exp/outfit/pug/pug_helios"
+	"mass" 280
+	"outfit space" -280
+	"weapon capacity" -280
+	"turret mounts" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/pug_helios"
+			"scale" 1
+		"fire effect" "pug helios fire"
+		"hit effect" "pug helios hit" 1
+		"hit effect" "pug helios cloud"
+		"hit effect" "pug helios cloud stationary"
+		sound "gridfire"
+		"phasing"
+		"velocity" 2650
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 20
+		"firing energy" 240
+		"firing heat" 215
+		"shield damage" 200
+		"hull damage" 200
+		"blast radius" 75
+		"piercing" .4
+		"safe"
+	description "A colossal version of the gridfire turret, capable of continuous fire. How the pug would even manufacture something of this magnitude you are unsure, but it is neverless an impressive, yet mysterious piece of technology."
+
+effect "pug helios fire"
+	sprite "effect/gridfire fire"
+		"scale" 1.25
+		"no repeat"
+		"frame rate" 40
+	"lifetime" 4
+	"random angle" 360
+	"random spin" 20
+	"velocity scale" 1
+
+effect "pug helios hit"
+	sprite "poot-exp/effect/pug_helios_hit"
+		"scale" 1.2
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 25
+	"random angle" 360
+	"random velocity" 5
+	"velocity scale" .00001
+
+
+effect "pug helios cloud stationary"
+	sprite "effect/gridfire cloud"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 31
+	"random angle" 360
+	"random spin" 10
+	"velocity scale" .00001
+
+outfit "Pug T5 Helios (POOT)"
+	"display name" `Pug T5 Helios`
+	plural "Pug Helios"
+	category "Guns"
+	series "Guns"
+	index 90124
+	cost 120000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_helios"
+	"mass" 670
+	"outfit space" -670
+	"weapon capacity" -670
+	"gun ports" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		"fire effect" "pug t5 helios fire"
+		"hit effect" "pug t5 helios hit" 3
+		"hit effect" "pug t5 helios cloud dynamic" 2
+		"hit effect" "pug t5 helios cloud stationary"
+		sound "gridfire"
+		"phasing"
+		"velocity" 4500
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 20
+		"arc" 90
+		"firing energy" 2200
+		"firing heat" 1650
+		"shield damage" 1570
+		"hull damage" 1570
+		"blast radius" 150
+		"piercing" .5
+		"penetration count" 10
+		"safe"
+	description "A colossal version of the gridfire turret, capable of continuous fire. How the pug would even manufacture something of this magnitude you are unsure, but it is neverless an impressive, yet mysterious piece of technology."
+
+outfit "Pug T5 Helios Turret (POOT)"
+	"display name" `Pug T5 Helios Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90124
+	cost 129000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_helios"
+	"mass" 670
+	"outfit space" -670
+	"weapon capacity" -670
+	"turret mounts" -1
+	"spinal mount" -1
+	"unique" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/pug_t5_helios"
+			"scale" 1.5
+		"fire effect" "pug t5 helios fire"
+		"hit effect" "pug t5 helios hit" 3
+		"hit effect" "pug t5 helios cloud dynamic" 2
+		"hit effect" "pug t5 helios cloud stationary"
+		sound "gridfire"
+		"phasing"
+		"velocity" 4500
+		"lifetime" 1
+		"reload" 1
+		"turret turn" 20
+		"firing energy" 2200
+		"firing heat" 1650
+		"shield damage" 1570
+		"hull damage" 1570
+		"blast radius" 150
+		"piercing" .5
+		"penetration count" 10
+		"safe"
+	description "A colossal version of the gridfire turret, capable of continuous fire. How the pug would even manufacture something of this magnitude you are unsure, but it is neverless an impressive, yet mysterious piece of technology."
+
+effect "pug t5 helios fire"
+	sprite "effect/gridfire fire"
+		"scale" 2
+		"no repeat"
+		"frame rate" 40
+	"lifetime" 4
+	"random angle" 360
+	"random spin" 20
+	"velocity scale" 1
+
+effect "pug t5 helios hit"
+	sprite "poot-exp/effect/pug_helios_hit"
+		"scale" 1.75
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 25
+	"random angle" 360
+	"random velocity" 8
+	"velocity scale" .00001
+
+effect "pug t5 helios cloud"
+	sprite "effect/gridfire cloud"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 31
+	"random angle" 10
+	"random spin" 10
+	"random velocity" 3
+	"velocity scale" -.003
+
+effect "pug t5 helios cloud dynamic"
+	sprite "effect/gridfire cloud"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 31
+	"random angle" 360
+	"random spin" 10
+	"random velocity" 6
+	"velocity scale" .00001
+
+effect "pug t5 helios cloud stationary"
+	sprite "effect/gridfire cloud"
+		"scale" 2
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 31
+	"random angle" 360
+	"random spin" 10
+	"velocity scale" .00001
+
+outfit "Pug Revenant Lance (POOT)"
+	"display name" `Pug Revenant Lance`
+	category "Guns"
+	series "Guns"
+	index 90041
+	cost 1510000
+	thumbnail "poot-exp/outfit/pug/pug_revenant_lance"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .6
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug small revenant impact (POOT)" 20
+		"die effect" "pug small revenant impact (POOT)" 20
+		"live effect" "pug revenant live (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"arc" 35
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 120
+		"firing energy" 750
+		"firing heat" 950
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 750
+		"hull damage" 675
+		"hit force" 50
+		"firing force" 25
+		"blast radius" 50
+		"penetration count" 5
+		"fused"
+	description "A powerful Pug cannon that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug Twin Revenant Lance (POOT)"
+	"display name" `Pug Twin Revenant Lance`
+	category "Guns"
+	series "Guns"
+	index 90042
+	cost 2590000
+	thumbnail "poot-exp/outfit/pug/pug_twin_revenant_lance"
+	"mass" 82
+	"outfit space" -82
+	"weapon capacity" -82
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .6
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug small revenant impact (POOT)" 20
+		"die effect" "pug small revenant impact (POOT)" 20
+		"live effect" "pug revenant live (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"arc" 35
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 750
+		"firing heat" 950
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 750
+		"hull damage" 675
+		"hit force" 50
+		"firing force" 25
+		"blast radius" 50
+		"penetration count" 5
+		"fused"
+	description "A pair of powerful Pug cannons that fire a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug Revenant Turret (POOT)"
+	"display name" `Pug Revenant Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90042
+	cost 3170000
+	thumbnail "poot-exp/outfit/pug/pug_twin_revenant_lance_turret"
+	"mass" 92
+	"outfit space" -92
+	"weapon capacity" -92
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .6
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug small revenant impact (POOT)" 20
+		"die effect" "pug small revenant impact (POOT)" 20
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 650
+		"firing heat" 800
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 650
+		"hull damage" 575
+		"hit force" 50
+		"firing force" 25
+		"blast radius" 50
+		"penetration count" 5
+		"fused"
+	description "A powerful pair of Pug cannons that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T3 Quad Revenant Turret (POOT)"
+	"display name" `Pug T3 Quad Revenant Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90043
+	cost 6140000
+	thumbnail "poot-exp/outfit/pug/pug_quad_revenant_lance_turret"
+	"mass" 178
+	"outfit space" -178
+	"weapon capacity" -178
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .6
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 20
+		"die effect" "pug revenant impact (POOT)" 20
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 650
+		"firing heat" 800
+		"acceleration" 20
+		"drag" .1
+		"turn" 2
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 650
+		"hull damage" 575
+		"hit force" 50
+		"firing force" 25
+		"blast radius" 50
+		"penetration count" 5
+		"fused"
+	description "A quadruple group of Revenant Lances, mounted onto a single turret."
+
+effect "pug revenant impact (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" 1
+		"frame rate" 15
+		"random start frame"
+		"no repeat"
+	"lifetime" 8
+	"random lifetime" 8
+	"sound" "explosion huge"
+	"random angle" 25
+	"random velocity" 30
+	"random spin" 1
+	"velocity scale" 0.0
+
+effect "pug small revenant impact (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .75
+		"frame rate" 15
+		"random start frame"
+		"no repeat"
+	"lifetime" 8
+	"random lifetime" 8
+	"sound" "explosion large"
+	"random angle" 20
+	"random velocity" 20
+	"random spin" 1
+	"velocity scale" 0.0
+
+effect "pug small revenant fire (POOT)"
+	sprite "poot-exp/effect/explosion/neutron_tiny"
+		"scale" 1
+		"frame rate" 60
+		"no repeat"
+	"lifetime" 11
+	"sound" "explosion tiny"
+	"random spin" 1
+	"velocity scale" 0.5
+
+effect "pug revenant live (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .3
+		"frame rate" 8
+		"random start frame"
+		"no repeat"
+	"lifetime" 16
+	"random lifetime" 8
+	"random angle" 35
+	"random velocity" 10
+	"random spin" 1
+	"velocity scale" -0.1
+
+effect "pug revenant live 2 (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .3
+		"frame rate" 8
+		"random start frame"
+		"no repeat"
+	"lifetime" 16
+	"random lifetime" 8
+	"random angle" 35
+	"random velocity" 10
+	"random spin" 1
+	"velocity scale" -0.1
+
+outfit "Pug T4 Revenant Lance (POOT)"
+	"display name" `Pug T4 Revenant Lance`
+	category "Guns"
+	series "Guns"
+	index 90044
+	cost 14210000
+	thumbnail "poot-exp/outfit/pug/pug_t5_revenant_lance"
+	"mass" 95
+	"outfit space" -95
+	"weapon capacity" -95
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .8
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 30
+		"die effect" "pug revenant impact (POOT)" 30
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"arc" 35
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 120
+		"firing energy" 4500
+		"firing heat" 5670
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 3670
+		"hull damage" 3240
+		"hit force" 100
+		"firing force" 50
+		"blast radius" 100
+		"penetration count" 10
+		"fused"
+	description "A powerful Pug cannon that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T4 Twin Revenant Lance (POOT)"
+	"display name" `Pug T4 Twin Revenant Lance`
+	category "Guns"
+	series "Guns"
+	index 90045
+	cost 23170000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_revenant_lance"
+	"mass" 185
+	"outfit space" -185
+	"weapon capacity" -185
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .8
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 30
+		"die effect" "pug revenant impact (POOT)" 30
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"arc" 35
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 4500
+		"firing heat" 5670
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 3670
+		"hull damage" 3240
+		"hit force" 100
+		"firing force" 50
+		"blast radius" 100
+		"penetration count" 10
+		"fused"
+	description "A powerful pair of Pug cannons that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T4 Revenant Turret (POOT)"
+	"display name" `Pug T4 Revenant Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90045
+	cost 25440000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_revenant_lance_turret"
+	"mass" 201
+	"outfit space" -201
+	"weapon capacity" -201
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" .8
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 30
+		"die effect" "pug revenant impact (POOT)" 30
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 4500
+		"firing heat" 5670
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 3670
+		"hull damage" 3240
+		"hit force" 100
+		"firing force" 50
+		"blast radius" 100
+		"penetration count" 10
+		"fused"
+	description "A powerful pair of Pug cannons that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T5 Revenant Lance (POOT)"
+	"display name" `Pug T5 Revenant Lance`
+	category "Guns"
+	series "Guns"
+	index 90146
+	cost 104000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_revenant_lance"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" 1
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 40
+		"die effect" "pug revenant impact (POOT)" 40
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"arc" 35
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 120
+		"firing energy" 39000
+		"firing heat" 48900
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 34800
+		"hull damage" 31700
+		"hit force" 200
+		"firing force" 100
+		"blast radius" 150
+		"penetration count" 25
+		"fused"
+	description "A powerful Pug cannon that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T5 Revenant Turret (POOT)"
+	"display name" `Pug T5 Revenant Turret`
+	category "Turrets"
+	series "Turrets"
+	index 90147
+	cost 125700000
+	thumbnail "poot-exp/outfit/pug/pug_t5_twin_revenant_lance_turret"
+	"mass" 345
+	"outfit space" -345
+	"weapon capacity" -345
+	"turret mounts" -1
+	"required crew" 7
+	weapon
+		sprite "poot-exp/projectile/pug_lance"
+			"scale" 1
+		sound "poot-exp/revenant_lance"
+		"hit effect" "pug revenant impact (POOT)" 35
+		"die effect" "pug revenant impact (POOT)" 35
+		"live effect" "pug revenant live (POOT)" 100
+		"live effect" "pug revenant live 2 (POOT)" 100
+		"fire effect" "pug small revenant fire (POOT)"
+		"turret turn" 2
+		"inaccuracy" .1
+		"velocity" 200
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 39000
+		"firing heat" 48900
+		"acceleration" 20
+		"drag" .1
+		"turn" 1
+		"homing"
+			"leading"
+		"tracking" 1
+		"shield damage" 34800
+		"hull damage" 31700
+		"hit force" 200
+		"firing force" 100
+		"blast radius" 150
+		"penetration count" 25
+		"fused"
+	description "A powerful pair of Pug cannons that fires a high velocity energetic blast. Somehow, this mysterious weapon operates on a frequency capable of penetrating most ships hulls."
+
+outfit "Pug T4 Anti-Missile (POOT)"
+	"display name" `Pug T4 Anti-Missile`
+	category "Turrets"
+	series "Anti-Missile"
+	index 90021
+	cost 22000000
+	thumbnail "poot-exp/outfit/pug/pug_t4_antimissile"
+	"mass" 92
+	"outfit space" -92
+	"weapon capacity" -92
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"hardpoint offset" 6.
+		"fire effect" "tier 3 anti-missile fire"
+		"die effect" "tier 3 anti-missile die" 2
+		"anti-missile" 35
+		"velocity" 620
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 60
+		"firing heat" 12
+	description "A very strong Anti-Missile system that can counter missiles at an incredible rate."
+
+outfit "Pug T5 Anti-Missile (POOT)"
+	"display name" `Pug T5 Anti-Missile`
+	category "Turrets"
+	series "Anti-Missile"
+	index 90022
+	cost 35000000
+	thumbnail "poot-exp/outfit/pug/pug_t5_antimissile"
+	"mass" 190
+	"outfit space" -190
+	"weapon capacity" -190
+	"turret mounts" -1
+	"unique" 1
+	weapon
+		"hardpoint sprite" "hardpoint/t3 anti missile"
+		"fire effect" "tier 3 anti-missile fire"
+		"die effect" "tier 3 anti-missile die" 2
+		"anti-missile" 75
+		"velocity" 800
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 80
+		"firing heat" 17
+	description "An incredibly powerful Anti-Missile, capable of destroying the strongest of missiles with relative ease."

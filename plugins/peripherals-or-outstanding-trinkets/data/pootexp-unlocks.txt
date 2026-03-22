@@ -1,0 +1,168 @@
+
+
+event "plasma turret available"
+#	outfitter "Kraz Advanced"
+#		"Plasma Turret"
+	outfitter "Kraz Advanced"
+		`Plasma "Threepeater" Cannon (POOT)`
+		`Plasma "Threepeater" Turret (POOT)`
+		"Plasma Quad Cannon (POOT)"
+		"Plasma Quad Turret (POOT)"
+		"Dual Plasma Heavy Cannon (POOT)"
+		"Dual Plasma Heavy Turret (POOT)"
+
+
+#Will have plasma removed once plasma thrower missions are added
+event "flamethrower available"
+	outfitter "Kraz Advanced"
+		"Flamethrower Turret (POOT)"
+		"Plasma Flamethrower (POOT)"
+		"Plasma Flamethrower Turret (POOT)"
+
+event "plasma flamethrower available (POOT)"
+	outfitter "Kraz Advanced"
+		"Plasma Flamethrower (POOT)"
+		"Plasma Flamethrower Turret (POOT)"
+
+
+#Engineered power plant to be replaced with nuclear power plant missions when added
+event "catalytic ramscoop available"
+	outfitter "Deep Sky Advanced"
+		"Large Fuel System (POOT)"
+		"Engineered Nuclear Power Plant (POOT)"
+	outfitter "Lovelace Advanced"
+		"Worldship Bunk Room (POOT)"
+		"Large Fuel System (POOT)"
+	outfitter "Northern Explorers"
+		"Large Fuel System (POOT)"
+event "fw gets catalytic ramscoop"
+	outfitter "Lovelace Advanced"
+		"Engineered Nuclear Power Plant (POOT)"
+
+
+event "deep sky tech available"
+	outfitter "Deep Sky Basics"
+		"Triple Electron Beam (POOT)"
+		"Electron Mining Laser (POOT)"
+	outfitter "Deep Sky Advanced"
+		"Nuclear Power Plant (POOT)"
+		"Triple Neutron Torpedo Launcher (POOT)"
+		"Neutron Torpedo Tripod Turret (POOT)"
+		"Electron Mining Laser (POOT)"
+		"Electron Mining Laser Turret (POOT)"
+		"Triple Electron Beam (POOT)"
+		"Quad Electron Turret (POOT)"
+	outfitter "Lovelace Advanced"
+		"Triple Electron Beam (POOT)"
+		"Quad Electron Turret (POOT)"
+		"Nuclear Fusion Cannon (POOT)"
+		"Nuclear Fusion Turret (POOT)"
+#
+#ALL OF THIS will eventually be split into its own event/mission for unlocks
+#
+	outfitter "Solaria Advanced (POOT)"
+		"Neutron Beam (POOT)"
+		"Neutron Beam Turret (POOT)"
+	outfitter "Deep Sky Basics"
+		"Corite Mining Beam (POOT)"
+	outfitter "Deep Sky Advanced"
+		"Neutron Beam (POOT)"
+		"Neutron Beam Turret (POOT)"
+		"Corite Mining Beam (POOT)"
+		"Corite Mining Turret (POOT)"
+	outfitter "Lovelace Advanced"
+		"Neutron Beam (POOT)"
+		"Neutron Beam Turret (POOT)"
+		"Dual Particle Heavy Cannon (POOT)"
+		"Dual Particle Heavy Turret (POOT)"
+		`"Delta" Superheavy Anti-Missile System`
+	outfitter "Syndicate Advanced"
+		"Dual Proton Heavy Cannon (POOT)"
+		"Dual Proton Heavy Turret (POOT)"
+		"Twin Superheavy Energy Blaster (POOT)"
+		"Twin Superheavy Blaster Turret (POOT)"
+	outfitter "Pirate Advanced"
+		"Dual Proton Heavy Cannon (POOT)"
+		"Dual Proton Heavy Turret (POOT)"
+		"Twin Superheavy Energy Blaster (POOT)"
+		"Twin Superheavy Blaster Turret (POOT)"
+	outfitter "Syndicate Assistance"
+		"Dual Proton Heavy Cannon (POOT)"
+		"Dual Proton Heavy Turret (POOT)"
+		"Twin Superheavy Energy Blaster (POOT)"
+		"Twin Superheavy Blaster Turret (POOT)"
+		`"Delta" Superheavy Anti-Missile System`
+	outfitter "Pirate Advanced"
+		`Modified "Octogatler" Gatling Turret (POOT)`
+	outfitter "Solaria Quantum Advanced (POOT)"
+		`Modified "Octogatler" Gatling Turret (POOT)`
+	outfitter "Unfettered Basics"
+		"Tripulse Shredder"
+		`Tripulse Shredder Turret (POOT)`
+	outfitter "Unfettered Advanced"
+		`Arc Tripulse Cannon (POOT)`
+		`Arc Tripulse Shredder Turret (POOT)`
+	outfitter "Hai Advanced"
+		`Ionic Infusion Dual Cannon (POOT)`
+		`Ionic Infusion Twin Turret (POOT)`
+		`Arc Tripulse Cannon (POOT)`
+		`Arc Tripulse Shredder Turret (POOT)`
+		`Quad Ion Cannon (POOT)`
+		`Quad Ion Turret (POOT)`
+		`Ionic Infusion Dual Cannon (POOT)`
+		`Ionic Infusion Twin Turret (POOT)`
+
+
+
+
+
+event "navy expand typhoon sales"
+	outfitter "Solaria Quantum Basics (POOT)"
+		"Solarian Typhoon Array (POOT)"
+	outfitter "Lovelace Advanced"
+		"Triple Neutron Torpedo Launcher (POOT)"
+		"Neutron Torpedo Tripod Turret (POOT)"
+
+event "fwc solace has nukes"
+	outfitter "Solaria Quantum Advanced (POOT)"
+		"Nuclear Missile Assembling Chamber (POOT)"
+		"Nuclear Missile Assembling Chamber (Turret) (POOT)"
+	outfitter "Lovelace Advanced"
+		"Atomic Neutron Torpedo Launcher (POOT)"
+
+
+
+#Will be used for Overclocked Stack Core at some point
+event "stack core for sale"
+	planet "Solace"
+		outfitter "Stack Core"
+	planet "Zug"
+		outfitter "Stack Core"
+	planet "Wayfarer"
+		outfitter "Stack Core"
+
+
+event "syndicate tech available"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+		"Plasma Infused Afterburner (POOT)"
+#
+#   Wanderers
+#
+
+event "wanderers: moonbeam mass production"
+	outfitter "Wanderer Advanced"
+		`Modified Moonbeam (POOT)`
+		`Modified Moonbeam Turret (POOT)`
+		`Twin Modified Moonbeam (POOT)`
+		`Twin Modified Moonbeam Turret (POOT)`
+		`Dusk Beam (POOT)`
+		
+event "wanderers: hurricane mass production"
+	outfitter "Wanderer Advanced"
+		`Overcharged "Sungod" Sunbeam (POOT)`
+		`Overcharged "Sungod" Turret (POOT)`
+
+event "wanderers: first tech increase"
+	outfitter "Wanderer Advanced"
+		`Dual Sunbeam (POOT)`

@@ -1,0 +1,14 @@
+outfit "Emporer Beetle Pendant (POOT)"
+	"display name" `Emporer Beetle Pendant`
+	category "POOT Technology"
+	series "Functional Unique"
+	index 31
+	cost 5000000
+	thumbnail "poot-exp/outfit/emporer_beetle_pendant"
+	"mass" 3
+	"cargo space" 2
+	"outfit space" 1
+	"cooling inefficiency" .05
+	"unique" 1
+	description "A pendant once belonging to a mighty Hai or Unfettered leader, now yours, for better or worse."
+	description "	When holding this pendant you feel your mind imbued with strange thoughts and feelings, and the weight of nobility or higher powers, as though you're standing on a tall hill looking down upon all others around you..."

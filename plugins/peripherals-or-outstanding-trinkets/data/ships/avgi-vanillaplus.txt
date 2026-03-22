@@ -1,0 +1,200 @@
+
+ship "Party-fied Tachytia (POOT)"
+	"display name" `Party-fied Tachytia`
+	sprite "poot-exp/ship/partyfied_tachytia/tachytia"
+		"frame rate" 24
+	thumbnail "poot-exp/thumbnail/partyfied_tachytia"
+	attributes
+		category "Space Liner"
+		"cost" 210000000
+		"shields" 60000
+		"hull" 124000
+		"required crew" 1200
+		"bunks" 2400
+		"mass" 6000
+		"drag" 6
+		"heat dissipation" 0.66
+		"solar heat" 60
+		"fuel capacity" 60000
+		"hull repair rate" 5
+		"hull repair energy" 50
+		"cargo space" 1200
+		"outfit space" 8200
+		"weapon capacity" 2600
+		"engine capacity" 1350
+		"spinal mount" 5
+		"anchor point" 40
+		"lasing power" 400
+		weapon
+			"blast radius" 1200
+			"shield damage" 42000
+			"hull damage" 24000
+			"hit force" 12000
+	outfits
+		`A-7200 "Party" Amat Drive`
+		"Concealment Lamina"
+		Hyperdrive
+		"Inductive Extractor" 6
+		"Large Heat Shunt" 70
+		"Laser-Tag Rifle (POOT)" 1800
+		"Magnetic Scoop" 3
+		"Mini Prismatic Optical Laser Turret (POOT)" 8
+		"Multispectral Scanner" 9
+		"Party Fission Core" 2
+		"Partycapacitor Bank"
+		"Photoelectric Lamina"
+		"Plasmadyne Scoop"
+		"Radiative Lamina"
+		"Prismatic Optical Laser Turret (POOT)" 2
+		"Spectrometer Array" 6
+		"Stacked Optical Lasing Generator (POOT)" 4
+		"Systems Core (Large)" 5
+
+	engine -204 -456
+		angle 12
+		zoom 2
+	engine 204 -456
+		angle -12
+		zoom 2
+	engine -177 -426
+		angle 9
+		zoom 2
+	engine 177 -426
+		angle -9
+		zoom 2
+	"steering engine" -6 450
+		angle 90
+		left
+		zoom 1.25
+	"steering engine" 6 450
+		angle -90
+		right
+		zoom 1.25
+	"steering engine" -36 -324
+		angle 90
+		right
+		zoom 1.25
+	"steering engine" 36 -324
+		angle -90
+		left
+		zoom 1.25
+	gun 0 -384 "Plasmadyne Scoop"
+	gun 75 -415.5
+	gun -74.5 -415.5
+	gun 176 -463.5
+	gun -174.5 -463.5
+	gun 195.5 -493
+	gun -193.5 -492
+	turret 78 -401.5 "Prismatic Optical Laser Turret (POOT)"
+		over
+	turret -75.5 -415 "Prismatic Optical Laser Turret (POOT)"
+		over
+	turret 28.5 -324 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret -27.5 -325.5
+		over
+	turret 34.5 170
+		over
+	turret -35 170.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret -40 330.5
+		over
+	turret 40 330.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret 16 -250
+		over
+	turret -16 -250.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret 16.5 -157.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret -15.5 -157.5
+		over
+	turret 16 -52
+		over
+	turret -15.5 -50 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret 16 24.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	turret -15 24.5
+		over
+	turret 15.5 99
+		over
+	turret -15 98.5 "Mini Prismatic Optical Laser Turret (POOT)"
+		over
+	bay "Drone" -18 420
+		"launch effect" "avgi internal"
+	bay "Drone" 18 420
+		"launch effect" "avgi internal"
+	bay "Drone" -18 432
+		"launch effect" "avgi internal"
+	bay "Drone" 18 432
+		"launch effect" "avgi internal"
+	bay "Drone" -18 447
+		"launch effect" "avgi internal"
+	bay "Drone" 18 447
+		"launch effect" "avgi internal"
+	bay "Drone" -18 459
+		"launch effect" "avgi internal"
+	bay "Drone" 18 459
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 432
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 432
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 420
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 420
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 447
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 447
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 459
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 459
+		"launch effect" "avgi internal"
+	bay "Drone" -18 420
+		"launch effect" "avgi internal"
+	bay "Drone" 18 420
+		"launch effect" "avgi internal"
+	bay "Drone" -18 432
+		"launch effect" "avgi internal"
+	bay "Drone" 18 432
+		"launch effect" "avgi internal"
+	bay "Drone" -18 447
+		"launch effect" "avgi internal"
+	bay "Drone" 18 447
+		"launch effect" "avgi internal"
+	bay "Drone" -18 459
+		"launch effect" "avgi internal"
+	bay "Drone" 18 459
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 432
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 432
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 420
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 420
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 447
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 447
+		"launch effect" "avgi internal"
+	bay "Fighter" -21 459
+		"launch effect" "avgi internal"
+	bay "Fighter" 21 459
+		"launch effect" "avgi internal"
+
+	leak "leak" 60 15
+	leak "flame" 60 15
+	explode "tiny explosion" 15
+	explode "small explosion" 12
+	explode "medium explosion" 9
+	explode "large explosion" 9
+	explode "huge explosion" 9
+	explode "nuke explosion" 3
+	"final explode" "nuke explosion" 6
+	"final explode" "nuke residue fast" 90
+
+	description "This was once an Avgi sublight starship, now it is the ULTIMATE party machine."

@@ -1,0 +1,879 @@
+
+outfit "Ionic Turret Prototype"
+	category "Turrets"
+	series "Turrets"
+	index 02039
+
+outfit "Tripulse Shredder Turret (POOT)"
+	"display name" `Tripulse Shredder Turret`
+	category "Turrets"
+	series "Turrets"
+	index 02021
+	cost 760000
+	thumbnail "poot-exp/outfit/tripulse_turret"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pulse turret"
+		"hardpoint offset" 7.
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"turret turn" 2.6
+		"inaccuracy" 5
+		"velocity" 15
+		"lifetime" 30
+		"reload" 6
+		"burst count" 36
+		"burst reload" 4
+		"cluster"
+		"firing energy" 25
+		"firing heat" 60
+		"shield damage" 45
+		"hull damage" 34
+	description "Three pulse cannons mounted onto a single turret mount, with decent turret tracking abilities."
+
+outfit "Non-pulse Cannon (POOT)"
+	"display name" `Non-pulse Cannon`
+	category "Guns"
+	series "Guns"
+	index 02022
+	cost 2470000
+	thumbnail "poot-exp/outfit/hai_nonpulse_cannon"
+	"mass" 135
+	"outfit space" -135
+	"weapon capacity" -135
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 5
+		"velocity" 18
+		"lifetime" 40
+		"reload" 2
+		"firing energy" 28
+		"firing heat" 75
+		"shield damage" 45
+		"hull damage" 34
+	description "A cluster of 9 Pulse Cannons capable of sustaining very heavy fire. While not suffering the slowed burst fire of the Tripulse shredder, the Nonpulse unfortunately doesn't come without its hinderances, as it requires more power per shot, and also proves to be a feasible challenge to cool such a vast number of firing cannons. Few Hai ships could even support a weapon of this magnitude, but during times of extreme need, extreme solutions will follow."
+
+outfit "Non-pulse Turret (POOT)"
+	"display name" `Non-pulse Turret`
+	category "Turrets"
+	series "Turrets"
+	index 02022
+	cost 2890000
+	thumbnail "poot-exp/outfit/hai_nonpulse_turret"
+	"mass" 149
+	"outfit space" -149
+	"weapon capacity" -149
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pulse turret"
+		"hardpoint offset" 7.
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"turret turn" 2.3
+		"inaccuracy" 5
+		"velocity" 18
+		"lifetime" 40
+		"reload" 2
+		"firing energy" 28
+		"firing heat" 75
+		"shield damage" 45
+		"hull damage" 34
+	description "A cluster of 9 Pulse Cannons capable of sustaining very heavy fire. While not suffering the slowed burst fire of the Tripulse shredder, the Nonpulse unfortunately doesn't come without its hinderances, as it requires more power per shot, and also proves to be a feasible challenge to cool such a vast number of firing cannons. Few Hai ships could even support a weapon of this magnitude, but during times of extreme need, extreme solutions will follow."
+
+outfit "Arc Pulse Cannon (POOT)"
+	"display name" `Arc Pulse Cannon`
+	category "Guns"
+	series "Guns"
+	index 02023
+	cost 1400000
+	thumbnail "poot-exp/outfit/hai_pulse_cannon_heavy"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/arc_pulse"
+		sound "poot-exp/heavy_pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 2.2
+		"velocity" 60
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 290
+		"firing heat" 610
+		"shield damage" 410
+		"hull damage" 375
+		"hit force" 40
+		"firing force" 10
+	description "A much larger and stronger Pulse cannon. While not as strong as some other superheavy weapons, it does do a wonderful job at showcasing the efficiency of the Hais modern engineering abilities."
+
+outfit "Arc Tripulse Cannon (POOT)"
+	"display name" `Arc Tripulse Cannon`
+	category "Guns"
+	series "Guns"
+	index 02024
+	cost 5500000
+	thumbnail "poot-exp/outfit/hai_pulse_cannon_heavy_tripulse"
+	"mass" 160
+	"outfit space" -160
+	"weapon capacity" -160
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/arc_pulse"
+		sound "poot-exp/heavy_pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 2.2
+		"velocity" 60
+		"lifetime" 50
+		"reload" 20
+		"firing energy" 290
+		"firing heat" 650
+		"shield damage" 410
+		"hull damage" 375
+		"hit force" 40
+		"firing force" 10
+	description "A trio of Arc Pulse cannons. Unlike the Tripulse Shredder, this triple cannon has no downtime between shots, being capable of a continuous and steady fire rate. The cluster of cannons does however have a toll on its ability to disperse excess heat."
+
+outfit "Arc Pulse Turret (POOT)"
+	"display name" `Arc Pulse Turret`
+	category "Turrets"
+	series "Turrets"
+	index 02025
+	cost 3100000
+	thumbnail "poot-exp/outfit/hai_pulse_cannon_heavy_turret"
+	"mass" 95
+	"outfit space" -95
+	"weapon capacity" -95
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/heavy_pulse_turret"
+			"scale" .8
+		"hardpoint offset" 45.
+		sprite "poot-exp/projectile/arc_pulse"
+		sound "poot-exp/heavy_pulse"
+		"hit effect" "pulse impact"
+		"turret turn" 1.9
+		"inaccuracy" 2.2
+		"velocity" 60
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 290
+		"firing heat" 610
+		"shield damage" 410
+		"hull damage" 375
+		"hit force" 40
+		"firing force" 10
+	description "Capable of outputing serious damage at a large distance while being highly efficient, the Arc Pulse turret is very favorable amongst the Unfettered."
+
+outfit "Arc Tripulse Shredder Turret (POOT)"
+	"display name" `Arc Tripulse Shredder Turret`
+	category "Turrets"
+	series "Turrets"
+	index 02026
+	cost 7900000
+	thumbnail "poot-exp/outfit/hai_pulse_cannon_heavy_turret_tripulse"
+	"mass" 170
+	"outfit space" -170
+	"weapon capacity" -170
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/heavy_tripulse_turret"
+			"scale" .8
+		"hardpoint offset" 45.
+		sprite "poot-exp/projectile/arc_pulse"
+		sound "poot-exp/heavy_pulse"
+		"hit effect" "pulse impact"
+		"turret turn" 1.9
+		"inaccuracy" 2.2
+		"velocity" 60
+		"lifetime" 50
+		"reload" 16
+		"burst reload" 10
+		"burst count" 24
+		"firing energy" 310
+		"firing heat" 720
+		"shield damage" 410
+		"hull damage" 375
+		"hit force" 30
+		"firing force" 10
+	description "A behemoth of Hai weaponry, the Arc Tripulse Shredder is one of the largest weapons ever developed in Hai space, almost weighing as much as some smaller Hai ships. Few Hai ships can even support such a weapon, but those that can are often built around the cannon itself."
+
+outfit "Ionic Railgun (POOT)"
+	"display name" "Ionic Railgun"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02021
+	cost 55000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 12
+		"firing energy" 10
+		"firing heat" 11
+		"firing force" 105
+		"stream"
+		"submunition" "ionic railslug (POOT)" 1
+	description "By heavily modifying the Skipper Railgun to have an energized ionic intake, it can fire a high velocity projectile without the need for any physical ammo. While being capable of operating fully off of pure energy, it does cause the Railgun to gain a noable amount of weight and size, on top of having a much higher operation tempurature."
+
+outfit "Ionic Railgun Turret (POOT)"
+	"display name" "Ionic Railgun Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02021
+	cost 78000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun_turret"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"turret turn" 2.5
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 12
+		"firing energy" 10
+		"firing heat" 11
+		"firing force" 105
+		"stream"
+		"submunition" "ionic railslug (POOT)" 1
+	description "By heavily modifying the Skipper Railgun to have an energized ionic intake, it can fire a high velocity projectile without the need for any physical ammo. While being capable of operating fully off of pure energy, it does cause the Railgun to gain a noable amount of weight and size, on top of having a much higher operation tempurature."
+
+outfit "Ionic Rotary Railgun (POOT)"
+	"display name" "Ionic Rotary Railgun"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02022
+	cost 267000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun_triple"
+	"mass" 17
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 4
+		"firing energy" 8.5
+		"firing heat" 11
+		"firing force" 95
+		"stream"
+		"submunition" "ionic rotary railslug (POOT)" 1
+	description "By converting its input electricity to three phase with a full brdige rectifier, this trio of Ionic Railguns can sustain a continuous firerate while using less energy than an equal amount of individual railguns."
+
+outfit "Ionic Rotary Railgun Turret (POOT)"
+	"display name" "Ionic Rotary Railgun Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02022
+	cost 324000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun_turret_triple"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"turret turn" 2.5
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 4
+		"firing energy" 8.5
+		"firing heat" 11
+		"firing force" 95
+		"stream"
+		"submunition" "ionic rotary railslug (POOT)" 1
+	description "By converting its input electricity to three phase with a full brdige rectifier, this trio of Ionic Railguns can sustain a continuous firerate while using less energy than an equal amount of individual railguns."
+
+outfit "Ionic Gatling Railgun System (POOT)"
+	"display name" "Ionic Gatling Railgun System"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02023
+	cost 775000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun_array"
+	"mass" 39
+	"outfit space" -39
+	"weapon capacity" -39
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 2
+		"firing energy" 7
+		"firing heat" 14
+		"firing force" 85
+		"stream"
+		"submunition" "ionic railsystem railslug (POOT)" 1
+	description "A modern marvel of Hai Engineering. The Ionic Railgun System is capable of firing 1,800 rounds per minute, while using even less energy per shot than the Rotary Railgun. Of course, loading so many railguns into a single space is bound to cause some sort of internal disruption, which the Railgun cooling system has taken the full force of."
+	description "The recoil from the Railgun System is so strong, some smaller vessels use it as a backup emergency escape system."
+
+outfit "Ionic Gatling Railgun Turret (POOT)"
+	"display name" "Ionic Gatling Railgun Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 02023
+	cost 1020000
+	thumbnail "poot-exp/outfit/hai_ionic_railgun_gatling"
+	"mass" 42
+	"outfit space" -42
+	"weapon capacity" -42
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"turret turn" 2.5
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2500
+		"reload" 2
+		"firing energy" 7
+		"firing heat" 14
+		"firing force" 85
+		"stream"
+		"submunition" "ionic railsystem railslug (POOT)" 1
+	description "A modern marvel of Hai Engineering. The Ionic Railgun System is capable of firing 1,800 rounds per minute, while using even less energy per shot than the Rotary Railgun. Of course, loading so many railguns into a single space is bound to cause some sort of internal disruption, which the Railgun cooling system has taken the full force of."
+	description "The recoil from the Railgun System is so strong, some smaller vessels use it as a backup emergency escape system."
+
+outfit "ionic railslug (POOT)"
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"hit effect" "ionic railgun impact (POOT)" 10
+		"lifetime" 58
+		"acceleration" 2.2
+		"drag" .05
+		"turn" .9
+		"homing"
+			"blindspot"
+		"optical tracking" .7
+		"shield damage" 7
+		"hull damage" 12
+		"ion damage" .15
+		"scrambling damage" .15
+		"hit force" 22.5
+
+outfit "ionic rotary railslug (POOT)"
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"hit effect" "ionic railgun impact (POOT)" 10
+		"lifetime" 58
+		"acceleration" 2.2
+		"drag" .05
+		"turn" .9
+		"homing"
+			"blindspot"
+		"optical tracking" .7
+		"shield damage" 7
+		"hull damage" 12
+		"ion damage" .15
+		"scrambling damage" .15
+		"hit force" 17.5
+
+outfit "ionic railsystem railslug (POOT)"
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"hit effect" "ionic railgun impact (POOT)" 10
+		"lifetime" 58
+		"acceleration" 2.2
+		"drag" .05
+		"turn" .9
+		"homing"
+			"blindspot"
+		"optical tracking" .7
+		"shield damage" 7
+		"hull damage" 12
+		"ion damage" .15
+		"scrambling damage" .15
+		"hit force" 14
+
+
+effect "ionic railgun impact (POOT)"
+	sprite "poot-exp/effect/ionic_railgun_spark"
+		"random start frame"
+		"frame rate" 60
+		"scale" .5
+		"no repeat"
+	"lifetime" 3
+	"random lifetime" 6
+	"random angle" 90
+	"random velocity" 5
+	"velocity scale" .05
+
+outfit "Ion Cannon Turret (POOT)"
+	"display name" "Ion Cannon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02031
+	cost 490000
+	thumbnail "poot-exp/outfit/ion_cannon_turret"
+	"mass" 47
+	"outfit space" -47
+	"weapon capacity" -47
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_turret"
+			"scale" .7
+		"hardpoint offset" 16.
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"turret turn" 1.9
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 120
+		"firing force" 15
+		"firing heat" 150
+		"hit force" 180
+		"shield damage" 168
+		"hull damage" 60
+		"ion damage" 6
+		"scrambling damage" 6
+	description "Ion cannons do not inflict as much damage as some other weapons, but they disrupt the electrical systems on any ship they hit, draining its energy and causing its weapons to jam. If a ship has sizable battery reserves, this may have little effect, but for a ship running at near its energy generation capacity an ion strike can take it out of the battle for a few seconds while it recovers, or otherwise cause it to have difficulty firing its weapons."
+
+outfit "Twin Ion Cannon (POOT)"
+	"display name" "Twin Ion Cannon"
+	category "Guns"
+	series "Guns"
+	index 02032
+	cost 1050000
+	thumbnail "poot-exp/outfit/ion_cannon_twin"
+	"mass" 90
+	"outfit space" -90
+	"weapon capacity" -90
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "poot-exp/ion_soft"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 120
+		"firing force" 15
+		"firing heat" 150
+		"hit force" 180
+		"shield damage" 168
+		"hull damage" 60
+		"ion damage" 6
+		"scrambling damage" 6
+	description "Ion cannons do not inflict as much damage as some other weapons, but they disrupt the electrical systems on any ship they hit, draining its energy and causing its weapons to jam. If a ship has sizable battery reserves, this may have little effect, but for a ship running at near its energy generation capacity an ion strike can take it out of the battle for a few seconds while it recovers, or otherwise cause it to have difficulty firing its weapons."
+
+outfit "Twin Ion Turret (POOT)"
+	"display name" "Twin Ion Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02032
+	cost 1450000
+	thumbnail "poot-exp/outfit/ion_cannon_turret_twin"
+	"mass" 97
+	"outfit space" -97
+	"weapon capacity" -97
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_turret_twin"
+			"scale" .7
+		"hardpoint offset" 16.
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "poot-exp/ion_soft"
+		"hit effect" "ion impact" 2
+		"turret turn" 1.9
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 120
+		"firing force" 15
+		"firing heat" 150
+		"hit force" 180
+		"shield damage" 168
+		"hull damage" 60
+		"ion damage" 6
+		"scrambling damage" 6
+	description "Ion cannons do not inflict as much damage as some other weapons, but they disrupt the electrical systems on any ship they hit, draining its energy and causing its weapons to jam. If a ship has sizable battery reserves, this may have little effect, but for a ship running at near its energy generation capacity an ion strike can take it out of the battle for a few seconds while it recovers, or otherwise cause it to have difficulty firing its weapons."
+
+outfit "Quad Ion Cannon (POOT)"
+	"display name" "Quad Ion Cannon"
+	category "Guns"
+	series "Guns"
+	index 02033
+	cost 2570000
+	thumbnail "poot-exp/outfit/ion_cannon_quad"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "poot-exp/ion_soft"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"velocity" 18
+		"lifetime" 55
+		"reload" 15
+		"firing energy" 125
+		"firing force" 15
+		"firing heat" 165
+		"hit force" 180
+		"shield damage" 174
+		"hull damage" 64
+		"ion damage" 6.4
+		"scrambling damage" 6.4
+	description "Ion cannons do not inflict as much damage as some other weapons, but they disrupt the electrical systems on any ship they hit, draining its energy and causing its weapons to jam. If a ship has sizable battery reserves, this may have little effect, but for a ship running at near its energy generation capacity an ion strike can take it out of the battle for a few seconds while it recovers, or otherwise cause it to have difficulty firing its weapons."
+
+outfit "Quad Ion Turret (POOT)"
+	"display name" "Quad Ion Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02033
+	cost 3340000
+	thumbnail "poot-exp/outfit/ion_cannon_turret_quad"
+	"mass" 195
+	"outfit space" -195
+	"weapon capacity" -195
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_turret_quad"
+			"scale" .7
+		"hardpoint offset" 16.
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "poot-exp/ion_soft"
+		"hit effect" "ion impact" 2
+		"turret turn" 1.9
+		"inaccuracy" 1
+		"velocity" 18
+		"lifetime" 55
+		"reload" 15
+		"firing energy" 125
+		"firing force" 15
+		"firing heat" 165
+		"hit force" 180
+		"shield damage" 174
+		"hull damage" 64
+		"ion damage" 6.4
+		"scrambling damage" 6.4
+	description "Ion cannons do not inflict as much damage as some other weapons, but they disrupt the electrical systems on any ship they hit, draining its energy and causing its weapons to jam. If a ship has sizable battery reserves, this may have little effect, but for a ship running at near its energy generation capacity an ion strike can take it out of the battle for a few seconds while it recovers, or otherwise cause it to have difficulty firing its weapons."
+
+outfit "Modified Unfettered Ion Turret (POOT)"
+	"display name" "Modified Unfettered Ion Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02034
+	cost 11290000
+	thumbnail "poot-exp/outfit/ion_cannon_modified_turret"
+	"mass" 520
+	"outfit space" -370
+	"weapon capacity" -370
+	"turret mounts" -1
+	"required crew" 3
+	"heat generation" 6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_turret_quad"
+			"scale" .7
+		"hardpoint offset" 16.
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "poot-exp/ion_soft"
+		"hit effect" "ion impact" 2
+		"turret turn" 1.2
+		"inaccuracy" 1
+		"velocity" 24
+		"lifetime" 60
+		"reload" 7.5
+		"firing energy" 135
+		"firing force" 15
+		"firing heat" 210
+		"hit force" 140
+		"shield damage" 174
+		"hull damage" 64
+		"ion damage" 6.4
+		"scrambling damage" 6.4
+	description "Forsaking everything that modern Hai engineering stands for, this highly inefficient, colossal and intensively modified Ion turret is equipped with a wopping 8 Ion Cannons, firing at incredibly high speeds for such large cannons. For what purpose this turret was made is unknown, but it is highly condensed and compacted for such a massive weapon, which causes no shortage of heating problems."
+
+outfit "Ionic Infusion Cannon (POOT)"
+	"display name" "Ionic Infusion Cannon"
+	category "Guns"
+	series "Guns"
+	index 02035
+	cost 1240000
+	thumbnail "poot-exp/outfit/hai_ion_cannon_heavy"
+	"mass" 75
+	"outfit space" -75
+	"weapon capacity" -75
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/heavy_ion_cannon"
+			"frame rate" 30
+		sound "poot-exp/heavy_ion"
+		"hit effect" "ion infusion impact 1 (POOT)" 1
+		"hit effect" "ion infusion impact 2 (POOT)" 1
+		"hit effect" "ion infusion spark (POOT)" 20
+		"hit effect" "ion infusion spark 2 (POOT)" 10
+		"hit effect" "ion infusion spark 3 (POOT)" 35
+		"inaccuracy" 1
+		"velocity" 55
+		"lifetime" 70
+		"reload" 160
+		"firing energy" 1400
+		"firing force" 150
+		"firing heat" 1200
+		"hit force" 400
+		"shield damage" 1770
+		"hull damage" 1400
+		"ion damage" 24
+		"scrambling damage" 24
+		"blast radius" 75
+	description "By using a large amount of power to charge an infused ionic bolt, the Ionic Infusion Cannon is capable of doing much larger damage than a Hai Ion Cannon."
+
+outfit "Ionic Infusion Turret (POOT)"
+	"display name" "Ionic Infusion Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02035
+	cost 1960000
+	thumbnail "poot-exp/outfit/hai_ion_cannon_heavy_turret"
+	"mass" 85
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_infusion_turret"
+			"scale" .9
+		"hardpoint offset" 90.
+		sprite "poot-exp/projectile/heavy_ion_cannon"
+			"frame rate" 30
+		sound "poot-exp/heavy_ion"
+		"hit effect" "ion infusion impact 1 (POOT)" 1
+		"hit effect" "ion infusion impact 2 (POOT)" 1
+		"hit effect" "ion infusion spark (POOT)" 20
+		"hit effect" "ion infusion spark 2 (POOT)" 10
+		"hit effect" "ion infusion spark 3 (POOT)" 35
+		"turret turn" 1.5
+		"inaccuracy" 1
+		"velocity" 55
+		"lifetime" 70
+		"reload" 160
+		"firing energy" 1400
+		"firing force" 150
+		"firing heat" 1200
+		"hit force" 400
+		"shield damage" 1770
+		"hull damage" 1400
+		"ion damage" 24
+		"scrambling damage" 24
+		"blast radius" 75
+	description "By using a large amount of power to charge an infused ionic bolt, the Ionic Infusion Cannon is capable of doing much larger damage than a Hai Ion Cannon."
+
+outfit "Ionic Infusion Dual Cannon (POOT)"
+	"display name" "Ionic Infusion Dual Cannon"
+	category "Guns"
+	series "Guns"
+	index 02036
+	cost 3890000
+	thumbnail "poot-exp/outfit/hai_ion_cannon_heavy_twin"
+	"mass" 160
+	"outfit space" -160
+	"weapon capacity" -160
+	"gun ports" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/heavy_ion_cannon"
+			"frame rate" 30
+		sound "poot-exp/heavy_ion"
+		"hit effect" "ion infusion impact 1 (POOT)" 1
+		"hit effect" "ion infusion impact 2 (POOT)" 1
+		"hit effect" "ion infusion spark (POOT)" 20
+		"hit effect" "ion infusion spark 2 (POOT)" 10
+		"hit effect" "ion infusion spark 3 (POOT)" 35
+		"inaccuracy" 1
+		"velocity" 55
+		"lifetime" 70
+		"reload" 80
+		"firing energy" 1400
+		"firing force" 150
+		"firing heat" 1200
+		"hit force" 400
+		"shield damage" 1770
+		"hull damage" 1400
+		"ion damage" 24
+		"scrambling damage" 24
+		"blast radius" 75
+	description "By using a large amount of power to charge an infused ionic bolt, the Ionic Infusion Cannon is capable of doing much larger damage than a Hai Ion Cannon."
+
+outfit "Ionic Infusion Twin Turret (POOT)"
+	"display name" "Ionic Infusion Twin Turret"
+	category "Turrets"
+	series "Turrets"
+	index 02036
+	cost 4220000
+	thumbnail "poot-exp/outfit/hai_ion_cannon_heavy_turret_twin"
+	"mass" 175
+	"outfit space" -175
+	"weapon capacity" -175
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_infusion_turret_twin"
+			"scale" .9
+		"hardpoint offset" 90.
+		sprite "poot-exp/projectile/heavy_ion_cannon"
+			"frame rate" 30
+		sound "poot-exp/heavy_ion"
+		"hit effect" "ion infusion impact 1 (POOT)" 1
+		"hit effect" "ion infusion impact 2 (POOT)" 1
+		"hit effect" "ion infusion spark (POOT)" 20
+		"hit effect" "ion infusion spark 2 (POOT)" 10
+		"hit effect" "ion infusion spark 3 (POOT)" 35
+		"turret turn" 1.5
+		"inaccuracy" 1
+		"velocity" 55
+		"lifetime" 70
+		"reload" 80
+		"firing energy" 1400
+		"firing force" 150
+		"firing heat" 1200
+		"hit force" 400
+		"shield damage" 1770
+		"hull damage" 1400
+		"ion damage" 24
+		"scrambling damage" 24
+		"blast radius" 75
+	description "By using a large amount of power to charge an infused ionic bolt, the Ionic Infusion Cannon is capable of doing much larger damage than a Hai Ion Cannon."
+
+effect "ion infusion impact 1 (POOT)"
+	sprite "poot-exp/effect/ion_infusion_cannon_hit"
+		"no repeat"
+		"scale" 2
+		"frame rate" 15
+	sound "ion impact"
+	"lifetime" 18
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 1
+	"velocity scale" 0
+    
+effect "ion infusion impact 2 (POOT)"
+	sprite "poot-exp/effect/ion_infusion_cannon_hit"
+		"no repeat"
+		"scale" 2
+		"frame rate" 15
+	"sound" "explosion large"
+	"lifetime" 18
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 1
+	"velocity scale" 0
+
+effect "ion infusion spark (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .75
+		"frame rate" 15
+		"random start frame"
+		"no repeat"
+	"lifetime" 8
+	"random lifetime" 7
+	"random angle" 360
+	"random velocity" 15
+	"random spin" 1
+	"velocity scale" 0.0
+
+effect "ion infusion spark 2 (POOT)"
+	sprite "poot-exp/effect/pug_revenant_impact"
+		"scale" .4
+		"frame rate" 15
+		"random start frame"
+		"no repeat"
+	"lifetime" 8
+	"random lifetime" 4
+	"random angle" 360
+	"random velocity" 15
+	"random spin" 1
+	"velocity scale" 0.0
+
+effect "ion infusion spark 3 (POOT)"
+	sprite "poot-exp/effect/ionic_railgun_spark"
+		"random start frame"
+		"frame rate" 10
+		"scale" 1.5
+		"no repeat"
+	"lifetime" 18
+	"random lifetime" 4
+	"random angle" 360
+	"random velocity" 17
+	"velocity scale" .05

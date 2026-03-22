@@ -1,0 +1,178 @@
+
+outfit "Ember Tear"
+	weapon
+		icon "poot-exp/icon/embertear"
+
+outfit "Ember Tear Turret (POOT)"
+	"display name" "Ember Tear Turret"
+	category "Turrets"
+	series "Turrets"
+	index 10150
+	licenses
+		"Remnant Capital"
+	cost 270000000
+	thumbnail "outfit/ember tear"
+	"mass" 250
+	"outfit space" -190
+	"weapon capacity" -200
+	"turret mounts" -1
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		icon "poot-exp/icon/embertear"
+		sprite "projectile/ember tear/ember tear"
+			"frame rate" 30
+		sound "ember tear"
+		"hit effect" "ember tear spark"
+		"hit effect" "ember tear impact"
+		"hit effect" "ember tear vortex"
+		"fire effect" "ember tear fire"
+		"velocity" 800
+		"inaccuracy" 0
+		"turret turn" 1.8
+		"safe"
+		"lifetime" 1
+		"reload" 1
+		"firing force" 1
+		"blast radius" 150
+		"firing energy" 230
+		"firing fuel" 10
+		"firing heat" 105
+		"shield damage" 250
+		"hull damage" 250
+		"slowing damage" 10
+		"fuel damage" 2.5
+	description "The Ember Wastes are an anomalous region subject to forces that defy conventional physics: Energy spontaneously pouring from the vacuum, material density far greater than one would expect to find in space - even around a nebula, a concentration of wormholes unheard of in the galaxy, and regions where the universe itself seems to be in flux. This region, more than any building or ship, is the Remnant laboratory where they study the deepest workings of the universe."
+	description "	When asked to clarify whether the name refers to either ripping or crying, the technician looks at you with a curious expression, and replies 'both.' They then go on to explain that a very simplistic explanation for this weapon is that it is making micro-tears in the fabric of space-time, then cauterizing them together again. Should not the Ember Wastes cry at the necessity of such weapons?"
+	description "	These massive weapons require special hardpoints, and are built in such few number that the Remnant distribute them directly on an as-needed basis. Due to the prodigious energy and fuel requirements, only the most massive of Remnant ships can support regular use of these weapons."
+
+outfit "Ember Monsoon (POOT)"
+	"display name" "Ember Monsoon"
+	category "Guns"
+	series "Guns"
+	index 10151
+	licenses
+		"Remnant Capital"
+	cost 450000000
+	thumbnail "poot-exp/outfit/ember-monsoon"
+	"mass" 500
+	"outfit space" -290
+	"weapon capacity" -300
+	"gun ports" -1
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		icon "poot-exp/icon/embermonsoon"
+		sprite "poot-exp/projectile/embermonsoon/ember_monsoon"
+			"frame rate" 30
+		sound "ember tear"
+		"hit effect" "ember tear spark"
+		"hit effect" "ember monsoon impact"
+		"hit effect" "ember monsoon vortex"
+		"fire effect" "ember monsoon fire"
+		"velocity" 2000
+		"inaccuracy" 0
+		"safe"
+		"lifetime" 1
+		"reload" 1
+		"firing force" 5
+		"blast radius" 200
+		"firing energy" 790
+		"firing fuel" 3
+		"firing heat" 210
+		"shield damage" 375
+		"hull damage" 375
+		"slowing damage" 20
+		"fuel damage" 1
+	description "A colossal upgrade to an already titanic weapon. The Ember Monsoon boasts higher damage, lower fuel consumption, and a massive range increase. Such features are not to bear without their hinderances, however, as the Ember Monsoon has a much higher heat output, and consumes as much energy as an entire fleet of starships firing in unison."
+	description `	They say "Absolute power corrupts absolutely". Will it?`
+   
+outfit "Ember Monsoon Turret (POOT)"
+	"display name" "Ember Monsoon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 10151
+	licenses
+		"Remnant Capital"
+	cost 450000000
+	thumbnail "poot-exp/outfit/ember-monsoon"
+	"mass" 500
+	"outfit space" -290
+	"weapon capacity" -300
+	"turret mounts" -1
+	"spinal mount" -1
+	"unplunderable" 1
+	weapon
+		sprite "poot-exp/projectile/embermonsoon/ember_monsoon"
+			"frame rate" 30
+		sound "ember tear"
+		"hit effect" "ember monsoon spark" 2
+		"hit effect" "ember monsoon impact"
+		"hit effect" "ember monsoon vortex"
+		"fire effect" "ember monsoon fire"
+		icon "poot-exp/icon/embermonsoon"
+		"velocity" 2000
+		"inaccuracy" 0
+		"turret turn" 1
+		"safe"
+		"lifetime" 1
+		"reload" 1
+		"firing force" 5
+		"blast radius" 200
+		"firing energy" 790
+		"firing fuel" 3
+		"firing heat" 210
+		"shield damage" 375
+		"hull damage" 375
+		"slowing damage" 20
+		"fuel damage" 1
+	description "A colossal upgrade to an already titanic weapon. The Ember Monsoon boasts higher damage, lower fuel consumption, and a massive range increase. Such features are not to bear without their hinderances, however, as the Ember Monsoon has a much higher heat output, and consumes as much energy as an entire fleet of starships firing in unison."
+	description `	They say "Absolute power corrupts absolutely". Will it?`
+
+effect "ember monsoon spark"
+	sprite "poot-exp/effect/ember_monsoon/ember_monsoon_spark"
+		"start frame" 0
+		"no repeat"
+		"scale" 1.25
+		"frame rate" 30
+	"lifetime" 10
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 10
+	"random frame rate" 10
+
+effect "ember monsoon fire"
+	sprite "poot-exp/effect/ember_monsoon/ember_monsoon_fire"
+		"start frame" 0
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 3
+	"velocity scale" 1
+	"random angle" 360
+	"random velocity" 3
+	"random frame rate" 10
+
+effect "ember monsoon impact"
+	sprite "poot-exp/effect/ember_monsoon/ember_monsoon_impact"
+		"start frame" 1
+		"no repeat"
+		"scale" 1.25
+		"frame rate" 60
+	"lifetime" 3
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 10
+	"random frame rate" 10
+
+effect "ember monsoon vortex"
+	sprite "poot-exp/effect/ember_monsoon/ember_monsoon_vortex"
+		"start frame" 0
+		"no repeat"
+		"scale" 1.25
+		"frame rate" 10
+	"sound" "ember tear hit"
+	"lifetime" 100
+	"velocity scale" 0
+	"random angle" 360
+	"random velocity" 0
+	"random frame rate" 30

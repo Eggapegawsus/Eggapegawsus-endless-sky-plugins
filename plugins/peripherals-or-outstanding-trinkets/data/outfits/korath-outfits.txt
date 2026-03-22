@@ -1,0 +1,235 @@
+
+outfit "Sextuple Plasma Core (POOT)"
+	"display name" `Sextuple Plasma Core`
+	category "POOT Technology"
+	series "Generators"
+	index 04065
+	cost 32960000
+	thumbnail "poot-exp/outfit/plasma_core_sextuple"
+	"mass" 316
+	"outfit space" -316
+	"energy generation" 91.7
+	"heat generation" 310.0
+	"reactor core expansions" 90
+	description "This is what it means to go even further beyond... "
+	description "   An organized mess of six plasma cores stacked ontop of each other, making up one of the largest generators to roam the skies. Only the most colossal of korath capital ships require one, let alone have the cooling capacity for it."
+
+outfit "Huge Heat Shunt (POOT)"
+	"display name" `Huge Heat Shunt`
+	category "POOT Technology"
+	series "Cooling"
+	index 04020
+	cost 1980000
+	thumbnail "poot-exp/outfit/huge_korath_heatshunt"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 124
+	description "This collection of Korath cooling equipment weighs more than some smaller starships. The ideal solution for helping with the Korath's captial equipment's heating inefficiencies."
+
+outfit "Systems Core (Huge) (POOT)"
+	"display name" `Systems Core (Huge)`
+	plural "Systems Cores (Huge)"
+	category "POOT Technology"
+	series "Shields"
+	index 04041
+	cost 21840000
+	thumbnail "poot-exp/outfit/huge_systems_core"
+	"mass" 171
+	"outfit space" -171
+	"energy capacity" 20800
+	"shield generation" 12.0
+	"shield energy" 16.5
+	"hull repair rate" 1.6
+	"hull energy" 1.6
+	"hull heat" 2.4
+	"reactor core expansions" 70
+	description `A colossal conglomeration of korath central systems and computers, designed with incredibly complex algorithms for maximum shield charging efficiency. At least, as close to maximum efficency as a central ship system of this size can be.`
+
+outfit "Automaton Control Center (POOT)"
+	"display name" `Automaton Control Center`
+	category "POOT Technology"
+	series "Passenger"
+	index 51
+	cost 16870000
+	thumbnail "outfit/command center"
+	"mass" 256
+	"outfit space" -126
+	"energy consumption" 10
+	"automaton" 1
+	unplunderable 1
+	"reactor core expansions" 22
+	description "A collection of central components from a variety of Korath automaton internal systems, this incredibly bulky control center is capable of fully automating almost any ship. Utilizing a custom internal microbot constructor, it can create and control enough microbots to fully automate any vessel its installed on. The process, however, requires a massive amount of space and power to fully energize and operate."
+
+outfit "Optimized Plasma Core (POOT)"
+	"display name" `Optimized Plasma Core`
+	category "POOT Technology"
+	series "Generators"
+	index 04041
+	cost 6388000
+	thumbnail "poot-exp/outfit/plasma_core_optimized"
+	"mass" 140
+	"outfit space" -70
+	"energy generation" 23.5
+	"heat generation" 48.0
+	"reactor core expansions" 24
+	description "An incredibly powerful and optimized plasma fusion reactor, this modern recreation of the ancient Korath reactor is capable of a greater energy output while producing overall less heat. By confining its generation into a far more compact space, it is capable of working with particles at a far higher preassure and tempurature. The reactor itself is made out of much stronger and denser metals to be able to handle the increased internal load, making it weigh much more than standard Korath plasma cores."
+
+outfit "Optimized Double Plasma Core (POOT)"
+	"display name" `Optimized Double Plasma Core`
+	category "POOT Technology"
+	series "Generators"
+	index 04052
+	cost 11721000
+	thumbnail "poot-exp/outfit/plasma_core_optimized_double"
+	"mass" 242
+	"outfit space" -121
+	"energy generation" 45.4
+	"heat generation" 99.0
+	"reactor core expansions" 50
+	description "A combination of two of the automatons modern Plasma Core reactors."
+
+outfit "Optimized Triple Plasma Core (POOT)"
+	"display name" `Optimized Triple Plasma Core`
+	category "POOT Technology"
+	series "Generators"
+	index 04062
+	cost 27360000
+	thumbnail "poot-exp/outfit/plasma_core_optimized_triple"
+	"mass" 394
+	"outfit space" -197
+	"energy generation" 97.8
+	"heat generation" 221.7
+	"reactor core expansions" 76
+	description "For the largest of their capital ships, the Korath designed a fusion reactor far more powerful than any comparable human technology."
+
+outfit "Optimized Sextuple Plasma Core (POOT)"
+	"display name" `Optimized Sextuple Plasma Core`
+	category "POOT Technology"
+	series "Generators"
+	index 04066
+	cost 49560000
+	thumbnail "poot-exp/outfit/plasma_core_optimized_sextuple"
+	"mass" 798
+	"outfit space" -399
+	"energy generation" 201.7
+	"heat generation" 477.0
+	"reactor core expansions" 158
+	description "This is what happens when years of unchecked autonomous war machines continue to evolve and grow. An unholy mechination of six fusion reactors, firing in unison to generate an overwhelming amount of energy. The heat output of this outfit is so intense, there are rumors if it being detectable by thermal radar equipment across multiple star systems."
+
+#capital_korath_engines
+
+
+outfit "Korath Omni-Drive Engines (Galactic Class) (POOT)"
+	"display name" `Korath Omni-Drive Engines (Galactic Class)`
+	category "POOT Technology"
+	series "Engines"
+	index 04071
+	"cost" 15745000
+	thumbnail "poot-exp/outfit/gigantic_korath_mixed_engines"
+	"mass" 385
+	"outfit space" -385
+	"engine capacity" -385
+	"weapon capacity" -121
+	"thrust" 471.3
+	"thrusting energy" 32.9
+	"thrusting heat" 88.8
+	"flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	"turn" 12807.7
+	"turning energy" 18.7
+	"turning heat" 59.5
+	"steering flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"steering flare sound" "plasma huge"
+	"reverse thrust" 471.3
+	"reverse thrusting energy" 32.9
+	"reverse thrusting heat" 88.8
+	"reverse flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"reverse flare sound" "plasma huge"
+	"afterburner thrust" 1279.6
+	"afterburner energy" 32.77
+	"afterburner heat" 420.1
+	"afterburner fuel" 4.01
+	"afterburner effect" "korath afterburner colossal"
+	"active cooling" 40
+	"cooling energy" 2
+	"heat capacity" 1500
+	description "An absolute unit of its own class, these Korath omni-directional engines are larger than some of the Automatons smaller ships. Only the largest of Korath Warships could ever find a practical use in engines of this size."
+	description "	This Korath engine has been heavily modified to be partially installed in a ship's weapon space, allowing it to push the ship in reverse, steer side to side, and provide an additional boost to forward thrust."
+
+outfit "Korath Omni-Drive Engines (Universe Class) (POOT)"
+	"display name" `Korath Omni-Drive Engines (Universe Class)`
+	category "POOT Technology"
+	series "Engines"
+	index 04072
+	"cost" 27754000
+	thumbnail "poot-exp/outfit/capital_korath_mixed_engines"
+	"mass" 825
+	"outfit space" -825
+	"engine capacity" -825
+	"weapon capacity" -312
+	"thrust" 1357.2
+	"thrusting energy" 101.4
+	"thrusting heat" 257.7
+	"flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	"turn" 39970.1
+	"turning energy" 51.7
+	"turning heat" 167.3
+	"steering flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"steering flare sound" "plasma huge"
+	"reverse thrust" 1357.2
+	"reverse thrusting energy" 101.4
+	"reverse thrusting heat" 257.7
+	"reverse flare sprite" "poot-exp/effect/colossal_engines/korath_colossal"
+		"scale" .8
+		"frame rate" 9
+	"reverse flare sound" "plasma huge"
+	"afterburner thrust" 2895.7
+	"afterburner energy" 100.91
+	"afterburner heat" 1321.4
+	"afterburner fuel" 12.51
+	"afterburner effect" "korath afterburner capital"
+	"active cooling" 145
+	"cooling energy" 5.5
+	"heat capacity" 10000
+	description "Weighing as much as a medium-sized warship, these gargantuan Korath engines are the mother of all interstellar propulsion. From a distance, the jets of flame erupting from these titanic engines often tend to be confused for solar flares. That is, until those observing them realize there's actually a ship attatched to the roaring inferno blazing from the cluster of engine exhausts pipes."
+	description "	This Korath engine has been extesnively modified and overhauled, resulting in a need to be installed into the weapon space of a ship, allowing it to provide immensely strong thrust for the ship in reverse, steering side to side, and providing a colossal boost to forward thrust."
+
+
+effect "korath afterburner colossal"
+	sprite "poot-exp/effect/korath_capital_afterburner/korath_capital_afterburner"
+		scale 2
+		"no repeat"
+		"frame rate" 20
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 32
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
+
+effect "korath afterburner capital"
+	sprite "poot-exp/effect/korath_capital_afterburner/korath_capital_afterburner"
+		scale 2.2
+		"no repeat"
+		"frame rate" 20
+	sound "korath afterburner"
+	"sound category" "afterburner"
+	"lifetime" 32
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1

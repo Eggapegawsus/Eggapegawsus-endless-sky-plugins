@@ -1,0 +1,177 @@
+
+outfit "Stellar Minitail (POOT)"
+	"display name" `Stellar Minitail`
+	category "Guns"
+	series "Guns"
+	index 12011
+	cost 3200000
+	mass 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	thumbnail "poot-exp/outfit/stellar_tail"
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "projectile/star tail"
+			"frame rate" 12
+		"hit effect" "stellar minitail hit (POOT)"
+		"live effect" "stellar minitail live (POOT)" 160
+		sound "poot-exp/stellar_tail"
+		"inaccuracy" 4
+		"turret turn" 4
+		"velocity" 10
+		"lifetime" 160
+		"reload" 8
+		"firing energy" 4
+		"firing heat" 2
+		"shield damage" 42
+		"hull damage" 44
+		acceleration 5
+		drag .2
+		"homing"
+		"radar tracking" 1
+		"turn" 1.5
+		"cluster"
+	description "Half volatile plasma chunk launcher, half shark, completely awesome."
+
+outfit "Stellar Minitail Turret (POOT)"
+	"display name" `Stellar Minitail Turret`
+	category "Turrets"
+	series "Turrets"
+	index 12011
+	cost 3200000
+	mass 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	thumbnail "poot-exp/outfit/stellar_tail"
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "projectile/star tail"
+			"frame rate" 12
+		"hit effect" "stellar minitail hit (POOT)"
+		"live effect" "stellar minitail live (POOT)" 160
+		sound "poot-exp/stellar_tail"
+		"inaccuracy" 4
+		"turret turn" 4
+		"velocity" 10
+		"lifetime" 160
+		"reload" 8
+		"firing energy" 4
+		"firing heat" 2
+		"shield damage" 42
+		"hull damage" 44
+		acceleration 5
+		drag .2
+		"homing"
+		"radar tracking" 1
+		"turn" 1.5
+		"cluster"
+	description "Half volatile plasma chunk launcher, half shark, completely awesome."
+
+outfit "Stellar Megatail (POOT)"
+	"display name" `Stellar Megatail`
+	category "Guns"
+	series "Guns"
+	index 12012
+	cost 3200000
+	mass 97
+	"outfit space" -97
+	"weapon capacity" -97
+	"gun ports" -1
+	thumbnail "poot-exp/outfit/stellar_tail_mega"
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "poot-exp/projectile/stellar_tail_mega"
+			"frame rate" 12
+		"hit effect" "stellar megatail hit (POOT)"
+		"live effect" "stellar megatail live (POOT)" 220
+		sound "poot-exp/stellar_tail_mega"
+		"inaccuracy" 3
+		"velocity" 10
+		"lifetime" 220
+		"reload" 6
+		"firing energy" 20
+		"firing heat" 10
+		"shield damage" 125
+		"hull damage" 135
+		acceleration 6
+		drag .2
+		"homing"
+		"radar tracking" 1
+		"optical tracking" 1
+		"turn" 2.5
+		"cluster"
+	description "Half volatile plasma chunk launcher, half shark, completely awesome."
+
+outfit "Stellar Megatail Turret (POOT)"
+	"display name" `Stellar Megatail Turret`
+	category "Turrets"
+	series "Turrets"
+	index 12012
+	cost 3200000
+	mass 97
+	"outfit space" -97
+	"weapon capacity" -97
+	"turret mounts" -1
+	thumbnail "poot-exp/outfit/stellar_tail_mega"
+	licenses
+		"Hicemus Conflict"
+	weapon
+		sprite "poot-exp/projectile/stellar_tail_mega"
+			"frame rate" 12
+		"hit effect" "stellar megatail hit (POOT)"
+		"live effect" "stellar megatail live (POOT)" 220
+		sound "poot-exp/stellar_tail_mega"
+		"inaccuracy" 3
+		"turret turn" 4
+		"velocity" 10
+		"lifetime" 220
+		"reload" 6
+		"firing energy" 20
+		"firing heat" 10
+		"shield damage" 125
+		"hull damage" 135
+		acceleration 6
+		drag .2
+		"homing"
+		"radar tracking" 1
+		"optical tracking" 1
+		"turn" 2.5
+		"cluster"
+	description "Half volatile plasma chunk launcher, half shark, completely awesome."
+
+effect "stellar minitail hit (POOT)"
+	sprite "effect/star tail hit"
+		"no repeat"
+		"frame rate" 40
+	sound "explosion small"
+	"lifetime" 30
+	"velocity scale" 0.
+
+effect "stellar minitail live (POOT)"
+	sprite "effect/star tail live"
+		"scale" .4
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 30
+	"velocity scale" 0.
+
+effect "stellar megatail hit (POOT)"
+	sprite "poot-exp/effect/stellar_tail/stellar_tail_mega_hit"
+		"no repeat"
+		"frame rate" 40
+	sound "explosion small"
+	"lifetime" 30
+	"velocity scale" 0.
+
+effect "stellar megatail live (POOT)"
+	sprite "poot-exp/effect/stellar_tail/stellar_tail_mega_live"
+		"scale" .4
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 30
+	"velocity scale" 0.

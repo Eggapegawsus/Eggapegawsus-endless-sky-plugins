@@ -1,0 +1,504 @@
+
+ship "THE CUBE (Poot)"
+	"display name" `The Cube`
+	sprite "poot-exp/ship/poot/The-Cube"
+	attributes
+		category "Superheavy"
+		"cost" 0
+		"shields" 10000000
+		"hull" 10000000
+		"required crew" 1
+		"bunks" 9500
+		"mass" 25000
+		"drag" 97
+		"heat dissipation" .47
+		"fuel capacity" 1000
+		"cargo space" 55500
+		"outfit space" 225000
+		"weapon capacity" 77777
+		"engine capacity" 77777
+		"hull repair rate" 500
+		"hull energy" 500
+		"ramscoop" 10
+		"spinal mount" 120
+		weapon
+			"blast radius" 5000
+			"shield damage" 200000
+			"hull damage" 100000
+			"hit force" 25000
+	outfits
+		"A4270 Atomic Engines (POOT)"
+		"A945 Atomic Afterburner (POOT)" 2
+		"Colossal Graviton Engines (POOT)"
+		"Domination Plasma Engines (POOT)"
+		"Dual Particle Heavy Turret (POOT)" 5
+		"Dual Proton Heavy Turret (POOT)" 5
+		"Emporer Beetle Pendant (POOT)" 20
+		"Engineered Nuclear Power Plant (POOT)" 50
+		"Heavy Ancient Combustion Steering (POOT)"
+		"Heavy Ancient Combustion Thruster (POOT)"
+		`Heavy Thermal "Threepeater" Turret (POOT)` 5
+		"Ionic Afterburner Infuser (POOT)" 500
+		"Ionic Infusion Twin Turret (POOT)" 5
+		"Korath Tripulse Detainer (POOT)" 10
+		"Korath Wildfire (POOT)" 5
+		"LP1740a Battery Pack (POOT)" 40
+		"Large Fuel System (POOT)" 50
+		"Laser-Tag Rifle (POOT)" 1000
+		`Modified "Octogatler" Gatling Turret (POOT)` 5
+		"Nuclear Missile Assembling Chamber (POOT)" 10
+		"Optimized Steering Accelerator (POOT)" 100
+		"Optimized Thrust Accelerator (POOT)" 100
+		"Phalanx System" 1000
+		"Plasma Core Addition (POOT)" 300
+		"Plasma Flamethrower Turret (POOT)" 10
+		"Pug Biodefenses" 1000
+		"Pug T3 Helios (POOT)" 5
+		"Pug T5 Deepspace Zapper (POOT)" 5
+		"Pug T5 Twin Deepspace Tracer (POOT)" 5
+		"Quantum Chamber (POOT)" 10
+		"Quantum Jump Drive (POOT)"
+		"Quarg Elite Celestial Culverin (POOT)" 5
+		"Quarg Elite Celestial Culverin Turret (POOT)" 5
+		"Quarg Harbinger (POOT)" 5
+		"Quarg Heavy Astral Ribault (POOT)" 5
+		"Quarg Master Repair Hub (POOT)" 100
+		"Quarg Orion Shield Generator (POOT)" 100
+		"Quarg Vindicator Turret (POOT)" 5
+		"Reactor Heating Shunt (POOT)" 1800
+		"Security Station" 1000
+		"Thermal Repeater Rifle" 1000
+		"Triple Neutron Torpedo Launcher (POOT)" 10
+		"Twin Neutron Beam Turret (POOT)" 5
+		"Twin Superheavy Blaster Turret (POOT)" 5
+		"X21700 Ion Engines (POOT)"
+		
+	engine 8.5 772
+		zoom 5
+		angle 0
+		gimbal 0
+		under
+	engine 151 713.5
+		zoom 5
+		angle 0
+		gimbal 0
+		under
+	engine -139 713.5
+		zoom 5
+		angle 0
+		gimbal 0
+		under
+	engine 291 715.5
+		zoom 5
+		angle 0
+		gimbal 0
+		under
+	engine -277 713.5
+		zoom 5
+		angle 0
+		gimbal 0
+		under
+	gun 184 -772.5 "Pug T5 Twin Deepspace Tracer (POOT)"
+		under
+	gun -185 -772.5 "Pug T5 Twin Deepspace Tracer (POOT)"
+		under
+	gun 372.5 -773 "Pug T5 Twin Deepspace Tracer (POOT)"
+		under
+	gun -370 -773 "Pug T5 Twin Deepspace Tracer (POOT)"
+		under
+	gun 557.5 -773 "Pug T5 Twin Deepspace Tracer (POOT)"
+		under
+	gun -551 -772.5 "Pug T5 Deepspace Zapper (POOT)"
+		under
+	gun 184 -772.5 "Pug T5 Deepspace Zapper (POOT)"
+		under
+	gun -185 -772.5 "Pug T5 Deepspace Zapper (POOT)"
+		under
+	gun 372.5 -773 "Pug T5 Deepspace Zapper (POOT)"
+		under
+	gun -370 -773 "Pug T5 Deepspace Zapper (POOT)"
+		under
+	gun 557.5 -773 "Pug T3 Helios (POOT)"
+		under
+	gun -551 -772.5 "Pug T3 Helios (POOT)"
+		under
+	gun 184 -772.5 "Pug T3 Helios (POOT)"
+		under
+	gun -185 -772.5 "Pug T3 Helios (POOT)"
+		under
+	gun 372.5 -773 "Pug T3 Helios (POOT)"
+		under
+	gun -370 -773 "Quarg Heavy Astral Ribault (POOT)"
+		under
+	gun 557.5 -773 "Quarg Heavy Astral Ribault (POOT)"
+		under
+	gun -551 -772.5 "Quarg Heavy Astral Ribault (POOT)"
+		under
+	gun 184 -772.5 "Quarg Heavy Astral Ribault (POOT)"
+		under
+	gun -185 -772.5 "Quarg Heavy Astral Ribault (POOT)"
+		under
+	gun 372.5 -773 "Quarg Elite Celestial Culverin (POOT)"
+		under
+	gun -370 -773 "Quarg Elite Celestial Culverin (POOT)"
+		under
+	gun 557.5 -773 "Quarg Elite Celestial Culverin (POOT)"
+		under
+	gun -551 -772.5 "Quarg Elite Celestial Culverin (POOT)"
+		under
+	gun 184 -772.5 "Quarg Elite Celestial Culverin (POOT)"
+		under
+	gun -185 -772.5 "Korath Tripulse Detainer (POOT)"
+		under
+	gun 372.5 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun -370 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun 557.5 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun -551 -772.5 "Korath Tripulse Detainer (POOT)"
+		under
+	gun 184 -772.5 "Korath Tripulse Detainer (POOT)"
+		under
+	gun -185 -772.5 "Korath Tripulse Detainer (POOT)"
+		under
+	gun 372.5 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun -370 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun 557.5 -773 "Korath Tripulse Detainer (POOT)"
+		under
+	gun -551 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun 184 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun -185 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun 372.5 -773 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun -370 -773 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun 557.5 -773 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun -551 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun 184 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun -185 -772.5 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun 372.5 -773 "Nuclear Missile Assembling Chamber (POOT)"
+		under
+	gun -370 -773 "Quarg Harbinger (POOT)"
+		under
+	gun 557.5 -773 "Quarg Harbinger (POOT)"
+		under
+	gun -551 -772.5 "Quarg Harbinger (POOT)"
+		under
+	gun 184 -772.5 "Quarg Harbinger (POOT)"
+		under
+	gun -185 -772.5 "Quarg Harbinger (POOT)"
+		under
+	gun 372.5 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun -370 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun 557.5 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun -551 -772.5 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun 184 -772.5 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun -185 -772.5 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun 372.5 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun -370 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun 557.5 -773 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	gun -551 -772.5 "Triple Neutron Torpedo Launcher (POOT)"
+		under
+	turret 1 -649.5 "Twin Neutron Beam Turret (POOT)"
+		over
+	turret -1 508.5 "Dual Proton Heavy Turret (POOT)"
+		over
+	turret -580 -72.5 "Dual Proton Heavy Turret (POOT)"
+		over
+	turret 579 -70.5 "Dual Proton Heavy Turret (POOT)"
+		over
+	turret 39 -689.5 "Twin Neutron Beam Turret (POOT)"
+		over
+	turret -40 -687.5 "Twin Neutron Beam Turret (POOT)"
+		over
+	turret -40 -608.5 "Twin Neutron Beam Turret (POOT)"
+		over
+	turret 38 -609.5 "Twin Neutron Beam Turret (POOT)"
+		over
+	turret -541 -108.5 "Dual Proton Heavy Turret (POOT)"
+		over
+	turret -620 -109.5 "Dual Proton Heavy Turret (POOT)"
+		over
+	turret -619 -30.5 "Twin Superheavy Blaster Turret (POOT)"
+		over
+	turret -539 -31.5 "Twin Superheavy Blaster Turret (POOT)"
+		over
+	turret 538 -110.5 "Twin Superheavy Blaster Turret (POOT)"
+		over
+	turret 617 -110.5 "Twin Superheavy Blaster Turret (POOT)"
+		over
+	turret 538 -28.5 "Twin Superheavy Blaster Turret (POOT)"
+		over
+	turret 619 -30.5 `Modified "Octogatler" Gatling Turret (POOT)`
+		over
+	turret -39 468.5 `Modified "Octogatler" Gatling Turret (POOT)`
+		over
+	turret 40 471.5 `Modified "Octogatler" Gatling Turret (POOT)`
+		over
+	turret -39 550.5 `Modified "Octogatler" Gatling Turret (POOT)`
+		over
+	turret 38 549.5 `Modified "Octogatler" Gatling Turret (POOT)`
+		over
+	turret 1 -649.5 "Ionic Infusion Twin Turret (POOT)"
+		over
+	turret -1 508.5 "Ionic Infusion Twin Turret (POOT)"
+		over
+	turret -580 -72.5 "Ionic Infusion Twin Turret (POOT)"
+		over
+	turret 579 -70.5 "Ionic Infusion Twin Turret (POOT)"
+		over
+	turret 39 -689.5 "Ionic Infusion Twin Turret (POOT)"
+		over
+	turret -40 -687.5 `Heavy Thermal "Threepeater" Turret (POOT)`
+		over
+	turret -40 -608.5 `Heavy Thermal "Threepeater" Turret (POOT)`
+		over
+	turret 38 -609.5 `Heavy Thermal "Threepeater" Turret (POOT)`
+		over
+	turret -541 -108.5 `Heavy Thermal "Threepeater" Turret (POOT)`
+		over
+	turret -620 -109.5 `Heavy Thermal "Threepeater" Turret (POOT)`
+		over
+	turret -619 -30.5 "Korath Wildfire (POOT)"
+		over
+	turret -539 -31.5 "Korath Wildfire (POOT)"
+		over
+	turret 538 -110.5 "Korath Wildfire (POOT)"
+		over
+	turret 617 -110.5 "Korath Wildfire (POOT)"
+		over
+	turret 538 -28.5 "Korath Wildfire (POOT)"
+		over
+	turret 619 -30.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret -39 468.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret 40 471.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret -39 550.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret 38 549.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret 1 -649.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret -1 508.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret -580 -72.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret 579 -70.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret 39 -689.5 "Plasma Flamethrower Turret (POOT)"
+		over
+	turret -40 -687.5 "Dual Particle Heavy Turret (POOT)"
+		over
+	turret -40 -608.5 "Dual Particle Heavy Turret (POOT)"
+		over
+	turret 38 -609.5 "Dual Particle Heavy Turret (POOT)"
+		over
+	turret -541 -108.5 "Dual Particle Heavy Turret (POOT)"
+		over
+	turret -620 -109.5 "Dual Particle Heavy Turret (POOT)"
+		over
+	turret -619 -30.5 "Quarg Elite Celestial Culverin Turret (POOT)"
+		over
+	turret -539 -31.5 "Quarg Elite Celestial Culverin Turret (POOT)"
+		over
+	turret 538 -110.5 "Quarg Elite Celestial Culverin Turret (POOT)"
+		over
+	turret 617 -110.5 "Quarg Elite Celestial Culverin Turret (POOT)"
+		over
+	turret 538 -28.5 "Quarg Elite Celestial Culverin Turret (POOT)"
+		over
+	turret 619 -30.5 "Quarg Vindicator Turret (POOT)"
+		over
+	turret -39 468.5 "Quarg Vindicator Turret (POOT)"
+		over
+	turret 40 471.5 "Quarg Vindicator Turret (POOT)"
+		over
+	turret -39 550.5 "Quarg Vindicator Turret (POOT)"
+		over
+	turret 38 549.5 "Quarg Vindicator Turret (POOT)"
+		over
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter -696 -75.5
+		angle -90
+		"launch effect" "human external"
+	bay Fighter 0 -762.5
+		angle 90
+		"launch effect" "human external"
+	bay Fighter 694.5 -68.5
+		"launch effect" "human external"
+	bay Drone 0 38
+		angle -90
+		"launch effect" "human external"
+	bay Drone 0 -762.5
+		"launch effect" "human external"
+	bay Drone 694.5 -68.5
+		angle 90
+		"launch effect" "human external"
+	explode "large explosion" 40
+	explode "huge explosion" 150
+	"final explode" "final explosion huge" 10
+	description "If you believe in the cube, the cube will believe in you..."

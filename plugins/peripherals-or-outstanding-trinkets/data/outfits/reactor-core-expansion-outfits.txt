@@ -1,0 +1,528 @@
+#
+#   Human
+#
+
+outfit "Supercapacitor Reactor Expansion (POOT)"
+	"display name" `Supercapacitor Reactor Expansion`
+	category "Reactor Expansions"
+	series "Batteries"
+	index 100001
+	cost 5000
+	thumbnail "poot-exp/outfit/reactor/supercapacitor"
+	"reactor core expansions" -.25
+	"mass" .5
+	"energy capacity" 650
+	description "By installing a supercapacitor onto the reactor, it can increase its total electrical storage capacity."
+
+outfit "RL-AA Generation Expansion (POOT)"
+	"display name" `RL-AA Generation Expansion`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100011
+	cost 24000
+	thumbnail "poot-exp/outfit/reactor/reactor_fuel_cell_tiny"
+	"reactor core expansions" -1
+	"mass" 5
+	"energy generation" 1
+	"heat generation" 1.7
+	description "This reactor core expansion slightly synergizes with the reactor, allowing for somewhat boosted reactor energy generation."
+
+outfit "RL-BB Generation Expansion (POOT)"
+	"display name" `RL-BB Generation Expansion`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100012
+	cost 89000
+	thumbnail "poot-exp/outfit/reactor/reactor_fuel_cell_small"
+	"reactor core expansions" -2
+	"mass" 12
+	"energy generation" 2.4
+	"heat generation" 4
+	description "This reactor core expansion synergizes with the reactor, allowing for boosted reactor energy generation."
+
+outfit "RL-CC Generation Expansion (POOT)"
+	"display name" `RL-CC Generation Expansion`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100013
+	cost 201000
+	thumbnail "poot-exp/outfit/reactor/reactor_fuel_cell_medium"
+	"reactor core expansions" -3
+	"mass" 20
+	"energy generation" 3.9
+	"heat generation" 6.1
+	description "This reactor core expansion strongly synergizes with the reactor, allowing for greatly boosted reactor energy generation."
+
+outfit "Reactor Cooling Ductwork (POOT)"
+	"display name" `Reactor Cooling Ductwork`
+	category "Reactor Expansions"
+	series "Cooling"
+	index 100001
+	cost 12000
+	thumbnail "poot-exp/outfit/reactor/reactor_cooling_ducts"
+	"reactor core expansions" -1
+	"mass" 4
+	"cooling" 3
+	description "This reactor core expansion slightly assists in cooling the reactor, reducing heat production."
+
+outfit "Reactor Water Cooling (POOT)"
+	"display name" `Reactor Water Cooling`
+	category "Reactor Expansions"
+	series "Cooling"
+	index 100002
+	cost 45000
+	thumbnail "poot-exp/outfit/reactor/water_cooler"
+	"reactor core expansions" -2
+	"mass" 6
+	"active cooling" 8
+	"cooling energy" 1.5
+	description "This reactor core expansion assists in cooling the reactor, reducing heat production while also consuming some energy to power the process."
+    
+outfit "Reactor Liquid Cooling (POOT)"
+	"display name" `Reactor Liquid Cooling`
+	category "Reactor Expansions"
+	series "Cooling"
+	index 100003
+	cost 175000
+	thumbnail "poot-exp/outfit/reactor/liquid_cooling"
+	"reactor core expansions" -3
+	"mass" 15
+	"active cooling" 9
+	"cooling energy" 1.8
+	"cooling" 7
+	description "This reactor core expansion strongly assists in cooling the reactor, reducing heat production while also consuming some energy to power the process."
+    
+outfit "Battery Expansion (POOT)"
+	"display name" `Battery Expansion`
+	category "Reactor Expansions"
+	series "Batteries"
+	index 100002
+	cost 45000
+	thumbnail "poot-exp/outfit/reactor/reactor_battery"
+	"reactor core expansions" -1
+	"mass" 8
+	"energy capacity" 5000
+	description "Adds an additional battery to the reactor, increasing the maximum energy capacity of said reactor."
+
+outfit "Reactor Shield Matrix (POOT)"
+	"display name" `Reactor Shield Matrix`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100001
+	cost 45000
+	thumbnail "poot-exp/outfit/reactor/shield_matrix"
+	"reactor core expansions" -1
+	"mass" 7
+	"shield generation" .19
+	"shield energy" .19
+	description "A reactor core that when installed onto the reactor, connects with the ships shield matrix, allowing for increased shield generation."
+
+outfit "Reactor Heavy Shield Matrix (POOT)"
+	"display name" `Reactor Heavy Shield Matrix`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100002
+	cost 245000
+	thumbnail "poot-exp/outfit/reactor/shield_matrix_heavy"
+	"reactor core expansions" -3
+	"mass" 35
+	"shield generation" .67
+	"shield energy" .67
+	description "A hefty reactor core that when installed onto the reactor, connects with the ships shield matrix, allowing for a strong increase to shield generation."
+
+outfit "Solar Modifications (POOT)"
+	"display name" `Solar Modifications`
+	plural "Solar Modifications"
+	category "Reactor Expansions"
+	series "Solar"
+	index 100001
+	cost 8000
+	thumbnail "poot-exp/outfit/reactor/solarpanel"
+	"reactor core expansions" -1
+	"mass" 7
+	"solar collection" .3
+	"heat generation" .1
+	description "By installing internal solar processing systems within the reactor, and panels directly connected by wires, this upgrade allows the reactor to collect and process additional solar energy."
+
+outfit "Reactor Solar Overhaul (POOT)"
+	"display name" `Reactor Solar Overhaul`
+	category "Reactor Expansions"
+	series "Solar"
+	index 100002
+	cost 110000
+	thumbnail "poot-exp/outfit/reactor/solarpanel_array"
+	"reactor core expansions" -2
+	"mass" 30
+	"solar collection" 1.5
+	"heat generation" .5
+	description "By installing an extensive solar porcessing unit within the reactor, and solar lining directly connected to the reactor, this upgrade allows the reactor to collect and process plenty of solar energy."
+
+outfit "Small Thrust Accelerator (POOT)"
+	"display name" `Small Thrust Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100001
+	cost 65000
+	thumbnail "poot-exp/outfit/reactor/ion_engine_tiny"
+	"reactor core expansions" -2
+	"mass" 10
+	"thrust" 3.3
+	"thrusting energy" .15
+	"thrusting heat" .20
+	"energy generation" .1
+	"heat generation" .1
+	description "By tweaking reactor output to prioritize the ships thrusters, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Small Steering Accelerator (POOT)"
+	"display name" `Small Steering Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100002
+	cost 55000
+	thumbnail "poot-exp/outfit/reactor/ion_steering_tiny"
+	"reactor core expansions" -2
+	"mass" 10
+	"turn" 70
+	"turning energy" .07
+	"turning heat" .14
+	"energy generation" .05
+	"heat generation" .05
+	description "By tweaking reactor output to prioritize the ships steering engines, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Medium Thrust Accelerator (POOT)"
+	"display name" `Medium Thrust Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100003
+	cost 185000
+	thumbnail "poot-exp/outfit/reactor/ion_engine_medium"
+	"reactor core expansions" -4
+	"mass" 24
+	"thrust" 18.4
+	"thrusting energy" .64
+	"thrusting heat" 1.1
+	"energy generation" .45
+	"heat generation" .45
+	description "By tweaking reactor output to prioritize the ships thrusters, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Medium Steering Accelerator (POOT)"
+	"display name" `Medium Steering Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100004
+	cost 175000
+	thumbnail "poot-exp/outfit/reactor/ion_steering_medium"
+	"reactor core expansions" -4
+	"mass" 20
+	"turn" 314
+	"turning energy" .37
+	"turning heat" .77
+	"energy generation" .29
+	"heat generation" .29
+	description "By tweaking reactor output to prioritize the ships steering engines, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Large Thrust Accelerator (POOT)"
+	"display name" `Large Thrust Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100005
+	cost 495000
+	thumbnail "poot-exp/outfit/reactor/ion_engine_huge"
+	"reactor core expansions" -6
+	"mass" 65
+	"thrust" 46.78
+	"thrusting energy" 2.2
+	"thrusting heat" 4.5
+	"energy generation" 1.75
+	"heat generation" 1.75
+	description "By tweaking reactor output to prioritize the ships thrusters, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Large Steering Accelerator (POOT)"
+	"display name" `Large Steering Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100006
+	cost 472000
+	thumbnail "poot-exp/outfit/reactor/ion_steering_huge"
+	"reactor core expansions" -6
+	"mass" 51
+	"turn" 1441
+	"turning energy" 1.3
+	"turning heat" 2.9
+	"energy generation" 1
+	"heat generation" 1
+	description "By tweaking reactor output to prioritize the ships steering engines, this reactor core expansion can utilize its additional energy generation and improve a ships mobility."
+
+outfit "Optimized Thrust Accelerator (POOT)"
+	"display name" `Optimized Thrust Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100007
+	cost 1292000
+	thumbnail "poot-exp/outfit/reactor/large_engine_optimized"
+	"reactor core expansions" -6
+	"mass" 54
+	"thrust" 67.42
+	"thrusting energy" 2.4
+	"thrusting heat" 4.34
+	description "An optimized piece of energy redirection technology that can direct attatch to a reactor to redirect more power output to a ships thrusters. While this reactor modification is highly efficient, it also lacks an additional energy generator like the standard thrust expansions are equipped with."
+
+outfit "Optimized Steering Accelerator (POOT)"
+	"display name" `Optimized Steering Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100008
+	cost 1145000
+	thumbnail "poot-exp/outfit/reactor/large_steering_optimized"
+	"reactor core expansions" -6
+	"mass" 41
+	"turn" 2211
+	"turning energy" 1.4
+	"turning heat" 2.8
+	description "An optimized piece of energy redirection technology that can direct attatch to a reactor to redirect more power output to a ships steering engines. While this reactor modification is highly efficient, it also lacks an additional energy generator like the standard steering expansions are equipped with."
+
+outfit "Small Reverse Accelerator (POOT)"
+	"display name" `Small Reverse Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100009
+	"cost" 44000
+	thumbnail "poot-exp/outfit/reactor/small_reverse_thruster"
+	"reactor core expansions" -1.5
+	"mass" 7
+	"reverse thrust" 4.57
+	"reverse thrusting energy" .2
+	"reverse thrusting heat" .3
+	"energy generation" .14
+	"heat generation" .14
+	description "A small reactor core expansion that allows for energy redirection to a ships reverse thrusters."
+
+outfit "Large Reverse Accelerator (POOT)"
+	"display name" `Large Reverse Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100010
+	"cost" 490000
+	thumbnail "poot-exp/outfit/reactor/large_reverse_thruster"
+	"reactor core expansions" -5
+	"mass" 55
+	"reverse thrust" 46.78
+	"reverse thrusting energy" 2.2
+	"reverse thrusting heat" 4.5
+	"energy generation" 1.5
+	"heat generation" 1.5
+	description "A large reactor core expansion that allows for energy redirection to a ships reverse thrusters."
+
+outfit "Optimized Reverse Accelerator (POOT)"
+	"display name" `Optimized Reverse Accelerator`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100011
+	"cost" 1124000
+	thumbnail "poot-exp/outfit/reactor/optimized_reverse_thruster"
+	"reactor core expansions" -5
+	"mass" 41
+	"reverse thrust" 67.42
+	"reverse thrusting energy" 2.4
+	"reverse thrusting heat" 4.34
+	description "An optimized reactor core expansion that allows for energy redirection to a ships reverse thrusters. While this reactor modification is highly efficient, it also lacks an additional energy generator like the standard reverse accelerator expansions are equipped with."
+
+outfit "Ionic Afterburner Infuser (POOT)"
+	"display name" `Ionic Afterburner Infuser`
+	category "Reactor Expansions"
+	series "Engines"
+	index 100011
+	"cost" 445000
+	thumbnail "poot-exp/outfit/reactor/ionic_afterburner_booster"
+	"reactor core expansions" -3
+	"mass" 9
+	"afterburner thrust" 25.4
+	"afterburner fuel" .037
+	"afterburner energy" 6.4
+	"afterburner heat" 7.5
+	description "By redirecting energy from the reactor and infusing a small amount of hyperspace fuel into the engines, when activated, this reactor expansion can provide a temporary aditional boost in thrust."
+
+#
+#   Hai
+#
+
+
+outfit "HRL-BDB Generation Expansion (POOT)"
+	"display name" `HRL-BDB Generation Expansion`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100014
+	cost 340000
+	thumbnail "poot-exp/outfit/reactor/reactor_fuel_cell_hai"
+	"reactor core expansions" -2
+	"mass" 15
+	"energy generation" 2.9
+	"heat generation" 3.9
+	description "An advanced energy generation expansion designed to synergize with a reactor. This reactor core expansion is highly efficient for its size, although is far more advanced than standard reactor generation cores, resulting in higher production costs."
+
+
+
+
+#
+#   Korath
+#
+
+outfit "Reactor Heating Shunt (POOT)"
+	"display name" `Reactor Heating Shunt`
+	category "Reactor Expansions"
+	series "Cooling"
+	index 100004
+	cost 450000
+	thumbnail "poot-exp/outfit/reactor/reactor_heat_shunt"
+	"reactor core expansions" -3
+	"mass" 30
+	"cooling" 24
+	description "By attatching a heat shunt directly to the reactor, this Korath cooling expansion is capable of aiding in the incredibly high thermal output of most Korath generators."
+
+outfit "Plasma Core Addition (POOT)"
+	"display name" `Plasma Core Addition`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100021
+	cost 7297000
+	thumbnail "poot-exp/outfit/reactor/single_plasma_core"
+	"reactor core expansions" -6
+	"mass" 67
+	"energy generation" 9.4
+	"heat generation" 37.4
+	description "This massive addition installs a Korath Plasma Core to an existing reactor. The processes involved cause it to lose some efficiency in both power generation and in heat output, but saves tremendously on outfit space. The extensive modifications and additional supporting structure also add a fair bit of weight to the Plasma Core."
+
+outfit "Korath Generator Addition (POOT)"
+	"display name" `Korath Generator Addition`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100022
+	cost 357000
+	thumbnail "poot-exp/outfit/reactor/korath_generator_small"
+	"reactor core expansions" -1
+	"mass" 14
+	"energy generation" 1.41
+	"heat generation" 4.2
+	description "A small-scale Korath Generator, connected and wired into the existing reactor to provide a boost in overall production. While it produces a high energy amount for its size, like most Korath Generators, it has very poor utilization of proper thermodynamics and heat transfer."
+
+
+outfit "Korath Shield Matrix (POOT)"
+	"display name" `Korath Shield Matrix`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100021
+	cost 415000
+	thumbnail "poot-exp/outfit/reactor/korath_shield_matrix"
+	"reactor core expansions" -2
+	"mass" 12
+	"shields" 800
+	"shield energy" .3
+	"heat generation" 1.7
+	description "A Korath Shield Matrix can be installed onto an existing reactor, redirecting some of the output power into the shield matrix, resulting in an improved shield strength."
+
+outfit "Korath Reactor Plating (POOT)"
+	"display name" `Korath Reactor Plating`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100023
+	cost 145000
+	thumbnail "poot-exp/outfit/reactor/reactor_plating"
+	"reactor core expansions" -1
+	"mass" 5
+	"outfit space" -1
+	"hull" 200
+	"heat generation" .4
+	description "By lining the reactor with a reinforced plating, it can increase both the reactor and the ships overall durability."
+
+outfit "Automaton Shield Module (POOT)"
+	"display name" `Automaton Shield Module`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100022
+	cost 765000
+	thumbnail "poot-exp/outfit/reactor/automaton_shield_module"
+	"reactor core expansions" -2
+	"mass" 12
+	"shield generation" 1.2
+	"shield energy" 1.5
+	"shield heat" 1.5
+	description "A Korath Shield Matrix can be installed onto an existing reactor, redirecting some of the output power into the shield matrix, resulting in improved shield generation."
+
+outfit "Automaton System Repair Module (POOT)"
+	"display name" `Automaton System Repair Module`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100024
+	cost 394000
+	thumbnail "poot-exp/outfit/reactor/automaton_hull_module"
+	"reactor core expansions" -1
+	"mass" 5
+	"outfit space" -1
+	"hull repair" .47
+	"heat generation" .12
+	"energy consumption" .7
+	"hull energy" .29
+	"hull heat" .59
+	description "This repair module acts as a central hub for repair microbots, supplying them with energy while also acting as a system analyzer for the current status of damaged areas across the host ship. For proper operation, it needs to be constantly powered, resulting in a constant energy drain and heat output."
+
+#
+#   Wanderer
+#
+
+outfit "Biochemical Cell Core (POOT)"
+	"display name" `Biochemical Cell Core`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100031
+	cost 334000
+	thumbnail "poot-exp/outfit/reactor/biochemical_cell_core"
+	"reactor core expansions" -1
+	"mass" 21
+	"energy generation" .72
+	"heat generation" .68
+	"energy capacity" 4200
+	description "A small-scale version of a Biochemical Cell adapted to be directly mounted to a reactor, capable of increasing a reactors output by harnessing the energy of electricity-producing microorganic cells."
+
+outfit "Biochemical Dual Core (POOT)"
+	"display name" `Biochemical Dual Core`
+	category "Reactor Expansions"
+	series "Generators"
+	index 100032
+	cost 1454000
+	thumbnail "poot-exp/outfit/reactor/biochemical_dualcell_core"
+	"reactor core expansions" -2
+	"mass" 72
+	"energy generation" 2.35
+	"heat generation" 2.01
+	"energy capacity" 12000
+	description "A pair of highly efficient large Biochemical Cores, designed to be directly mounted onto a reactor."
+
+outfit "Cirrus Shielding Matrix (POOT)"
+	"display name" `Cirrus Shielding Matrix`
+	category "Reactor Expansions"
+	series "Shields"
+	index 100031
+	cost 499000
+	thumbnail "poot-exp/outfit/reactor/cirrus_shielding_matrix"
+	"reactor core expansions" -1.25
+	"mass" 24
+	"shield generation" .6
+	"shield energy" 1.5
+	description "A compact shielding matrix capable of redirecting a large amount of energy to increase shield regeneration. For a shield matrix of its size, its output is notably high."
+
+#
+#   Avgi
+#
+
+outfit "Optic Lasing Generation Core (POOT)"
+	"display name" `Optic Lasing Generation Core`
+	category "Reactor Expansions"
+	series "Special Systems"
+	index 100001
+	cost 457000
+	thumbnail "poot-exp/outfit/reactor/optic_lasing_core"
+	"reactor core expansions" -1.5
+	"mass" 12
+	"lasing power" 1
+	"energy consumption" .35
+	description "A small Optic Lasing Generator, capable of generating Optical Laser Power and transporting it via fiberoptic wiring. It generates optic power by directly converting from the reactor power output. The resulting optical beam is fairly weak, requiring a constant power supply in order to sustain a consistent string of photons throughout the fiberoptic cable."

@@ -1,0 +1,662 @@
+#
+#   Human
+#
+
+outfitter "Basic Outfits"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	"Small Systems Block (POOT)"
+	"RL-AA Generation Expansion (POOT)"
+	"Reactor Cooling Ductwork (POOT)"
+	"Small Thrust Accelerator (POOT)"
+	"Small Steering Accelerator (POOT)"
+	"Small Reverse Accelerator (POOT)"
+
+outfitter "Common Outfits"
+	"Large Bunk Room (POOT)"
+	"Large Fuel Pod (POOT)"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"Small Systems Block (POOT)"
+	"Tri-Beam Laser (POOT)"
+	"Quad Beam Laser Turret (POOT)"
+	"Supercapacitor Reactor Expansion (POOT)"
+	"RL-AA Generation Expansion (POOT)"
+	"RL-BB Generation Expansion (POOT)"
+	"Reactor Cooling Ductwork (POOT)"
+	"Reactor Water Cooling (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Solar Modifications (POOT)"
+	"Solar Modifications (POOT)"
+	"Small Thrust Accelerator (POOT)"
+	"Small Steering Accelerator (POOT)"
+	"Small Reverse Accelerator (POOT)"
+	"Medium Thrust Accelerator (POOT)"
+	"Medium Steering Accelerator (POOT)"
+
+outfitter "Central Outfits Expansion"
+	"Large Bunk Room (POOT)"
+	"Large Fuel Pod (POOT)"
+	"Small Systems Block (POOT)"
+	"Dual Javelin Pod (POOT)"
+	"Reactor Liquid Cooling (POOT)"
+
+outfitter "Northern Explorers"
+	"Large Fuel System (POOT)"
+	"eSRC-FF Fuel Generator Cell (POOT)"
+	"LP1027a Battery Pack (POOT)"
+	"Tectonic Afterburner (POOT)"
+	"Freighter Drive (POOT)"
+
+outfitter "Deep Sky Basics"
+	"A2150 Atomic Engines (POOT)"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"Heavy Mining Laser (POOT)"
+	"Heavy Mining Laser Turret (POOT)"
+	"Tri-Beam Laser (POOT)"
+	"Quad Beam Laser Turret (POOT)"
+	"Triple Heavy Laser (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"A175 Atomic Afterburner (POOT)"
+	"A575 Atomic Afterburner (POOT)"
+
+outfitter "Deep Sky Advanced"
+	"Speed Drive (POOT)"
+	"A2150 Atomic Engines (POOT)"
+	"A4270 Atomic Engines (POOT)"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"eSRC-DD Fuel Generator Cell (POOT)"
+	"LP1027a Battery Pack (POOT)"
+	"LP1740a Battery Pack (POOT)"
+	"Heavy Mining Laser (POOT)"
+	"Heavy Mining Laser Turret (POOT)"
+	"Tri-Beam Laser (POOT)"
+	"Quad Beam Laser Turret (POOT)"
+	"Triple Heavy Laser (POOT)"
+	"Quad Heavy Laser Turret (POOT)"
+	"Heavyduty Mining Laser (POOT)"
+	"Heavyduty Mining Turret (POOT)"
+	"Reacher Tractor Beam (POOT)"
+	"Heavy Tractor Beam (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Neutron Torpedo Launcher (POOT)"
+	"Nuclear Power Plant (POOT)"
+	"RL-BB Generation Expansion (POOT)"
+	"RL-CC Generation Expansion (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Reactor Heavy Shield Matrix (POOT)"
+	"Optimized Thrust Accelerator (POOT)"
+	"Optimized Steering Accelerator (POOT)"
+	"Optimized Reverse Accelerator (POOT)"
+	"Ionic Afterburner Infuser (POOT)"
+	"A175 Atomic Afterburner (POOT)"
+	"A575 Atomic Afterburner (POOT)"
+	"A945 Atomic Afterburner (POOT)"
+	"A945 Atomic Afterburner (POOT)"
+	"Freighter Drive (POOT)"
+
+outfitter "Lovelace Basics"
+	"RN144-VC Shield Regenerator (POOT)"
+	"RN265-RT Shield Regenerator (POOT)"
+	"Particle Cannon"
+	"Particle Turret (POOT)"
+	"Twin Particle Cannon (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Sidewinder Fleet Launcher (POOT)"
+	"Sidewinder Fleet Launcher Turret (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Tectonic Afterburner (POOT)"
+
+outfitter "Lovelace Advanced"
+	"Speed Drive (POOT)"
+	"Double Armageddon Core (POOT)"
+	"Triple Armageddon Core (POOT)"
+	"RN144-VC Shield Regenerator (POOT)"
+	"RN265-RT Shield Regenerator (POOT)"
+	"RN377-DX Shield Regenerator (POOT)"
+	"Fusion Cannon (POOT)"
+	"Fusion Turret (POOT)"
+	"Particle Cannon"
+	"Particle Turret (POOT)"
+	"Twin Particle Cannon (POOT)"
+	"Twin Particle Turret (POOT)"
+	"Quintuple Particle Cannon (POOT)"
+	"Quintuple Particle Cannon Turret (POOT)"
+	"Particle Heavy Cannon (POOT)"
+	"Particle Heavy Turret (POOT)"
+	"Heavyduty Mining Laser (POOT)"
+	"Heavyduty Mining Turret (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Neutron Torpedo Launcher (POOT)"
+	"Sidewinder Fleet Launcher (POOT)"
+	"Sidewinder Fleet Launcher Turret (POOT)"
+	"Sidewinder Swarm Launcher (POOT)"
+	"Sidewinder Swarm Launcher Turret (POOT)"
+	"Nuclear Power Plant (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Squadron Anti-Missile System (POOT)"
+	"Tectonic Afterburner (POOT)"
+	"Heavy Tectonic Afterburner (POOT)"
+	"eSRC-GG Fuel Generator Cell (POOT)"
+	"LP1027a Battery Pack (POOT)"
+	"LP1740a Battery Pack (POOT)"
+	"Freighter Drive (POOT)"
+
+outfitter "Delta V Basics"
+	"Terrorizer Plasma Engines (POOT)"
+	"Tectonic Afterburner (POOT)"
+
+outfitter "Delta V Advanced"
+	"Speed Drive (POOT)"
+	"Terrorizer Plasma Engines (POOT)"
+	"Domination Plasma Engines (POOT)"
+	"NTS-I 450 Radiothermalvoltaic (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+	"Heavy Rocket Heaver (POOT)"
+	"Heavy Rocket Heaver Turret (POOT)"
+	"Dual Javelin Pod (POOT)"
+	"Javelin Sextuple Turret (POOT)"
+	"Javelin Sextuple Pod (POOT)"
+	"Tectonic Afterburner (POOT)"
+	"Heavy Tectonic Afterburner (POOT)"
+	"Freighter Drive (POOT)"
+
+outfitter "Syndicate Basics"
+	"X12900 Ion Engines (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Medium Thrust Accelerator (POOT)"
+	"Medium Steering Accelerator (POOT)"
+
+outfitter "Syndicate Advanced"
+	"Speed Drive (POOT)"
+	"X12900 Ion Engines (POOT)"
+	"X21700 Ion Engines (POOT)"
+	"NTS-I 450 Radiothermalvoltaic (POOT)"
+	"Proton Fusion Cannon (POOT)"
+	"Proton Fusion Turret (POOT)"
+	"Quad Blaster (POOT)"
+	"Tri-Proton Cannon (POOT)"
+	"Tri-Proton Turret (POOT)"
+	"Proton Heavy Cannon (POOT)"
+	"Proton Heavy Turret (POOT)"
+	"Superheavy Energy Blaster (POOT)"
+	"Heavy Tractor Beam (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+	"Dual Javelin Pod (POOT)"
+	"Reactor Water Cooling (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Medium Thrust Accelerator (POOT)"
+	"Medium Steering Accelerator (POOT)"
+	"Large Thrust Accelerator (POOT)"
+	"Large Steering Accelerator (POOT)"
+	"Large Reverse Accelerator (POOT)"
+	"Ionic Afterburner Infuser (POOT)"
+
+outfitter "Kraz Basics"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"Tri-Beam Laser (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"RL-BB Generation Expansion (POOT)"
+	"Reactor Liquid Cooling (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+
+outfitter "Kraz Advanced"
+	"Speed Drive (POOT)"
+	"Liquid Hydrogen Cooler (POOT)"
+	"NTS-I 450 Radiothermalvoltaic (POOT)"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"eSRC-DD Fuel Generator Cell (POOT)"
+	"eSRC-EE Fuel Generator Cell (POOT)"
+	"LP1027a Battery Pack (POOT)"
+	"LP1740a Battery Pack (POOT)"
+	"Tri-Beam Laser (POOT)"
+	"Quad Beam Laser Turret (POOT)"
+	"Triple Heavy Laser (POOT)"
+	"Twin Plasma Cannons (POOT)"
+	"Plasma Heavy Cannon (POOT)"
+	"Plasma Heavy Turret (POOT)"
+	"Heavy Tractor Beam (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Neutron Torpedo Launcher (POOT)"
+	"RL-BB Generation Expansion (POOT)"
+	"RL-CC Generation Expansion (POOT)"
+	"Reactor Liquid Cooling (POOT)"
+	"Battery Expansion (POOT)"
+	"Reactor Shield Matrix (POOT)"
+	"Freighter Drive (POOT)"
+
+outfitter "Pirate Basics"
+	"Scrapped Star Barge (POOT)"
+	"Scrapped Sparrow (POOT)"
+	"Scrapped Shuttle (POOT)"
+	"Heavy Blaster"
+	"Heavy Blaster Turret (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Gatling Gun"
+	"Modified Gatling Gun (POOT)"
+	"Scrapper Gatling Gun (POOT)"
+	"Scrapper Twin Gatling Gun (POOT)"
+	"Scrapper Gatling Turret (POOT)"
+	"Ionic Afterburner Infuser (POOT)"
+	"Light Ancient Combustion Steering (POOT)"
+	"Light Ancient Combustion Thruster (POOT)"
+
+outfitter "Pirate Advanced"
+	"Speed Drive (POOT)"
+	"Scrapped Heavy Shuttle (POOT)"
+	"Twin Heavy Blaster (POOT)"
+	"Twin Heavy Blaster Turret (POOT)"
+	"X850 Gatling Blaster (POOT)"
+	"Twin Plasma Cannons (POOT)"
+	"Plasma Heavy Cannon (POOT)"
+	"Plasma Heavy Turret (POOT)"
+	"Proton Heavy Cannon (POOT)"
+	"Proton Heavy Turret (POOT)"
+	"Superheavy Energy Blaster (POOT)"
+	"Superheavy Blaster Turret (POOT)"
+	"Heavy Tractor Beam (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+	"Neutron Torpedo Pod (POOT)"
+	"Neutron Torpedo Pod Turret (POOT)"
+	"Sidewinder Fleet Launcher (POOT)"
+	"Sidewinder Fleet Launcher Turret (POOT)"
+	"Modified Gatling Gun (POOT)"
+	"Modified Gatling Turret (POOT)"
+	"Heavy Gatling Gun (POOT)"
+	"Scrapper Tri-Gatling Gun (POOT)"
+	"Scrapper Gatling Quad-Turret (POOT)"
+	`Scrapper "Octogatler" Gatling Turret (POOT)`
+	"Combustion Afterburner (POOT)"
+	"nGVF-FF Aftermarket Fuel Cell (POOT)"
+	"Light Ancient Combustion Steering (POOT)"
+	"Light Ancient Combustion Thruster (POOT)"
+	"Ancient Combustion Steering (POOT)"
+	"Ancient Combustion Thruster (POOT)"
+
+outfitter "South Pirate Advanced"
+	"Speed Drive (POOT)"
+	"Quad Heavy Blaster Turret (POOT)"
+	"Quad Heavy Blaster (POOT)"
+	"X850 Gatling Blaster (POOT)"
+	"Heavy Rocket Heaver (POOT)"
+	"Heavy Rocket Heaver Turret (POOT)"
+	"Modified Gatling Gun (POOT)"
+	"Modified Gatling Turret (POOT)"
+	"Heavy Gatling Gun (POOT)"
+	"Heavy Gatling Turret (POOT)"
+	"Tectonic Afterburner (POOT)"
+	"Combustion Afterburner (POOT)"
+	"nGVF-FF Aftermarket Fuel Cell (POOT)"
+	"nGVF-GG Aftermarket Fuel Cell (POOT)"
+
+outfitter "Syndicate Assistance"
+	"X12900 Ion Engines (POOT)"
+	"X21700 Ion Engines (POOT)"
+	"Proton Fusion Cannon (POOT)"
+	"Proton Fusion Turret (POOT)"
+	"Quad Blaster (POOT)"
+	"X850 Gatling Turret (POOT)"
+	"Tri-Proton Cannon (POOT)"
+	"Tri-Proton Turret (POOT)"
+	"Proton Heavy Cannon (POOT)"
+	"Proton Heavy Turret (POOT)"
+	"Superheavy Energy Blaster (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+	"Large Thrust Accelerator (POOT)"
+	"Large Steering Accelerator (POOT)"
+	"Large Reverse Accelerator (POOT)"
+	"Ionic Afterburner Infuser (POOT)"
+	"Squadron Anti-Missile System (POOT)"
+
+outfitter "Stack Core"
+
+outfitter "Nuke"
+	"Atomic Neutron Torpedo Launcher (POOT)"
+
+
+#
+#   POOT Expanded Outfitters
+#
+
+outfitter "Solaria Basics (POOT)"
+	"Terrorizer Plasma Engines (POOT)"
+	"X12900 Ion Engines (POOT)"
+	"Liquid Hydrogen Cooler (POOT)"
+	"Triple Heavy Laser (POOT)"
+	"Meteor Missile Squadron Launcher (POOT)"
+	"Meteor Missile Squadron Turret (POOT)"
+
+outfitter "Solaria Quantum Basics (POOT)"
+	"Solarian Meteor Array (POOT)"
+	"Solarian Sidewinder Array (POOT)"
+	"Solarian Javelin Array (POOT)"
+	"Solarian Javelin Turret Array (POOT)"
+	"Solarian Torpedo Array (POOT)"
+	"Solarian Heavy Rocket Array (POOT)"
+	"Modified Heavy Gatling Gun (POOT)"
+
+outfitter "Solaria Quantum Advanced (POOT)"
+	"Quantum Chamber (POOT)"
+	"Modified Heavy Gatling Turret (POOT)"
+
+outfitter "Solaria Advanced (POOT)"
+	"Quantum Chamber (POOT)"
+	"Terrorizer Plasma Engines (POOT)"
+	"Domination Plasma Engines (POOT)"
+	"X12900 Ion Engines (POOT)"
+	"X21700 Ion Engines (POOT)"
+	"Liquid Hydrogen Cooler (POOT)"
+	"Regenerative Liquid Cooler (POOT)"
+	"Quantum Supercapacitor (POOT)"
+	
+	"Quad Heavy Laser Turret (POOT)"
+	"Neutron Beam (POOT)"
+	"Neutron Beam Turret (POOT)"
+
+
+
+
+#
+#   Hai
+#
+
+planet Darkmetal
+	add outfitter "Unfettered Basics"
+	add outfitter "Unfettered Advanced"
+
+
+outfitter "Hai Basics"
+	"Supercapacitor Reactor Expansion (POOT)"
+	`Ionic Railgun (POOT)`
+	`Ionic Railgun Turret (POOT)`
+
+outfitter "Hai Intermediate"
+	"HRL-BDB Generation Expansion (POOT)"
+	"Large Bunk Room (POOT)"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	"Ion Cannon"
+	`Ion Cannon Turret (POOT)`
+	`Ionic Railgun (POOT)`
+	`Ionic Railgun Turret (POOT)`
+	`Ionic Rotary Railgun (POOT)`
+	`Ionic Rotary Railgun Turret (POOT)`
+
+outfitter "Hai Advanced"
+	"HRL-BDB Generation Expansion (POOT)"
+	"Large Bunk Room (POOT)"
+	"Large Fuel Pod (POOT)"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	"eSRC-CC Fuel Generator Cell (POOT)"
+	"eSRC-DD Fuel Generator Cell (POOT)"
+	`Arc Pulse Cannon (POOT)`
+	`Arc Pulse Turret (POOT)`
+	"Ion Cannon"
+	`Ion Cannon Turret (POOT)`
+	`Twin Ion Cannon (POOT)`
+	`Twin Ion Turret (POOT)`
+	`Ionic Infusion Cannon (POOT)`
+	`Ionic Infusion Turret (POOT)`
+	`Ionic Railgun (POOT)`
+	`Ionic Railgun Turret (POOT)`
+	`Ionic Rotary Railgun (POOT)`
+	`Ionic Rotary Railgun Turret (POOT)`
+	`Ionic Gatling Railgun System (POOT)`
+	`Ionic Gatling Railgun Turret (POOT)`
+
+
+outfitter "Hai-home Only"
+
+outfitter "Unfettered Advanced"
+	"Pulse Cannon"
+	"Hai Tracker"
+	"Bullfrog Anti-Missile"
+	"Hai Octopus Jammer"
+	"Sand Cell"
+	"Geode Reactor"
+	"Hai Williwaw Cooling"
+	"Hyperdrive"
+	"Hai Chasm Batteries"
+	"Hai Fissure Batteries"
+	"Supercapacitor"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Fuel Pod"
+	"Hai Corundum Regenerator"
+	`"Basrem" Atomic Thruster`
+	`"Basrem" Atomic Steering`
+	"Value Detector"
+	"Local Map"
+	"Quantum Keystone"
+	"Pulse Rifle"
+	"Asteroid Scanner"
+	"Outfit Scanner"
+	"Phantom Pallet"
+	"Supercapacitor Reactor Expansion (POOT)"
+	"HRL-BDB Generation Expansion (POOT)"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	`Non-pulse Cannon (POOT)`
+	`Non-pulse Turret (POOT)`
+	`Tripulse Shredder Turret (POOT)`
+	"Ion Cannon"
+	`Ion Cannon Turret (POOT)`
+	`Twin Ion Cannon (POOT)`
+	`Twin Ion Turret (POOT)`
+	`Ionic Infusion Cannon (POOT)`
+	`Ionic Infusion Turret (POOT)`
+	`Arc Pulse Cannon (POOT)`
+	`Arc Pulse Turret (POOT)`
+	`Ionic Railgun (POOT)`
+	`Ionic Railgun Turret (POOT)`
+	`Ionic Rotary Railgun (POOT)`
+	`Ionic Rotary Railgun Turret (POOT)`
+	`Ionic Gatling Railgun System (POOT)`
+	`Ionic Gatling Railgun Turret (POOT)`
+
+outfitter "Unfettered Basics"
+	"Supercapacitor Reactor Expansion (POOT)"
+	"HRL-BDB Generation Expansion (POOT)"
+	"eSRC-AA Fuel Generator Cell (POOT)"
+	"eSRC-BB Fuel Generator Cell (POOT)"
+	`Tripulse Shredder Turret (POOT)`
+	`Ionic Railgun (POOT)`
+	`Ionic Railgun Turret (POOT)`
+	`Ionic Rotary Railgun (POOT)`
+	`Ionic Rotary Railgun Turret (POOT)`
+
+
+
+
+#
+#   Korath
+#
+
+outfitter "Korath Basics"
+	"Worldship Bunk Room (POOT)"
+	"Large Bunk Room (POOT)"
+	"Reactor Heating Shunt (POOT)"
+	"Korath Generator Addition (POOT)"
+	"Automaton Control Center (POOT)"
+
+outfitter "Korath Exiles"
+	"Plasma Core Addition (POOT)"
+	"Korath Generator Addition (POOT)"
+	"Reactor Heating Shunt (POOT)"
+	"Korath Shield Matrix (POOT)"
+	"Korath Reactor Plating (POOT)"
+	"Huge Heat Shunt (POOT)"
+	"Optimized Plasma Core (POOT)"
+
+outfitter "Remnant Salvage"
+	"Optimized Plasma Core (POOT)"
+	"Korath Generator Addition (POOT)"
+	"Reactor Heating Shunt (POOT)"
+	"Korath Shield Matrix (POOT)"
+	`Blaze-Pike Lance (POOT)`
+	`Twin Thermal Repeater (POOT)`
+
+#
+#   Wanderer
+#
+
+outfitter "Wanderer Basics"
+		"Biochemical Cell Core (POOT)"
+		"Biochemical Dual Core (POOT)"
+
+outfitter "Wanderer Advanced"
+		"Biochemical Cell Core (POOT)"
+		"Biochemical Dual Core (POOT)"
+		"Cirrus Shielding Matrix (POOT)"
+
+
+#
+#   Avgi
+#
+
+outfitter "Avgi Electronics"
+	"Optic Lasing Generation Core (POOT)"
+	`Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser Turret (POOT)`
+	`Purple Optical Laser (POOT)`
+	`Purple Optical Laser Turret (POOT)`
+	`Red Optical Laser (POOT)`
+	`Red Optical Laser Turret (POOT)`
+
+outfitter "Avgi Militia Surplus"
+	"Optic Lasing Generation Core (POOT)"
+	`Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser Turret (POOT)`
+	`Magenta Optical Laser (POOT)`
+	`Magenta Optical Laser Turret (POOT)`
+	`Orange Optical Laser (POOT)`
+	`Orange Optical Laser Turret (POOT)`
+	`Purple Optical Laser (POOT)`
+	`Purple Optical Laser Turret (POOT)`
+	`Red Optical Laser (POOT)`
+	`Red Optical Laser Turret (POOT)`
+	`White Optical Laser (POOT)`
+	`White Optical Laser Turret (POOT)`
+
+outfitter "Avgi Twilight Guard"
+	"Optic Lasing Generation Core (POOT)"
+	`Blue Optical Laser (POOT)`
+	`Cyan Optical Laser (POOT)`
+	`Cyan Optical Laser Turret (POOT)`
+	`Deep Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser Turret (POOT)`
+	`Magenta Optical Laser (POOT)`
+	`Magenta Optical Laser Turret (POOT)`
+	`Optic Pulse Laser (POOT)`
+	`Optic Pulse Turret (POOT)`
+	`Orange Optical Laser (POOT)`
+	`Orange Optical Laser Turret (POOT)`
+	`Purple Optical Laser (POOT)`
+	`Purple Optical Laser Turret (POOT)`
+	`Red Optical Laser (POOT)`
+	`Red Optical Laser Turret (POOT)`
+	`White Optical Laser (POOT)`
+	`White Optical Laser Turret (POOT)`
+	`Yellow Optical Laser (POOT)`
+	`Yellow Optical Laser Turret (POOT)`
+	`Capital Cyan Optical Laser (POOT)`
+	`Capital Cyan Optical Laser Turret (POOT)`
+	`Capital Deep Blue Optical Laser (POOT)`
+	`Capital Deep Blue Optical Laser Turret (POOT)`
+	`Capital Magenta Optical Laser (POOT)`
+	`Capital Magenta Optical Laser Turret (POOT)`
+	`Capital Optic Pulse Laser (POOT)`
+	`Capital Optic Pulse Turret (POOT)`
+	`Capital Orange Optical Laser (POOT)`
+	`Capital Orange Optical Laser Turret (POOT)`
+	`Capital Purple Optical Laser (POOT)`
+	`Capital Purple Optical Laser Turret (POOT)`
+	`Capital Red Optical Laser (POOT)`
+	`Capital Red Optical Laser Turret (POOT)`
+	`Capital White Optical Laser (POOT)`
+	`Capital White Optical Laser Turret (POOT)`
+	`Capital Yellow Optical Laser (POOT)`
+	`Capital Yellow Optical Laser Turret (POOT)`
+
+outfitter "Avgi Dissonance Smuggling"
+	"Optic Lasing Generation Core (POOT)"
+	`Blue Optical Laser (POOT)`
+	`Cyan Optical Laser (POOT)`
+	`Cyan Optical Laser Turret (POOT)`
+	`Deep Blue Optical Laser (POOT)`
+	`Deep Blue Optical Laser Turret (POOT)`
+	`Magenta Optical Laser (POOT)`
+	`Magenta Optical Laser Turret (POOT)`
+	`Optic Pulse Laser (POOT)`
+	`Optic Pulse Turret (POOT)`
+	`Orange Optical Laser (POOT)`
+	`Orange Optical Laser Turret (POOT)`
+	`Purple Optical Laser (POOT)`
+	`Purple Optical Laser Turret (POOT)`
+	`Red Optical Laser (POOT)`
+	`Red Optical Laser Turret (POOT)`
+	`White Optical Laser (POOT)`
+	`White Optical Laser Turret (POOT)`
+	`Yellow Optical Laser (POOT)`
+	`Yellow Optical Laser Turret (POOT)`
+
+
+#
+#   Coalition
+#
+
+outfitter "Coalition Basics"
+
+
+outfitter "Coalition Advanced"
+
+
+outfitter "Heliarch"
+	`Bombardment Artillery Cannon (POOT)`
+	`Bombardment Artillery Tri-Cannon (POOT)`
+	`Bombardment Artillery Tri-Turret (POOT)`
+	`Bombardment Artillery Turret (POOT)`
+	`Bombardment Rotary Cannon (POOT)`
+	`Bombardment Rotary Turret (POOT)`
+	`Bombardment Tri-Cannon (POOT)`
+	`Ion Raincannon (POOT)`
+	`Ion Raincannon Turret (POOT)`
+	`Ion Hailcannon (POOT)`
+	`Ion Hailcannon Turret (POOT)`
+	`Dual Ion Hailcannon (POOT)`
+	`Dual Ion Hailcannon Turret (POOT)`
+	`Dual Ion Raincannon (POOT)`
+	`Dual Ion Raincannon Turret (POOT)`
+
+
+outfitter "Heliarch Basics"
+	`Ion Downpour (POOT)`
+	`Ion Downpour Turret (POOT)`
+	`Ion Hailstorm (POOT)`
+	`Ion Hailstorm Turret (POOT)`
+
+
+outfitter "Lunarium Basics"

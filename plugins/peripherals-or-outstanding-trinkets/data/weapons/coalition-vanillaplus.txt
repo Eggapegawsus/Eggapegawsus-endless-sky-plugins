@@ -1,0 +1,654 @@
+
+outfit "Bombardment Tri-Cannon (POOT)"
+	"display name" "Bombardment Tri-Cannon"
+	category "Guns"
+	series "Guns"
+	index 08011
+	licenses
+		Heliarch
+	cost 1437000
+	thumbnail "poot-exp/outfit/coalition_bombardment_triple"
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
+	"gun ports" -1
+	weapon
+		sprite "projectile/bombardment"
+			"frame rate" 3.2
+			"no repeat"
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 4
+		"velocity" 6
+		"random velocity" 1
+		"lifetime" 150
+		"reload" 3
+		"firing energy" 17
+		"firing heat" 14
+		"shield damage" 22
+		"hull damage" 25
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+
+outfit "Bombardment Rotary Cannon (POOT)"
+	"display name" "Bombardment Rotary Cannon"
+	category "Guns"
+	series "Guns"
+	index 08012
+	licenses
+		Heliarch
+	cost 7988000
+	thumbnail "poot-exp/outfit/coalition_bombardment_rotary"
+	"mass" 104
+	"outfit space" -104
+	"weapon capacity" -104
+	"gun ports" -1
+	weapon
+		sprite "projectile/bombardment"
+			"frame rate" 3.2
+			"no repeat"
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 4
+		"velocity" 10
+		"random velocity" 1
+		"lifetime" 175
+		"reload" 1.1
+		"firing energy" 17
+		"firing heat" 20
+		"shield damage" 22
+		"hull damage" 25
+	description `A multi-tiered Bombardment Cannon, capable of sustaining a continuous stream of high velocity projectiles.`
+
+outfit "Bombardment Rotary Turret (POOT)"
+	"display name" "Bombardment Rotary Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08012
+	licenses
+		Heliarch
+	cost 7988000
+	thumbnail "poot-exp/outfit/coalition_bombardment_turret_rotary"
+	"mass" 104
+	"outfit space" -104
+	"weapon capacity" -104
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/bombardment"
+			"frame rate" 3.2
+			"no repeat"
+		"hardpoint sprite" "poot-exp/hardpoint/bombardment_rotary_turret"
+			"scale" .5
+		"hardpoint offset" 10.
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"turret turn" 2.4
+		"inaccuracy" 4
+		"velocity" 10
+		"random velocity" 1
+		"lifetime" 175
+		"reload" 1.1
+		"firing energy" 17
+		"firing heat" 20
+		"shield damage" 22
+		"hull damage" 25
+	description `A multi-tiered Bombardment Cannon, capable of sustaining a continuous stream of high velocity projectiles.`
+
+outfit "Bombardment Artillery Cannon (POOT)"
+	"display name" "Bombardment Artillery Cannon"
+	category "Guns"
+	series "Guns"
+	index 08013
+	licenses
+		Heliarch
+	cost 8971000
+	thumbnail "poot-exp/outfit/coalition_heavy_bombardment_cannon"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/heavy_bombardment"
+			"frame rate" 6
+			"no repeat"
+		"hardpoint sprite" "poot-exp/hardpoint/bombardment_heavy_turret"
+			"scale" .7
+		"hardpoint offset" 20.
+		sound "poot-exp/heavy_bombardment"
+		"hit effect" "bombardment impact"
+		"hit effect" "bombardment heavy explosion (POOT)"
+		"inaccuracy" 4
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 150
+		"reload" 27
+		"firing energy" 295
+		"firing heat" 290
+		"shield damage" 410
+		"hull damage" 330
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+
+outfit "Bombardment Artillery Turret (POOT)"
+	"display name" "Bombardment Artillery Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08013
+	licenses
+		Heliarch
+	cost 9421000
+	thumbnail "poot-exp/outfit/coalition_heavy_bombardment_cannon"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/heavy_bombardment"
+			"frame rate" 6
+			"no repeat"
+		"hardpoint sprite" "poot-exp/hardpoint/bombardment_heavy_turret"
+			"scale" .7
+		"hardpoint offset" 20.
+		sound "poot-exp/heavy_bombardment"
+		"hit effect" "bombardment impact"
+		"hit effect" "bombardment heavy explosion (POOT)"
+		"turret turn" 2.1
+		"inaccuracy" 2
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 150
+		"reload" 27
+		"firing energy" 295
+		"firing heat" 290
+		"shield damage" 410
+		"hull damage" 330
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+
+outfit "Bombardment Artillery Tri-Cannon (POOT)"
+	"display name" "Bombardment Artillery Tri-Cannon"
+	category "Guns"
+	series "Guns"
+	index 08014
+	licenses
+		Heliarch
+	cost 24471000
+	thumbnail "poot-exp/outfit/coalition_heavy_bombardment_cannon_triple"
+	"mass" 235
+	"outfit space" -235
+	"weapon capacity" -235
+	"gun ports" -1
+	weapon
+		sprite "poot-exp/projectile/heavy_bombardment"
+			"frame rate" 6
+			"no repeat"
+		sound "poot-exp/heavy_bombardment"
+		"hit effect" "bombardment impact"
+		"hit effect" "bombardment heavy explosion (POOT)"
+		"inaccuracy" 4
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 150
+		"reload" 9
+		"firing energy" 295
+		"firing heat" 290
+		"shield damage" 410
+		"hull damage" 330
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+
+outfit "Bombardment Artillery Tri-Turret (POOT)"
+	"display name" "Bombardment Artillery Tri-Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08014
+	licenses
+		Heliarch
+	cost 28921000
+	thumbnail "poot-exp/outfit/coalition_heavy_bombardment_cannon_triple"
+	"mass" 235
+	"outfit space" -235
+	"weapon capacity" -235
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/heavy_bombardment"
+			"frame rate" 6
+			"no repeat"
+		"hardpoint sprite" "poot-exp/hardpoint/bombardment_heavy_triple_turret"
+			"scale" .9
+		"hardpoint offset" 30.
+		sound "poot-exp/heavy_bombardment"
+		"hit effect" "bombardment impact"
+		"hit effect" "bombardment heavy explosion (POOT)"
+		"turret turn" 2.1
+		"inaccuracy" 2
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 150
+		"reload" 9
+		"firing energy" 295
+		"firing heat" 290
+		"shield damage" 410
+		"hull damage" 330
+	description `The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships.`
+
+effect "bombardment heavy explosion (POOT)"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"scale" 1.3
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 12
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .02
+
+outfit "Ion Hailstorm (POOT)"
+	"display name" "Ion Hailstorm"
+	category "Guns"
+	series "Guns"
+	index 08024
+	licenses
+		Heliarch
+	cost 4171000
+	thumbnail "poot-exp/outfit/coalition_ion_hailstorm"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	weapon
+		sound "ion rain"
+		"inaccuracy" 3
+		"velocity" 12
+		"reload" 8
+		"burst reload" 2
+		"burst count" 10
+		"firing energy" 148
+		"firing heat" 76
+		"submunition" "ion hailstorm (POOT)" 12
+	description "By modifying the ionic charging systems within the hailguns, these blasters are capable of firing a large amount of ionizing projectiles simultaneously and rapidly. While not having as much range as the Downpour, the hailstorm is far better at managing opposing vessels at a close range."
+
+outfit "Ion Hailstorm Turret (POOT)"
+	"display name" "Ion Hailstorm Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08024
+	licenses
+		Heliarch
+	cost 4171000
+	thumbnail "poot-exp/outfit/coalition_ion_hailstorm_turret"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_hail_quad"
+			"scale" .6
+		"hardpoint offset" 14.
+		sound "ion rain"
+		"inaccuracy" 3
+		"turret turn" 3.9
+		"velocity" 12
+		"reload" 8
+		"burst reload" 2
+		"burst count" 10
+		"firing energy" 148
+		"firing heat" 76
+		"submunition" "ion hailstorm (POOT)" 14
+	description "Instead of just placing an Ion Rain Gun on a turret mount, the Heliarch tweaked the cycles of shots, having each shot be significantly more effective and seeing an overall increase to the weapon's range, but at the cost of a reload period."
+
+outfit "ion hailstorm (POOT)"
+	weapon
+		sprite "projectile/ion rain"
+			"frame rate" 7
+			"random start frame"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 5
+		"random velocity" 3
+		"lifetime" 35
+		"random lifetime" 4
+		"hit force" 1
+		"shield damage" 12
+		"hull damage" 5
+		"ion damage" .22
+		"scrambling damage" .22
+
+
+
+outfit "Ion Downpour (POOT)"
+	"display name" "Ion Downpour"
+	category "Guns"
+	series "Guns"
+	index 08021
+	licenses
+		Heliarch
+	cost 3950000
+	thumbnail "poot-exp/outfit/coalition_ion_downpour"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion rain"
+			"frame rate" 7
+			"random start frame"
+		sound "ion rain"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"velocity" 18
+		"random velocity" 2
+		"lifetime" 45
+		"random lifetime" 5
+		"reload" 1
+		"firing energy" 16
+		"firing heat" 7
+		"shield damage" 15
+		"hull damage" 7
+		"ion damage" .3
+		"scrambling damage" .3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."
+
+outfit "Ion Downpour Turret (POOT)"
+	"display name" "Ion Downpour Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08021
+	licenses
+		Heliarch
+	cost 3950000
+	thumbnail "poot-exp/outfit/coalition_ion_downpour_turret"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_hail_quad"
+			"scale" .6
+		"hardpoint offset" 14.
+		sprite "projectile/ion rain"
+			"frame rate" 7
+			"random start frame"
+		sound "ion rain"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"turret turn" 3.5
+		"velocity" 18
+		"random velocity" 2
+		"lifetime" 45
+		"random lifetime" 5
+		"reload" 1
+		"firing energy" 16
+		"firing heat" 7
+		"shield damage" 15
+		"hull damage" 7
+		"ion damage" .3
+		"scrambling damage" .3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."
+
+outfit "ion hail heavy (POOT)"
+	weapon
+		sprite "projectile/ion rain"
+			"scale" 2
+			"frame rate" 7
+			"random start frame"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 4
+		"random velocity" 3
+		"lifetime" 55
+		"random lifetime" 4
+		"hit force" 1
+		"shield damage" 180
+		"hull damage" 120
+		"ion damage" 1.5
+		"scrambling damage" 1.5
+
+outfit "Ion Hailcannon (POOT)"
+	"display name" "Ion Hailcannon"
+	category "Guns"
+	series "Guns"
+	index 08025
+	licenses
+		Heliarch
+	cost 7811000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_hailgun"
+	"mass" 95
+	"outfit space" -95
+	"weapon capacity" -95
+	"gun ports" -1
+	weapon
+		sound "poot-exp/ion_hail_heavy"
+		"inaccuracy" 3
+		"velocity" 35
+		"reload" 90
+		"firing energy" 1850
+		"firing heat" 1400
+		"submunition" "ion hail heavy (POOT)" 12
+	description "By modifying the ionic charging systems within the hailguns, these blasters are capable of firing a large amount of ionizing projectiles simultaneously and rapidly. While not having as much range as the Downpour, the hailstorm is far better at managing opposing vessels at a close range."
+
+outfit "Dual Ion Hailcannon (POOT)"
+	"display name" "Dual Ion Hailcannon"
+	category "Guns"
+	series "Guns"
+	index 08026
+	licenses
+		Heliarch
+	cost 17811000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_hailgun_twin"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"gun ports" -1
+	weapon
+		sound "poot-exp/ion_hail_heavy"
+		"inaccuracy" 3
+		"velocity" 35
+		"reload" 90
+		"firing energy" 3900
+		"firing heat" 2800
+		"submunition" "ion hail heavy (POOT)" 24
+	description "By modifying the ionic charging systems within the hailguns, these blasters are capable of firing a large amount of ionizing projectiles simultaneously and rapidly. While not having as much range as the Downpour, the hailstorm is far better at managing opposing vessels at a close range."
+
+outfit "Ion Hailcannon Turret (POOT)"
+	"display name" "Ion Hailcannon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08025
+	licenses
+		Heliarch
+	cost 10420000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_hailgun_turret"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_heavy_hail"
+			"scale" .85
+		"hardpoint offset" 25.
+		sound "poot-exp/ion_hail_heavy"
+		"turret turn" 3
+		"inaccuracy" 3
+		"velocity" 35
+		"reload" 90
+		"firing energy" 1850
+		"firing heat" 1400
+		"submunition" "ion hail heavy (POOT)" 12
+	description "By modifying the ionic charging systems within the hailguns, these blasters are capable of firing a large amount of ionizing projectiles simultaneously and rapidly. While not having as much range as the Downpour, the hailstorm is far better at managing opposing vessels at a close range."
+
+outfit "Dual Ion Hailcannon Turret (POOT)"
+	"display name" "Dual Ion Hailcannon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08026
+	licenses
+		Heliarch
+	cost 21420000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_hailgun_turret_twin"
+	"mass" 225
+	"outfit space" -225
+	"weapon capacity" -225
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/ion_heavy_hail_twin"
+			"scale" .85
+		"hardpoint offset" 25.
+		sound "poot-exp/ion_hail_heavy"
+		"turret turn" 3
+		"inaccuracy" 3
+		"velocity" 35
+		"reload" 90
+		"firing energy" 3900
+		"firing heat" 2800
+		"submunition" "ion hail heavy (POOT)" 24
+	description "By modifying the ionic charging systems within the hailguns, these blasters are capable of firing a large amount of ionizing projectiles simultaneously and rapidly. While not having as much range as the Downpour, the hailstorm is far better at managing opposing vessels at a close range."
+
+outfit "Ion Raincannon (POOT)"
+	"display name" "Ion Raincannon"
+	category "Guns"
+	series "Guns"
+	index 08022
+	licenses
+		Heliarch
+	cost 7950000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_raingun"
+	"mass" 95
+	"outfit space" -95
+	"weapon capacity" -95
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion rain"
+			"scale" 2
+			"frame rate" 7
+			"random start frame"
+		sound "poot-exp/ion_rain_heavy"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 90
+		"random lifetime" 5
+		"reload" 20
+		"firing energy" 320
+		"firing heat" 375
+		"shield damage" 400
+		"hull damage" 250
+		"ion damage" 3
+		"scrambling damage" 3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."
+
+outfit "Ion Raincannon Turret (POOT)"
+	"display name" "Ion Raincannon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08022
+	licenses
+		Heliarch
+	cost 11570000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_raingun_turret"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/ion rain"
+			"scale" 2
+			"frame rate" 7
+			"random start frame"
+		"hardpoint sprite" "poot-exp/hardpoint/ion_heavy_hail_twin"
+			"scale" .85
+		"hardpoint offset" 45.
+		sound "poot-exp/ion_rain_heavy"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"turret turn" 2.7
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 90
+		"random lifetime" 5
+		"reload" 20
+		"firing energy" 320
+		"firing heat" 375
+		"shield damage" 400
+		"hull damage" 250
+		"ion damage" 3
+		"scrambling damage" 3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."
+
+outfit "Dual Ion Raincannon (POOT)"
+	"display name" "Dual Ion Raincannon"
+	category "Guns"
+	series "Guns"
+	index 08023
+	licenses
+		Heliarch
+	cost 17950000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_raingun_twin"
+	"mass" 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion rain"
+			"scale" 2
+			"frame rate" 7
+			"random start frame"
+		sound "poot-exp/ion_rain_heavy"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 90
+		"random lifetime" 5
+		"reload" 10
+		"firing energy" 320
+		"firing heat" 375
+		"shield damage" 400
+		"hull damage" 250
+		"ion damage" 3
+		"scrambling damage" 3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."
+
+outfit "Dual Ion Raincannon Turret (POOT)"
+	"display name" "Dual Ion Raincannon Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08023
+	licenses
+		Heliarch
+	cost 23570000
+	thumbnail "poot-exp/outfit/coalition_ion_heavy_raingun_turret_twin"
+	"mass" 225
+	"outfit space" -225
+	"weapon capacity" -225
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/ion rain"
+			"scale" 2
+			"frame rate" 7
+			"random start frame"
+		"hardpoint sprite" "poot-exp/hardpoint/ion_heavy_hail"
+			"scale" .85
+		"hardpoint offset" 45.
+		sound "poot-exp/ion_rain_heavy"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"turret turn" 2.7
+		"velocity" 30
+		"random velocity" 2
+		"lifetime" 90
+		"random lifetime" 5
+		"reload" 10
+		"firing energy" 320
+		"firing heat" 375
+		"shield damage" 400
+		"hull damage" 250
+		"ion damage" 3
+		"scrambling damage" 3
+	description "Unleashing a rapid flurry of ionic blasts, the Ion Downpour boasts an increase in projectile stability on top of its massive firerate improvement. It does need an increased amount of power in order to sustain its improved projectiles."

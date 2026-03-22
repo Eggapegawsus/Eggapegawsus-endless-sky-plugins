@@ -1,0 +1,1938 @@
+
+effect "medium navy explosion"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion medium"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" 0
+	
+
+effect "large navy explosion"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion large"
+	"lifetime" 32
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 4
+	"random velocity" .8
+	"velocity scale" 0
+
+
+effect "huge navy explosion"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion huge"
+	"lifetime" 36
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" 0
+	
+effect "nuke navy explosion"
+	sprite "effect/explosion/nuke"
+		"no repeat"
+		"frame rate" 30
+		"scale" 1.8
+	sound "explosion nuke"
+	"lifetime" 15
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" 0
+
+effect "navy laser hit"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"scale" .5
+		"frame rate" 30
+	"lifetime" 16
+	"random angle" 30
+	"random frame rate" 5
+	"random spin" 4
+	"random velocity" 1
+	"velocity scale" 0.0005
+
+effect "navy laser empress hit"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"scale" .75
+		"frame rate" 30
+	"lifetime" 16
+	"random angle" 30
+	"random frame rate" 5
+	"random spin" 4
+	"random velocity" 1
+	"velocity scale" 0.0005
+
+effect "empress laser fire"
+	sprite "effect/explosion/pug/tiny"
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 10
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"velocity scale" 1
+
+effect "Naval Class 1 laser fire"
+	sprite "effect/electron impact"
+		"scale" .75
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"velocity scale" 1
+	
+effect "Naval Class 2 laser fire"
+	sprite "effect/heavy laser impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"velocity scale" 1
+
+effect "Naval Class 3 laser fire"
+	sprite "effect/laser impact"
+		"scale" 1.5
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"velocity scale" 1
+
+outfit "Naval 88mm Cannon (POOT)"
+	"display name" `Naval 88mm Cannon`
+	category "Guns"
+	series "Guns"
+	index 111010
+	cost 412000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonshort"
+	"mass" 70
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "medium navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 25
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 500
+		"firing heat" 2900
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 88mm Turret (POOT)"
+	"display name" `Naval 88mm Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111010
+	cost 440000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonshort"
+	"mass" 70
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannonshort"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "medium explosion"
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 500
+		"firing heat" 2900
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 88mm Twin Cannon (POOT)"
+	"display name" `Naval 88mm Twin Cannon`
+	category "Guns"
+	series "Guns"
+	index 111011
+	cost 824000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2short"
+	"mass" 110
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "medium navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 25
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 600
+		"firing heat" 3500
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 88mm Twin Turret (POOT)"
+	"display name" `Naval 88mm Twin Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111011
+	cost 880000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2short"
+	"mass" 110
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon2short"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "medium explosion"
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 600
+		"firing heat" 3500
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 88mm Tri-Cannon (POOT)"
+	"display name" `Naval 88mm Tri-Cannon`
+	category "Guns"
+	series "Guns"
+	index 111012
+	cost 1236000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3short"
+	"mass" 110
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "medium navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 25
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 670
+		"firing heat" 4200
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 88mm Tri-Turret (POOT)"
+	"display name" `Naval 88mm Tri-Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111012
+	cost 1320000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3short"
+	"mass" 180
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .6
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon3short"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "medium explosion"
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 670
+		"firing heat" 4200
+		"shield damage" 675
+		"hull damage" 600
+		"hit force" 250
+		"blast radius" 100
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Cannon (POOT)"
+	"display name" `Naval 160mm Cannon`
+	category "Guns"
+	series "Guns"
+	index 111020
+	cost 890000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon"
+	"mass" 120
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 30
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 1400
+		"firing heat" 5580
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Turret (POOT)"
+	"display name" `Naval 160mm Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111020
+	cost 910000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon"
+	"mass" 120
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"velocity" 30
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 1400
+		"firing heat" 5580
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Twin Cannon (POOT)"
+	"display name" `Naval 160mm Twin Cannon`
+	category "Guns"
+	series "Guns"
+	index 111021
+	cost 1780000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2"
+	"mass" 210
+	"outfit space" -85
+	"weapon capacity" -85
+	"gun ports" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 30
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 1650
+		"firing heat" 7590
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Twin Turret (POOT)"
+	"display name" `Naval 160mm Twin Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111021
+	cost 1820000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2"
+	"mass" 210
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon2"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"velocity" 30
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 1650
+		"firing heat" 7590
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Tri-Cannon (POOT)"
+	"display name" `Naval 160mm Tri-Cannon`
+	category "Guns"
+	series "Guns"
+	index 111022
+	cost 2670000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3"
+	"mass" 330
+	"outfit space" -110
+	"weapon capacity" -110
+	"gun ports" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		sound "small explosion"
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 30
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 1650
+		"firing heat" 9240
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 160mm Tri-Turret (POOT)"
+	"display name" `Naval 160mm Tri-Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111022
+	cost 2730000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3"
+	"mass" 330
+	"outfit space" -110
+	"weapon capacity" -110
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" .8
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon3"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "small explosion"
+		"turret turn" 1
+		"fire effect" "small explosion"
+		"hit effect" "large navy explosion"
+		"inaccuracy" 2
+		"velocity" 30
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 1650
+		"firing heat" 9240
+		"shield damage" 1220
+		"hull damage" 1140
+		"hit force" 300
+		"blast radius" 125
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Cannon (POOT)"
+	"display name" `Naval 250mm Cannon`
+	category "Guns"
+	series "Guns"
+	index 111030
+	cost 1790000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon"
+	"mass" 170
+	"outfit space" -85
+	"weapon capacity" -85
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 35
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 2500
+		"firing heat" 11750
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Turret (POOT)"
+	"display name" `Naval 250mm Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111030
+	cost 1910000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon"
+	"mass" 170
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon"
+			"scale" .7
+		"hardpoint offset" 60.
+		"turret turn" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"velocity" 35
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 2500
+		"firing heat" 11750
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Twin Cannon (POOT)"
+	"display name" `Naval 250mm Twin Cannon`
+	category "Guns"
+	series "Guns"
+	index 111031
+	cost 3580000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2"
+	"mass" 290
+	"outfit space" -110
+	"weapon capacity" -110
+	"gun ports" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 35
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 2700
+		"firing heat" 13350
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Twin Turret (POOT)"
+	"display name" `Naval 250mm Twin Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111031
+	cost 3820000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon2"
+	"mass" 290
+	"outfit space" -110
+	"weapon capacity" -110
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon2"
+			"scale" .7
+		"hardpoint offset" 60.
+		"turret turn" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"velocity" 35
+		"lifetime" 100
+		"reload" 105
+		"burst count" 2
+		"burst reload" 50
+		"firing energy" 2700
+		"firing heat" 13350
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Tri-Cannon (POOT)"
+	"display name" `Naval 250mm Tri-Cannon`
+	category "Guns"
+	series "Guns"
+	index 111032
+	cost 5370000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3"
+	"mass" 435
+	"outfit space" -145
+	"weapon capacity" -145
+	"gun ports" -1
+	"required crew" 9
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 35
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 2950
+		"firing heat" 14500
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+outfit "Naval 250mm Tri-Turret (POOT)"
+	"display name" `Naval 250mm Tri-Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111032
+	cost 5730000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannon3"
+	"mass" 435
+	"outfit space" -145
+	"weapon capacity" -145
+	"turret mounts" -1
+	"required crew" 9
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon3"
+			"scale" .7
+		"hardpoint offset" 60.
+		"turret turn" 1
+		sound "medium explosion"
+		"fire effect" "medium explosion"
+		"hit effect" "huge navy explosion"
+		"inaccuracy" 2
+		"velocity" 35
+		"lifetime" 100
+		"reload" 75
+		"burst count" 3
+		"burst reload" 50
+		"firing energy" 2950
+		"firing heat" 14500
+		"shield damage" 2110
+		"hull damage" 2040
+		"hit force" 350
+		"blast radius" 150
+	description "A slow firing heavyduty naval cannon. Long ranged, explosive, and very slow to reload."
+	
+
+outfit `Naval 500mm "Duke" Cannon (POOT)`
+	"display name" `Naval 500mm "Duke" Cannon`
+	category "Guns"
+	series "Guns"
+	index 111039
+	cost 50000000
+	thumbnail "poot-exp/outfit/naval_cannon/navyduke"
+	"mass" 580
+	"outfit space" -235
+	"weapon capacity" -235
+	"gun ports" -1
+	"required crew" 15
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1.5
+		sound "large explosion"
+		"fire effect" "large explosion"
+		"hit effect" "nuke navy explosion"
+		"inaccuracy" .2
+		"turret turn" 1
+		"arc" 45
+		"velocity" 42
+		"lifetime" 100
+		"reload" 240
+		"firing energy" 21000
+		"firing heat" 55000
+		"shield damage" 12000
+		"hull damage" 10000
+		"hit force" 1000
+		"blast radius" 300
+	description "A devestating and slow firing cannon."
+	description `Nicknamed "The Duke", its monsterous power is matched only by its massive size. Well capable of obliterating smaller ships, and even some moderately sized warships.`
+	
+outfit `Naval 500mm "Duke" Turret (POOT)`
+	"display name" `Naval 500mm "Duke" Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111039
+	cost 50000000
+	thumbnail "poot-exp/outfit/naval_cannon/navyduke"
+	"mass" 580
+	"outfit space" -235
+	"weapon capacity" -235
+	"turret mounts" -1
+	"required crew" 15
+	weapon
+		sprite "poot-exp/projectile/navy-large"
+			"scale" 1.5
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navyduke"
+			"scale" 1.1
+		"hardpoint offset" 100.
+		"turret turn" 1
+		sound "large explosion"
+		"fire effect" "large explosion"
+		"hit effect" "nuke navy explosion"
+		"inaccuracy" .2
+		"velocity" 42
+		"lifetime" 100
+		"reload" 240
+		"firing energy" 21000
+		"firing heat" 55000
+		"shield damage" 12000
+		"hull damage" 10000
+		"hit force" 1000
+		"blast radius" 300
+	description "A devestating and slow firing cannon."
+	description `Nicknamed "The Duke", its monsterous power is matched only by its massive size. Well capable of obliterating smaller ships, and even some moderately sized warships.`
+	
+
+outfit "Naval Class 1 Artillery Laser (POOT)"
+	"display name" `Naval Class 1 Artillery Laser`
+	category "Guns"
+	series "Guns"
+	index 111040
+	cost 659000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannonshort"
+	"mass" 80
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 6
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 1 Artillery Laser Turret (POOT)"
+	"display name" `Naval Class 1 Artillery Laser Turrett`
+	category "Turrets"
+	series "Turrets"
+	index 111040
+	cost 659000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannonshort"
+	"mass" 80
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannonshort"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 6
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 1 Artillery Twin Laser (POOT)"
+	"display name" `Naval Class 1 Artillery Twin Laser`
+	category "Guns"
+	series "Guns"
+	index 111041
+	cost 1318000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2short"
+	"mass" 110
+	"outfit space" -55
+	"weapon capacity" -55
+	"gun ports" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 3
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 1 Artillery Laser Twin Turret (POOT)"
+	"display name" `Naval Class 1 Artillery Laser Twin Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111041
+	cost 1318000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2short"
+	"mass" 110
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon2short"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 3
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 1 Artillery Tri-Laser (POOT)"
+	"display name" `Naval Class 1 Artillery Tri-Laser`
+	category "Guns"
+	series "Guns"
+	index 111042
+	cost 2100000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3short"
+	"mass" 150
+	"outfit space" -75
+	"weapon capacity" -75
+	"gun ports" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 2
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 1 Artillery Tri-Laser Turret (POOT)"
+	"display name" `Naval Class 1 Artillery Tri-Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111042
+	cost 2100000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3short"
+	"mass" 150
+	"outfit space" -75
+	"weapon capacity" -75
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon3short"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 1 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 2
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 50
+		"firing heat" 42
+		"shield damage" 20
+		"hull damage" 20
+		"hit force" 3
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Laser (POOT)"
+	"display name" `Naval Class 2 Artillery Laser`
+	category "Guns"
+	series "Guns"
+	index 111043
+	cost 1279000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon"
+	"mass" 144
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 6
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Laser Turret (POOT)"
+	"display name" `Naval Class 2 Artillery Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111043
+	cost 1279000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon"
+	"mass" 144
+	"outfit space" -72
+	"weapon capacity" -72
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 6
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Twin Laser (POOT)"
+	"display name" `Naval Class 2 Artillery Twin Laser`
+	category "Guns"
+	series "Guns"
+	index 111044
+	cost 2560000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2"
+	"mass" 200
+	"outfit space" -100
+	"weapon capacity" -100
+	"gun ports" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 3
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Laser Twin Turret (POOT)"
+	"display name" `Naval Class 2 Artillery Laser Twin Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111044
+	cost 2560000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2"
+	"mass" 200
+	"outfit space" -100
+	"weapon capacity" -100
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon2"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 3
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Tri-Laser (POOT)"
+	"display name" `Naval Class 2 Artillery Tri-Laser`
+	category "Guns"
+	series "Guns"
+	index 111045
+	cost 5910000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3"
+	"mass" 270
+	"outfit space" -135
+	"weapon capacity" -135
+	"gun ports" -1
+	"required crew" 9
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 2
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 2 Artillery Laser Tri-Turret (POOT)"
+	"display name" `Naval Class 2 Artillery Laser Tri-Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111045
+	cost 5910000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3"
+	"mass" 270
+	"outfit space" -135
+	"weapon capacity" -135
+	"turret mounts" -1
+	"required crew" 9
+	weapon
+		sprite "poot-exp/projectile/navy-heavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon3"
+			"scale" .55
+		"hardpoint offset" 47.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 2 laser fire"
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 1750
+		"lifetime" 1
+		"reload" 2
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 135
+		"firing heat" 90
+		"shield damage" 35
+		"hull damage" 35
+		"hit force" 5
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+
+outfit "Naval Class 3 Artillery Laser (POOT)"
+	"display name" `Naval Class 3 Artillery Laser`
+	category "Guns"
+	series "Guns"
+	index 111046
+	cost 2547000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon"
+	"mass" 196
+	"outfit space" -98
+	"weapon capacity" -98
+	"gun ports" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 3 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 6
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 3 Artillery Laser Turret (POOT)"
+	"display name" `Naval Class 3 Artillery Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111046
+	cost 2547000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon"
+	"mass" 196
+	"outfit space" -98
+	"weapon capacity" -98
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon"
+			"scale" .7
+		"hardpoint offset" 60.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 3 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 6
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 3 Artillery Twin Laser (POOT)"
+	"display name" `Naval Class 3 Artillery Twin Laser`
+	category "Guns"
+	series "Guns"
+	index 111047
+	cost 5245000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2"
+	"mass" 280
+	"outfit space" -140
+	"weapon capacity" -140
+	"gun ports" -1
+	"required crew" 8
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"fire effect" "Naval Class 3 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 3
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 3 Artillery Twin Laser Turret (POOT)"
+	"display name" `Naval Class 3 Artillery Twin Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111047
+	cost 5245000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon2"
+	"mass" 280
+	"outfit space" -140
+	"weapon capacity" -140
+	"turret mounts" -1
+	"required crew" 8
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon2"
+			"scale" .7
+		"hardpoint offset" 60.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"fire effect" "Naval Class 3 laser fire" 1
+		"hit effect" "navy laser hit" 1
+		"inaccuracy" .2
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 3
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 3 Artillery Tri-Laser (POOT)"
+	"display name" `Naval Class 3 Artillery Tri-Laser`
+	category "Guns"
+	series "Guns"
+	index 111048
+	cost 10500000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3"
+	"mass" 370
+	"outfit space" -185
+	"weapon capacity" -185
+	"gun ports" -1
+	"required crew" 12
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		sound "poot-exp/navylaser"
+		"hit effect" "navy laser hit" 1
+		"fire effect" "Naval Class 3 laser fire" 1
+		"inaccuracy" 1
+		"turret turn" 1
+		"arc" 30
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 2
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit "Naval Class 3 Artillery Tri-Laser Turret (POOT)"
+	"display name" `Naval Class 3 Artillery Tri-Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111048
+	cost 10500000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navycannon3"
+	"mass" 370
+	"outfit space" -185
+	"weapon capacity" -185
+	"turret mounts" -1
+	"required crew" 12
+	weapon
+		sprite "poot-exp/projectile/navy-superheavy-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navycannon3"
+			"scale" .7
+		"hardpoint offset" 60.
+		sound "poot-exp/navylaser"
+		"turret turn" 1
+		"hit effect" "navy laser hit" 1
+		"fire effect" "Naval Class 3 laser fire" 1
+		"inaccuracy" .2
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 2
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 165
+		"firing heat" 75
+		"shield damage" 64
+		"hull damage" 64
+		"hit force" 7
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+outfit `Naval Class 4 "Empress" Artillery Laser (POOT)`
+	"display name" `Naval Class 4 "Empress" Artillery Laser`
+	category "Guns"
+	series "Guns"
+	index 111049
+	cost 60000000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navyempress"
+	"mass" 600
+	"outfit space" -250
+	"weapon capacity" -250
+	"gun ports" -1
+	"required crew" 19
+	weapon
+		sprite "poot-exp/projectile/navy-empress-laser"
+			"frame rate" 1
+		sound "poot-exp/neutron_beam"
+		"hit effect" "navy laser empress hit" 1
+		"inaccuracy" 1
+		"turret turn" .8
+		"arc" 45
+		"velocity" 3000
+		"lifetime" 1
+		"reload" 2
+		"burst count" 300
+		"burst reload" 1
+		"firing energy" 275
+		"firing heat" 350
+		"shield damage" 110
+		"hull damage" 110
+		"hit force" 15
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+
+outfit `Naval Class 4 "Empress" Artillery Laser Turret (POOT)`
+	"display name" `Naval Class 4 "Empress" Artillery Laser Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111049
+	cost 60000000
+	thumbnail "poot-exp/outfit/naval_cannon/laser_navyempress"
+	"mass" 600
+	"outfit space" -250
+	"weapon capacity" -250
+	"turret mounts" -1
+	"required crew" 19
+	weapon
+		sprite "poot-exp/projectile/navy-empress-laser"
+			"frame rate" 1
+		"hardpoint sprite" "poot-exp/hardpoint/navy/laser_navyempress"
+			"scale" 1
+		"hardpoint offset" 85.
+		sound "poot-exp/neutron_beam"
+		"turret turn" .8
+		"fire effect" "empress laser fire" 1
+		"hit effect" "navy laser empress hit" 1
+		"inaccuracy" .2
+		"velocity" 3000
+		"lifetime" 1
+		"reload" 2
+		"burst count" 300
+		"burst reload" 1
+		"firing energy" 275
+		"firing heat" 350
+		"shield damage" 110
+		"hull damage" 110
+		"hit force" 15
+	description "A slow firing and slow turning heavy duty naval laser. By charging an internal set of massive capacitor banks before firing, it can let out a much stronger centralized beam than most beam weapons in human space, however it must recharge its capacitors after every shot."
+	
+effect "navy minigun fire"
+	sprite "effect/explosion/tiny"
+		"scale" .6
+		"no repeat"
+		"frame rate" 30
+	sound "gatling"
+	"lifetime" 10
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"random velocity" .2
+	"velocity scale" 1
+
+outfit "navy_bullet"
+	weapon
+		sprite "poot-exp/projectile/navy_bullet_alt"
+		"random velocity" 5
+		"lifetime" 30
+		"random lifetime" 3
+		"shield damage" 15
+		"hull damage" 15
+		"hit force" 2
+		"hit effect" "navy bullet impact"
+
+outfit "navy_bullet_longrange"
+	weapon
+		sprite "poot-exp/projectile/navy_bullet_alt"
+			"scale" 1.25
+		"random velocity" 5
+		"lifetime" 40
+		"random lifetime" 3
+		"shield damage" 45
+		"hull damage" 45
+		"hit force" 3
+		"hit effect" "navy bullet impact"
+
+outfit "navy_bullet_mega"
+	weapon
+		sprite "poot-exp/projectile/navy_bullet_alt"
+			"scale" 2
+		"random velocity" 11
+		"lifetime" 60
+		"random lifetime" 7
+		"shield damage" 120
+		"hull damage" 120
+		"hit force" 9
+		"blast radius" 35
+		"hit effect" "mega bullet impact"
+		"fused"
+
+effect "navy bullet impact"
+	sprite "effect/bullet impact"
+		"no repeat"
+		"scale" 1.5
+		"frame rate" 60
+	"lifetime" 8
+	"random angle" 40
+	"velocity scale" .2
+
+effect "mega bullet impact"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion small"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .0
+
+effect "navy mega fire"
+	sprite "effect/explosion/small"
+		"scale" 1
+		"no repeat"
+		"frame rate" 30
+	sound "explosion large"
+	"lifetime" 10
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"random velocity" .2
+	"velocity scale" 1
+
+outfit "900 RPM Naval Minigun (POOT)"
+	"display name" `900 RPM Naval Minigun`
+	category "Guns"
+	series "Guns"
+	index 111050
+	cost 320000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonquadshort"
+	"mass" 64
+	"outfit space" -32
+	"weapon capacity" -32
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		"submunition" "navy_bullet"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"arc" 45
+		"velocity" 20
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 23
+		"firing heat" 60
+		"firing force" 4
+		"cluster"
+	description "A rapid firing naval machine gun. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+
+outfit "900 RPM Naval Minigun Turret (POOT)"
+	"display name" `900 RPM Naval Minigun Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111050
+	cost 320000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonquadshort"
+	"mass" 64
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannonquadshort"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		"submunition" "navy_bullet"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 23
+		"firing heat" 60
+		"firing force" 4
+	description "A rapid firing naval machine gun. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+outfit "1800 RPM Naval Minigun (POOT)"
+	"display name" `1800 RPM Naval Minigun`
+	category "Guns"
+	series "Guns"
+	index 111051
+	cost 580000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonsextupleshort"
+	"mass" 100
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"required crew" 2
+	weapon
+		"submunition" "navy_bullet"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"arc" 45
+		"velocity" 20
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 23
+		"firing heat" 60
+		"firing force" 4
+		"cluster"
+	description "A rapid firing naval machine gun. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+
+outfit "1800 RPM Naval Minigun Turret (POOT)"
+	"display name" `1800 RPM Naval Minigun Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111051
+	cost 580000
+	thumbnail "poot-exp/outfit/naval_cannon/navycannonsextupleshort"
+	"mass" 100
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannonsextupleshort"
+			"scale" 0.5
+		"hardpoint offset" 20.
+		"submunition" "navy_bullet"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 20
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 23
+		"firing heat" 60
+		"firing force" 4
+	description "A rapid firing naval machine gun. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+
+outfit "900 RPM CIWS (POOT)"
+	"display name" `900 RPM CIWS`
+	category "Guns"
+	series "Guns"
+	index 111052
+	cost 1790000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret"
+	"mass" 170
+	"outfit space" -85
+	"weapon capacity" -85
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"arc" 45
+		"velocity" 25
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+		"cluster"
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+
+outfit "900 RPM CIWS Turret (POOT)"
+	"display name" `900 RPM CIWS Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111052
+	cost 1790000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret"
+	"mass" 170
+	"outfit space" -85
+	"weapon capacity" -85
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navyturret"
+			"scale" 0.5
+		"hardpoint offset" 35.
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 25
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+outfit "1800 RPM CIWS (POOT)"
+	"display name" `1800 RPM CIWS`
+	category "Guns"
+	series "Guns"
+	index 111053
+	cost 4220000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret4"
+	"mass" 250
+	"outfit space" -125
+	"weapon capacity" -125
+	"gun ports" -1
+	"required crew" 6
+	weapon
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"arc" 45
+		"velocity" 25
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+		"cluster"
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+
+outfit "1800 RPM CIWS Turret (POOT)"
+	"display name" `1800 RPM CIWS Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111053
+	cost 4220000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret4"
+	"mass" 250
+	"outfit space" -125
+	"weapon capacity" -125
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navyturret4"
+			"scale" .55
+		"hardpoint offset" 38.
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 25
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+outfit "3600 RPM CIWS (POOT)"
+	"display name" `3600 RPM CIWS`
+	category "Guns"
+	series "Guns"
+	index 111054
+	cost 11420000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret8"
+	"mass" 390
+	"outfit space" -165
+	"weapon capacity" -165
+	"gun ports" -1
+	"required crew" 10
+	weapon
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 18
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"arc" 45
+		"velocity" 25
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+		"cluster"
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+outfit "3600 RPM CIWS Turret (POOT)"
+	"display name" `3600 RPM CIWS Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111054
+	cost 11420000
+	thumbnail "poot-exp/outfit/naval_cannon/navyturret8"
+	"mass" 390
+	"outfit space" -165
+	"weapon capacity" -165
+	"turret mounts" -1
+	"required crew" 10
+	weapon
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navyturret8"
+			"scale" .7
+		"hardpoint offset" 45.
+		"submunition" "navy_bullet_longrange"
+			"offset" 0 24
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 2
+		"turret turn" 2
+		"velocity" 25
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 65
+		"firing heat" 105
+		"firing force" 4
+	description "A rapid firing close-in weapon system. Shorter range than some of the larger cannons, but with a very high firing speed and admirable damage."
+	
+outfit `1350 "Mega" RPM CIWS (POOT)`
+	"display name" `1350 "Mega" RPM CIWS`
+	category "Guns"
+	series "Guns"
+	index 111055
+	cost 62420000
+	thumbnail "poot-exp/outfit/naval_cannon/navymega"
+	"mass" 490
+	"outfit space" -240
+	"weapon capacity" -240
+	"gun ports" -1
+	"required crew" 20
+	weapon
+		"submunition" "navy_bullet_mega"
+			"offset" -10 21
+		"submunition" "navy_bullet_mega"
+			"offset" 0 21
+		"submunition" "navy_bullet_mega"
+			"offset" 10 21
+		"fire effect" "navy minigun fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 4
+		"turret turn" 1.6
+		"arc" 45
+		"velocity" 30
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 450
+		"firing heat" 1024
+		"firing force" 12
+		"cluster"
+	description ` As long as this monumental cannon has existed, there have been theories floating around that it was never intended to be a naval weapon.`
+	description `   Legend has it that the Navy was experimenting with technology for a new afterburner for smaller navy warships. The prototype was completed, but during the assembly process something went wrong. The result being that when activated, the prototype would produce the same rapid blasts as the ones fired from the trio of double cannons mounted onto the 1350 Mega.`
+	
+outfit `1350 "Mega" RPM CIWS Turret (POOT)`
+	"display name" `1350 "Mega" RPM CIWS Turret`
+	category "Turrets"
+	series "Turrets"
+	index 111055
+	cost 62420000
+	thumbnail "poot-exp/outfit/naval_cannon/navymega"
+	"mass" 490
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	"required crew" 20
+	weapon
+		"submunition" "navy_bullet_mega"
+			"offset" -10 21
+		"submunition" "navy_bullet_mega"
+			"offset" 0 21
+		"submunition" "navy_bullet_mega"
+			"offset" 10 21
+		"hardpoint sprite" "poot-exp/hardpoint/navy/navycannon3"
+			"scale" 1.1
+		"hardpoint offset" 100.
+		"fire effect" "navy mega fire"
+		"hit effect" "navy bullet impact"
+		"inaccuracy" 4
+		"turret turn" 1.6
+		"velocity" 30
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 450
+		"firing heat" 1024
+		"firing force" 12
+		"cluster"
+	description ` As long as this monumental cannon has existed, there have been theories floating around that it was never intended to be a naval weapon.`
+	description `   Legend has it that the Navy was experimenting with technology for a new afterburner for smaller navy warships. The prototype was completed, but during the assembly process something went wrong. The result being that when activated, the prototype would produce the same rapid blasts as the ones fired from the trio of double cannons mounted onto the 1350 Mega.`
+	
