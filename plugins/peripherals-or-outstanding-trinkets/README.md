@@ -1,7 +1,7 @@
 **UPDATED 3/22/2026, for ES Unstable 0.11.0**
  - [Download POOT Alpha 0.1.0]() (Latest)
 
-![Peripherals or Outstanding Trinkets]() 
+![Peripherals or Outstanding Trinkets](/images/header_poot.png)
 # Peripherals Or Outstanding Trinkets. 
 <br>
 Peripherals Or Outstanding Trinkets is a vanilla plus content expansion/quality of life 
