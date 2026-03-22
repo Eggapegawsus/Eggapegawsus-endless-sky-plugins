@@ -13,9 +13,11 @@ This is a collection of all of my plugins for Endless Sky that are currently rel
 <br>
 
 ## Current Plugins
+![Peripherals or Outstanding Trinkets](/images/header_poot.png)
 * [Peripherals Or Outstanding Trinkets](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/peripherals-or-outstanding-trinkets)
-  * (WIP)
-  * POOT is intended to be the main plugin of this repository. Many other plugins here are based around it, however, it is highly WIP and broken in its current state, thus, no download yet.
+  * A massive Vanilla Plus content expansion, adding over 350 weapons and 125 outfits
+  * POOT is intended to be the main plugin of this repository, as many other plugins here are based around it. However, it is a WIP plugin, only being in its Alpha release. That being said, the majority of content within it should be both obtainable and stable to use.
+  * Latest Release : Alpha 0.1.0 [(Download)](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/releases/download/v0.1.0-POOT-alpha/peripherals-or-outstanding-trinkets-ALPHA-0-1-0.zip)
 #
 ![Senza Solaria](/images/senzasolaria4.png)  
 * [Senza Solaria](https://github.com/Eggapegawsus/Eggapegawsus-endless-sky-plugins/tree/main/plugins/poot-senza-solaria)
