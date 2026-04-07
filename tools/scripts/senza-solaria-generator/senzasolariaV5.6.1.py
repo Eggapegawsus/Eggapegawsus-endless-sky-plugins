@@ -113,7 +113,7 @@ def find_ships_v4(input_filepath, output_single_folder, variants_source_ship):
 	plugin_name = "_".join(input_filepath.name.lower().split())
 	
 	#The search for ships
-	ship_name_definition = r'^ship\s+([^\n\r]*?)(?=\s*#|$)'
+	ship_name_definition = r'^\ufeff?ship\s+([^\n\r]*?)(?=\s*#|$)'
 	ship_name_compiled = re.compile(ship_name_definition, re.MULTILINE)
 	
 	export_location = input_filepath / (f"{plugin_name}_senza_solaria") / "data"
@@ -284,7 +284,7 @@ def find_outfits_v4(input_filepath, output_single_folder):
 	plugin_name = "_".join(input_filepath.name.lower().split())
 	
 	#The search for outfits
-	outfit_name_definition = r'^outfit\s+(.*?)(?=#|$)'
+	outfit_name_definition = r'^\ufeff?outfit\s+(.*?)(?=#|$)'
 	outfit_name_compiled = re.compile(outfit_name_definition, re.MULTILINE)
 	
 	export_location = input_filepath / (f"{plugin_name}_senza_solaria") / "data"
