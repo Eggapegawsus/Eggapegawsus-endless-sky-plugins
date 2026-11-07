@@ -129,7 +129,7 @@ def find_ships_v4(input_filepath, output_single_folder, variants_source_ship):
 		if existing_file.is_file():
 			if ".variants" in existing_file.name or ".all." in existing_file.name:
 				continue
-			existing_content = existing_file.read_text(encoding='utf-8', errors='ignore')
+			existing_content = existing_file.read_text(encoding='utf-8-sig', errors='ignore')
 			existing_found = re.findall(r"event `Senza Solaria Stocks (.*?) \(ship\)`", existing_content)
 			for name in existing_found:
 				existing_missions.add(f"ship_{fixnames_v1(name)}")
@@ -142,7 +142,7 @@ def find_ships_v4(input_filepath, output_single_folder, variants_source_ship):
 		if file_path.is_file():
 			print(f"\n--- Reading file: {file_path.name}")
 			try:
-				with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+				with open(file_path, 'r', encoding='utf-8-sig', errors='ignore') as f:
 					plugin_content = f.read()
 					
 					#Checks if an ship is a variant, then if it has a category
@@ -236,7 +236,7 @@ def find_ships_v4(input_filepath, output_single_folder, variants_source_ship):
 				
 						found_location = "\n".join([senza_solaria_mission_ship(o[0], o[1]) for o in discovered_ships])
 						new_file_for_ships = ship_subfolder / f"{plugin_name}_{file_path.stem}.txt".replace("_", ".")
-						with open(new_file_for_ships, 'a', encoding='utf-8') as f:
+						with open(new_file_for_ships, 'a', encoding='utf-8-sig') as f:
 							f.write("\n" + found_location)
 				else:
 					print("TOUGH LUCK BUDDY, nothin found!")
@@ -248,18 +248,18 @@ def find_ships_v4(input_filepath, output_single_folder, variants_source_ship):
 	all_found_ships = sorted(list(ship_set))
 	
 	if all_found_ships:
-		with open(allunlock_export, 'w', encoding='utf-8', errors='ignore') as f:
+		with open(allunlock_export, 'w', encoding='utf-8-sig', errors='ignore') as f:
 			f.write(f"shipyard `Senza Solaria Unlockall Ships Plugin`\n")
 			for ship_name in all_found_ships:
 				f.write(f"\t`{ship_name}`\n")
 	if output_single_folder and ship_list:
 		single_file = export_location / (f"{plugin_name}_senza_ships.txt")
 		single_file_text = "\n".join([senza_solaria_mission_ship(o[0], o[1]) for o in ship_list])
-		with open(single_file, 'a', encoding='utf-8') as f:
+		with open(single_file, 'a', encoding='utf-8-sig') as f:
 			f.write("\n" + single_file_text)
 	if variant_set:
 		variant_file = export_location / f"{plugin_name}.variants.txt"
-		with open(variant_file, 'w', encoding='utf-8', errors='ignore') as f:
+		with open(variant_file, 'w', encoding='utf-8-sig', errors='ignore') as f:
 			if variant_file.stat().st_size == 0:
 				f.write(f"#Variants found in files, be sure to add these to their proper missions based on the ship they are a variant of if you wish to be able to purchase them\n#If you would like to make these availible for purchase when playing with everything unlocked, remove the `#` infront of the next line.\n#shipyard `Senza Solaria Unlockall Ships Plugin`\n")
 			for variant_name in sorted(list(variant_set)):
@@ -292,7 +292,7 @@ def find_outfits_v4(input_filepath, output_single_folder):
 	
 	allunlock_export = export_location / f"{plugin_name}.senza.all.outfits.txt"
 	if allunlock_export.exists():
-		allunlock_content = allunlock_export.read_text(encoding='utf-8', errors='ignore')
+		allunlock_content = allunlock_export.read_text(encoding='utf-8-sig', errors='ignore')
 		allunlock_existing_content = re.findall(r"`(.*?)`", allunlock_content)
 		outfit_set.update(allunlock_existing_content)
 	else:
@@ -302,7 +302,7 @@ def find_outfits_v4(input_filepath, output_single_folder):
 	existing_missions = set()
 	for existing_file in export_location.rglob("*.txt"):
 		if existing_file.is_file() and ".all." not in existing_file.name:
-			existing_content = existing_file.read_text(encoding='utf-8', errors='ignore')
+			existing_content = existing_file.read_text(encoding='utf-8-sig', errors='ignore')
 			existing_found = re.findall(r"event `Senza Solaria Stocks (.*?) \(outfit\)`", existing_content)
 			for name in existing_found:
 				existing_missions.add(f"outfit_{fixnames_v1(name)}")
@@ -315,7 +315,7 @@ def find_outfits_v4(input_filepath, output_single_folder):
 		if file_path.is_file():
 			print(f"\n--- Reading file: {file_path.name}")
 			try:
-				with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+				with open(file_path, 'r', encoding='utf-8-sig', errors='ignore') as f:
 					plugin_content = f.read()
 					
 					#Checks if an outfit is a variant, then if it has a category
@@ -379,7 +379,7 @@ def find_outfits_v4(input_filepath, output_single_folder):
 				
 						found_location = "\n".join([senza_solaria_mission_outfit(o[0], o[1]) for o in discovered_outfits])
 						new_file_for_outfits = outfit_subfolder / f"{plugin_name}_{file_path.stem}.txt".replace("_", ".")
-						with open(new_file_for_outfits, 'a', encoding='utf-8') as f:
+						with open(new_file_for_outfits, 'a', encoding='utf-8-sig') as f:
 							f.write("\n" + found_location)
 				else:
 					print("TOUGH LUCK BUDDY, nothin found!")
@@ -391,14 +391,14 @@ def find_outfits_v4(input_filepath, output_single_folder):
 	all_found_outfits = sorted(list(outfit_set))
 	
 	if all_found_outfits:
-		with open(allunlock_export, 'w', encoding='utf-8', errors='ignore') as f:
+		with open(allunlock_export, 'w', encoding='utf-8-sig', errors='ignore') as f:
 			f.write(f"outfitter `Senza Solaria Unlockall Outfits Plugin`\n")
 			for outfit_name in all_found_outfits:
 				f.write(f"\t`{outfit_name}`\n")
 	if output_single_folder and outfit_list:
 		single_file = export_location / (f"{plugin_name}_senza_outfits.txt")
 		single_file_text = "\n".join([senza_solaria_mission_outfit(o[0], o[1]) for o in outfit_list])
-		with open(single_file, 'a', encoding='utf-8') as f:
+		with open(single_file, 'a', encoding='utf-8-sig') as f:
 			f.write("\n" + single_file_text)
 
 	return outfit_list
